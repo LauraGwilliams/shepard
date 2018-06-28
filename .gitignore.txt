@@ -1,0 +1,4 @@
+# ignore large data files
+.fif
+.sqd
+.con
