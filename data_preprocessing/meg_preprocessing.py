@@ -13,6 +13,7 @@ from mne import (pick_types, find_events, make_epochs, compute_covariance,
                  read_forward_solution)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs
 from mne.preprocessing import ICA
+from logfile_parse import df as trial_info
 
 # params
 subject = 'R1201'
@@ -31,7 +32,7 @@ fwd_fname = ''
 bem_fname = ''
 src_fname = ''
 trans_fname = ''
-stc_epochs = ''
+stc_fname = ''
 
 # if the ica-clean raw exists, load it
 if op.isfile(ica_raw_fname):
@@ -69,8 +70,13 @@ else:
 raw = raw.filter(filt_l, filt_h)
 
 # step 5- make epochs
-events = find_events(raw)
+events = find_events(raw)  # the output of this is a 3 x n_trial np array
+
+# note: you may want to add some decimation here
 epochs = make_epochs(raw, events, tmin=tmin, tmax=tmax, baseline=(-0.1, None))
+
+# SANTITY CHECK!!:
+assert(len(epochs) == len(trial_info))
 
 # step 6- make noise covariance matrix
 if not op.isfile(cov_fname):
