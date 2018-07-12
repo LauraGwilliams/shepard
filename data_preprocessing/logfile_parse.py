@@ -6,10 +6,10 @@ import numpy as np
 import csv
 
 # paths
-data_path = '/Users/lauragwilliams/Documents/experiments/shepard/pilot'
+data_path = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/R1201'
 
 # params
-conditions = ['shepard_0', 'pure_0', 'partials_0', 'shepard_1']
+conditions = ['shepard_0', 'partials_0', 'pure_0', 'shepard_1']
 
 # funcs
 def txt_to_pandas(fname):
