@@ -18,6 +18,7 @@ from mne.preprocessing import ICA
 from logfile_parse import df as trial_info
 
 # params
+meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/R1201/'
 subject = 'R1201'
 filt_l = 1  # same as aquisition
 filt_h = 60
@@ -28,19 +29,19 @@ tmax = 0.6
 os.environ["SUBJECTS_DIR"] = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri'
 
 # file names
-raw_fname = subject+ '_shepard-raw.fif'
-ica_fname = subject+ '_shepard_ica1-ica.fif'
-ica_raw_fname = subject+ '_ica_shepard-raw.fif' # applied ica to raw
-ica_rej_fname = subject+ '_rejfile.pickled' # rejected epochs after ica
-epochs_fname = subject+ '_shepard-epo.fif'
-evoked_fname = subject+ '_shepard-evoked-ave.fif'
-cov_fname = subject+ '_shepard-cov.fif'
+raw_fname = meg_dir + subject+ '_shepard-raw.fif'
+ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
+ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
+ica_rej_fname = meg_dir + subject+ '_rejfile.pickled' # rejected epochs after ica
+epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
+evoked_fname = meg_dir + subject+ '_shepard-evoked-ave.fif'
+cov_fname = meg_dir + subject+ '_shepard-cov.fif'
 mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/' +subject+ '/bem/'
 fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
 trans_fname = mri_dir+ subject+ '-trans.fif'
-stc_fname = 'R1201_shepard.stc.npy'
+stc_fname = meg_dir + 'R1201_shepard.stc.npy'
 
 # if the ica-clean raw exists, load it
 if op.isfile(ica_raw_fname):
