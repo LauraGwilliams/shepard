@@ -18,7 +18,7 @@ from mne.preprocessing import ICA
 from logfile_parse import df as trial_info
 
 # params
-meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/R1201/'
+meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
 subject = 'R1201'
 filt_l = 1  # same as aquisition
 filt_h = 60
