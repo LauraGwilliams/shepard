@@ -10,6 +10,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression, Ridge
 from mne.decoding import GeneralizingEstimator, SlidingEstimator, get_coef, LinearModel, cross_val_multiscore
+from sklean.metrics import mean_squared_error
 
 # params
 subject = ''
@@ -34,7 +35,7 @@ assert(len(X) == len(y))
 clf = make_pipeline(StandardScaler(),
                     Ridge())  # use logisitc for categorical and Ridge for continuous
 
-scorer = make_scorer(get_scorer(scorer_spearman))
+scorer = 'mean_squared_error'
 
 gen = GeneralizingEstimator(n_jobs=n_jobs,
                             scoring=scorer,
