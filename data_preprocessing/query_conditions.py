@@ -53,8 +53,10 @@ shep_Eb_circ = epochs[(epochs.metadata['wav_file'] == shep+lowEb) &
                     (epochs.metadata['circscale'] == 'circular')]
 
 partials = epochs[epochs.metadata['condition'] == 'partial']
-pure = epochs[epochs.metadata['condition'] == 'pure']
+partials_evoked = partials.average()
 
+pure = epochs[epochs.metadata['condition'] == 'pure']
+pure_evoked = pure.average()
 
 high_A_evoked = high_A.average()
 low_A_evoked = low_A.average()
@@ -69,6 +71,7 @@ high_Eb_evoked = high_Eb.average()
 low_Eb_evoked = low_Eb.average()
 difference_evoked_Eb = combine_evoked([high_Eb_evoked,low_Eb_evoked],[1,-1])
 
+difference_evoked_hi_lo = combine_evoked([high_C_evoked, low_Eb_evoked], [1,-1])
 
 # unsigned data with original inverse_operator
 high_A_evoked_stc = apply_inverse(high_A_evoked, inverse_operator, lambda2,
@@ -97,10 +100,11 @@ stcs = [high_A_evoked_stc, low_A_evoked_stc, high_C_evoked_stc,low_C_evoked_stc,
         high_Eb_evoked_stc,low_Eb_evoked_stc]
 
 for i in range(6):
-    stcs[i].save('/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/stc/%s/1201_shepard_%s'%(tones[i],tones[i]))
+
+    stcs[i].save('/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/stc/%s/R1201_shepard_%s'%(tones[i],tones[i]))
 
 diff_folders = ['A_diff', 'C_diff', 'Eb_diff']
 diff_stcs = [difference_stc_A, difference_stc_C, difference_stc_Eb]
 
 for i in range(3):
-    diff_stcs[i].save('/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/stc/%s/1201_shepard_%s'%(diff_folders[i],diff_folders[i]))
+    diff_stcs[i].save('/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/stc/%s/R1201_shepard_%s'%(diff_folders[i],diff_folders[i]))

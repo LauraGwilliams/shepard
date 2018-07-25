@@ -18,8 +18,8 @@ from mne.preprocessing import ICA
 from logfile_parse import df as trial_info
 
 # params
-meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
 subject = 'R1201'
+meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
 filt_l = 1  # same as aquisition
 filt_h = 60
 tmin = -0.2
@@ -32,11 +32,11 @@ os.environ["SUBJECTS_DIR"] = '/Users/ellieabrams/Desktop/Projects/Shepard/analys
 raw_fname = meg_dir + subject+ '_shepard-raw.fif'
 ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
 ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
-ica_rej_fname = meg_dir + subject+ '_rejfile.pickled' # rejected epochs after ica
+ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs after ica
 epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
 evoked_fname = meg_dir + subject+ '_shepard-evoked-ave.fif'
 cov_fname = meg_dir + subject+ '_shepard-cov.fif'
-mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/' +subject+ '/bem/'
+mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/'+subject+'/bem/'
 fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
@@ -85,8 +85,7 @@ raw = raw.filter(filt_l, filt_h)
 events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
 # note: you may want to add some decimation here
-epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=(-0.1, None))
-
+epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=(-0.1, 0))
 # step 6- reject epochs based on threshold
 # opens the gui, "mark" is to mark in red the channel closest to the eyes
 if op.isfile(ica_rej_fname):
@@ -119,7 +118,7 @@ else:
 # set metadata: allows you to specify more complex info about events,
 # can use pandas-style queries to access subsets of data
 epochs.metadata = trial_info
-#epochs.save(epochs_fname)
+epochs.save(epochs_fname)
 
 # SANITY CHECK!!:
 assert(len(epochs.events) == len(trial_info))
@@ -178,8 +177,8 @@ stc_evoked = apply_inverse(evoked, inverse_operator, lambda2,
 #close the time_viewer window before the brain views to avoid crashing in terminal
 
 # if weirdness happens with plotting
-#import wx
-#app = wx.App()
-#frame = wx.Frame(None, -1, 'simple.py')
-#frame.Show()
-#app.MainLoop()
+# import wx
+# app = wx.App()
+# frame = wx.Frame(None, -1, 'simple.py')
+# frame.Show()
+# app.MainLoop()
