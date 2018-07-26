@@ -1,3 +1,6 @@
+# ea84@nyu.edu
+# create difference evokeds/stcs for high and low tones in each scale
+
 import os
 import numpy as np
 import os.path as op

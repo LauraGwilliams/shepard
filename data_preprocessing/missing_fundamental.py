@@ -1,3 +1,6 @@
+# ea84@nyu.edu
+# create evokeds/stcs for each tone, collapsed across scale/circular/random
+
 import os
 import numpy as np
 import os.path as op

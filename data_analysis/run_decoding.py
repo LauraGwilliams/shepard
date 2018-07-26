@@ -4,24 +4,40 @@
 # packages
 import numpy as np
 import pandas as pd
+import mne
 from mne import read_epochs
-from jr import scorer_spearman
+#from jr import scorer_spearman
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression, Ridge
-from mne.decoding import GeneralizingEstimator, SlidingEstimator, get_coef, LinearModel, cross_val_multiscore
-from sklean.metrics import mean_squared_error
+from sklearn.model_selection import StratifiedKFold
+from mne.decoding import (GeneralizingEstimator, SlidingEstimator, get_coef,
+                        LinearModel, cross_val_multiscore)
+import mne.decoding
+from meg_preprocessing import epochs, trial_info
+from sklearn.metrics import mean_squared_error
+
+meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/R1201/'
 
 # params
-subject = ''
-regressor = ''
+subject = 'R1201'
+regressor = 'freq'
+
+# subset epochs, trial_info
+epochs_decoding = epochs[(epochs.metadata['condition'] == 'partial') |
+                        (epochs.metadata['condition'] == 'pure')]
+epochs_decoding.save(meg_dir + 'R1201_purepar-epo.fif')
+trial_info = trial_info[(trial_info["condition"] == "partial") |
+                        (trial_info["condition"] == "pure")]
+trial_info.to_csv(meg_dir + 'R1201_purepar_trialinfo.csv')
+
 
 # paths
-epoch_fname = ''
-info_fname = ''
+epoch_fname = meg_dir + 'R1201_purepar-epo.fif'
+info_fname = meg_dir + 'R1201_purepar_trialinfo.csv'
 
 # load data
-epochs = mne.read_epochs(epoch_path)
+epochs = mne.read_epochs(epoch_fname)
 X = epochs._data
 
 # load trial info
@@ -33,11 +49,13 @@ assert(len(X) == len(y))
 
 # set up decoder
 clf = make_pipeline(StandardScaler(),
-                    Ridge())  # use logisitc for categorical and Ridge for continuous
+                    Ridge())  # use logistic for categorical and Ridge for continuous
 
 scorer = 'mean_squared_error'
+n_jobs = 2
 
-gen = GeneralizingEstimator(n_jobs=n_jobs,
+
+gen = mne.decoding.GeneralizingEstimator(n_jobs=n_jobs,
                             scoring=scorer,
                             base_estimator=clf)
 
