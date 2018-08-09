@@ -81,6 +81,8 @@ else:
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
 
+#-------------------------------------------------------------------------------
+
 # step 5- make epochs
 events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
@@ -122,6 +124,8 @@ epochs.save(epochs_fname)
 
 # SANITY CHECK!!:
 assert(len(epochs.events) == len(trial_info))
+
+#-------------------------------------------------------------------------------
 
 # step 7- make noise covariance matrix
 if not op.isfile(cov_fname):

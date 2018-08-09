@@ -28,6 +28,9 @@ shep = 'shepard'
 snr = 3.0  # Standard assumption for average data but using it for single trial
 lambda2 = 1.0 / snr ** 2
 
+#-------------------------------------------------------------------------------
+# MAKE EVOKEDS
+
 # high and low notes of each scale, collapse across pure/partial/scale/random
 high_A = epochs[(epochs.metadata['wav_file'] == par+highA) |
                 (epochs.metadata['wav_file'] == pure+highA)]
@@ -41,6 +44,24 @@ high_Eb = epochs[(epochs.metadata['wav_file'] == par+highEb) |
                 (epochs.metadata['wav_file'] == pure+highEb)]
 low_Eb = epochs[(epochs.metadata['wav_file'] == par+lowEb) |
                 (epochs.metadata['wav_file'] == pure+lowEb)]
+
+high_A_evoked = high_A.average()
+low_A_evoked = low_A.average()
+# subtraction high - low
+difference_evoked_A = combine_evoked([high_A_evoked,low_A_evoked],[1,-1])
+
+high_C_evoked = high_C.average()
+low_C_evoked = low_C.average()
+difference_evoked_C = combine_evoked([high_C_evoked,low_C_evoked],[1,-1])
+
+high_Eb_evoked = high_Eb.average()
+low_Eb_evoked = low_Eb.average()
+difference_evoked_Eb = combine_evoked([high_Eb_evoked,low_Eb_evoked],[1,-1])
+
+difference_evoked_hi_lo = combine_evoked([high_C_evoked, low_Eb_evoked], [1,-1])
+
+#-------------------------------------------------------------------------------
+# SEPARATE CONDITIONS
 
 #shepard tones collapsed
 shep_A = epochs[epochs.metadata['wav_file'] == shep+lowA]
@@ -61,20 +82,8 @@ partials_evoked = partials.average()
 pure = epochs[epochs.metadata['condition'] == 'pure']
 pure_evoked = pure.average()
 
-high_A_evoked = high_A.average()
-low_A_evoked = low_A.average()
-# subtraction high - low
-difference_evoked_A = combine_evoked([high_A_evoked,low_A_evoked],[1,-1])
-
-high_C_evoked = high_C.average()
-low_C_evoked = low_C.average()
-difference_evoked_C = combine_evoked([high_C_evoked,low_C_evoked],[1,-1])
-
-high_Eb_evoked = high_Eb.average()
-low_Eb_evoked = low_Eb.average()
-difference_evoked_Eb = combine_evoked([high_Eb_evoked,low_Eb_evoked],[1,-1])
-
-difference_evoked_hi_lo = combine_evoked([high_C_evoked, low_Eb_evoked], [1,-1])
+#-------------------------------------------------------------------------------
+# MAKE STCS
 
 # unsigned data with original inverse_operator
 high_A_evoked_stc = apply_inverse(high_A_evoked, inverse_operator, lambda2,
@@ -98,12 +107,14 @@ difference_stc_C = apply_inverse(difference_evoked_C, inverse_operator_signed,
 difference_stc_Eb = apply_inverse(difference_evoked_Eb, inverse_operator_signed,
                                 lambda2, method='dSPM')
 
+#-------------------------------------------------------------------------------
+# SAVE
+
 tones = ['high_A','low_A','high_C','low_C','high_Eb','low_Eb']
 stcs = [high_A_evoked_stc, low_A_evoked_stc, high_C_evoked_stc,low_C_evoked_stc,
         high_Eb_evoked_stc,low_Eb_evoked_stc]
 
 for i in range(6):
-
     stcs[i].save('/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/stc/%s/R1201_shepard_%s'%(tones[i],tones[i]))
 
 diff_folders = ['A_diff', 'C_diff', 'Eb_diff']
