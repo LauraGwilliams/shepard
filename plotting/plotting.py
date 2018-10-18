@@ -61,7 +61,7 @@ Eb_tones = ['D_156', 'D_175', 'D_196', 'D_208', 'D_233', 'D_262', 'D_294', 'D_31
 current_label = stg_lh
 
 # NOTE change this!
-current_set = Eb_tones
+current_set = A_tones
 stc_list = []
 stc_labels = []
 stc_means = []

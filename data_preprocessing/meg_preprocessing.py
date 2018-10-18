@@ -7,7 +7,7 @@
 
 import numpy as np
 import os
-import eelbrain
+#import eelbrain
 import os.path as op
 from mne.io import read_raw_fif
 from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
@@ -18,7 +18,7 @@ from mne.preprocessing import ICA
 from logfile_parse import df as trial_info
 
 # params
-subject = 'R1201'
+subject = 'A0305'
 meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
 filt_l = 1  # same as aquisition
 filt_h = 60
@@ -41,7 +41,7 @@ fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
 trans_fname = mri_dir+ subject+ '-trans.fif'
-stc_fname = meg_dir + 'R1201_shepard.stc.npy'
+stc_fname = meg_dir + subject+ '_shepard.stc.npy'
 
 # if the ica-clean raw exists, load it
 if op.isfile(ica_raw_fname):
@@ -101,7 +101,7 @@ else:
 # create a mask to reject the bad epochs
 rejs = rejfile['accept'].x
 
-# mask epochs and trial_info
+# mask epochs and info
 epochs = epochs[rejs]
 trial_info = trial_info[rejs]
 
@@ -143,8 +143,10 @@ else:
 # step 8- make forward solution
 if not op.isfile(fwd_fname):
     if not op.isfile(src_fname):
-        src = setup_source_space(subject, fname=True, spacing='ico4',
+        src = setup_source_space(subject, spacing='ico4',
                                  subjects_dir=mri_dir)
+        fwd = make_forward_solution(epochs.info, trans_fname, src, bem_fname,
+                                 meg=True, ignore_ref=True)
     else:
         src = src_fname
         fwd = make_forward_solution(epochs.info, trans_fname, src, bem_fname,
@@ -177,7 +179,7 @@ stc_evoked = apply_inverse(evoked, inverse_operator, lambda2,
                                 method='dSPM')
 
 # visualise and move along time course, confirm auditory response
-#stc_evoked.plot(hemi = 'split', time_viewer=True)
+stc_evoked.plot(hemi = 'split', time_viewer=True)
 #close the time_viewer window before the brain views to avoid crashing in terminal
 
 # if weirdness happens with plotting

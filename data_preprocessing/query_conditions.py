@@ -16,8 +16,8 @@ lowA = '-A_220_300ms.wav'
 highA = '-A_440_300ms.wav'
 lowC = '-C_262_300ms.wav'
 highC = '-C_524_300ms.wav'
-lowEb = '-D_156_300ms.wav'
-highEb = '-D_312_300ms.wav'
+lowEb = '-Eb_312_300ms.wav'
+highEb = '-Eb_624_300ms.wav'
 
 #order low to high: lowEb, lowA, lowC, highEb, highA, highC
 
