@@ -10,6 +10,7 @@ import os
 #import eelbrain
 import os.path as op
 from mne.io import read_raw_fif
+from mne.preprocessing.ica import read_ica
 from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  write_cov, read_cov, setup_source_space, make_forward_solution,
                  read_forward_solution, convert_forward_solution)
@@ -18,7 +19,7 @@ from mne.preprocessing import ICA
 from logfile_parse import df as trial_info
 
 # params
-subject = 'A0305'
+subject = 'A0316'
 meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
 filt_l = 1  # same as aquisition
 filt_h = 60
@@ -41,7 +42,7 @@ fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
 trans_fname = mri_dir+ subject+ '-trans.fif'
-stc_fname = meg_dir + subject+ '_shepard.stc.npy'
+#stc_fname = meg_dir + subject+ '_shepard.stc.npy'
 
 # if the ica-clean raw exists, load it
 if op.isfile(ica_raw_fname):
@@ -69,14 +70,14 @@ else:
     # get ica components
     ica.exclude = []
     ica.fit(raw, picks=picks)
-    ica.save(ica_fname, overwrite=True)  # save solution
+    ica.save(ica_fname)  # save solution
 
     # view components and make rejections
     ica.plot_sources(raw)
 
     # apply ica to raw and save resulting clean raw file
-    ica.apply(raw, copy=False)
-    raw.save(ica_raw_fname)
+    ica.apply(raw)
+    raw.save(ica_raw_fname, overwrite=True)
 
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
