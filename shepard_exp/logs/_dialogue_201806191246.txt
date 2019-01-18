@@ -1,0 +1,1711 @@
+trial	block	trial_type	wav_file	condition	key	freq	updown	circscale
+1	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+2	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+3	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+4	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+5	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+6	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+7	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+8	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+9	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+10	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+11	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+12	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+13	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+14	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+15	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+16	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+17	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+18	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+19	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+20	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+21	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+22	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+23	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+24	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+25	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+26	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+27	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+28	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+29	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+30	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+31	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+32	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+33	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+34	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+35	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+36	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+37	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+38	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+39	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+40	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+41	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+42	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+43	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+44	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+45	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+46	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+47	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+48	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+49	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+50	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+51	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+52	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+53	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+54	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+55	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+56	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+57	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+58	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+59	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+60	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+61	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+62	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+63	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+64	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+65	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+66	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+67	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+68	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+69	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+70	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+71	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+72	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+73	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+74	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+75	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+76	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+77	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+78	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+79	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+80	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+81	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+82	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+83	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+84	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+85	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+86	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+87	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+88	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+89	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+90	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+91	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+92	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+93	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+94	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+95	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+96	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+97	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+98	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+99	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+100	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+101	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+102	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+103	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+104	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+105	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+106	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+107	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+108	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+109	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+110	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+111	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+112	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+113	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+114	1	upScaleA	247AShep.wav	shepard	A	247	up	scale
+115	1	upScaleA	277AShep.wav	shepard	A	277	up	scale
+116	1	upScaleA	294AShep.wav	shepard	A	294	up	scale
+117	1	upScaleA	330AShep.wav	shepard	A	330	up	scale
+118	1	upScaleA	370AShep.wav	shepard	A	370	up	scale
+119	1	upScaleA	415AShep.wav	shepard	A	415	up	scale
+120	1	upScaleA	440AShep.wav	shepard	A	440	up	scale
+121	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+122	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+123	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+124	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+125	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+126	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+127	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+128	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+129	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+130	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+131	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+132	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+133	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+134	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+135	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+136	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+137	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+138	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+139	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+140	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+141	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+142	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+143	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+144	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+145	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+146	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+147	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+148	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+149	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+150	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+151	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+152	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+153	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+154	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+155	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+156	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+157	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+158	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+159	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+160	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+161	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+162	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+163	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+164	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+165	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+166	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+167	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+168	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+169	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+170	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+171	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+172	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+173	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+174	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+175	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+176	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+177	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+178	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+179	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+180	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+181	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+182	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+183	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+184	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+185	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+186	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+187	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+188	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+189	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+190	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+191	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+192	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+193	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+194	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+195	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+196	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+197	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+198	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+199	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+200	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+201	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+202	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+203	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+204	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+205	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+206	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+207	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+208	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+209	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+210	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+211	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+212	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+213	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+214	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+215	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+216	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+217	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+218	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+219	2	randomDsharp	262D#Shep.wav	shepard	Dsharp	262	random	
+220	2	randomDsharp	196D#Shep.wav	shepard	Dsharp	196	random	
+221	2	randomDsharp	294D#Shep.wav	shepard	Dsharp	294	random	
+222	2	randomDsharp	175D#Shep.wav	shepard	Dsharp	175	random	
+223	2	randomDsharp	208D#Shep.wav	shepard	Dsharp	208	random	
+224	2	randomDsharp	311D#Shep.wav	shepard	Dsharp	311	random	
+225	2	randomDsharp	233D#Shep.wav	shepard	Dsharp	233	random	
+226	3	randomA	330AShep.wav	shepard	A	330	random	
+227	3	randomA	277AShep.wav	shepard	A	277	random	
+228	3	randomA	294AShep.wav	shepard	A	294	random	
+229	3	randomA	247AShep.wav	shepard	A	247	random	
+230	3	randomA	370AShep.wav	shepard	A	370	random	
+231	3	randomA	415AShep.wav	shepard	A	415	random	
+232	3	randomA	440AShep.wav	shepard	A	440	random	
+233	3	randomA	330AShep.wav	shepard	A	330	random	
+234	3	randomA	440AShep.wav	shepard	A	440	random	
+235	3	randomA	277AShep.wav	shepard	A	277	random	
+236	3	randomA	294AShep.wav	shepard	A	294	random	
+237	3	randomA	247AShep.wav	shepard	A	247	random	
+238	3	randomA	370AShep.wav	shepard	A	370	random	
+239	3	randomA	415AShep.wav	shepard	A	415	random	
+240	3	randomA	415AShep.wav	shepard	A	415	random	
+241	3	randomA	277AShep.wav	shepard	A	277	random	
+242	3	randomA	330AShep.wav	shepard	A	330	random	
+243	3	randomA	294AShep.wav	shepard	A	294	random	
+244	3	randomA	440AShep.wav	shepard	A	440	random	
+245	3	randomA	370AShep.wav	shepard	A	370	random	
+246	3	randomA	247AShep.wav	shepard	A	247	random	
+247	3	randomA	370AShep.wav	shepard	A	370	random	
+248	3	randomA	440AShep.wav	shepard	A	440	random	
+249	3	randomA	415AShep.wav	shepard	A	415	random	
+250	3	randomA	247AShep.wav	shepard	A	247	random	
+251	3	randomA	277AShep.wav	shepard	A	277	random	
+252	3	randomA	294AShep.wav	shepard	A	294	random	
+253	3	randomA	330AShep.wav	shepard	A	330	random	
+254	3	randomA	415AShep.wav	shepard	A	415	random	
+255	3	randomA	277AShep.wav	shepard	A	277	random	
+256	3	randomA	247AShep.wav	shepard	A	247	random	
+257	3	randomA	440AShep.wav	shepard	A	440	random	
+258	3	randomA	370AShep.wav	shepard	A	370	random	
+259	3	randomA	330AShep.wav	shepard	A	330	random	
+260	3	randomA	294AShep.wav	shepard	A	294	random	
+261	3	randomA	415AShep.wav	shepard	A	415	random	
+262	3	randomA	247AShep.wav	shepard	A	247	random	
+263	3	randomA	330AShep.wav	shepard	A	330	random	
+264	3	randomA	277AShep.wav	shepard	A	277	random	
+265	3	randomA	370AShep.wav	shepard	A	370	random	
+266	3	randomA	440AShep.wav	shepard	A	440	random	
+267	3	randomA	294AShep.wav	shepard	A	294	random	
+268	3	randomA	294AShep.wav	shepard	A	294	random	
+269	3	randomA	277AShep.wav	shepard	A	277	random	
+270	3	randomA	370AShep.wav	shepard	A	370	random	
+271	3	randomA	415AShep.wav	shepard	A	415	random	
+272	3	randomA	330AShep.wav	shepard	A	330	random	
+273	3	randomA	440AShep.wav	shepard	A	440	random	
+274	3	randomA	247AShep.wav	shepard	A	247	random	
+275	3	randomA	330AShep.wav	shepard	A	330	random	
+276	3	randomA	277AShep.wav	shepard	A	277	random	
+277	3	randomA	415AShep.wav	shepard	A	415	random	
+278	3	randomA	294AShep.wav	shepard	A	294	random	
+279	3	randomA	440AShep.wav	shepard	A	440	random	
+280	3	randomA	370AShep.wav	shepard	A	370	random	
+281	3	randomA	247AShep.wav	shepard	A	247	random	
+282	3	randomA	440AShep.wav	shepard	A	440	random	
+283	3	randomA	294AShep.wav	shepard	A	294	random	
+284	3	randomA	247AShep.wav	shepard	A	247	random	
+285	3	randomA	415AShep.wav	shepard	A	415	random	
+286	3	randomA	277AShep.wav	shepard	A	277	random	
+287	3	randomA	330AShep.wav	shepard	A	330	random	
+288	3	randomA	370AShep.wav	shepard	A	370	random	
+289	3	randomA	277AShep.wav	shepard	A	277	random	
+290	3	randomA	415AShep.wav	shepard	A	415	random	
+291	3	randomA	294AShep.wav	shepard	A	294	random	
+292	3	randomA	330AShep.wav	shepard	A	330	random	
+293	3	randomA	247AShep.wav	shepard	A	247	random	
+294	3	randomA	370AShep.wav	shepard	A	370	random	
+295	3	randomA	440AShep.wav	shepard	A	440	random	
+296	3	randomA	415AShep.wav	shepard	A	415	random	
+297	3	randomA	277AShep.wav	shepard	A	277	random	
+298	3	randomA	294AShep.wav	shepard	A	294	random	
+299	3	randomA	330AShep.wav	shepard	A	330	random	
+300	3	randomA	247AShep.wav	shepard	A	247	random	
+301	3	randomA	440AShep.wav	shepard	A	440	random	
+302	3	randomA	370AShep.wav	shepard	A	370	random	
+303	3	randomA	440AShep.wav	shepard	A	440	random	
+304	3	randomA	330AShep.wav	shepard	A	330	random	
+305	3	randomA	294AShep.wav	shepard	A	294	random	
+306	3	randomA	415AShep.wav	shepard	A	415	random	
+307	3	randomA	247AShep.wav	shepard	A	247	random	
+308	3	randomA	277AShep.wav	shepard	A	277	random	
+309	3	randomA	370AShep.wav	shepard	A	370	random	
+310	3	randomA	330AShep.wav	shepard	A	330	random	
+311	3	randomA	370AShep.wav	shepard	A	370	random	
+312	3	randomA	277AShep.wav	shepard	A	277	random	
+313	3	randomA	415AShep.wav	shepard	A	415	random	
+314	3	randomA	440AShep.wav	shepard	A	440	random	
+315	3	randomA	294AShep.wav	shepard	A	294	random	
+316	3	randomA	247AShep.wav	shepard	A	247	random	
+317	3	randomA	415AShep.wav	shepard	A	415	random	
+318	3	randomA	440AShep.wav	shepard	A	440	random	
+319	3	randomA	247AShep.wav	shepard	A	247	random	
+320	3	randomA	294AShep.wav	shepard	A	294	random	
+321	3	randomA	370AShep.wav	shepard	A	370	random	
+322	3	randomA	330AShep.wav	shepard	A	330	random	
+323	3	randomA	277AShep.wav	shepard	A	277	random	
+324	3	randomA	277AShep.wav	shepard	A	277	random	
+325	3	randomA	294AShep.wav	shepard	A	294	random	
+326	3	randomA	440AShep.wav	shepard	A	440	random	
+327	3	randomA	330AShep.wav	shepard	A	330	random	
+328	3	randomA	247AShep.wav	shepard	A	247	random	
+329	3	randomA	370AShep.wav	shepard	A	370	random	
+330	3	randomA	415AShep.wav	shepard	A	415	random	
+331	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+332	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+333	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+334	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+335	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+336	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+337	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+338	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+339	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+340	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+341	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+342	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+343	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+344	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+345	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+346	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+347	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+348	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+349	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+350	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+351	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+352	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+353	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+354	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+355	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+356	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+357	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+358	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+359	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+360	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+361	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+362	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+363	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+364	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+365	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+366	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+367	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+368	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+369	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+370	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+371	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+372	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+373	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+374	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+375	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+376	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+377	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+378	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+379	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+380	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+381	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+382	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+383	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+384	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+385	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+386	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+387	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+388	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+389	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+390	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+391	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+392	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+393	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+394	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+395	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+396	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+397	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+398	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+399	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+400	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+401	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+402	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+403	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+404	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+405	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+406	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+407	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+408	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+409	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+410	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+411	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+412	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+413	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+414	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+415	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+416	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+417	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+418	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+419	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+420	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+421	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+422	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+423	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+424	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+425	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+426	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+427	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+428	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+429	4	downCircC	494CShep.wav	shepard	C	494	down	circular
+430	4	downCircC	440CShep.wav	shepard	C	440	down	circular
+431	4	downCircC	392CShep.wav	shepard	C	392	down	circular
+432	4	downCircC	349CShep.wav	shepard	C	349	down	circular
+433	4	downCircC	330CShep.wav	shepard	C	330	down	circular
+434	4	downCircC	294CShep.wav	shepard	C	294	down	circular
+435	4	downCircC	523CShep.wav	shepard	C	523	down	circular
+436	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+437	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+438	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+439	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+440	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+441	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+442	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+443	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+444	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+445	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+446	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+447	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+448	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+449	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+450	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+451	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+452	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+453	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+454	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+455	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+456	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+457	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+458	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+459	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+460	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+461	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+462	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+463	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+464	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+465	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+466	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+467	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+468	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+469	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+470	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+471	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+472	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+473	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+474	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+475	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+476	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+477	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+478	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+479	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+480	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+481	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+482	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+483	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+484	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+485	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+486	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+487	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+488	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+489	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+490	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+491	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+492	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+493	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+494	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+495	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+496	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+497	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+498	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+499	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+500	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+501	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+502	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+503	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+504	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+505	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+506	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+507	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+508	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+509	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+510	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+511	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+512	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+513	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+514	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+515	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+516	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+517	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+518	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+519	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+520	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+521	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+522	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+523	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+524	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+525	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+526	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+527	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+528	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+529	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+530	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+531	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+532	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+533	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+534	5	upCircA	440AShep.wav	shepard	A	440	up	circular
+535	5	upCircA	247AShep.wav	shepard	A	247	up	circular
+536	5	upCircA	277AShep.wav	shepard	A	277	up	circular
+537	5	upCircA	294AShep.wav	shepard	A	294	up	circular
+538	5	upCircA	330AShep.wav	shepard	A	330	up	circular
+539	5	upCircA	370AShep.wav	shepard	A	370	up	circular
+540	5	upCircA	415AShep.wav	shepard	A	415	up	circular
+541	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+542	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+543	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+544	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+545	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+546	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+547	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+548	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+549	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+550	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+551	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+552	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+553	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+554	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+555	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+556	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+557	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+558	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+559	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+560	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+561	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+562	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+563	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+564	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+565	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+566	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+567	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+568	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+569	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+570	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+571	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+572	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+573	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+574	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+575	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+576	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+577	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+578	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+579	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+580	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+581	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+582	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+583	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+584	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+585	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+586	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+587	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+588	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+589	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+590	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+591	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+592	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+593	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+594	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+595	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+596	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+597	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+598	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+599	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+600	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+601	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+602	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+603	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+604	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+605	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+606	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+607	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+608	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+609	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+610	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+611	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+612	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+613	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+614	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+615	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+616	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+617	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+618	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+619	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+620	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+621	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+622	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+623	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+624	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+625	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+626	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+627	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+628	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+629	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+630	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+631	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+632	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+633	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+634	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+635	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+636	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+637	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+638	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+639	6	upCircDsharp	311D#Shep.wav	shepard	Dsharp	311	up	circular
+640	6	upCircDsharp	175D#Shep.wav	shepard	Dsharp	175	up	circular
+641	6	upCircDsharp	196D#Shep.wav	shepard	Dsharp	196	up	circular
+642	6	upCircDsharp	208D#Shep.wav	shepard	Dsharp	208	up	circular
+643	6	upCircDsharp	233D#Shep.wav	shepard	Dsharp	233	up	circular
+644	6	upCircDsharp	262D#Shep.wav	shepard	Dsharp	262	up	circular
+645	6	upCircDsharp	294D#Shep.wav	shepard	Dsharp	294	up	circular
+646	7	randomC	523CShep.wav	shepard	C	523	random	
+647	7	randomC	349CShep.wav	shepard	C	349	random	
+648	7	randomC	494CShep.wav	shepard	C	494	random	
+649	7	randomC	392CShep.wav	shepard	C	392	random	
+650	7	randomC	440CShep.wav	shepard	C	440	random	
+651	7	randomC	330CShep.wav	shepard	C	330	random	
+652	7	randomC	294CShep.wav	shepard	C	294	random	
+653	7	randomC	523CShep.wav	shepard	C	523	random	
+654	7	randomC	440CShep.wav	shepard	C	440	random	
+655	7	randomC	330CShep.wav	shepard	C	330	random	
+656	7	randomC	392CShep.wav	shepard	C	392	random	
+657	7	randomC	294CShep.wav	shepard	C	294	random	
+658	7	randomC	494CShep.wav	shepard	C	494	random	
+659	7	randomC	349CShep.wav	shepard	C	349	random	
+660	7	randomC	494CShep.wav	shepard	C	494	random	
+661	7	randomC	294CShep.wav	shepard	C	294	random	
+662	7	randomC	330CShep.wav	shepard	C	330	random	
+663	7	randomC	392CShep.wav	shepard	C	392	random	
+664	7	randomC	523CShep.wav	shepard	C	523	random	
+665	7	randomC	349CShep.wav	shepard	C	349	random	
+666	7	randomC	440CShep.wav	shepard	C	440	random	
+667	7	randomC	440CShep.wav	shepard	C	440	random	
+668	7	randomC	330CShep.wav	shepard	C	330	random	
+669	7	randomC	349CShep.wav	shepard	C	349	random	
+670	7	randomC	494CShep.wav	shepard	C	494	random	
+671	7	randomC	523CShep.wav	shepard	C	523	random	
+672	7	randomC	294CShep.wav	shepard	C	294	random	
+673	7	randomC	392CShep.wav	shepard	C	392	random	
+674	7	randomC	523CShep.wav	shepard	C	523	random	
+675	7	randomC	392CShep.wav	shepard	C	392	random	
+676	7	randomC	349CShep.wav	shepard	C	349	random	
+677	7	randomC	294CShep.wav	shepard	C	294	random	
+678	7	randomC	494CShep.wav	shepard	C	494	random	
+679	7	randomC	440CShep.wav	shepard	C	440	random	
+680	7	randomC	330CShep.wav	shepard	C	330	random	
+681	7	randomC	440CShep.wav	shepard	C	440	random	
+682	7	randomC	294CShep.wav	shepard	C	294	random	
+683	7	randomC	349CShep.wav	shepard	C	349	random	
+684	7	randomC	494CShep.wav	shepard	C	494	random	
+685	7	randomC	330CShep.wav	shepard	C	330	random	
+686	7	randomC	523CShep.wav	shepard	C	523	random	
+687	7	randomC	392CShep.wav	shepard	C	392	random	
+688	7	randomC	494CShep.wav	shepard	C	494	random	
+689	7	randomC	294CShep.wav	shepard	C	294	random	
+690	7	randomC	349CShep.wav	shepard	C	349	random	
+691	7	randomC	330CShep.wav	shepard	C	330	random	
+692	7	randomC	523CShep.wav	shepard	C	523	random	
+693	7	randomC	440CShep.wav	shepard	C	440	random	
+694	7	randomC	392CShep.wav	shepard	C	392	random	
+695	7	randomC	294CShep.wav	shepard	C	294	random	
+696	7	randomC	330CShep.wav	shepard	C	330	random	
+697	7	randomC	494CShep.wav	shepard	C	494	random	
+698	7	randomC	523CShep.wav	shepard	C	523	random	
+699	7	randomC	440CShep.wav	shepard	C	440	random	
+700	7	randomC	392CShep.wav	shepard	C	392	random	
+701	7	randomC	349CShep.wav	shepard	C	349	random	
+702	7	randomC	349CShep.wav	shepard	C	349	random	
+703	7	randomC	392CShep.wav	shepard	C	392	random	
+704	7	randomC	330CShep.wav	shepard	C	330	random	
+705	7	randomC	494CShep.wav	shepard	C	494	random	
+706	7	randomC	294CShep.wav	shepard	C	294	random	
+707	7	randomC	440CShep.wav	shepard	C	440	random	
+708	7	randomC	523CShep.wav	shepard	C	523	random	
+709	7	randomC	349CShep.wav	shepard	C	349	random	
+710	7	randomC	523CShep.wav	shepard	C	523	random	
+711	7	randomC	494CShep.wav	shepard	C	494	random	
+712	7	randomC	330CShep.wav	shepard	C	330	random	
+713	7	randomC	392CShep.wav	shepard	C	392	random	
+714	7	randomC	440CShep.wav	shepard	C	440	random	
+715	7	randomC	294CShep.wav	shepard	C	294	random	
+716	7	randomC	294CShep.wav	shepard	C	294	random	
+717	7	randomC	523CShep.wav	shepard	C	523	random	
+718	7	randomC	330CShep.wav	shepard	C	330	random	
+719	7	randomC	440CShep.wav	shepard	C	440	random	
+720	7	randomC	392CShep.wav	shepard	C	392	random	
+721	7	randomC	349CShep.wav	shepard	C	349	random	
+722	7	randomC	494CShep.wav	shepard	C	494	random	
+723	7	randomC	494CShep.wav	shepard	C	494	random	
+724	7	randomC	440CShep.wav	shepard	C	440	random	
+725	7	randomC	330CShep.wav	shepard	C	330	random	
+726	7	randomC	349CShep.wav	shepard	C	349	random	
+727	7	randomC	523CShep.wav	shepard	C	523	random	
+728	7	randomC	294CShep.wav	shepard	C	294	random	
+729	7	randomC	392CShep.wav	shepard	C	392	random	
+730	7	randomC	392CShep.wav	shepard	C	392	random	
+731	7	randomC	494CShep.wav	shepard	C	494	random	
+732	7	randomC	349CShep.wav	shepard	C	349	random	
+733	7	randomC	330CShep.wav	shepard	C	330	random	
+734	7	randomC	523CShep.wav	shepard	C	523	random	
+735	7	randomC	294CShep.wav	shepard	C	294	random	
+736	7	randomC	440CShep.wav	shepard	C	440	random	
+737	7	randomC	349CShep.wav	shepard	C	349	random	
+738	7	randomC	294CShep.wav	shepard	C	294	random	
+739	7	randomC	494CShep.wav	shepard	C	494	random	
+740	7	randomC	440CShep.wav	shepard	C	440	random	
+741	7	randomC	392CShep.wav	shepard	C	392	random	
+742	7	randomC	523CShep.wav	shepard	C	523	random	
+743	7	randomC	330CShep.wav	shepard	C	330	random	
+744	7	randomC	349CShep.wav	shepard	C	349	random	
+745	7	randomC	330CShep.wav	shepard	C	330	random	
+746	7	randomC	294CShep.wav	shepard	C	294	random	
+747	7	randomC	392CShep.wav	shepard	C	392	random	
+748	7	randomC	494CShep.wav	shepard	C	494	random	
+749	7	randomC	523CShep.wav	shepard	C	523	random	
+750	7	randomC	440CShep.wav	shepard	C	440	random	
+751	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+752	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+753	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+754	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+755	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+756	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+757	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+758	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+759	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+760	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+761	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+762	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+763	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+764	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+765	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+766	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+767	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+768	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+769	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+770	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+771	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+772	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+773	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+774	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+775	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+776	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+777	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+778	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+779	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+780	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+781	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+782	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+783	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+784	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+785	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+786	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+787	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+788	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+789	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+790	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+791	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+792	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+793	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+794	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+795	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+796	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+797	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+798	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+799	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+800	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+801	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+802	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+803	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+804	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+805	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+806	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+807	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+808	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+809	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+810	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+811	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+812	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+813	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+814	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+815	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+816	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+817	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+818	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+819	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+820	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+821	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+822	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+823	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+824	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+825	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+826	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+827	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+828	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+829	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+830	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+831	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+832	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+833	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+834	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+835	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+836	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+837	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+838	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+839	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+840	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+841	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+842	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+843	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+844	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+845	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+846	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+847	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+848	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+849	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+850	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+851	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+852	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+853	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+854	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+855	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+856	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+857	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+858	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+859	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+860	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+861	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+862	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+863	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+864	8	upScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	up	scale
+865	8	upScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	up	scale
+866	8	upScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	up	scale
+867	8	upScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	up	scale
+868	8	upScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	up	scale
+869	8	upScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	up	scale
+870	8	upScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	up	scale
+871	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+872	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+873	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+874	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+875	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+876	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+877	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+878	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+879	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+880	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+881	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+882	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+883	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+884	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+885	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+886	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+887	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+888	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+889	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+890	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+891	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+892	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+893	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+894	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+895	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+896	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+897	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+898	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+899	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+900	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+901	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+902	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+903	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+904	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+905	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+906	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+907	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+908	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+909	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+910	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+911	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+912	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+913	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+914	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+915	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+916	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+917	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+918	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+919	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+920	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+921	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+922	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+923	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+924	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+925	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+926	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+927	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+928	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+929	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+930	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+931	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+932	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+933	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+934	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+935	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+936	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+937	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+938	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+939	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+940	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+941	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+942	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+943	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+944	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+945	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+946	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+947	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+948	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+949	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+950	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+951	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+952	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+953	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+954	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+955	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+956	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+957	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+958	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+959	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+960	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+961	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+962	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+963	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+964	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+965	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+966	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+967	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+968	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+969	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+970	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+971	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+972	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+973	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+974	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+975	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+976	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+977	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+978	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+979	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+980	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+981	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+982	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+983	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+984	9	downScaleDsharp	294D#Shep.wav	shepard	Dsharp	294	down	scale
+985	9	downScaleDsharp	262D#Shep.wav	shepard	Dsharp	262	down	scale
+986	9	downScaleDsharp	233D#Shep.wav	shepard	Dsharp	233	down	scale
+987	9	downScaleDsharp	208D#Shep.wav	shepard	Dsharp	208	down	scale
+988	9	downScaleDsharp	196D#Shep.wav	shepard	Dsharp	196	down	scale
+989	9	downScaleDsharp	175D#Shep.wav	shepard	Dsharp	175	down	scale
+990	9	downScaleDsharp	311D#Shep.wav	shepard	Dsharp	311	down	scale
+991	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+992	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+993	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+994	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+995	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+996	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+997	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+998	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+999	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1000	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1001	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1002	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1003	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1004	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1005	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1006	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1007	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1008	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1009	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1010	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1011	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1012	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1013	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1014	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1015	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1016	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1017	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1018	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1019	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1020	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1021	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1022	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1023	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1024	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1025	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1026	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1027	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1028	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1029	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1030	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1031	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1032	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1033	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1034	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1035	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1036	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1037	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1038	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1039	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1040	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1041	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1042	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1043	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1044	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1045	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1046	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1047	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1048	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1049	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1050	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1051	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1052	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1053	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1054	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1055	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1056	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1057	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1058	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1059	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1060	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1061	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1062	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1063	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1064	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1065	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1066	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1067	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1068	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1069	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1070	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1071	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1072	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1073	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1074	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1075	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1076	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1077	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1078	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1079	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1080	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1081	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1082	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1083	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1084	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1085	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1086	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1087	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1088	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1089	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1090	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1091	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1092	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1093	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1094	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1095	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1096	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1097	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1098	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1099	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1100	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1101	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1102	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1103	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1104	10	downScaleC	494CShep.wav	shepard	C	494	down	scale
+1105	10	downScaleC	440CShep.wav	shepard	C	440	down	scale
+1106	10	downScaleC	392CShep.wav	shepard	C	392	down	scale
+1107	10	downScaleC	349CShep.wav	shepard	C	349	down	scale
+1108	10	downScaleC	330CShep.wav	shepard	C	330	down	scale
+1109	10	downScaleC	294CShep.wav	shepard	C	294	down	scale
+1110	10	downScaleC	523CShep.wav	shepard	C	523	down	scale
+1111	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1112	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1113	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1114	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1115	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1116	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1117	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1118	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1119	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1120	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1121	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1122	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1123	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1124	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1125	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1126	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1127	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1128	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1129	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1130	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1131	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1132	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1133	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1134	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1135	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1136	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1137	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1138	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1139	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1140	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1141	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1142	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1143	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1144	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1145	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1146	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1147	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1148	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1149	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1150	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1151	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1152	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1153	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1154	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1155	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1156	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1157	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1158	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1159	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1160	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1161	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1162	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1163	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1164	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1165	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1166	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1167	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1168	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1169	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1170	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1171	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1172	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1173	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1174	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1175	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1176	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1177	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1178	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1179	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1180	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1181	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1182	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1183	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1184	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1185	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1186	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1187	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1188	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1189	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1190	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1191	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1192	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1193	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1194	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1195	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1196	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1197	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1198	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1199	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1200	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1201	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1202	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1203	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1204	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1205	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1206	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1207	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1208	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1209	11	upCircC	523CShep.wav	shepard	C	523	up	circular
+1210	11	upCircC	294CShep.wav	shepard	C	294	up	circular
+1211	11	upCircC	330CShep.wav	shepard	C	330	up	circular
+1212	11	upCircC	349CShep.wav	shepard	C	349	up	circular
+1213	11	upCircC	392CShep.wav	shepard	C	392	up	circular
+1214	11	upCircC	440CShep.wav	shepard	C	440	up	circular
+1215	11	upCircC	494CShep.wav	shepard	C	494	up	circular
+1216	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1217	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1218	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1219	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1220	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1221	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1222	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1223	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1224	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1225	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1226	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1227	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1228	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1229	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1230	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1231	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1232	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1233	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1234	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1235	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1236	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1237	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1238	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1239	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1240	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1241	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1242	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1243	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1244	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1245	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1246	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1247	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1248	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1249	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1250	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1251	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1252	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1253	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1254	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1255	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1256	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1257	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1258	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1259	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1260	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1261	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1262	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1263	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1264	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1265	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1266	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1267	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1268	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1269	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1270	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1271	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1272	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1273	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1274	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1275	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1276	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1277	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1278	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1279	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1280	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1281	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1282	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1283	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1284	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1285	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1286	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1287	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1288	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1289	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1290	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1291	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1292	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1293	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1294	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1295	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1296	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1297	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1298	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1299	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1300	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1301	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1302	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1303	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1304	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1305	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1306	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1307	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1308	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1309	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1310	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1311	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1312	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1313	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1314	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1315	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1316	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1317	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1318	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1319	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1320	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1321	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1322	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1323	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1324	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1325	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1326	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1327	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1328	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1329	12	downScaleA	415AShep.wav	shepard	A	415	down	scale
+1330	12	downScaleA	370AShep.wav	shepard	A	370	down	scale
+1331	12	downScaleA	330AShep.wav	shepard	A	330	down	scale
+1332	12	downScaleA	294AShep.wav	shepard	A	294	down	scale
+1333	12	downScaleA	277AShep.wav	shepard	A	277	down	scale
+1334	12	downScaleA	247AShep.wav	shepard	A	247	down	scale
+1335	12	downScaleA	440AShep.wav	shepard	A	440	down	scale
+1336	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1337	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1338	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1339	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1340	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1341	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1342	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1343	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1344	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1345	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1346	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1347	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1348	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1349	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1350	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1351	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1352	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1353	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1354	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1355	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1356	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1357	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1358	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1359	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1360	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1361	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1362	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1363	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1364	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1365	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1366	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1367	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1368	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1369	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1370	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1371	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1372	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1373	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1374	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1375	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1376	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1377	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1378	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1379	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1380	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1381	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1382	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1383	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1384	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1385	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1386	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1387	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1388	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1389	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1390	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1391	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1392	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1393	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1394	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1395	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1396	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1397	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1398	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1399	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1400	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1401	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1402	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1403	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1404	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1405	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1406	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1407	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1408	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1409	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1410	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1411	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1412	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1413	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1414	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1415	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1416	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1417	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1418	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1419	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1420	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1421	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1422	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1423	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1424	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1425	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1426	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1427	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1428	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1429	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1430	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1431	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1432	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1433	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1434	13	downCircDsharp	294D#Shep.wav	shepard	Dsharp	294	down	circular
+1435	13	downCircDsharp	262D#Shep.wav	shepard	Dsharp	262	down	circular
+1436	13	downCircDsharp	233D#Shep.wav	shepard	Dsharp	233	down	circular
+1437	13	downCircDsharp	208D#Shep.wav	shepard	Dsharp	208	down	circular
+1438	13	downCircDsharp	196D#Shep.wav	shepard	Dsharp	196	down	circular
+1439	13	downCircDsharp	175D#Shep.wav	shepard	Dsharp	175	down	circular
+1440	13	downCircDsharp	311D#Shep.wav	shepard	Dsharp	311	down	circular
+1441	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1442	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1443	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1444	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1445	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1446	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1447	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1448	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1449	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1450	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1451	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1452	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1453	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1454	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1455	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1456	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1457	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1458	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1459	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1460	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1461	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1462	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1463	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1464	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1465	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1466	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1467	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1468	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1469	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1470	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1471	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1472	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1473	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1474	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1475	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1476	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1477	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1478	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1479	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1480	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1481	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1482	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1483	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1484	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1485	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1486	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1487	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1488	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1489	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1490	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1491	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1492	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1493	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1494	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1495	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1496	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1497	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1498	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1499	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1500	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1501	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1502	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1503	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1504	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1505	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1506	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1507	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1508	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1509	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1510	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1511	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1512	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1513	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1514	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1515	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1516	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1517	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1518	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1519	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1520	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1521	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1522	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1523	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1524	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1525	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1526	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1527	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1528	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1529	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1530	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1531	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1532	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1533	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1534	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1535	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1536	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1537	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1538	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1539	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1540	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1541	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1542	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1543	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1544	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1545	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1546	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1547	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1548	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1549	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1550	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1551	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1552	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1553	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1554	14	upScaleC	294CShep.wav	shepard	C	294	up	scale
+1555	14	upScaleC	330CShep.wav	shepard	C	330	up	scale
+1556	14	upScaleC	349CShep.wav	shepard	C	349	up	scale
+1557	14	upScaleC	392CShep.wav	shepard	C	392	up	scale
+1558	14	upScaleC	440CShep.wav	shepard	C	440	up	scale
+1559	14	upScaleC	494CShep.wav	shepard	C	494	up	scale
+1560	14	upScaleC	523CShep.wav	shepard	C	523	up	scale
+1561	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1562	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1563	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1564	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1565	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1566	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1567	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1568	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1569	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1570	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1571	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1572	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1573	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1574	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1575	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1576	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1577	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1578	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1579	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1580	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1581	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1582	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1583	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1584	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1585	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1586	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1587	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1588	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1589	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1590	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1591	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1592	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1593	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1594	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1595	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1596	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1597	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1598	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1599	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1600	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1601	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1602	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1603	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1604	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1605	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1606	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1607	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1608	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1609	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1610	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1611	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1612	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1613	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1614	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1615	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1616	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1617	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1618	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1619	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1620	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1621	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1622	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1623	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1624	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1625	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1626	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1627	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1628	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1629	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1630	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1631	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1632	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1633	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1634	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1635	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1636	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1637	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1638	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1639	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1640	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1641	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1642	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1643	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1644	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1645	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1646	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1647	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1648	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1649	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1650	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1651	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1652	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1653	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1654	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1655	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1656	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1657	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1658	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+1659	15	downCircA	415AShep.wav	shepard	A	415	down	circular
+1660	15	downCircA	370AShep.wav	shepard	A	370	down	circular
+1661	15	downCircA	330AShep.wav	shepard	A	330	down	circular
+1662	15	downCircA	294AShep.wav	shepard	A	294	down	circular
+1663	15	downCircA	277AShep.wav	shepard	A	277	down	circular
+1664	15	downCircA	247AShep.wav	shepard	A	247	down	circular
+1665	15	downCircA	440AShep.wav	shepard	A	440	down	circular
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								

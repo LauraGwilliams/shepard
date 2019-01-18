@@ -1,0 +1,81 @@
+Scenario - pitchmatch
+Logfile written - 12/05/2018 15:29:29
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	block	333	0	1	13994	3	0	next	other	0
+1	Response	0	14207	13874	1
+2	Picture	fix	14327	0	2	6165	3	0	next	other	0
+3	Picture	img	20492	0	1	3165	2	0	next	other	0
+3	Sound	sound1	20840	348	2			0		other	0
+4	Picture	imgPres1	23657	0	1	4832	2	0	next	hit	7
+4	Response	0	28447	4790	1
+5	Picture	fix	28489	0	1	6164	2	0	next	other	0
+6	Picture	img	34653	0	1	3166	2	0	next	other	0
+6	Sound	sound1	35043	390	1			0		other	0
+7	Picture	imgPres1	37819	0	1	3832	2	0	next	hit	12
+7	Response	0	41567	3748	1
+8	Picture	fix	41651	0	1	6164	2	0	next	other	0
+9	Picture	img	47815	0	1	3165	3	0	next	other	0
+9	Sound	sound1	48138	323	1			0		other	0
+10	Picture	imgPres1	50980	0	2	3999	3	0	next	hit	17
+10	Response	0	54845	3865	2
+11	Picture	fix	54979	0	1	6164	3	0	next	other	0
+12	Picture	img	61143	0	2	3166	3	0	next	other	0
+12	Sound	sound1	61438	295	1			0		other	0
+13	Picture	imgPres1	64309	0	1	3665	2	0	next	hit	22
+13	Response	0	67806	3497	1
+14	Picture	fix	67974	0	1	6164	3	0	next	other	0
+15	Picture	img	74138	0	2	3166	3	0	next	other	0
+15	Sound	sound1	74542	404	1			0		other	0
+16	Picture	imgPres1	77304	0	1	3999	2	0	next	hit	27
+16	Response	0	81245	3941	2
+17	Picture	fix	81303	0	1	6164	2	0	next	other	0
+18	Picture	img	87467	0	1	3165	2	0	next	other	0
+18	Sound	sound1	87843	376	1			0		other	0
+19	Picture	imgPres1	90632	0	1	5832	2	0	next	hit	32
+19	Response	0	96285	5653	2
+20	Picture	fix	96464	0	1	6164	2	0	next	other	0
+21	Picture	img	102628	0	1	3165	3	0	next	other	0
+21	Sound	sound1	102939	311	1			0		other	0
+22	Picture	imgPres1	105793	0	2	4166	3	0	next	hit	37
+22	Response	0	109885	4092	1
+23	Picture	fix	109959	0	1	6164	2	0	next	other	0
+24	Picture	img	116123	0	1	3165	3	0	next	other	0
+24	Sound	sound1	116439	316	2			0		other	0
+25	Picture	imgPres1	119288	0	2	4166	3	0	next	hit	42
+25	Response	0	123324	4036	2
+26	Picture	fix	123454	0	1	6164	2	0	next	other	0
+27	Picture	img	129618	0	1	3165	3	0	next	other	0
+27	Sound	sound1	129941	323	1			0		other	0
+28	Picture	imgPres1	132783	0	2	3666	3	0	next	hit	47
+28	Response	0	136285	3502	1
+29	Picture	fix	136449	0	1	6164	2	0	next	other	0
+30	Picture	img	142613	0	1	3165	3	0	next	other	0
+30	Sound	sound1	142941	328	1			0		other	0
+31	Picture	imgPres1	145778	0	2	3333	3	0	next	hit	52
+31	Response	0	148924	3146	2
+32	Picture	fix	149111	0	1	6164	2	0	next	other	0
+33	Picture	img	155275	0	1	3166	2	0	next	other	0
+33	Sound	sound1	155638	363	1			0		other	0
+34	Picture	imgPres1	158441	0	1	6164	2	0	next	hit	57
+34	Response	0	164444	6003	2
+35	Picture	fix	164605	0	1	6164	3	0	next	other	0
+36	Picture	img	170769	0	2	3166	3	0	next	other	0
+36	Sound	sound1	171041	272	1			0		other	0
+37	Picture	imgPres1	173935	0	1	3665	2	0	next	hit	62
+37	Response	0	177564	3629	1
+38	Picture	fix	177600	0	1	6165	2	0	next	other	0
+39	Picture	img	183765	0	1	3165	2	0	next	other	0
+39	Sound	sound1	184138	373	1			0		other	0
+40	Picture	imgPres1	186930	0	1	2499	2	0	next	hit	67
+40	Response	0	189244	2314	1
+41	Picture	fix	189429	0	1	6164	3	0	next	other	0
+42	Picture	img	195593	0	2	3166	3	0	next	other	0
+42	Sound	sound1	195940	347	1			0		other	0
+43	Picture	imgPres1	198759	0	1	3165	3	0	next	hit	72
+43	Response	0	201884	3125	1
+44	Picture	fix	201924	0	2	6165	3	0	next	other	0
+45	Picture	img	208089	0	1	2493	2	0	next	other	0
+45	Sound	sound1	208437	348	1			0		other	0
+45	Quit		209563	1474

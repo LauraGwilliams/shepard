@@ -1,0 +1,1081 @@
+trial	block	trial_type	wav_file	condition	key	freq	updown	circscale
+1	1	downScaleA	440APure.wav	pure	A	440	down	scale
+2	1	downScaleA	415APure.wav	pure	A	415	down	scale
+3	1	downScaleA	370APure.wav	pure	A	370	down	scale
+4	1	downScaleA	330APure.wav	pure	A	330	down	scale
+5	1	downScaleA	294APure.wav	pure	A	294	down	scale
+6	1	downScaleA	277APure.wav	pure	A	277	down	scale
+7	1	downScaleA	247APure.wav	pure	A	247	down	scale
+8	1	downScaleA	220APure.wav	pure	A	220	down	scale
+9	1	downScaleA	440APure.wav	pure	A	440	down	scale
+10	1	downScaleA	415APure.wav	pure	A	415	down	scale
+11	1	downScaleA	370APure.wav	pure	A	370	down	scale
+12	1	downScaleA	330APure.wav	pure	A	330	down	scale
+13	1	downScaleA	294APure.wav	pure	A	294	down	scale
+14	1	downScaleA	277APure.wav	pure	A	277	down	scale
+15	1	downScaleA	247APure.wav	pure	A	247	down	scale
+16	1	downScaleA	220APure.wav	pure	A	220	down	scale
+17	1	downScaleA	440APure.wav	pure	A	440	down	scale
+18	1	downScaleA	415APure.wav	pure	A	415	down	scale
+19	1	downScaleA	370APure.wav	pure	A	370	down	scale
+20	1	downScaleA	330APure.wav	pure	A	330	down	scale
+21	1	downScaleA	294APure.wav	pure	A	294	down	scale
+22	1	downScaleA	277APure.wav	pure	A	277	down	scale
+23	1	downScaleA	247APure.wav	pure	A	247	down	scale
+24	1	downScaleA	220APure.wav	pure	A	220	down	scale
+25	1	downScaleA	440APure.wav	pure	A	440	down	scale
+26	1	downScaleA	415APure.wav	pure	A	415	down	scale
+27	1	downScaleA	370APure.wav	pure	A	370	down	scale
+28	1	downScaleA	330APure.wav	pure	A	330	down	scale
+29	1	downScaleA	294APure.wav	pure	A	294	down	scale
+30	1	downScaleA	277APure.wav	pure	A	277	down	scale
+31	1	downScaleA	247APure.wav	pure	A	247	down	scale
+32	1	downScaleA	220APure.wav	pure	A	220	down	scale
+33	1	downScaleA	440APure.wav	pure	A	440	down	scale
+34	1	downScaleA	415APure.wav	pure	A	415	down	scale
+35	1	downScaleA	370APure.wav	pure	A	370	down	scale
+36	1	downScaleA	330APure.wav	pure	A	330	down	scale
+37	1	downScaleA	294APure.wav	pure	A	294	down	scale
+38	1	downScaleA	277APure.wav	pure	A	277	down	scale
+39	1	downScaleA	247APure.wav	pure	A	247	down	scale
+40	1	downScaleA	220APure.wav	pure	A	220	down	scale
+41	1	downScaleA	440APure.wav	pure	A	440	down	scale
+42	1	downScaleA	415APure.wav	pure	A	415	down	scale
+43	1	downScaleA	370APure.wav	pure	A	370	down	scale
+44	1	downScaleA	330APure.wav	pure	A	330	down	scale
+45	1	downScaleA	294APure.wav	pure	A	294	down	scale
+46	1	downScaleA	277APure.wav	pure	A	277	down	scale
+47	1	downScaleA	247APure.wav	pure	A	247	down	scale
+48	1	downScaleA	220APure.wav	pure	A	220	down	scale
+49	1	downScaleA	440APure.wav	pure	A	440	down	scale
+50	1	downScaleA	415APure.wav	pure	A	415	down	scale
+51	1	downScaleA	370APure.wav	pure	A	370	down	scale
+52	1	downScaleA	330APure.wav	pure	A	330	down	scale
+53	1	downScaleA	294APure.wav	pure	A	294	down	scale
+54	1	downScaleA	277APure.wav	pure	A	277	down	scale
+55	1	downScaleA	247APure.wav	pure	A	247	down	scale
+56	1	downScaleA	220APure.wav	pure	A	220	down	scale
+57	1	downScaleA	440APure.wav	pure	A	440	down	scale
+58	1	downScaleA	415APure.wav	pure	A	415	down	scale
+59	1	downScaleA	370APure.wav	pure	A	370	down	scale
+60	1	downScaleA	330APure.wav	pure	A	330	down	scale
+61	1	downScaleA	294APure.wav	pure	A	294	down	scale
+62	1	downScaleA	277APure.wav	pure	A	277	down	scale
+63	1	downScaleA	247APure.wav	pure	A	247	down	scale
+64	1	downScaleA	220APure.wav	pure	A	220	down	scale
+65	1	downScaleA	440APure.wav	pure	A	440	down	scale
+66	1	downScaleA	415APure.wav	pure	A	415	down	scale
+67	1	downScaleA	370APure.wav	pure	A	370	down	scale
+68	1	downScaleA	330APure.wav	pure	A	330	down	scale
+69	1	downScaleA	294APure.wav	pure	A	294	down	scale
+70	1	downScaleA	277APure.wav	pure	A	277	down	scale
+71	1	downScaleA	247APure.wav	pure	A	247	down	scale
+72	1	downScaleA	220APure.wav	pure	A	220	down	scale
+73	1	downScaleA	440APure.wav	pure	A	440	down	scale
+74	1	downScaleA	415APure.wav	pure	A	415	down	scale
+75	1	downScaleA	370APure.wav	pure	A	370	down	scale
+76	1	downScaleA	330APure.wav	pure	A	330	down	scale
+77	1	downScaleA	294APure.wav	pure	A	294	down	scale
+78	1	downScaleA	277APure.wav	pure	A	277	down	scale
+79	1	downScaleA	247APure.wav	pure	A	247	down	scale
+80	1	downScaleA	220APure.wav	pure	A	220	down	scale
+81	1	downScaleA	440APure.wav	pure	A	440	down	scale
+82	1	downScaleA	415APure.wav	pure	A	415	down	scale
+83	1	downScaleA	370APure.wav	pure	A	370	down	scale
+84	1	downScaleA	330APure.wav	pure	A	330	down	scale
+85	1	downScaleA	294APure.wav	pure	A	294	down	scale
+86	1	downScaleA	277APure.wav	pure	A	277	down	scale
+87	1	downScaleA	247APure.wav	pure	A	247	down	scale
+88	1	downScaleA	220APure.wav	pure	A	220	down	scale
+89	1	downScaleA	440APure.wav	pure	A	440	down	scale
+90	1	downScaleA	415APure.wav	pure	A	415	down	scale
+91	1	downScaleA	370APure.wav	pure	A	370	down	scale
+92	1	downScaleA	330APure.wav	pure	A	330	down	scale
+93	1	downScaleA	294APure.wav	pure	A	294	down	scale
+94	1	downScaleA	277APure.wav	pure	A	277	down	scale
+95	1	downScaleA	247APure.wav	pure	A	247	down	scale
+96	1	downScaleA	220APure.wav	pure	A	220	down	scale
+97	1	downScaleA	440APure.wav	pure	A	440	down	scale
+98	1	downScaleA	415APure.wav	pure	A	415	down	scale
+99	1	downScaleA	370APure.wav	pure	A	370	down	scale
+100	1	downScaleA	330APure.wav	pure	A	330	down	scale
+101	1	downScaleA	294APure.wav	pure	A	294	down	scale
+102	1	downScaleA	277APure.wav	pure	A	277	down	scale
+103	1	downScaleA	247APure.wav	pure	A	247	down	scale
+104	1	downScaleA	220APure.wav	pure	A	220	down	scale
+105	1	downScaleA	440APure.wav	pure	A	440	down	scale
+106	1	downScaleA	415APure.wav	pure	A	415	down	scale
+107	1	downScaleA	370APure.wav	pure	A	370	down	scale
+108	1	downScaleA	330APure.wav	pure	A	330	down	scale
+109	1	downScaleA	294APure.wav	pure	A	294	down	scale
+110	1	downScaleA	277APure.wav	pure	A	277	down	scale
+111	1	downScaleA	247APure.wav	pure	A	247	down	scale
+112	1	downScaleA	220APure.wav	pure	A	220	down	scale
+113	1	downScaleA	440APure.wav	pure	A	440	down	scale
+114	1	downScaleA	415APure.wav	pure	A	415	down	scale
+115	1	downScaleA	370APure.wav	pure	A	370	down	scale
+116	1	downScaleA	330APure.wav	pure	A	330	down	scale
+117	1	downScaleA	294APure.wav	pure	A	294	down	scale
+118	1	downScaleA	277APure.wav	pure	A	277	down	scale
+119	1	downScaleA	247APure.wav	pure	A	247	down	scale
+120	1	downScaleA	220APure.wav	pure	A	220	down	scale
+121	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+122	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+123	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+124	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+125	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+126	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+127	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+128	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+129	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+130	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+131	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+132	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+133	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+134	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+135	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+136	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+137	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+138	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+139	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+140	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+141	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+142	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+143	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+144	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+145	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+146	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+147	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+148	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+149	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+150	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+151	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+152	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+153	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+154	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+155	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+156	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+157	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+158	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+159	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+160	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+161	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+162	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+163	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+164	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+165	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+166	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+167	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+168	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+169	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+170	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+171	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+172	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+173	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+174	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+175	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+176	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+177	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+178	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+179	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+180	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+181	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+182	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+183	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+184	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+185	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+186	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+187	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+188	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+189	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+190	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+191	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+192	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+193	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+194	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+195	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+196	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+197	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+198	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+199	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+200	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+201	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+202	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+203	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+204	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+205	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+206	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+207	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+208	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+209	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+210	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+211	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+212	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+213	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+214	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+215	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+216	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+217	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+218	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+219	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+220	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+221	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+222	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+223	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+224	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+225	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+226	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+227	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+228	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+229	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+230	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+231	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+232	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+233	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	147	up	scale
+234	2	upScaleDsharp	175D#Pure.wav	pure	Dsharp	175	up	scale
+235	2	upScaleDsharp	196D#Pure.wav	pure	Dsharp	196	up	scale
+236	2	upScaleDsharp	208D#Pure.wav	pure	Dsharp	208	up	scale
+237	2	upScaleDsharp	233D#Pure.wav	pure	Dsharp	233	up	scale
+238	2	upScaleDsharp	262D#Pure.wav	pure	Dsharp	262	up	scale
+239	2	upScaleDsharp	294D#Pure.wav	pure	Dsharp	294	up	scale
+240	2	upScaleDsharp	311D#Pure.wav	pure	Dsharp	311	up	scale
+241	3	randomA	294APure.wav	pure	A	294	random	
+242	3	randomA	220APure.wav	pure	A	220	random	
+243	3	randomA	415APure.wav	pure	A	415	random	
+244	3	randomA	277APure.wav	pure	A	277	random	
+245	3	randomA	370APure.wav	pure	A	370	random	
+246	3	randomA	440APure.wav	pure	A	440	random	
+247	3	randomA	247APure.wav	pure	A	247	random	
+248	3	randomA	330APure.wav	pure	A	330	random	
+249	3	randomA	294APure.wav	pure	A	294	random	
+250	3	randomA	247APure.wav	pure	A	247	random	
+251	3	randomA	440APure.wav	pure	A	440	random	
+252	3	randomA	370APure.wav	pure	A	370	random	
+253	3	randomA	415APure.wav	pure	A	415	random	
+254	3	randomA	220APure.wav	pure	A	220	random	
+255	3	randomA	330APure.wav	pure	A	330	random	
+256	3	randomA	277APure.wav	pure	A	277	random	
+257	3	randomA	220APure.wav	pure	A	220	random	
+258	3	randomA	415APure.wav	pure	A	415	random	
+259	3	randomA	330APure.wav	pure	A	330	random	
+260	3	randomA	440APure.wav	pure	A	440	random	
+261	3	randomA	277APure.wav	pure	A	277	random	
+262	3	randomA	370APure.wav	pure	A	370	random	
+263	3	randomA	294APure.wav	pure	A	294	random	
+264	3	randomA	247APure.wav	pure	A	247	random	
+265	3	randomA	330APure.wav	pure	A	330	random	
+266	3	randomA	277APure.wav	pure	A	277	random	
+267	3	randomA	220APure.wav	pure	A	220	random	
+268	3	randomA	440APure.wav	pure	A	440	random	
+269	3	randomA	370APure.wav	pure	A	370	random	
+270	3	randomA	415APure.wav	pure	A	415	random	
+271	3	randomA	247APure.wav	pure	A	247	random	
+272	3	randomA	294APure.wav	pure	A	294	random	
+273	3	randomA	330APure.wav	pure	A	330	random	
+274	3	randomA	294APure.wav	pure	A	294	random	
+275	3	randomA	247APure.wav	pure	A	247	random	
+276	3	randomA	220APure.wav	pure	A	220	random	
+277	3	randomA	415APure.wav	pure	A	415	random	
+278	3	randomA	277APure.wav	pure	A	277	random	
+279	3	randomA	370APure.wav	pure	A	370	random	
+280	3	randomA	440APure.wav	pure	A	440	random	
+281	3	randomA	330APure.wav	pure	A	330	random	
+282	3	randomA	440APure.wav	pure	A	440	random	
+283	3	randomA	415APure.wav	pure	A	415	random	
+284	3	randomA	247APure.wav	pure	A	247	random	
+285	3	randomA	220APure.wav	pure	A	220	random	
+286	3	randomA	277APure.wav	pure	A	277	random	
+287	3	randomA	294APure.wav	pure	A	294	random	
+288	3	randomA	370APure.wav	pure	A	370	random	
+289	3	randomA	370APure.wav	pure	A	370	random	
+290	3	randomA	415APure.wav	pure	A	415	random	
+291	3	randomA	330APure.wav	pure	A	330	random	
+292	3	randomA	440APure.wav	pure	A	440	random	
+293	3	randomA	294APure.wav	pure	A	294	random	
+294	3	randomA	247APure.wav	pure	A	247	random	
+295	3	randomA	220APure.wav	pure	A	220	random	
+296	3	randomA	277APure.wav	pure	A	277	random	
+297	3	randomA	330APure.wav	pure	A	330	random	
+298	3	randomA	440APure.wav	pure	A	440	random	
+299	3	randomA	220APure.wav	pure	A	220	random	
+300	3	randomA	415APure.wav	pure	A	415	random	
+301	3	randomA	294APure.wav	pure	A	294	random	
+302	3	randomA	247APure.wav	pure	A	247	random	
+303	3	randomA	370APure.wav	pure	A	370	random	
+304	3	randomA	277APure.wav	pure	A	277	random	
+305	3	randomA	330APure.wav	pure	A	330	random	
+306	3	randomA	440APure.wav	pure	A	440	random	
+307	3	randomA	370APure.wav	pure	A	370	random	
+308	3	randomA	220APure.wav	pure	A	220	random	
+309	3	randomA	415APure.wav	pure	A	415	random	
+310	3	randomA	277APure.wav	pure	A	277	random	
+311	3	randomA	247APure.wav	pure	A	247	random	
+312	3	randomA	294APure.wav	pure	A	294	random	
+313	3	randomA	294APure.wav	pure	A	294	random	
+314	3	randomA	247APure.wav	pure	A	247	random	
+315	3	randomA	370APure.wav	pure	A	370	random	
+316	3	randomA	220APure.wav	pure	A	220	random	
+317	3	randomA	440APure.wav	pure	A	440	random	
+318	3	randomA	330APure.wav	pure	A	330	random	
+319	3	randomA	415APure.wav	pure	A	415	random	
+320	3	randomA	277APure.wav	pure	A	277	random	
+321	3	randomA	247APure.wav	pure	A	247	random	
+322	3	randomA	440APure.wav	pure	A	440	random	
+323	3	randomA	330APure.wav	pure	A	330	random	
+324	3	randomA	220APure.wav	pure	A	220	random	
+325	3	randomA	277APure.wav	pure	A	277	random	
+326	3	randomA	294APure.wav	pure	A	294	random	
+327	3	randomA	370APure.wav	pure	A	370	random	
+328	3	randomA	415APure.wav	pure	A	415	random	
+329	3	randomA	415APure.wav	pure	A	415	random	
+330	3	randomA	220APure.wav	pure	A	220	random	
+331	3	randomA	330APure.wav	pure	A	330	random	
+332	3	randomA	370APure.wav	pure	A	370	random	
+333	3	randomA	277APure.wav	pure	A	277	random	
+334	3	randomA	247APure.wav	pure	A	247	random	
+335	3	randomA	440APure.wav	pure	A	440	random	
+336	3	randomA	294APure.wav	pure	A	294	random	
+337	3	randomA	294APure.wav	pure	A	294	random	
+338	3	randomA	440APure.wav	pure	A	440	random	
+339	3	randomA	370APure.wav	pure	A	370	random	
+340	3	randomA	247APure.wav	pure	A	247	random	
+341	3	randomA	277APure.wav	pure	A	277	random	
+342	3	randomA	330APure.wav	pure	A	330	random	
+343	3	randomA	220APure.wav	pure	A	220	random	
+344	3	randomA	415APure.wav	pure	A	415	random	
+345	3	randomA	294APure.wav	pure	A	294	random	
+346	3	randomA	277APure.wav	pure	A	277	random	
+347	3	randomA	440APure.wav	pure	A	440	random	
+348	3	randomA	330APure.wav	pure	A	330	random	
+349	3	randomA	220APure.wav	pure	A	220	random	
+350	3	randomA	370APure.wav	pure	A	370	random	
+351	3	randomA	247APure.wav	pure	A	247	random	
+352	3	randomA	415APure.wav	pure	A	415	random	
+353	3	randomA	370APure.wav	pure	A	370	random	
+354	3	randomA	440APure.wav	pure	A	440	random	
+355	3	randomA	294APure.wav	pure	A	294	random	
+356	3	randomA	330APure.wav	pure	A	330	random	
+357	3	randomA	247APure.wav	pure	A	247	random	
+358	3	randomA	415APure.wav	pure	A	415	random	
+359	3	randomA	277APure.wav	pure	A	277	random	
+360	3	randomA	220APure.wav	pure	A	220	random	
+361	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+362	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+363	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+364	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+365	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+366	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+367	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+368	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+369	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+370	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+371	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+372	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+373	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+374	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+375	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+376	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+377	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+378	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+379	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+380	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+381	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+382	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+383	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+384	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+385	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+386	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+387	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+388	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+389	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+390	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+391	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+392	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+393	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+394	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+395	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+396	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+397	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+398	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+399	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+400	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+401	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+402	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+403	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+404	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+405	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+406	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+407	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+408	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+409	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+410	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+411	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+412	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+413	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+414	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+415	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+416	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+417	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+418	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+419	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+420	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+421	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+422	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+423	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+424	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+425	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+426	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+427	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+428	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+429	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+430	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+431	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+432	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+433	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+434	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+435	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+436	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+437	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+438	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+439	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+440	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+441	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+442	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+443	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+444	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+445	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+446	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+447	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+448	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+449	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+450	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+451	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+452	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+453	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+454	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+455	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+456	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+457	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+458	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+459	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+460	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+461	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+462	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+463	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+464	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+465	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+466	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+467	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+468	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+469	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+470	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+471	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+472	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+473	4	downScaleC	523CPure.wav	pure	C	523	down	scale
+474	4	downScaleC	494CPure.wav	pure	C	494	down	scale
+475	4	downScaleC	440CPure.wav	pure	C	440	down	scale
+476	4	downScaleC	392CPure.wav	pure	C	392	down	scale
+477	4	downScaleC	349CPure.wav	pure	C	349	down	scale
+478	4	downScaleC	330CPure.wav	pure	C	330	down	scale
+479	4	downScaleC	294CPure.wav	pure	C	294	down	scale
+480	4	downScaleC	523CPure.wav	pure	C	262	down	scale
+481	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+482	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+483	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+484	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+485	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+486	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+487	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+488	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+489	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+490	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+491	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+492	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+493	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+494	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+495	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+496	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+497	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+498	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+499	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+500	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+501	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+502	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+503	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+504	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+505	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+506	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+507	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+508	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+509	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+510	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+511	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+512	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+513	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+514	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+515	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+516	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+517	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+518	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+519	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+520	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+521	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+522	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+523	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+524	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+525	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+526	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+527	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+528	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+529	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+530	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+531	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+532	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+533	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+534	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+535	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+536	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+537	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+538	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+539	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+540	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+541	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+542	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+543	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+544	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+545	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+546	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+547	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+548	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+549	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+550	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+551	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+552	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+553	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+554	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+555	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+556	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+557	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+558	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+559	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+560	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+561	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+562	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+563	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+564	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+565	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+566	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+567	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+568	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+569	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+570	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+571	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+572	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+573	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+574	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+575	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+576	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+577	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+578	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+579	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+580	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+581	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+582	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+583	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+584	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+585	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+586	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+587	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+588	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+589	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+590	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+591	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+592	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+593	5	upScaleC	523CPure.wav	pure	C	262	up	scale
+594	5	upScaleC	294CPure.wav	pure	C	294	up	scale
+595	5	upScaleC	330CPure.wav	pure	C	330	up	scale
+596	5	upScaleC	349CPure.wav	pure	C	349	up	scale
+597	5	upScaleC	392CPure.wav	pure	C	392	up	scale
+598	5	upScaleC	440CPure.wav	pure	C	440	up	scale
+599	5	upScaleC	494CPure.wav	pure	C	494	up	scale
+600	5	upScaleC	523CPure.wav	pure	C	523	up	scale
+601	6	upScaleA	220APure.wav	pure	A	220	up	scale
+602	6	upScaleA	247APure.wav	pure	A	247	up	scale
+603	6	upScaleA	277APure.wav	pure	A	277	up	scale
+604	6	upScaleA	294APure.wav	pure	A	294	up	scale
+605	6	upScaleA	330APure.wav	pure	A	330	up	scale
+606	6	upScaleA	370APure.wav	pure	A	370	up	scale
+607	6	upScaleA	415APure.wav	pure	A	415	up	scale
+608	6	upScaleA	440APure.wav	pure	A	440	up	scale
+609	6	upScaleA	220APure.wav	pure	A	220	up	scale
+610	6	upScaleA	247APure.wav	pure	A	247	up	scale
+611	6	upScaleA	277APure.wav	pure	A	277	up	scale
+612	6	upScaleA	294APure.wav	pure	A	294	up	scale
+613	6	upScaleA	330APure.wav	pure	A	330	up	scale
+614	6	upScaleA	370APure.wav	pure	A	370	up	scale
+615	6	upScaleA	415APure.wav	pure	A	415	up	scale
+616	6	upScaleA	440APure.wav	pure	A	440	up	scale
+617	6	upScaleA	220APure.wav	pure	A	220	up	scale
+618	6	upScaleA	247APure.wav	pure	A	247	up	scale
+619	6	upScaleA	277APure.wav	pure	A	277	up	scale
+620	6	upScaleA	294APure.wav	pure	A	294	up	scale
+621	6	upScaleA	330APure.wav	pure	A	330	up	scale
+622	6	upScaleA	370APure.wav	pure	A	370	up	scale
+623	6	upScaleA	415APure.wav	pure	A	415	up	scale
+624	6	upScaleA	440APure.wav	pure	A	440	up	scale
+625	6	upScaleA	220APure.wav	pure	A	220	up	scale
+626	6	upScaleA	247APure.wav	pure	A	247	up	scale
+627	6	upScaleA	277APure.wav	pure	A	277	up	scale
+628	6	upScaleA	294APure.wav	pure	A	294	up	scale
+629	6	upScaleA	330APure.wav	pure	A	330	up	scale
+630	6	upScaleA	370APure.wav	pure	A	370	up	scale
+631	6	upScaleA	415APure.wav	pure	A	415	up	scale
+632	6	upScaleA	440APure.wav	pure	A	440	up	scale
+633	6	upScaleA	220APure.wav	pure	A	220	up	scale
+634	6	upScaleA	247APure.wav	pure	A	247	up	scale
+635	6	upScaleA	277APure.wav	pure	A	277	up	scale
+636	6	upScaleA	294APure.wav	pure	A	294	up	scale
+637	6	upScaleA	330APure.wav	pure	A	330	up	scale
+638	6	upScaleA	370APure.wav	pure	A	370	up	scale
+639	6	upScaleA	415APure.wav	pure	A	415	up	scale
+640	6	upScaleA	440APure.wav	pure	A	440	up	scale
+641	6	upScaleA	220APure.wav	pure	A	220	up	scale
+642	6	upScaleA	247APure.wav	pure	A	247	up	scale
+643	6	upScaleA	277APure.wav	pure	A	277	up	scale
+644	6	upScaleA	294APure.wav	pure	A	294	up	scale
+645	6	upScaleA	330APure.wav	pure	A	330	up	scale
+646	6	upScaleA	370APure.wav	pure	A	370	up	scale
+647	6	upScaleA	415APure.wav	pure	A	415	up	scale
+648	6	upScaleA	440APure.wav	pure	A	440	up	scale
+649	6	upScaleA	220APure.wav	pure	A	220	up	scale
+650	6	upScaleA	247APure.wav	pure	A	247	up	scale
+651	6	upScaleA	277APure.wav	pure	A	277	up	scale
+652	6	upScaleA	294APure.wav	pure	A	294	up	scale
+653	6	upScaleA	330APure.wav	pure	A	330	up	scale
+654	6	upScaleA	370APure.wav	pure	A	370	up	scale
+655	6	upScaleA	415APure.wav	pure	A	415	up	scale
+656	6	upScaleA	440APure.wav	pure	A	440	up	scale
+657	6	upScaleA	220APure.wav	pure	A	220	up	scale
+658	6	upScaleA	247APure.wav	pure	A	247	up	scale
+659	6	upScaleA	277APure.wav	pure	A	277	up	scale
+660	6	upScaleA	294APure.wav	pure	A	294	up	scale
+661	6	upScaleA	330APure.wav	pure	A	330	up	scale
+662	6	upScaleA	370APure.wav	pure	A	370	up	scale
+663	6	upScaleA	415APure.wav	pure	A	415	up	scale
+664	6	upScaleA	440APure.wav	pure	A	440	up	scale
+665	6	upScaleA	220APure.wav	pure	A	220	up	scale
+666	6	upScaleA	247APure.wav	pure	A	247	up	scale
+667	6	upScaleA	277APure.wav	pure	A	277	up	scale
+668	6	upScaleA	294APure.wav	pure	A	294	up	scale
+669	6	upScaleA	330APure.wav	pure	A	330	up	scale
+670	6	upScaleA	370APure.wav	pure	A	370	up	scale
+671	6	upScaleA	415APure.wav	pure	A	415	up	scale
+672	6	upScaleA	440APure.wav	pure	A	440	up	scale
+673	6	upScaleA	220APure.wav	pure	A	220	up	scale
+674	6	upScaleA	247APure.wav	pure	A	247	up	scale
+675	6	upScaleA	277APure.wav	pure	A	277	up	scale
+676	6	upScaleA	294APure.wav	pure	A	294	up	scale
+677	6	upScaleA	330APure.wav	pure	A	330	up	scale
+678	6	upScaleA	370APure.wav	pure	A	370	up	scale
+679	6	upScaleA	415APure.wav	pure	A	415	up	scale
+680	6	upScaleA	440APure.wav	pure	A	440	up	scale
+681	6	upScaleA	220APure.wav	pure	A	220	up	scale
+682	6	upScaleA	247APure.wav	pure	A	247	up	scale
+683	6	upScaleA	277APure.wav	pure	A	277	up	scale
+684	6	upScaleA	294APure.wav	pure	A	294	up	scale
+685	6	upScaleA	330APure.wav	pure	A	330	up	scale
+686	6	upScaleA	370APure.wav	pure	A	370	up	scale
+687	6	upScaleA	415APure.wav	pure	A	415	up	scale
+688	6	upScaleA	440APure.wav	pure	A	440	up	scale
+689	6	upScaleA	220APure.wav	pure	A	220	up	scale
+690	6	upScaleA	247APure.wav	pure	A	247	up	scale
+691	6	upScaleA	277APure.wav	pure	A	277	up	scale
+692	6	upScaleA	294APure.wav	pure	A	294	up	scale
+693	6	upScaleA	330APure.wav	pure	A	330	up	scale
+694	6	upScaleA	370APure.wav	pure	A	370	up	scale
+695	6	upScaleA	415APure.wav	pure	A	415	up	scale
+696	6	upScaleA	440APure.wav	pure	A	440	up	scale
+697	6	upScaleA	220APure.wav	pure	A	220	up	scale
+698	6	upScaleA	247APure.wav	pure	A	247	up	scale
+699	6	upScaleA	277APure.wav	pure	A	277	up	scale
+700	6	upScaleA	294APure.wav	pure	A	294	up	scale
+701	6	upScaleA	330APure.wav	pure	A	330	up	scale
+702	6	upScaleA	370APure.wav	pure	A	370	up	scale
+703	6	upScaleA	415APure.wav	pure	A	415	up	scale
+704	6	upScaleA	440APure.wav	pure	A	440	up	scale
+705	6	upScaleA	220APure.wav	pure	A	220	up	scale
+706	6	upScaleA	247APure.wav	pure	A	247	up	scale
+707	6	upScaleA	277APure.wav	pure	A	277	up	scale
+708	6	upScaleA	294APure.wav	pure	A	294	up	scale
+709	6	upScaleA	330APure.wav	pure	A	330	up	scale
+710	6	upScaleA	370APure.wav	pure	A	370	up	scale
+711	6	upScaleA	415APure.wav	pure	A	415	up	scale
+712	6	upScaleA	440APure.wav	pure	A	440	up	scale
+713	6	upScaleA	220APure.wav	pure	A	220	up	scale
+714	6	upScaleA	247APure.wav	pure	A	247	up	scale
+715	6	upScaleA	277APure.wav	pure	A	277	up	scale
+716	6	upScaleA	294APure.wav	pure	A	294	up	scale
+717	6	upScaleA	330APure.wav	pure	A	330	up	scale
+718	6	upScaleA	370APure.wav	pure	A	370	up	scale
+719	6	upScaleA	415APure.wav	pure	A	415	up	scale
+720	6	upScaleA	440APure.wav	pure	A	440	up	scale
+721	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+722	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+723	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+724	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+725	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+726	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+727	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+728	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+729	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+730	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+731	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+732	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+733	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+734	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+735	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+736	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+737	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+738	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+739	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+740	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+741	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+742	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+743	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+744	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+745	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+746	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+747	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+748	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+749	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+750	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+751	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+752	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+753	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+754	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+755	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+756	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+757	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+758	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+759	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+760	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+761	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+762	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+763	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+764	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+765	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+766	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+767	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+768	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+769	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+770	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+771	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+772	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+773	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+774	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+775	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+776	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+777	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+778	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+779	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+780	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+781	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+782	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+783	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+784	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+785	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+786	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+787	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+788	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+789	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+790	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+791	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+792	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+793	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+794	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+795	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+796	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+797	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+798	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+799	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+800	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+801	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+802	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+803	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+804	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+805	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+806	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+807	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+808	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+809	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+810	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+811	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+812	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+813	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+814	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+815	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+816	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+817	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+818	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+819	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+820	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+821	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+822	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+823	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+824	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+825	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+826	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+827	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+828	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+829	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+830	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+831	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+832	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+833	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	311	down	scale
+834	7	downScaleDsharp	294D#Pure.wav	pure	Dsharp	294	down	scale
+835	7	downScaleDsharp	262D#Pure.wav	pure	Dsharp	262	down	scale
+836	7	downScaleDsharp	233D#Pure.wav	pure	Dsharp	233	down	scale
+837	7	downScaleDsharp	208D#Pure.wav	pure	Dsharp	208	down	scale
+838	7	downScaleDsharp	196D#Pure.wav	pure	Dsharp	196	down	scale
+839	7	downScaleDsharp	175D#Pure.wav	pure	Dsharp	175	down	scale
+840	7	downScaleDsharp	311D#Pure.wav	pure	Dsharp	147	down	scale
+841	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+842	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+843	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+844	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+845	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+846	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+847	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+848	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+849	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+850	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+851	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+852	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+853	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+854	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+855	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+856	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+857	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+858	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+859	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+860	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+861	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+862	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+863	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+864	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+865	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+866	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+867	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+868	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+869	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+870	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+871	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+872	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+873	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+874	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+875	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+876	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+877	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+878	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+879	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+880	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+881	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+882	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+883	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+884	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+885	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+886	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+887	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+888	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+889	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+890	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+891	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+892	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+893	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+894	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+895	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+896	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+897	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+898	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+899	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+900	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+901	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+902	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+903	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+904	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+905	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+906	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+907	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+908	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+909	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+910	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+911	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+912	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+913	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+914	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+915	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+916	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+917	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+918	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+919	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+920	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+921	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+922	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+923	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+924	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+925	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+926	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+927	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+928	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+929	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+930	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+931	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+932	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+933	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+934	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+935	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+936	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+937	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+938	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+939	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+940	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+941	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+942	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+943	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+944	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+945	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+946	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+947	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+948	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+949	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+950	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+951	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+952	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+953	8	randomDsharp	196D#Pure.wav	pure	Dsharp	196	random	
+954	8	randomDsharp	175D#Pure.wav	pure	Dsharp	175	random	
+955	8	randomDsharp	294D#Pure.wav	pure	Dsharp	294	random	
+956	8	randomDsharp	311D#Pure.wav	pure	Dsharp	311	random	
+957	8	randomDsharp	262D#Pure.wav	pure	Dsharp	262	random	
+958	8	randomDsharp	233D#Pure.wav	pure	Dsharp	233	random	
+959	8	randomDsharp	208D#Pure.wav	pure	Dsharp	208	random	
+960	8	randomDsharp	311D#Pure.wav	pure	Dsharp	147	random	
+961	9	randomC	349CPure.wav	pure	C	349	random	
+962	9	randomC	494CPure.wav	pure	C	494	random	
+963	9	randomC	330CPure.wav	pure	C	330	random	
+964	9	randomC	440CPure.wav	pure	C	440	random	
+965	9	randomC	523CPure.wav	pure	C	523	random	
+966	9	randomC	392CPure.wav	pure	C	392	random	
+967	9	randomC	523CPure.wav	pure	C	262	random	
+968	9	randomC	294CPure.wav	pure	C	294	random	
+969	9	randomC	294CPure.wav	pure	C	294	random	
+970	9	randomC	392CPure.wav	pure	C	392	random	
+971	9	randomC	523CPure.wav	pure	C	262	random	
+972	9	randomC	494CPure.wav	pure	C	494	random	
+973	9	randomC	523CPure.wav	pure	C	523	random	
+974	9	randomC	440CPure.wav	pure	C	440	random	
+975	9	randomC	330CPure.wav	pure	C	330	random	
+976	9	randomC	349CPure.wav	pure	C	349	random	
+977	9	randomC	440CPure.wav	pure	C	440	random	
+978	9	randomC	392CPure.wav	pure	C	392	random	
+979	9	randomC	523CPure.wav	pure	C	523	random	
+980	9	randomC	349CPure.wav	pure	C	349	random	
+981	9	randomC	523CPure.wav	pure	C	262	random	
+982	9	randomC	494CPure.wav	pure	C	494	random	
+983	9	randomC	330CPure.wav	pure	C	330	random	
+984	9	randomC	294CPure.wav	pure	C	294	random	
+985	9	randomC	294CPure.wav	pure	C	294	random	
+986	9	randomC	523CPure.wav	pure	C	262	random	
+987	9	randomC	330CPure.wav	pure	C	330	random	
+988	9	randomC	523CPure.wav	pure	C	523	random	
+989	9	randomC	392CPure.wav	pure	C	392	random	
+990	9	randomC	494CPure.wav	pure	C	494	random	
+991	9	randomC	440CPure.wav	pure	C	440	random	
+992	9	randomC	349CPure.wav	pure	C	349	random	
+993	9	randomC	440CPure.wav	pure	C	440	random	
+994	9	randomC	349CPure.wav	pure	C	349	random	
+995	9	randomC	523CPure.wav	pure	C	262	random	
+996	9	randomC	330CPure.wav	pure	C	330	random	
+997	9	randomC	523CPure.wav	pure	C	523	random	
+998	9	randomC	494CPure.wav	pure	C	494	random	
+999	9	randomC	294CPure.wav	pure	C	294	random	
+1000	9	randomC	392CPure.wav	pure	C	392	random	
+1001	9	randomC	440CPure.wav	pure	C	440	random	
+1002	9	randomC	349CPure.wav	pure	C	349	random	
+1003	9	randomC	330CPure.wav	pure	C	330	random	
+1004	9	randomC	523CPure.wav	pure	C	262	random	
+1005	9	randomC	494CPure.wav	pure	C	494	random	
+1006	9	randomC	523CPure.wav	pure	C	523	random	
+1007	9	randomC	294CPure.wav	pure	C	294	random	
+1008	9	randomC	392CPure.wav	pure	C	392	random	
+1009	9	randomC	440CPure.wav	pure	C	440	random	
+1010	9	randomC	523CPure.wav	pure	C	262	random	
+1011	9	randomC	349CPure.wav	pure	C	349	random	
+1012	9	randomC	330CPure.wav	pure	C	330	random	
+1013	9	randomC	494CPure.wav	pure	C	494	random	
+1014	9	randomC	294CPure.wav	pure	C	294	random	
+1015	9	randomC	392CPure.wav	pure	C	392	random	
+1016	9	randomC	523CPure.wav	pure	C	523	random	
+1017	9	randomC	392CPure.wav	pure	C	392	random	
+1018	9	randomC	349CPure.wav	pure	C	349	random	
+1019	9	randomC	440CPure.wav	pure	C	440	random	
+1020	9	randomC	523CPure.wav	pure	C	262	random	
+1021	9	randomC	294CPure.wav	pure	C	294	random	
+1022	9	randomC	494CPure.wav	pure	C	494	random	
+1023	9	randomC	523CPure.wav	pure	C	523	random	
+1024	9	randomC	330CPure.wav	pure	C	330	random	
+1025	9	randomC	330CPure.wav	pure	C	330	random	
+1026	9	randomC	392CPure.wav	pure	C	392	random	
+1027	9	randomC	523CPure.wav	pure	C	523	random	
+1028	9	randomC	440CPure.wav	pure	C	440	random	
+1029	9	randomC	349CPure.wav	pure	C	349	random	
+1030	9	randomC	523CPure.wav	pure	C	262	random	
+1031	9	randomC	294CPure.wav	pure	C	294	random	
+1032	9	randomC	494CPure.wav	pure	C	494	random	
+1033	9	randomC	440CPure.wav	pure	C	440	random	
+1034	9	randomC	523CPure.wav	pure	C	523	random	
+1035	9	randomC	494CPure.wav	pure	C	494	random	
+1036	9	randomC	349CPure.wav	pure	C	349	random	
+1037	9	randomC	294CPure.wav	pure	C	294	random	
+1038	9	randomC	392CPure.wav	pure	C	392	random	
+1039	9	randomC	330CPure.wav	pure	C	330	random	
+1040	9	randomC	523CPure.wav	pure	C	262	random	
+1041	9	randomC	440CPure.wav	pure	C	440	random	
+1042	9	randomC	523CPure.wav	pure	C	262	random	
+1043	9	randomC	494CPure.wav	pure	C	494	random	
+1044	9	randomC	294CPure.wav	pure	C	294	random	
+1045	9	randomC	392CPure.wav	pure	C	392	random	
+1046	9	randomC	330CPure.wav	pure	C	330	random	
+1047	9	randomC	349CPure.wav	pure	C	349	random	
+1048	9	randomC	523CPure.wav	pure	C	523	random	
+1049	9	randomC	392CPure.wav	pure	C	392	random	
+1050	9	randomC	494CPure.wav	pure	C	494	random	
+1051	9	randomC	440CPure.wav	pure	C	440	random	
+1052	9	randomC	330CPure.wav	pure	C	330	random	
+1053	9	randomC	294CPure.wav	pure	C	294	random	
+1054	9	randomC	349CPure.wav	pure	C	349	random	
+1055	9	randomC	523CPure.wav	pure	C	523	random	
+1056	9	randomC	523CPure.wav	pure	C	262	random	
+1057	9	randomC	523CPure.wav	pure	C	523	random	
+1058	9	randomC	494CPure.wav	pure	C	494	random	
+1059	9	randomC	523CPure.wav	pure	C	262	random	
+1060	9	randomC	349CPure.wav	pure	C	349	random	
+1061	9	randomC	440CPure.wav	pure	C	440	random	
+1062	9	randomC	330CPure.wav	pure	C	330	random	
+1063	9	randomC	294CPure.wav	pure	C	294	random	
+1064	9	randomC	392CPure.wav	pure	C	392	random	
+1065	9	randomC	440CPure.wav	pure	C	440	random	
+1066	9	randomC	523CPure.wav	pure	C	262	random	
+1067	9	randomC	294CPure.wav	pure	C	294	random	
+1068	9	randomC	330CPure.wav	pure	C	330	random	
+1069	9	randomC	392CPure.wav	pure	C	392	random	
+1070	9	randomC	523CPure.wav	pure	C	523	random	
+1071	9	randomC	349CPure.wav	pure	C	349	random	
+1072	9	randomC	494CPure.wav	pure	C	494	random	
+1073	9	randomC	294CPure.wav	pure	C	294	random	
+1074	9	randomC	523CPure.wav	pure	C	262	random	
+1075	9	randomC	392CPure.wav	pure	C	392	random	
+1076	9	randomC	494CPure.wav	pure	C	494	random	
+1077	9	randomC	440CPure.wav	pure	C	440	random	
+1078	9	randomC	330CPure.wav	pure	C	330	random	
+1079	9	randomC	349CPure.wav	pure	C	349	random	
+1080	9	randomC	523CPure.wav	pure	C	523	random	

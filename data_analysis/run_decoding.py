@@ -20,12 +20,12 @@ import mne.decoding
 from jr import scorer_spearman
 from sklearn.metrics import make_scorer, get_scorer
 
-subj = 'A0316'
+subj = 'R1460'
 meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/' +subj+ '/'
 
 # epochs collapsed across pure and partials
-allepochs = meg_dir + subj + '_purepar-epo.fif'
-allepochs_info = meg_dir + subj + '_purepar_trialinfo.csv'
+allepochs = meg_dir + subj + '_shepard-epo.fif'
+allepochs_info = meg_dir + subj + '_shepard_trialinfo.csv'
 
 # keys collapsed across pure and partials
 keyA = meg_dir + subj + '_A_purepar-epo.fif'
@@ -35,13 +35,17 @@ keyA_info = meg_dir + subj + '_A_purepar_trialinfo.csv'
 keyC_info = meg_dir + subj + '_C_purepar_trialinfo.csv'
 keyEb_info = meg_dir + subj + '_Eb_purepar_trialinfo.csv'
 
+# shepard epochs
+shep = meg_dir + subj + '_shep-epo.fif'
+shep_info = meg_dir + subj + '_shep_trialinfo.csv'
+
 # pure epochs
 pure = meg_dir + subj + '_pure-epo.fif'
 pure_info = meg_dir + subj + '_pure_trialinfo.csv'
 
 # partials epochs
 partials = meg_dir + subj + '_par-epo.fif'
-partials_info = meg_dir + subj + '_partials_trialinfo.csv'
+partials_info = meg_dir + subj + '_par_trialinfo.csv'
 
 # random blocks
 random = meg_dir + subj + '_random-epo.fif'
@@ -62,10 +66,10 @@ keyEbscale_info = meg_dir + subj + '_Eb_scale_trialinfo.csv'
 #-------------------------------------------------------------------------------
 
 # params: choose subject, regressor, epochs/info, how to decode
-subject = 'A0316'
-regressor = 'freq' #condition or frequency
-current_epochs = allepochs
-current_info = allepochs_info
+subject = 'R1460'
+regressor = 'condition' #condition or frequency
+current_epochs = shep
+current_info = shep_info
 decode_using = 'spatial'
 subset_trials = False
 # spatial (trials x sensors x time), temporal (trials x time x sensors),
@@ -126,6 +130,7 @@ def binary_scaler(x):
     x = np.array(x)
     x[x=='pure']=1.
     x[x=='partial']=0.
+    x[x=='shepard']=2.
     x = np.array(map(float, x))
     return x
 

@@ -1,0 +1,13 @@
+Scenario - pitchmatch
+Logfile written - 12/07/2018 15:28:45
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	block	499	0	1	5834	2	0	next	other	0
+1	Response	0	5326	4827	1
+2	Picture	fix	6333	0	1	6166	2	0	next	other	0
+3	Picture	img	12499	0	1	8166	2	0	next	other	0
+3	Sound	sound1	12563	64	1			0		other	0
+3	Sound	sound2	17503	5004	1			5000		other	0
+4	Picture	imgPres1	20665	0	1	1495	2	0	next	miss	0
+4	Quit		22046	1381

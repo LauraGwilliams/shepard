@@ -1,0 +1,1081 @@
+trial	block	trial_type	wav_file	condition	key	freq	updown	circscale
+1	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+2	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+3	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+4	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+5	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+6	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+7	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+8	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+9	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+10	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+11	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+12	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+13	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+14	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+15	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+16	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+17	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+18	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+19	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+20	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+21	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+22	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+23	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+24	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+25	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+26	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+27	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+28	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+29	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+30	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+31	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+32	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+33	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+34	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+35	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+36	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+37	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+38	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+39	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+40	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+41	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+42	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+43	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+44	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+45	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+46	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+47	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+48	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+49	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+50	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+51	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+52	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+53	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+54	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+55	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+56	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+57	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+58	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+59	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+60	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+61	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+62	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+63	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+64	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+65	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+66	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+67	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+68	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+69	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+70	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+71	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+72	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+73	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+74	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+75	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+76	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+77	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+78	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+79	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+80	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+81	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+82	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+83	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+84	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+85	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+86	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+87	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+88	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+89	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+90	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+91	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+92	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+93	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+94	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+95	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+96	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+97	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+98	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+99	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+100	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+101	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+102	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+103	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+104	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+105	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+106	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+107	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+108	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+109	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+110	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+111	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+112	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+113	1	randomA	pure-A_247_300ms.wav	pure	A	247	random	
+114	1	randomA	pure-A_220_300ms.wav	pure	A	220	random	
+115	1	randomA	pure-A_440_300ms.wav	pure	A	440	random	
+116	1	randomA	pure-A_294_300ms.wav	pure	A	294	random	
+117	1	randomA	pure-A_415_300ms.wav	pure	A	415	random	
+118	1	randomA	pure-A_370_300ms.wav	pure	A	370	random	
+119	1	randomA	pure-A_277_300ms.wav	pure	A	277	random	
+120	1	randomA	pure-A_330_300ms.wav	pure	A	330	random	
+121	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+122	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+123	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+124	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+125	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+126	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+127	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+128	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+129	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+130	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+131	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+132	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+133	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+134	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+135	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+136	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+137	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+138	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+139	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+140	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+141	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+142	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+143	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+144	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+145	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+146	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+147	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+148	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+149	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+150	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+151	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+152	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+153	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+154	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+155	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+156	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+157	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+158	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+159	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+160	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+161	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+162	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+163	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+164	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+165	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+166	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+167	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+168	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+169	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+170	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+171	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+172	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+173	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+174	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+175	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+176	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+177	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+178	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+179	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+180	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+181	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+182	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+183	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+184	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+185	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+186	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+187	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+188	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+189	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+190	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+191	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+192	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+193	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+194	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+195	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+196	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+197	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+198	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+199	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+200	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+201	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+202	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+203	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+204	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+205	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+206	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+207	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+208	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+209	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+210	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+211	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+212	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+213	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+214	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+215	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+216	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+217	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+218	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+219	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+220	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+221	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+222	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+223	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+224	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+225	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+226	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+227	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+228	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+229	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+230	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+231	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+232	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+233	2	downScaleC	pure-C_523_300ms.wav	pure	C	523	down	scale
+234	2	downScaleC	pure-C_494_300ms.wav	pure	C	494	down	scale
+235	2	downScaleC	pure-C_440_300ms.wav	pure	C	440	down	scale
+236	2	downScaleC	pure-C_392_300ms.wav	pure	C	392	down	scale
+237	2	downScaleC	pure-C_349_300ms.wav	pure	C	349	down	scale
+238	2	downScaleC	pure-C_330_300ms.wav	pure	C	330	down	scale
+239	2	downScaleC	pure-C_294_300ms.wav	pure	C	294	down	scale
+240	2	downScaleC	pure-C_262_300ms.wav	pure	C	262	down	scale
+241	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+242	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+243	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+244	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+245	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+246	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+247	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+248	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+249	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+250	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+251	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+252	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+253	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+254	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+255	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+256	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+257	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+258	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+259	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+260	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+261	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+262	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+263	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+264	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+265	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+266	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+267	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+268	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+269	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+270	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+271	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+272	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+273	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+274	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+275	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+276	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+277	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+278	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+279	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+280	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+281	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+282	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+283	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+284	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+285	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+286	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+287	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+288	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+289	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+290	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+291	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+292	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+293	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+294	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+295	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+296	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+297	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+298	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+299	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+300	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+301	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+302	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+303	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+304	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+305	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+306	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+307	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+308	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+309	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+310	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+311	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+312	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+313	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+314	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+315	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+316	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+317	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+318	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+319	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+320	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+321	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+322	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+323	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+324	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+325	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+326	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+327	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+328	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+329	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+330	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+331	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+332	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+333	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+334	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+335	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+336	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+337	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+338	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+339	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+340	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+341	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+342	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+343	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+344	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+345	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+346	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+347	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+348	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+349	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+350	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+351	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+352	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+353	3	randomDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	random	
+354	3	randomDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	random	
+355	3	randomDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	random	
+356	3	randomDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	random	
+357	3	randomDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	random	
+358	3	randomDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	random	
+359	3	randomDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	random	
+360	3	randomDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	random	
+361	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+362	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+363	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+364	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+365	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+366	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+367	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+368	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+369	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+370	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+371	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+372	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+373	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+374	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+375	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+376	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+377	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+378	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+379	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+380	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+381	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+382	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+383	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+384	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+385	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+386	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+387	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+388	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+389	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+390	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+391	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+392	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+393	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+394	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+395	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+396	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+397	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+398	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+399	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+400	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+401	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+402	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+403	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+404	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+405	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+406	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+407	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+408	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+409	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+410	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+411	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+412	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+413	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+414	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+415	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+416	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+417	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+418	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+419	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+420	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+421	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+422	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+423	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+424	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+425	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+426	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+427	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+428	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+429	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+430	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+431	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+432	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+433	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+434	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+435	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+436	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+437	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+438	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+439	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+440	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+441	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+442	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+443	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+444	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+445	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+446	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+447	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+448	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+449	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+450	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+451	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+452	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+453	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+454	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+455	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+456	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+457	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+458	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+459	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+460	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+461	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+462	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+463	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+464	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+465	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+466	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+467	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+468	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+469	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+470	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+471	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+472	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+473	4	downScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	down	scale
+474	4	downScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	down	scale
+475	4	downScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	down	scale
+476	4	downScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	down	scale
+477	4	downScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	down	scale
+478	4	downScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	down	scale
+479	4	downScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	down	scale
+480	4	downScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	down	scale
+481	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+482	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+483	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+484	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+485	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+486	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+487	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+488	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+489	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+490	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+491	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+492	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+493	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+494	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+495	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+496	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+497	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+498	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+499	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+500	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+501	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+502	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+503	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+504	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+505	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+506	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+507	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+508	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+509	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+510	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+511	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+512	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+513	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+514	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+515	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+516	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+517	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+518	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+519	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+520	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+521	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+522	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+523	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+524	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+525	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+526	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+527	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+528	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+529	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+530	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+531	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+532	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+533	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+534	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+535	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+536	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+537	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+538	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+539	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+540	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+541	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+542	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+543	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+544	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+545	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+546	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+547	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+548	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+549	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+550	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+551	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+552	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+553	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+554	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+555	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+556	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+557	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+558	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+559	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+560	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+561	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+562	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+563	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+564	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+565	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+566	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+567	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+568	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+569	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+570	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+571	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+572	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+573	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+574	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+575	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+576	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+577	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+578	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+579	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+580	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+581	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+582	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+583	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+584	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+585	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+586	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+587	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+588	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+589	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+590	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+591	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+592	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+593	5	downScaleA	pure-A_440_300ms.wav	pure	A	440	down	scale
+594	5	downScaleA	pure-A_415_300ms.wav	pure	A	415	down	scale
+595	5	downScaleA	pure-A_370_300ms.wav	pure	A	370	down	scale
+596	5	downScaleA	pure-A_330_300ms.wav	pure	A	330	down	scale
+597	5	downScaleA	pure-A_294_300ms.wav	pure	A	294	down	scale
+598	5	downScaleA	pure-A_277_300ms.wav	pure	A	277	down	scale
+599	5	downScaleA	pure-A_247_300ms.wav	pure	A	247	down	scale
+600	5	downScaleA	pure-A_220_300ms.wav	pure	A	220	down	scale
+601	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+602	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+603	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+604	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+605	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+606	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+607	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+608	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+609	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+610	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+611	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+612	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+613	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+614	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+615	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+616	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+617	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+618	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+619	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+620	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+621	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+622	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+623	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+624	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+625	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+626	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+627	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+628	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+629	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+630	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+631	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+632	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+633	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+634	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+635	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+636	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+637	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+638	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+639	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+640	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+641	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+642	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+643	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+644	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+645	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+646	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+647	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+648	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+649	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+650	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+651	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+652	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+653	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+654	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+655	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+656	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+657	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+658	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+659	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+660	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+661	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+662	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+663	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+664	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+665	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+666	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+667	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+668	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+669	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+670	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+671	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+672	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+673	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+674	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+675	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+676	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+677	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+678	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+679	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+680	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+681	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+682	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+683	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+684	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+685	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+686	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+687	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+688	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+689	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+690	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+691	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+692	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+693	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+694	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+695	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+696	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+697	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+698	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+699	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+700	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+701	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+702	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+703	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+704	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+705	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+706	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+707	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+708	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+709	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+710	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+711	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+712	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+713	6	randomC	pure-C_523_300ms.wav	pure	C	523	random	
+714	6	randomC	pure-C_349_300ms.wav	pure	C	349	random	
+715	6	randomC	pure-C_330_300ms.wav	pure	C	330	random	
+716	6	randomC	pure-C_262_300ms.wav	pure	C	262	random	
+717	6	randomC	pure-C_294_300ms.wav	pure	C	294	random	
+718	6	randomC	pure-C_392_300ms.wav	pure	C	392	random	
+719	6	randomC	pure-C_494_300ms.wav	pure	C	494	random	
+720	6	randomC	pure-C_440_300ms.wav	pure	C	440	random	
+721	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+722	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+723	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+724	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+725	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+726	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+727	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+728	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+729	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+730	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+731	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+732	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+733	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+734	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+735	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+736	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+737	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+738	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+739	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+740	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+741	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+742	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+743	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+744	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+745	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+746	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+747	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+748	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+749	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+750	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+751	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+752	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+753	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+754	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+755	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+756	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+757	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+758	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+759	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+760	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+761	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+762	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+763	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+764	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+765	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+766	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+767	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+768	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+769	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+770	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+771	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+772	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+773	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+774	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+775	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+776	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+777	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+778	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+779	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+780	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+781	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+782	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+783	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+784	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+785	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+786	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+787	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+788	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+789	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+790	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+791	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+792	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+793	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+794	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+795	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+796	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+797	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+798	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+799	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+800	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+801	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+802	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+803	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+804	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+805	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+806	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+807	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+808	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+809	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+810	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+811	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+812	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+813	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+814	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+815	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+816	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+817	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+818	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+819	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+820	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+821	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+822	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+823	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+824	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+825	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+826	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+827	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+828	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+829	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+830	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+831	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+832	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+833	7	upScaleDsharp	pure-D_156_300ms.wav	pure	Dsharp	156	up	scale
+834	7	upScaleDsharp	pure-D_175_300ms.wav	pure	Dsharp	175	up	scale
+835	7	upScaleDsharp	pure-D_196_300ms.wav	pure	Dsharp	196	up	scale
+836	7	upScaleDsharp	pure-D_208_300ms.wav	pure	Dsharp	208	up	scale
+837	7	upScaleDsharp	pure-D_233_300ms.wav	pure	Dsharp	233	up	scale
+838	7	upScaleDsharp	pure-D_262_300ms.wav	pure	Dsharp	262	up	scale
+839	7	upScaleDsharp	pure-D_294_300ms.wav	pure	Dsharp	294	up	scale
+840	7	upScaleDsharp	pure-D_311_300ms.wav	pure	Dsharp	311	up	scale
+841	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+842	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+843	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+844	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+845	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+846	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+847	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+848	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+849	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+850	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+851	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+852	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+853	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+854	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+855	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+856	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+857	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+858	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+859	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+860	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+861	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+862	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+863	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+864	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+865	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+866	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+867	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+868	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+869	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+870	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+871	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+872	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+873	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+874	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+875	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+876	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+877	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+878	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+879	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+880	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+881	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+882	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+883	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+884	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+885	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+886	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+887	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+888	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+889	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+890	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+891	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+892	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+893	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+894	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+895	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+896	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+897	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+898	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+899	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+900	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+901	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+902	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+903	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+904	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+905	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+906	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+907	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+908	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+909	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+910	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+911	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+912	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+913	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+914	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+915	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+916	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+917	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+918	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+919	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+920	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+921	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+922	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+923	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+924	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+925	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+926	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+927	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+928	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+929	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+930	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+931	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+932	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+933	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+934	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+935	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+936	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+937	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+938	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+939	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+940	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+941	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+942	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+943	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+944	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+945	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+946	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+947	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+948	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+949	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+950	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+951	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+952	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+953	8	upScaleC	pure-C_262_300ms.wav	pure	C	262	up	scale
+954	8	upScaleC	pure-C_294_300ms.wav	pure	C	294	up	scale
+955	8	upScaleC	pure-C_330_300ms.wav	pure	C	330	up	scale
+956	8	upScaleC	pure-C_349_300ms.wav	pure	C	349	up	scale
+957	8	upScaleC	pure-C_392_300ms.wav	pure	C	392	up	scale
+958	8	upScaleC	pure-C_440_300ms.wav	pure	C	440	up	scale
+959	8	upScaleC	pure-C_494_300ms.wav	pure	C	494	up	scale
+960	8	upScaleC	pure-C_523_300ms.wav	pure	C	523	up	scale
+961	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+962	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+963	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+964	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+965	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+966	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+967	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+968	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+969	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+970	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+971	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+972	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+973	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+974	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+975	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+976	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+977	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+978	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+979	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+980	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+981	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+982	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+983	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+984	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+985	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+986	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+987	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+988	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+989	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+990	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+991	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+992	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+993	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+994	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+995	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+996	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+997	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+998	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+999	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1000	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1001	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1002	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1003	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1004	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1005	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1006	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1007	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1008	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1009	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1010	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1011	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1012	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1013	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1014	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1015	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1016	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1017	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1018	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1019	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1020	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1021	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1022	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1023	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1024	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1025	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1026	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1027	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1028	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1029	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1030	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1031	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1032	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1033	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1034	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1035	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1036	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1037	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1038	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1039	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1040	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1041	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1042	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1043	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1044	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1045	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1046	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1047	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1048	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1049	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1050	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1051	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1052	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1053	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1054	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1055	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1056	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1057	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1058	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1059	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1060	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1061	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1062	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1063	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1064	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1065	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1066	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1067	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1068	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1069	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1070	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1071	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1072	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale
+1073	9	upScaleA	pure-A_220_300ms.wav	pure	A	220	up	scale
+1074	9	upScaleA	pure-A_247_300ms.wav	pure	A	247	up	scale
+1075	9	upScaleA	pure-A_277_300ms.wav	pure	A	277	up	scale
+1076	9	upScaleA	pure-A_294_300ms.wav	pure	A	294	up	scale
+1077	9	upScaleA	pure-A_330_300ms.wav	pure	A	330	up	scale
+1078	9	upScaleA	pure-A_370_300ms.wav	pure	A	370	up	scale
+1079	9	upScaleA	pure-A_415_300ms.wav	pure	A	415	up	scale
+1080	9	upScaleA	pure-A_440_300ms.wav	pure	A	440	up	scale

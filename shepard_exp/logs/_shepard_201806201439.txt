@@ -1,0 +1,1666 @@
+trial	block	trial_type	wav_file	condition	key	freq	updown	circscale
+1	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+2	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+3	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+4	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+5	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+6	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+7	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+8	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+9	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+10	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+11	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+12	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+13	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+14	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+15	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+16	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+17	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+18	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+19	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+20	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+21	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+22	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+23	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+24	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+25	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+26	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+27	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+28	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+29	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+30	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+31	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+32	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+33	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+34	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+35	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+36	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+37	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+38	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+39	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+40	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+41	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+42	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+43	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+44	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+45	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+46	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+47	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+48	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+49	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+50	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+51	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+52	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+53	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+54	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+55	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+56	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+57	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+58	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+59	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+60	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+61	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+62	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+63	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+64	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+65	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+66	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+67	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+68	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+69	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+70	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+71	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+72	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+73	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+74	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+75	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+76	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+77	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+78	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+79	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+80	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+81	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+82	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+83	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+84	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+85	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+86	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+87	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+88	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+89	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+90	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+91	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+92	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+93	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+94	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+95	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+96	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+97	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+98	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+99	1	randomDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	random	
+100	1	randomDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	random	
+101	1	randomDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	random	
+102	1	randomDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	random	
+103	1	randomDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	random	
+104	1	randomDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	random	
+105	1	randomDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	random	
+106	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+107	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+108	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+109	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+110	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+111	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+112	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+113	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+114	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+115	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+116	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+117	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+118	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+119	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+120	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+121	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+122	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+123	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+124	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+125	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+126	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+127	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+128	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+129	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+130	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+131	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+132	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+133	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+134	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+135	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+136	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+137	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+138	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+139	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+140	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+141	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+142	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+143	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+144	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+145	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+146	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+147	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+148	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+149	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+150	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+151	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+152	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+153	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+154	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+155	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+156	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+157	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+158	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+159	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+160	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+161	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+162	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+163	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+164	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+165	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+166	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+167	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+168	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+169	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+170	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+171	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+172	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+173	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+174	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+175	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+176	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+177	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+178	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+179	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+180	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+181	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+182	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+183	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+184	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+185	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+186	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+187	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+188	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+189	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+190	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+191	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+192	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+193	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+194	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+195	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+196	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+197	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+198	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+199	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+200	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+201	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+202	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+203	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+204	2	upCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	circular
+205	2	upCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	circular
+206	2	upCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	circular
+207	2	upCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	circular
+208	2	upCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	circular
+209	2	upCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	circular
+210	2	upCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	circular
+211	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+212	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+213	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+214	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+215	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+216	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+217	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+218	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+219	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+220	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+221	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+222	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+223	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+224	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+225	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+226	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+227	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+228	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+229	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+230	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+231	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+232	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+233	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+234	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+235	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+236	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+237	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+238	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+239	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+240	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+241	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+242	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+243	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+244	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+245	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+246	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+247	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+248	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+249	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+250	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+251	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+252	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+253	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+254	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+255	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+256	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+257	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+258	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+259	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+260	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+261	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+262	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+263	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+264	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+265	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+266	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+267	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+268	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+269	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+270	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+271	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+272	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+273	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+274	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+275	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+276	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+277	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+278	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+279	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+280	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+281	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+282	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+283	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+284	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+285	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+286	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+287	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+288	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+289	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+290	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+291	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+292	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+293	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+294	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+295	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+296	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+297	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+298	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+299	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+300	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+301	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+302	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+303	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+304	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+305	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+306	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+307	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+308	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+309	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+310	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+311	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+312	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+313	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+314	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+315	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+316	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+317	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+318	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+319	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+320	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+321	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+322	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+323	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+324	3	downScaleC	shepard-C_494_300ms.wav	shepard	C	494	down	scale
+325	3	downScaleC	shepard-C_440_300ms.wav	shepard	C	440	down	scale
+326	3	downScaleC	shepard-C_392_300ms.wav	shepard	C	392	down	scale
+327	3	downScaleC	shepard-C_349_300ms.wav	shepard	C	349	down	scale
+328	3	downScaleC	shepard-C_330_300ms.wav	shepard	C	330	down	scale
+329	3	downScaleC	shepard-C_294_300ms.wav	shepard	C	294	down	scale
+330	3	downScaleC	shepard-C_262_300ms.wav	shepard	C	262	down	scale
+331	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+332	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+333	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+334	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+335	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+336	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+337	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+338	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+339	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+340	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+341	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+342	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+343	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+344	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+345	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+346	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+347	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+348	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+349	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+350	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+351	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+352	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+353	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+354	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+355	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+356	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+357	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+358	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+359	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+360	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+361	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+362	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+363	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+364	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+365	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+366	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+367	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+368	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+369	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+370	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+371	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+372	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+373	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+374	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+375	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+376	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+377	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+378	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+379	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+380	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+381	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+382	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+383	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+384	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+385	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+386	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+387	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+388	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+389	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+390	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+391	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+392	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+393	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+394	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+395	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+396	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+397	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+398	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+399	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+400	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+401	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+402	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+403	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+404	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+405	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+406	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+407	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+408	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+409	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+410	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+411	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+412	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+413	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+414	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+415	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+416	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+417	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+418	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+419	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+420	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+421	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+422	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+423	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+424	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+425	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+426	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+427	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+428	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+429	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+430	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+431	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+432	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+433	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+434	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+435	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+436	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+437	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+438	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+439	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+440	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+441	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+442	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+443	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+444	4	downScaleA	shepard-A_415_300ms.wav	shepard	A	415	down	scale
+445	4	downScaleA	shepard-A_370_300ms.wav	shepard	A	370	down	scale
+446	4	downScaleA	shepard-A_330_300ms.wav	shepard	A	330	down	scale
+447	4	downScaleA	shepard-A_294_300ms.wav	shepard	A	294	down	scale
+448	4	downScaleA	shepard-A_277_300ms.wav	shepard	A	277	down	scale
+449	4	downScaleA	shepard-A_247_300ms.wav	shepard	A	247	down	scale
+450	4	downScaleA	shepard-A_220_300ms.wav	shepard	A	220	down	scale
+451	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+452	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+453	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+454	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+455	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+456	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+457	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+458	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+459	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+460	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+461	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+462	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+463	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+464	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+465	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+466	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+467	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+468	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+469	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+470	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+471	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+472	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+473	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+474	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+475	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+476	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+477	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+478	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+479	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+480	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+481	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+482	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+483	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+484	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+485	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+486	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+487	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+488	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+489	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+490	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+491	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+492	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+493	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+494	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+495	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+496	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+497	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+498	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+499	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+500	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+501	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+502	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+503	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+504	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+505	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+506	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+507	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+508	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+509	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+510	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+511	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+512	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+513	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+514	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+515	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+516	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+517	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+518	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+519	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+520	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+521	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+522	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+523	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+524	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+525	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+526	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+527	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+528	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+529	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+530	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+531	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+532	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+533	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+534	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+535	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+536	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+537	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+538	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+539	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+540	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+541	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+542	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+543	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+544	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+545	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+546	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+547	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+548	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+549	5	randomC	shepard-C_294_300ms.wav	shepard	C	294	random	
+550	5	randomC	shepard-C_349_300ms.wav	shepard	C	349	random	
+551	5	randomC	shepard-C_392_300ms.wav	shepard	C	392	random	
+552	5	randomC	shepard-C_262_300ms.wav	shepard	C	262	random	
+553	5	randomC	shepard-C_440_300ms.wav	shepard	C	440	random	
+554	5	randomC	shepard-C_330_300ms.wav	shepard	C	330	random	
+555	5	randomC	shepard-C_494_300ms.wav	shepard	C	494	random	
+556	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+557	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+558	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+559	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+560	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+561	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+562	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+563	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+564	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+565	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+566	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+567	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+568	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+569	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+570	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+571	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+572	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+573	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+574	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+575	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+576	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+577	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+578	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+579	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+580	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+581	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+582	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+583	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+584	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+585	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+586	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+587	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+588	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+589	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+590	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+591	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+592	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+593	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+594	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+595	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+596	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+597	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+598	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+599	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+600	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+601	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+602	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+603	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+604	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+605	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+606	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+607	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+608	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+609	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+610	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+611	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+612	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+613	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+614	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+615	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+616	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+617	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+618	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+619	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+620	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+621	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+622	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+623	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+624	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+625	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+626	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+627	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+628	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+629	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+630	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+631	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+632	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+633	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+634	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+635	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+636	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+637	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+638	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+639	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+640	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+641	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+642	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+643	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+644	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+645	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+646	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+647	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+648	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+649	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+650	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+651	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+652	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+653	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+654	6	downCircA	shepard-A_415_300ms.wav	shepard	A	415	down	circular
+655	6	downCircA	shepard-A_370_300ms.wav	shepard	A	370	down	circular
+656	6	downCircA	shepard-A_330_300ms.wav	shepard	A	330	down	circular
+657	6	downCircA	shepard-A_294_300ms.wav	shepard	A	294	down	circular
+658	6	downCircA	shepard-A_277_300ms.wav	shepard	A	277	down	circular
+659	6	downCircA	shepard-A_247_300ms.wav	shepard	A	247	down	circular
+660	6	downCircA	shepard-A_220_300ms.wav	shepard	A	220	down	circular
+661	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+662	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+663	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+664	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+665	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+666	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+667	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+668	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+669	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+670	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+671	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+672	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+673	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+674	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+675	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+676	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+677	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+678	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+679	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+680	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+681	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+682	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+683	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+684	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+685	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+686	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+687	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+688	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+689	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+690	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+691	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+692	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+693	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+694	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+695	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+696	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+697	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+698	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+699	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+700	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+701	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+702	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+703	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+704	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+705	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+706	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+707	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+708	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+709	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+710	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+711	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+712	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+713	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+714	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+715	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+716	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+717	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+718	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+719	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+720	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+721	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+722	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+723	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+724	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+725	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+726	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+727	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+728	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+729	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+730	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+731	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+732	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+733	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+734	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+735	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+736	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+737	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+738	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+739	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+740	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+741	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+742	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+743	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+744	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+745	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+746	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+747	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+748	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+749	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+750	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+751	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+752	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+753	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+754	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+755	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+756	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+757	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+758	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+759	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+760	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+761	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+762	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+763	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+764	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+765	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+766	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+767	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+768	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+769	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+770	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+771	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+772	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+773	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+774	7	upScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	up	scale
+775	7	upScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	up	scale
+776	7	upScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	up	scale
+777	7	upScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	up	scale
+778	7	upScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	up	scale
+779	7	upScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	up	scale
+780	7	upScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	up	scale
+781	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+782	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+783	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+784	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+785	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+786	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+787	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+788	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+789	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+790	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+791	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+792	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+793	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+794	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+795	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+796	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+797	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+798	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+799	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+800	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+801	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+802	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+803	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+804	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+805	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+806	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+807	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+808	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+809	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+810	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+811	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+812	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+813	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+814	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+815	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+816	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+817	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+818	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+819	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+820	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+821	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+822	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+823	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+824	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+825	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+826	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+827	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+828	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+829	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+830	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+831	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+832	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+833	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+834	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+835	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+836	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+837	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+838	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+839	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+840	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+841	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+842	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+843	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+844	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+845	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+846	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+847	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+848	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+849	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+850	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+851	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+852	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+853	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+854	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+855	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+856	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+857	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+858	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+859	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+860	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+861	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+862	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+863	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+864	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+865	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+866	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+867	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+868	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+869	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+870	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+871	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+872	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+873	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+874	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+875	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+876	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+877	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+878	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+879	8	upCircA	shepard-A_220_300ms.wav	shepard	A	220	up	circular
+880	8	upCircA	shepard-A_247_300ms.wav	shepard	A	247	up	circular
+881	8	upCircA	shepard-A_277_300ms.wav	shepard	A	277	up	circular
+882	8	upCircA	shepard-A_294_300ms.wav	shepard	A	294	up	circular
+883	8	upCircA	shepard-A_330_300ms.wav	shepard	A	330	up	circular
+884	8	upCircA	shepard-A_370_300ms.wav	shepard	A	370	up	circular
+885	8	upCircA	shepard-A_415_300ms.wav	shepard	A	415	up	circular
+886	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+887	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+888	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+889	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+890	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+891	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+892	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+893	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+894	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+895	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+896	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+897	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+898	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+899	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+900	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+901	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+902	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+903	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+904	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+905	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+906	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+907	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+908	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+909	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+910	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+911	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+912	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+913	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+914	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+915	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+916	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+917	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+918	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+919	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+920	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+921	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+922	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+923	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+924	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+925	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+926	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+927	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+928	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+929	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+930	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+931	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+932	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+933	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+934	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+935	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+936	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+937	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+938	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+939	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+940	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+941	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+942	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+943	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+944	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+945	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+946	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+947	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+948	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+949	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+950	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+951	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+952	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+953	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+954	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+955	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+956	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+957	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+958	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+959	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+960	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+961	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+962	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+963	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+964	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+965	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+966	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+967	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+968	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+969	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+970	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+971	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+972	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+973	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+974	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+975	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+976	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+977	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+978	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+979	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+980	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+981	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+982	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+983	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+984	9	upCircC	shepard-C_262_300ms.wav	shepard	C	262	up	circular
+985	9	upCircC	shepard-C_294_300ms.wav	shepard	C	294	up	circular
+986	9	upCircC	shepard-C_330_300ms.wav	shepard	C	330	up	circular
+987	9	upCircC	shepard-C_349_300ms.wav	shepard	C	349	up	circular
+988	9	upCircC	shepard-C_392_300ms.wav	shepard	C	392	up	circular
+989	9	upCircC	shepard-C_440_300ms.wav	shepard	C	440	up	circular
+990	9	upCircC	shepard-C_494_300ms.wav	shepard	C	494	up	circular
+991	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+992	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+993	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+994	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+995	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+996	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+997	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+998	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+999	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1000	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1001	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1002	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1003	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1004	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1005	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1006	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1007	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1008	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1009	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1010	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1011	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1012	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1013	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1014	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1015	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1016	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1017	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1018	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1019	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1020	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1021	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1022	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1023	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1024	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1025	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1026	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1027	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1028	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1029	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1030	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1031	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1032	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1033	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1034	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1035	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1036	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1037	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1038	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1039	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1040	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1041	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1042	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1043	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1044	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1045	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1046	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1047	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1048	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1049	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1050	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1051	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1052	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1053	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1054	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1055	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1056	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1057	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1058	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1059	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1060	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1061	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1062	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1063	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1064	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1065	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1066	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1067	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1068	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1069	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1070	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1071	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1072	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1073	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1074	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1075	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1076	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1077	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1078	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1079	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1080	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1081	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1082	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1083	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1084	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1085	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1086	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1087	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1088	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1089	10	downCircDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	circular
+1090	10	downCircDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	circular
+1091	10	downCircDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	circular
+1092	10	downCircDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	circular
+1093	10	downCircDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	circular
+1094	10	downCircDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	circular
+1095	10	downCircDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	circular
+1096	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1097	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1098	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1099	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1100	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1101	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1102	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1103	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1104	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1105	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1106	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1107	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1108	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1109	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1110	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1111	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1112	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1113	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1114	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1115	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1116	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1117	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1118	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1119	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1120	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1121	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1122	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1123	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1124	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1125	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1126	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1127	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1128	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1129	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1130	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1131	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1132	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1133	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1134	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1135	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1136	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1137	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1138	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1139	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1140	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1141	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1142	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1143	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1144	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1145	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1146	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1147	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1148	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1149	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1150	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1151	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1152	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1153	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1154	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1155	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1156	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1157	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1158	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1159	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1160	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1161	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1162	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1163	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1164	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1165	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1166	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1167	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1168	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1169	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1170	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1171	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1172	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1173	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1174	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1175	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1176	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1177	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1178	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1179	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1180	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1181	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1182	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1183	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1184	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1185	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1186	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1187	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1188	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1189	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1190	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1191	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1192	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1193	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1194	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1195	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1196	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1197	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1198	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1199	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1200	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1201	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1202	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1203	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1204	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1205	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1206	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1207	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1208	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1209	11	upScaleC	shepard-C_294_300ms.wav	shepard	C	294	up	scale
+1210	11	upScaleC	shepard-C_330_300ms.wav	shepard	C	330	up	scale
+1211	11	upScaleC	shepard-C_349_300ms.wav	shepard	C	349	up	scale
+1212	11	upScaleC	shepard-C_392_300ms.wav	shepard	C	392	up	scale
+1213	11	upScaleC	shepard-C_440_300ms.wav	shepard	C	440	up	scale
+1214	11	upScaleC	shepard-C_494_300ms.wav	shepard	C	494	up	scale
+1215	11	upScaleC	shepard-C_262_300ms.wav	shepard	C	262	up	scale
+1216	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1217	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1218	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1219	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1220	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1221	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1222	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1223	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1224	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1225	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1226	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1227	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1228	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1229	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1230	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1231	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1232	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1233	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1234	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1235	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1236	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1237	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1238	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1239	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1240	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1241	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1242	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1243	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1244	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1245	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1246	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1247	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1248	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1249	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1250	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1251	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1252	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1253	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1254	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1255	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1256	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1257	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1258	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1259	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1260	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1261	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1262	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1263	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1264	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1265	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1266	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1267	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1268	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1269	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1270	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1271	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1272	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1273	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1274	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1275	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1276	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1277	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1278	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1279	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1280	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1281	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1282	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1283	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1284	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1285	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1286	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1287	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1288	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1289	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1290	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1291	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1292	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1293	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1294	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1295	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1296	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1297	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1298	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1299	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1300	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1301	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1302	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1303	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1304	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1305	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1306	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1307	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1308	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1309	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1310	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1311	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1312	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1313	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1314	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1315	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1316	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1317	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1318	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1319	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1320	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1321	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1322	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1323	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1324	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1325	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1326	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1327	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1328	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1329	12	downScaleDsharp	shepard-D_294_300ms.wav	shepard	Dsharp	294	down	scale
+1330	12	downScaleDsharp	shepard-D_262_300ms.wav	shepard	Dsharp	262	down	scale
+1331	12	downScaleDsharp	shepard-D_233_300ms.wav	shepard	Dsharp	233	down	scale
+1332	12	downScaleDsharp	shepard-D_208_300ms.wav	shepard	Dsharp	208	down	scale
+1333	12	downScaleDsharp	shepard-D_196_300ms.wav	shepard	Dsharp	196	down	scale
+1334	12	downScaleDsharp	shepard-D_175_300ms.wav	shepard	Dsharp	175	down	scale
+1335	12	downScaleDsharp	shepard-D_156_300ms.wav	shepard	Dsharp	156	down	scale
+1336	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1337	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1338	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1339	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1340	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1341	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1342	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1343	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1344	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1345	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1346	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1347	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1348	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1349	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1350	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1351	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1352	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1353	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1354	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1355	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1356	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1357	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1358	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1359	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1360	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1361	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1362	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1363	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1364	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1365	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1366	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1367	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1368	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1369	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1370	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1371	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1372	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1373	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1374	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1375	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1376	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1377	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1378	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1379	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1380	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1381	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1382	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1383	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1384	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1385	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1386	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1387	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1388	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1389	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1390	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1391	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1392	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1393	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1394	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1395	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1396	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1397	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1398	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1399	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1400	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1401	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1402	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1403	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1404	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1405	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1406	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1407	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1408	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1409	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1410	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1411	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1412	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1413	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1414	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1415	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1416	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1417	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1418	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1419	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1420	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1421	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1422	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1423	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1424	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1425	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1426	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1427	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1428	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1429	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1430	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1431	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1432	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1433	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1434	13	randomA	shepard-A_415_300ms.wav	shepard	A	415	random	
+1435	13	randomA	shepard-A_294_300ms.wav	shepard	A	294	random	
+1436	13	randomA	shepard-A_247_300ms.wav	shepard	A	247	random	
+1437	13	randomA	shepard-A_277_300ms.wav	shepard	A	277	random	
+1438	13	randomA	shepard-A_330_300ms.wav	shepard	A	330	random	
+1439	13	randomA	shepard-A_370_300ms.wav	shepard	A	370	random	
+1440	13	randomA	shepard-A_220_300ms.wav	shepard	A	220	random	
+1441	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1442	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1443	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1444	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1445	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1446	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1447	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1448	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1449	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1450	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1451	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1452	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1453	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1454	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1455	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1456	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1457	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1458	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1459	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1460	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1461	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1462	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1463	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1464	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1465	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1466	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1467	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1468	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1469	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1470	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1471	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1472	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1473	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1474	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1475	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1476	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1477	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1478	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1479	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1480	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1481	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1482	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1483	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1484	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1485	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1486	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1487	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1488	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1489	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1490	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1491	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1492	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1493	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1494	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1495	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1496	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1497	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1498	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1499	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1500	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1501	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1502	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1503	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1504	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1505	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1506	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1507	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1508	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1509	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1510	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1511	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1512	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1513	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1514	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1515	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1516	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1517	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1518	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1519	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1520	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1521	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1522	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1523	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1524	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1525	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1526	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1527	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1528	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1529	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1530	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1531	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1532	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1533	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1534	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1535	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1536	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1537	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1538	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1539	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1540	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1541	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1542	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1543	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1544	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1545	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1546	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1547	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1548	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1549	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1550	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1551	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1552	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1553	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1554	14	upScaleA	shepard-A_247_300ms.wav	shepard	A	247	up	scale
+1555	14	upScaleA	shepard-A_277_300ms.wav	shepard	A	277	up	scale
+1556	14	upScaleA	shepard-A_294_300ms.wav	shepard	A	294	up	scale
+1557	14	upScaleA	shepard-A_330_300ms.wav	shepard	A	330	up	scale
+1558	14	upScaleA	shepard-A_370_300ms.wav	shepard	A	370	up	scale
+1559	14	upScaleA	shepard-A_415_300ms.wav	shepard	A	415	up	scale
+1560	14	upScaleA	shepard-A_220_300ms.wav	shepard	A	220	up	scale
+1561	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1562	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1563	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1564	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1565	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1566	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1567	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1568	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1569	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1570	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1571	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1572	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1573	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1574	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1575	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1576	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1577	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1578	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1579	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1580	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1581	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1582	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1583	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1584	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1585	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1586	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1587	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1588	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1589	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1590	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1591	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1592	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1593	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1594	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1595	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1596	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1597	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1598	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1599	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1600	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1601	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1602	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1603	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1604	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1605	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1606	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1607	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1608	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1609	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1610	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1611	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1612	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1613	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1614	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1615	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1616	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1617	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1618	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1619	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1620	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1621	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1622	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1623	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1624	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1625	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1626	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1627	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1628	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1629	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1630	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1631	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1632	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1633	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1634	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1635	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1636	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1637	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1638	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1639	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1640	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1641	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1642	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1643	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1644	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1645	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1646	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1647	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1648	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1649	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1650	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1651	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1652	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1653	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1654	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1655	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1656	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1657	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1658	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular
+1659	15	downCircC	shepard-C_494_300ms.wav	shepard	C	494	down	circular
+1660	15	downCircC	shepard-C_440_300ms.wav	shepard	C	440	down	circular
+1661	15	downCircC	shepard-C_392_300ms.wav	shepard	C	392	down	circular
+1662	15	downCircC	shepard-C_349_300ms.wav	shepard	C	349	down	circular
+1663	15	downCircC	shepard-C_330_300ms.wav	shepard	C	330	down	circular
+1664	15	downCircC	shepard-C_294_300ms.wav	shepard	C	294	down	circular
+1665	15	downCircC	shepard-C_262_300ms.wav	shepard	C	262	down	circular

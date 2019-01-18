@@ -1,0 +1,27 @@
+Scenario - shep
+Logfile written - 06/20/2018 15:31:12
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Sound	0	412	0	2			0		other	0
+2	Sound	0	5390	0	1			0		other	0
+3	Sound	0	10676	0	1			0		other	0
+4	Sound	0	15861	0	1			0		other	0
+5	Sound	0	21137	0	1			0		other	0
+6	Sound	0	26325	0	1			0		other	0
+7	Sound	0	31502	0	1			0		other	0
+8	Sound	0	36484	0	1			0		other	0
+10	Sound	0	46434	0	2			0		other	0
+11	Sound	0	51417	0	1			0		other	0
+12	Sound	0	56389	0	1			0		other	0
+13	Sound	0	61371	0	1			0		other	0
+14	Sound	0	66349	0	1			0		other	0
+15	Sound	0	71321	0	1			0		other	0
+16	Sound	0	76303	0	1			0		other	0
+17	Sound	0	81275	0	1			0		other	0
+19	Sound	0	93366	0	1			0		other	0
+20	Sound	0	98349	0	1			0		other	0
+21	Sound	0	103321	0	1			0		other	0
+22	Sound	0	108303	0	1			0		other	0
+23	Sound	0	113275	0	1			0		other	0
+23	Quit		117994	4719

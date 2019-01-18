@@ -1,0 +1,17 @@
+Scenario - pure
+Logfile written - 12/05/2018 15:31:34
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Sound	0	745	0	1			0		other	0
+2	Sound	0	5938	0	1			0		other	0
+3	Sound	0	11043	0	1			0		other	0
+4	Sound	0	16240	0	1			0		other	0
+5	Sound	0	21440	0	1			0		other	0
+6	Sound	0	26639	0	1			0		other	0
+7	Sound	0	31742	0	1			0		other	0
+8	Sound	0	36838	0	2			0		other	0
+10	Sound	0	49241	0	1			0		other	0
+11	Sound	0	54339	0	1			0		other	0
+12	Sound	0	59440	0	2			0		other	0
+12	Quit		62876	3436

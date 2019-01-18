@@ -1,0 +1,158 @@
+#####################################################################
+# Samir's subroutines to correct PCL's lack of any useful functions #
+#####################################################################
+
+#################################################################
+# countStr(a,c)                                                 #
+#---------------------------------------------------------------#
+# returns occurrences of string c in 1-d array a					 #
+#################################################################
+sub
+	int countStr(array<string,1>& a, string c)
+begin
+	int ct = 0;
+	loop
+		int j = 1
+	until
+		j > a.count()
+	begin
+		if
+			a[j] == c
+		then
+			ct = ct + 1;
+		end;
+	j = j + 1;	
+	end;
+	return ct;
+end;
+#################################################################
+
+#################################################################
+# countInt(a,c)                                                 #
+#---------------------------------------------------------------#
+# returns occurrences of integer c in 1-d array a					 #
+#################################################################
+sub
+	int countInt(array<int,1>& a, int c)
+begin
+	int ct = 0;
+	loop
+		int j = 1
+	until
+		j > a.count()
+	begin
+		if
+			a[j] == c
+		then
+			ct = ct + 1;
+		end;
+	j = j + 1;
+	end;
+	return ct;
+end;
+#################################################################
+
+#################################################################
+# writeArray(out, outfile, header)                              #
+#---------------------------------------------------------------#
+# writes 2-d string array to file                               #       
+# if a header is unwanted, provide "" as the header argument    #
+#################################################################
+sub
+	writeArray(array<string,2>& out, string outfile, string header)
+begin
+	output_file fileOut = new output_file;
+	fileOut.open(outfile, true);
+	
+	if 
+		header != ""
+	then
+		fileOut.print(header+"\n");
+	end;
+	
+	loop
+		int row = 1
+	until
+		row > out.count()
+	begin
+		loop
+			int col = 1
+		until
+			col > out[row].count()
+		begin
+			fileOut.print(out[row][col]);
+			if
+				col < out[row].count()
+			then
+				fileOut.print("\t");
+			end;
+			col = col + 1;
+		end;
+		fileOut.print("\n");
+		row = row + 1;
+	end;
+	fileOut.close();
+end;
+#################################################################
+sub
+	array<int,1> setdiff(array<int,1>& remove, array<int,1>& from)
+begin
+	array<int> diffarray[0];
+	loop
+		int i = 1
+	until
+		i > from.count()
+	begin
+		if
+			countInt(remove, from[i]) == 0
+		then
+			diffarray.add(from[i]);
+		end;
+		i = i + 1;
+	end;
+	return diffarray;
+end;
+#################################################################
+
+#################################################################
+# writeArrayInt(out, outfile, header)                           #
+#---------------------------------------------------------------#
+# writes 2-d integer array to file                              #       
+# if a header is unwanted, provide "" as the header argument    #
+#################################################################
+sub
+	writeArrayInt(array<int,2>& out, string outfile, string header)
+begin
+	output_file fileOut = new output_file;
+	fileOut.open(outfile, true);
+	
+	if 
+		header != ""
+	then
+		fileOut.print(header+"\n");
+	end;
+	
+	loop
+		int row = 1
+	until
+		row > out.count()
+	begin
+		loop
+			int col = 1
+		until
+			col > out[row].count()
+		begin
+			fileOut.print(out[row][col]);
+			if
+				col < out[row].count()
+			then
+				fileOut.print("\t");
+			end;
+			col = col + 1;
+		end;
+		fileOut.print("\n");
+		row = row + 1;
+	end;
+	fileOut.close();
+end;
+#################################################################

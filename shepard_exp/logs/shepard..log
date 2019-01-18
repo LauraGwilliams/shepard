@@ -1,0 +1,67 @@
+Scenario - shep
+Logfile written - 06/20/2018 15:32:13
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Sound	0	421	0	1			0		other	0
+2	Sound	0	5492	0	1			0		other	0
+3	Sound	0	10479	0	1			0		other	0
+4	Sound	0	15557	0	1			0		other	0
+5	Sound	0	20636	0	1			0		other	0
+6	Sound	0	25707	0	1			0		other	0
+7	Sound	0	30684	0	1			0		other	0
+8	Sound	0	35667	0	1			0		other	0
+10	Sound	0	47047	0	1			0		other	0
+11	Sound	0	52023	0	1			0		other	0
+12	Sound	0	56996	0	1			0		other	0
+13	Sound	0	61978	0	2			0		other	0
+14	Sound	0	66953	0	1			0		other	0
+15	Sound	0	71933	0	1			0		other	0
+16	Sound	0	76906	0	1			0		other	0
+17	Sound	0	81889	0	1			0		other	0
+19	Sound	0	92149	0	1			0		other	0
+20	Sound	0	97121	0	2			0		other	0
+21	Sound	0	102103	0	1			0		other	0
+22	Sound	0	107085	0	2			0		other	0
+23	Sound	0	112057	0	1			0		other	0
+24	Sound	0	117039	0	1			0		other	0
+25	Sound	0	122012	0	1			0		other	0
+26	Sound	0	126992	0	1			0		other	0
+28	Sound	0	139084	0	2			0		other	0
+29	Sound	0	144062	0	1			0		other	0
+30	Sound	0	149040	0	1			0		other	0
+31	Sound	0	154016	0	1			0		other	0
+32	Sound	0	158994	0	1			0		other	0
+33	Sound	0	163972	0	1			0		other	0
+34	Sound	0	168949	0	1			0		other	0
+35	Sound	0	173923	0	1			0		other	0
+37	Sound	0	184083	0	1			0		other	0
+38	Sound	0	189056	0	1			0		other	0
+39	Sound	0	194039	0	1			0		other	0
+40	Sound	0	199012	0	1			0		other	0
+41	Sound	0	203995	0	1			0		other	0
+42	Sound	0	208975	0	1			0		other	0
+43	Sound	0	213949	0	1			0		other	0
+44	Sound	0	218929	0	1			0		other	0
+46	Sound	0	229490	0	1			0		other	0
+47	Sound	0	234463	0	1			0		other	0
+48	Sound	0	239446	0	1			0		other	0
+49	Sound	0	244426	0	1			0		other	0
+50	Sound	0	249399	0	1			0		other	0
+51	Sound	0	254382	0	1			0		other	0
+52	Sound	0	259355	0	1			0		other	0
+53	Sound	0	264335	0	1			0		other	0
+55	Sound	0	275305	0	2			0		other	0
+56	Sound	0	280283	0	1			0		other	0
+57	Sound	0	285260	0	1			0		other	0
+58	Sound	0	290238	0	1			0		other	0
+59	Sound	0	295216	0	1			0		other	0
+60	Sound	0	300196	0	1			0		other	0
+61	Sound	0	305174	0	1			0		other	0
+62	Sound	0	310144	0	1			0		other	0
+64	Sound	0	320205	0	1			0		other	0
+65	Sound	0	325185	0	1			0		other	0
+66	Sound	0	330158	0	1			0		other	0
+67	Sound	0	335141	0	1			0		other	0
+68	Sound	0	340114	0	1			0		other	0
+68	Quit		340868	754

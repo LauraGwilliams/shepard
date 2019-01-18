@@ -16,10 +16,10 @@ from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  read_forward_solution, convert_forward_solution)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
-from logfile_parse import df as trial_info
+#from logfile_parse import df as trial_info
 
 # params
-subject = 'A0316'
+subject = 'R1460'
 meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
 filt_l = 1  # same as aquisition
 filt_h = 60
@@ -30,7 +30,7 @@ tmax = 0.6
 os.environ["SUBJECTS_DIR"] = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri'
 
 # file names
-raw_fname = meg_dir + subject+ '_shepard-raw.fif'
+raw_fname = meg_dir + subject+ '_Shepard-raw.fif'
 ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
 ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
 ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs after ica

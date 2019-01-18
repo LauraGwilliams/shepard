@@ -8,8 +8,9 @@ import csv
 import mne
 
 # params
-conditions = ['pure_0', 'partials_0', 'pure_1', 'partials_1', 'pure_2', 'partials_2']
-subj = 'A0316'
+#conditions = ['pure_0', 'partials_0', 'pure_1', 'partials_1', 'pure_2', 'partials_2']
+conditions = ['shepard', 'partials', 'pure']
+subj = 'R1460'
 
 # paths
 data_path = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/' + subj
@@ -33,5 +34,5 @@ for condition in conditions:
 # all_fifs = mne.concatenate_raws(fifs)
 df = pd.concat(dfs)
 
-# df.to_csv('%s/'%(data_path) + subj + '_purepar_trialinfo.csv')
+df.to_csv('%s/'%(data_path) + subj + '_shepard_trialinfo.csv')
 # all_fifs.save('%s/'%(data_path) + subj + '_shepard-raw.fif', overwrite=True)

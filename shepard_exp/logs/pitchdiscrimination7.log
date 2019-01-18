@@ -1,0 +1,1846 @@
+Scenario - pitchmatch
+Logfile written - 12/07/2018 15:48:06
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	block	166	0	1	6500	2	0	next	other	0
+1	Response	0	6438	6272	1
+2	Picture	fix	6666	0	1	6166	2	0	next	other	0
+3	Picture	img	12832	0	1	8167	2	0	next	other	0
+3	Sound	sound1	12833	1	2			0		other	0
+3	Sound	sound2	17832	5000	1			5000		other	0
+4	Picture	imgPres1	20999	0	1	5333	2	0	next	hit	8
+4	Response	0	25318	4319	1
+5	Picture	fix	26332	0	1	6166	2	0	next	other	0
+6	Picture	img	32498	0	1	8167	2	0	next	other	0
+6	Sound	sound1	32499	1	2			0		other	0
+6	Sound	sound2	37498	5000	1			5000		other	0
+7	Picture	imgPres1	40665	0	1	5833	2	0	next	hit	14
+7	Response	0	45957	5292	1
+8	Picture	fix	46498	0	1	6166	2	0	next	other	0
+9	Picture	img	52664	0	1	8167	2	0	next	other	0
+9	Sound	sound1	52665	1	1			0		other	0
+9	Sound	sound2	57664	5000	1			5000		other	0
+10	Picture	imgPres1	60831	0	1	6166	2	0	next	hit	20
+10	Response	0	66517	5686	1
+11	Picture	fix	66997	0	1	6167	2	0	next	other	0
+12	Picture	img	73164	0	1	8166	2	0	next	other	0
+12	Sound	sound1	73164	0	2			0		other	0
+12	Sound	sound2	78164	5000	1			5000		other	0
+13	Picture	imgPres1	81330	0	1	5166	3	0	next	hit	26
+13	Response	0	86036	4706	1
+14	Picture	fix	86496	0	2	6167	3	0	next	other	0
+15	Picture	img	92663	0	1	8166	2	0	next	other	0
+15	Sound	sound1	92663	0	2			0		other	0
+15	Sound	sound2	97663	5000	1			5000		other	0
+16	Picture	imgPres1	100829	0	1	6000	2	0	next	hit	32
+16	Response	0	106676	5847	1
+17	Picture	fix	106829	0	1	6167	2	0	next	other	0
+18	Picture	img	112996	0	1	8166	2	0	next	other	0
+18	Sound	sound1	112996	0	2			0		other	0
+18	Sound	sound2	117996	5000	1			5000		other	0
+19	Picture	imgPres1	121162	0	1	5166	2	0	next	hit	38
+19	Response	0	125875	4713	1
+20	Picture	fix	126328	0	1	6167	2	0	next	other	0
+21	Picture	img	132495	0	1	8166	2	0	next	other	0
+21	Sound	sound1	132495	0	2			0		other	0
+21	Sound	sound2	137495	5000	1			5000		other	0
+22	Picture	imgPres1	140661	0	1	6500	2	0	next	hit	44
+22	Response	0	146515	5854	1
+23	Picture	fix	147161	0	1	6166	3	0	next	other	0
+24	Picture	img	153327	0	2	8167	3	0	next	other	0
+24	Sound	sound1	153328	1	2			0		other	0
+24	Sound	sound2	158327	5000	1			5000		other	0
+25	Picture	imgPres1	161494	0	1	6000	2	0	next	hit	50
+25	Response	0	167154	5660	2
+26	Picture	fix	167494	0	1	6166	2	0	next	other	0
+27	Picture	img	173660	0	1	8166	3	0	next	other	0
+27	Sound	sound1	173660	0	2			0		other	0
+27	Sound	sound2	178660	5000	1			5000		other	0
+28	Picture	imgPres1	181826	0	2	4500	3	0	next	hit	56
+28	Response	0	185954	4128	1
+29	Picture	fix	186326	0	1	6167	2	0	next	other	0
+30	Picture	img	192493	0	1	8166	2	0	next	other	0
+30	Sound	sound1	192493	0	2			0		other	0
+30	Sound	sound2	197493	5000	1			5000		other	0
+31	Picture	imgPres1	200659	0	1	4500	2	0	next	hit	62
+31	Response	0	204674	4015	1
+32	Picture	fix	205159	0	1	6166	3	0	next	other	0
+33	Picture	img	211325	0	2	8167	3	0	next	other	0
+33	Sound	sound1	211326	1	2			0		other	0
+33	Sound	sound2	216325	5000	1			5000		other	0
+34	Picture	imgPres1	219492	0	1	6500	2	0	next	hit	68
+34	Response	0	225313	5821	1
+35	Picture	fix	225992	0	1	6166	2	0	next	other	0
+36	Picture	img	232158	0	1	8166	3	0	next	other	0
+36	Sound	sound1	232158	0	2			0		other	0
+36	Sound	sound2	237158	5000	1			5000		other	0
+37	Picture	imgPres1	240324	0	2	4667	3	0	next	hit	74
+37	Response	0	244592	4268	2
+38	Picture	fix	244991	0	1	6166	2	0	next	other	0
+39	Picture	img	251157	0	1	8167	2	0	next	other	0
+39	Sound	sound1	251158	1	2			0		other	0
+39	Sound	sound2	256157	5000	1			5000		other	0
+40	Picture	imgPres1	259324	0	1	5166	2	0	next	hit	80
+40	Response	0	264432	5108	1
+41	Picture	fix	264490	0	1	6167	2	0	next	other	0
+42	Picture	img	270657	0	1	8166	2	0	next	other	0
+42	Sound	sound1	270657	0	2			0		other	0
+42	Sound	sound2	275657	5000	1			5000		other	0
+43	Picture	imgPres1	278823	0	1	7333	2	0	next	hit	86
+43	Response	0	286032	7209	1
+44	Picture	fix	286156	0	1	6167	2	0	next	other	0
+45	Picture	img	292323	0	1	8166	2	0	next	other	0
+45	Sound	sound1	292323	0	2			0		other	0
+45	Sound	sound2	297323	5000	1			5000		other	0
+46	Picture	imgPres1	300489	0	1	6166	3	0	next	hit	92
+46	Response	0	306431	5942	1
+47	Picture	fix	306655	0	2	6167	3	0	next	other	0
+48	Picture	img	312822	0	1	8166	2	0	next	other	0
+48	Sound	sound1	312822	0	2			0		other	0
+48	Sound	sound2	317822	5000	1			5000		other	0
+49	Picture	imgPres1	320988	0	1	3667	2	0	next	hit	98
+49	Response	0	324510	3522	2
+50	Picture	fix	324655	0	1	6166	2	0	next	other	0
+51	Picture	img	330821	0	1	8167	2	0	next	other	0
+51	Sound	sound1	330822	1	2			0		other	0
+51	Sound	sound2	335821	5000	1			5000		other	0
+52	Picture	imgPres1	338988	0	1	7833	2	0	next	hit	104
+52	Response	0	346670	7682	1
+53	Picture	fix	346821	0	1	6166	2	0	next	other	0
+54	Picture	img	352987	0	1	8167	2	0	next	other	0
+54	Sound	sound1	352988	1	1			0		other	0
+54	Sound	sound2	357987	5000	1			5000		other	0
+55	Picture	imgPres1	361154	0	1	7166	2	0	next	hit	110
+55	Response	0	368190	7036	1
+56	Picture	fix	368320	0	1	6166	3	0	next	other	0
+57	Picture	img	374486	0	2	8167	3	0	next	other	0
+57	Sound	sound1	374487	1	2			0		other	0
+57	Sound	sound2	379486	5000	1			5000		other	0
+58	Picture	imgPres1	382653	0	1	7000	2	0	next	hit	116
+58	Response	0	388909	6256	2
+59	Picture	fix	389653	0	1	6166	2	0	next	other	0
+60	Picture	img	395819	0	1	8166	2	0	next	other	0
+60	Sound	sound1	395819	0	2			0		other	0
+60	Sound	sound2	400819	5000	1			5000		other	0
+61	Picture	imgPres1	403985	0	1	4834	2	0	next	hit	122
+61	Response	0	408509	4524	1
+62	Picture	fix	408819	0	1	6166	2	0	next	other	0
+63	Picture	img	414985	0	1	8166	3	0	next	other	0
+63	Sound	sound1	414985	0	2			0		other	0
+63	Sound	sound2	419985	5000	1			5000		other	0
+64	Picture	imgPres1	423151	0	2	8667	3	0	next	hit	128
+64	Response	0	431388	8237	1
+65	Picture	fix	431818	0	1	6166	2	0	next	other	0
+66	Picture	img	437984	0	1	8167	2	0	next	other	0
+66	Sound	sound1	437985	1	1			0		other	0
+66	Sound	sound2	442984	5000	1			5000		other	0
+67	Picture	imgPres1	446151	0	1	4999	3	0	next	hit	134
+67	Response	0	450668	4517	1
+68	Picture	fix	451150	0	2	6167	3	0	next	other	0
+69	Picture	img	457317	0	1	8166	2	0	next	other	0
+69	Sound	sound1	457317	0	2			0		other	0
+69	Sound	sound2	462317	5000	1			5000		other	0
+70	Picture	imgPres1	465483	0	1	4667	2	0	next	hit	140
+70	Response	0	469468	3985	1
+71	Picture	fix	470150	0	1	6166	2	0	next	other	0
+72	Picture	img	476316	0	1	8167	2	0	next	other	0
+72	Sound	sound1	476317	1	2			0		other	0
+72	Sound	sound2	481316	5000	1			5000		other	0
+73	Picture	imgPres1	484483	0	1	4166	2	0	next	hit	146
+73	Response	0	488187	3704	1
+74	Picture	fix	488649	0	1	6167	2	0	next	other	0
+75	Picture	img	494816	0	1	8166	2	0	next	other	0
+75	Sound	sound1	494816	0	2			0		other	0
+75	Sound	sound2	499816	5000	1			5000		other	0
+76	Picture	imgPres1	502982	0	1	3333	2	0	next	hit	152
+76	Response	0	506186	3204	2
+77	Picture	fix	506315	0	1	6167	2	0	next	other	0
+78	Picture	img	512482	0	1	8166	2	0	next	other	0
+78	Sound	sound1	512482	0	2			0		other	0
+78	Sound	sound2	517482	5000	1			5000		other	0
+79	Picture	imgPres1	520648	0	1	4000	2	0	next	hit	158
+79	Response	0	524266	3618	1
+80	Picture	fix	524648	0	1	6166	2	0	next	other	0
+81	Picture	img	530814	0	1	8167	2	0	next	other	0
+81	Sound	sound1	530815	1	2			0		other	0
+81	Sound	sound2	535814	5000	1			5000		other	0
+82	Picture	imgPres1	538981	0	1	3333	2	0	next	hit	164
+82	Response	0	542186	3205	1
+83	Picture	fix	542314	0	1	6166	2	0	next	other	0
+84	Picture	img	548480	0	1	8167	2	0	next	other	0
+84	Sound	sound1	548481	1	2			0		other	0
+84	Sound	sound2	553480	5000	1			5000		other	0
+85	Picture	imgPres1	556647	0	1	3500	2	0	next	hit	170
+85	Response	0	559945	3298	1
+86	Picture	fix	560147	0	1	6166	2	0	next	other	0
+87	Picture	img	566313	0	1	8167	2	0	next	other	0
+87	Sound	sound1	566313	0	2			0		other	0
+87	Sound	sound2	571313	5000	1			5000		other	0
+88	Picture	imgPres1	574480	0	1	18832	2	0	next	hit	176
+88	Response	0	593144	18664	2
+89	Picture	fix	593312	0	1	6167	2	0	next	other	0
+90	Picture	img	599479	0	1	8166	2	0	next	other	0
+90	Sound	sound1	599479	0	2			0		other	0
+90	Sound	sound2	604479	5000	1			5000		other	0
+91	Picture	imgPres1	607645	0	1	4167	2	0	next	hit	182
+91	Response	0	611704	4059	1
+92	Picture	fix	611812	0	1	6166	2	0	next	other	0
+93	Picture	img	617978	0	1	8166	2	0	next	other	0
+93	Sound	sound1	617978	0	2			0		other	0
+93	Sound	sound2	622978	5000	1			5000		other	0
+94	Picture	imgPres1	626144	0	1	12667	2	0	next	hit	188
+94	Response	0	638583	12439	2
+95	Picture	fix	638811	0	1	6166	2	0	next	other	0
+96	Picture	img	644977	0	1	8166	2	0	next	other	0
+96	Sound	sound1	644977	0	2			0		other	0
+96	Sound	sound2	649977	5000	1			5000		other	0
+97	Picture	imgPres1	653143	0	1	6000	2	0	next	hit	194
+97	Response	0	658983	5840	1
+98	Picture	fix	659143	0	1	6167	2	0	next	other	0
+99	Picture	img	665310	0	1	8166	2	0	next	other	0
+99	Sound	sound1	665310	0	2			0		other	0
+99	Sound	sound2	670310	5000	1			5000		other	0
+100	Picture	imgPres1	673476	0	1	6333	2	0	next	hit	200
+100	Response	0	678902	5426	2
+100	Response	0	678903	5427	372
+101	Picture	fix	679809	0	1	6167	2	0	next	other	0
+102	Picture	img	685976	0	1	8166	2	0	next	other	0
+102	Sound	sound1	685976	0	2			0		other	0
+102	Sound	sound2	690976	5000	1			5000		other	0
+103	Picture	imgPres1	694142	0	1	6166	3	0	next	hit	207
+103	Response	0	700102	5960	1
+104	Picture	fix	700308	0	2	6167	3	0	next	other	0
+105	Picture	img	706475	0	1	8166	2	0	next	other	0
+105	Sound	sound1	706475	0	2			0		other	0
+105	Sound	sound2	711475	5000	1			5000		other	0
+106	Picture	imgPres1	714641	0	1	4333	3	0	next	hit	213
+106	Response	0	718742	4101	1
+107	Picture	fix	718974	0	2	6167	3	0	next	other	0
+108	Picture	img	725141	0	1	8166	2	0	next	other	0
+108	Sound	sound1	725141	0	2			0		other	0
+108	Sound	sound2	730141	5000	1			5000		other	0
+109	Picture	imgPres1	733307	0	1	5500	2	0	next	hit	219
+109	Response	0	738181	4874	1
+110	Picture	fix	738807	0	1	6167	2	0	next	other	0
+111	Picture	img	744974	0	1	8166	2	0	next	other	0
+111	Sound	sound1	744974	0	2			0		other	0
+111	Sound	sound2	749974	5000	1			5000		other	0
+112	Picture	imgPres1	753140	0	1	6333	2	0	next	hit	225
+112	Response	0	759301	6161	1
+113	Picture	fix	759473	0	1	6167	2	0	next	other	0
+114	Picture	img	765640	0	1	8166	2	0	next	other	0
+114	Sound	sound1	765640	0	2			0		other	0
+114	Sound	sound2	770640	5000	2			5000		other	0
+115	Picture	imgPres1	773806	0	1	4833	2	0	next	hit	231
+115	Response	0	778500	4694	1
+116	Picture	fix	778639	0	1	6167	2	0	next	other	0
+117	Picture	img	784806	0	1	8166	2	0	next	other	0
+117	Sound	sound1	784806	0	2			0		other	0
+117	Sound	sound2	789806	5000	1			5000		other	0
+118	Picture	imgPres1	792972	0	1	4333	2	0	next	hit	237
+118	Response	0	797060	4088	1
+119	Picture	fix	797305	0	1	6167	2	0	next	other	0
+120	Picture	img	803472	0	1	8166	2	0	next	other	0
+120	Sound	sound1	803472	0	2			0		other	0
+120	Sound	sound2	808472	5000	1			5000		other	0
+121	Picture	imgPres1	811638	0	1	4500	2	0	next	hit	243
+121	Response	0	815859	4221	1
+122	Picture	fix	816138	0	1	6166	2	0	next	other	0
+123	Picture	img	822304	0	1	8167	2	0	next	other	0
+123	Sound	sound1	822305	1	1			0		other	0
+123	Sound	sound2	827304	5000	1			5000		other	0
+124	Picture	imgPres1	830471	0	1	3666	2	0	next	hit	249
+124	Response	0	833939	3468	1
+125	Picture	fix	834137	0	1	6167	2	0	next	other	0
+126	Picture	img	840304	0	1	8166	2	0	next	other	0
+126	Sound	sound1	840304	0	2			0		other	0
+126	Sound	sound2	845304	5000	1			5000		other	0
+127	Picture	imgPres1	848470	0	1	5333	2	0	next	hit	255
+127	Response	0	853618	5148	1
+128	Picture	fix	853803	0	1	6167	2	0	next	other	0
+129	Picture	img	859970	0	1	8166	2	0	next	other	0
+129	Sound	sound1	859970	0	2			0		other	0
+129	Sound	sound2	864970	5000	1			5000		other	0
+130	Picture	imgPres1	868136	0	1	7000	2	0	next	hit	261
+130	Response	0	874978	6842	1
+131	Picture	fix	875136	0	1	6166	2	0	next	other	0
+132	Picture	img	881302	0	1	8167	2	0	next	other	0
+132	Sound	sound1	881303	1	1			0		other	0
+132	Sound	sound2	886302	5000	1			5000		other	0
+133	Picture	imgPres1	889469	0	1	4833	2	0	next	hit	267
+133	Response	0	894177	4708	1
+134	Picture	fix	894302	0	1	6166	2	0	next	other	0
+135	Picture	img	900468	0	1	8167	2	0	next	other	0
+135	Sound	sound1	900469	1	1			0		other	0
+135	Sound	sound2	905468	5000	1			5000		other	0
+136	Picture	imgPres1	908635	0	1	5333	2	0	next	hit	273
+136	Response	0	913857	5222	1
+137	Picture	fix	913968	0	1	6166	2	0	next	other	0
+138	Picture	img	920134	0	1	8167	2	0	next	other	0
+138	Sound	sound1	920135	1	1			0		other	0
+138	Sound	sound2	925134	5000	1			5000		other	0
+139	Picture	imgPres1	928301	0	1	5833	2	0	next	hit	279
+139	Response	0	933776	5475	1
+140	Picture	fix	934134	0	1	6166	2	0	next	other	0
+141	Picture	img	940300	0	1	8167	2	0	next	other	0
+141	Sound	sound1	940301	1	1			0		other	0
+141	Sound	sound2	945300	5000	1			5000		other	0
+142	Picture	imgPres1	948467	0	1	4166	2	0	next	hit	285
+142	Response	0	952576	4109	1
+143	Picture	fix	952633	0	1	6167	2	0	next	other	0
+144	Picture	img	958800	0	1	8166	2	0	next	other	0
+144	Sound	sound1	958800	0	2			0		other	0
+144	Sound	sound2	963800	5000	1			5000		other	0
+145	Picture	imgPres1	966966	0	1	4666	2	0	next	hit	291
+145	Response	0	971456	4490	1
+146	Picture	fix	971632	0	1	6167	2	0	next	other	0
+147	Picture	img	977799	0	1	8166	2	0	next	other	0
+147	Sound	sound1	977799	0	2			0		other	0
+147	Sound	sound2	982799	5000	1			5000		other	0
+148	Picture	imgPres1	985965	0	1	5667	2	0	next	hit	297
+148	Response	0	991455	5490	2
+149	Picture	fix	991632	0	1	6166	2	0	next	other	0
+150	Picture	img	997798	0	1	8167	2	0	next	other	0
+150	Sound	sound1	997798	0	2			0		other	0
+150	Sound	sound2	1002798	5000	1			5000		other	0
+151	Picture	imgPres1	1005965	0	1	5333	2	0	next	hit	303
+151	Response	0	1011135	5170	1
+152	Picture	fix	1011298	0	1	6166	2	0	next	other	0
+153	Picture	img	1017464	0	1	8167	2	0	next	other	0
+153	Sound	sound1	1017464	0	2			0		other	0
+153	Sound	sound2	1022464	5000	1			5000		other	0
+154	Picture	imgPres1	1025631	0	1	7833	2	0	next	hit	309
+154	Response	0	1033214	7583	1
+155	Picture	fix	1033464	0	1	6166	2	0	next	other	0
+156	Picture	img	1039630	0	1	8166	2	0	next	other	0
+156	Sound	sound1	1039630	0	2			0		other	0
+156	Sound	sound2	1044630	5000	1			5000		other	0
+157	Picture	imgPres1	1047796	0	1	6500	2	0	next	hit	315
+157	Response	0	1054094	6298	1
+158	Picture	fix	1054296	0	1	6167	2	0	next	other	0
+159	Picture	img	1060463	0	1	8166	2	0	next	other	0
+159	Sound	sound1	1060463	0	2			0		other	0
+159	Sound	sound2	1065463	5000	1			5000		other	0
+160	Picture	imgPres1	1068629	0	1	4000	2	0	next	hit	321
+160	Response	0	1072173	3544	2
+161	Picture	fix	1072629	0	1	6166	2	0	next	other	0
+162	Picture	img	1078795	0	1	8167	2	0	next	other	0
+162	Sound	sound1	1078796	1	2			0		other	0
+162	Sound	sound2	1083795	5000	1			5000		other	0
+163	Picture	imgPres1	1086962	0	1	4500	2	0	next	hit	327
+163	Response	0	1091053	4091	1
+164	Picture	fix	1091462	0	1	6166	2	0	next	other	0
+165	Picture	img	1097628	0	1	8166	2	0	next	other	0
+165	Sound	sound1	1097628	0	2			0		other	0
+165	Sound	sound2	1102628	5000	1			5000		other	0
+166	Picture	imgPres1	1105794	0	1	4667	2	0	next	hit	333
+166	Response	0	1110332	4538	2
+167	Picture	fix	1110461	0	1	6166	2	0	next	other	0
+168	Picture	img	1116627	0	1	8167	2	0	next	other	0
+168	Sound	sound1	1116628	1	1			0		other	0
+168	Sound	sound2	1121627	5000	1			5000		other	0
+169	Picture	imgPres1	1124794	0	1	4000	2	0	next	hit	339
+169	Response	0	1128652	3858	1
+170	Picture	fix	1128794	0	1	6166	2	0	next	other	0
+171	Picture	img	1134960	0	1	8166	2	0	next	other	0
+171	Sound	sound1	1134960	0	2			0		other	0
+171	Sound	sound2	1139960	5000	1			5000		other	0
+172	Picture	imgPres1	1143126	0	1	5167	2	0	next	hit	345
+172	Response	0	1148091	4965	2
+173	Picture	fix	1148293	0	1	6166	2	0	next	other	0
+174	Picture	img	1154459	0	1	8167	2	0	next	other	0
+174	Sound	sound1	1154460	1	2			0		other	0
+174	Sound	sound2	1159459	5000	1			5000		other	0
+175	Picture	imgPres1	1162626	0	1	10166	2	0	next	hit	351
+175	Response	0	1172411	9785	1
+176	Picture	fix	1172792	0	1	6167	2	0	next	other	0
+177	Picture	img	1178959	0	1	8166	2	0	next	other	0
+177	Sound	sound1	1178959	0	2			0		other	0
+177	Sound	sound2	1183959	5000	1			5000		other	0
+178	Picture	imgPres1	1187125	0	1	7000	2	0	next	hit	357
+178	Response	0	1193611	6486	1
+179	Picture	fix	1194125	0	1	6166	2	0	next	other	0
+180	Picture	img	1200291	0	1	8166	3	0	next	other	0
+180	Sound	sound1	1200291	0	2			0		other	0
+180	Sound	sound2	1205291	5000	1			5000		other	0
+181	Picture	imgPres1	1208457	0	2	5667	3	0	next	hit	363
+181	Response	0	1214090	5633	1
+182	Picture	fix	1214124	0	1	6166	3	0	next	other	0
+183	Picture	img	1220290	0	2	8167	3	0	next	other	0
+183	Sound	sound1	1220291	1	2			0		other	0
+183	Sound	sound2	1225290	5000	1			5000		other	0
+184	Picture	imgPres1	1228457	0	1	4333	2	0	next	hit	369
+184	Response	0	1232730	4273	1
+185	Picture	fix	1232790	0	1	6166	3	0	next	other	0
+186	Picture	img	1238956	0	2	8167	3	0	next	other	0
+186	Sound	sound1	1238957	1	2			0		other	0
+186	Sound	sound2	1243956	5000	1			5000		other	0
+187	Picture	imgPres1	1247123	0	1	6333	2	0	next	hit	375
+187	Response	0	1253289	6166	1
+188	Picture	fix	1253456	0	1	6166	2	0	next	other	0
+189	Picture	img	1259622	0	1	8167	2	0	next	other	0
+189	Sound	sound1	1259623	1	2			0		other	0
+189	Sound	sound2	1264622	5000	1			5000		other	0
+190	Picture	imgPres1	1267789	0	1	6000	2	0	next	hit	381
+190	Response	0	1273609	5820	1
+191	Picture	fix	1273789	0	1	6166	2	0	next	other	0
+192	Picture	img	1279955	0	1	8166	2	0	next	other	0
+192	Sound	sound1	1279955	0	2			0		other	0
+192	Sound	sound2	1284955	5000	1			5000		other	0
+193	Picture	imgPres1	1288121	0	1	7000	2	0	next	hit	387
+193	Response	0	1294968	6847	1
+194	Picture	fix	1295121	0	1	6167	2	0	next	other	0
+195	Picture	img	1301288	0	1	8166	2	0	next	other	0
+195	Sound	sound1	1301288	0	2			0		other	0
+195	Sound	sound2	1306288	5000	1			5000		other	0
+196	Picture	imgPres1	1309454	0	1	6500	2	0	next	hit	393
+196	Response	0	1315368	5914	1
+197	Picture	fix	1315954	0	1	6166	2	0	next	other	0
+198	Picture	img	1322120	0	1	8167	2	0	next	other	0
+198	Sound	sound1	1322121	1	1			0		other	0
+198	Sound	sound2	1327120	5000	1			5000		other	0
+199	Picture	imgPres1	1330287	0	1	4333	2	0	next	hit	399
+199	Response	0	1334167	3880	1
+200	Picture	fix	1334620	0	1	6166	2	0	next	other	0
+201	Picture	img	1340786	0	1	8167	2	0	next	other	0
+201	Sound	sound1	1340787	1	1			0		other	0
+201	Sound	sound2	1345786	5000	1			5000		other	0
+202	Picture	imgPres1	1348953	0	1	4499	3	0	next	hit	405
+202	Response	0	1353207	4254	1
+203	Picture	fix	1353452	0	2	6167	3	0	next	other	0
+204	Picture	img	1359619	0	1	8166	2	0	next	other	0
+204	Sound	sound1	1359619	0	2			0		other	0
+204	Sound	sound2	1364619	5000	1			5000		other	0
+205	Picture	imgPres1	1367785	0	1	20000	2	0	next	hit	411
+205	Response	0	1387366	19581	1
+206	Picture	fix	1387785	0	1	6166	2	0	next	other	0
+207	Picture	img	1393951	0	1	8166	3	0	next	other	0
+207	Sound	sound1	1393951	0	2			0		other	0
+207	Sound	sound2	1398951	5000	1			5000		other	0
+208	Picture	imgPres1	1402117	0	2	5334	3	0	next	hit	417
+208	Response	0	1407206	5089	1
+209	Picture	fix	1407451	0	1	6166	2	0	next	other	0
+210	Picture	img	1413617	0	1	8166	2	0	next	other	0
+210	Sound	sound1	1413617	0	2			0		other	0
+210	Sound	sound2	1418617	5000	1			5000		other	0
+211	Picture	imgPres1	1421783	0	1	5334	2	0	next	hit	423
+211	Response	0	1426885	5102	1
+212	Picture	fix	1427117	0	1	6166	2	0	next	other	0
+213	Picture	img	1433283	0	1	8166	2	0	next	other	0
+213	Sound	sound1	1433283	0	2			0		other	0
+213	Sound	sound2	1438283	5000	1			5000		other	0
+214	Picture	imgPres1	1441449	0	1	6000	2	0	next	hit	429
+214	Response	0	1447365	5916	1
+215	Picture	fix	1447449	0	1	6167	2	0	next	other	0
+216	Picture	img	1453616	0	1	8166	2	0	next	other	0
+216	Sound	sound1	1453616	0	2			0		other	0
+216	Sound	sound2	1458616	5000	1			5000		other	0
+217	Picture	imgPres1	1461782	0	1	10166	2	0	next	hit	435
+217	Response	0	1471684	9902	1
+218	Picture	fix	1471948	0	1	6167	2	0	next	other	0
+219	Picture	img	1478115	0	1	8166	2	0	next	other	0
+219	Sound	sound1	1478115	0	2			0		other	0
+219	Sound	sound2	1483115	5000	1			5000		other	0
+220	Picture	imgPres1	1486281	0	1	5500	2	0	next	hit	441
+220	Response	0	1491603	5322	1
+221	Picture	fix	1491781	0	1	6166	3	0	next	other	0
+222	Picture	img	1497947	0	2	8167	3	0	next	other	0
+222	Sound	sound1	1497948	1	2			0		other	0
+222	Sound	sound2	1502947	5000	1			5000		other	0
+223	Picture	imgPres1	1506114	0	1	5166	2	0	next	hit	447
+223	Response	0	1511203	5089	1
+224	Picture	fix	1511280	0	1	6167	2	0	next	other	0
+225	Picture	img	1517447	0	1	8166	2	0	next	other	0
+225	Sound	sound1	1517447	0	2			0		other	0
+225	Sound	sound2	1522447	5000	1			5000		other	0
+226	Picture	imgPres1	1525613	0	1	10000	2	0	next	hit	453
+226	Response	0	1535043	9430	1
+227	Picture	fix	1535613	0	1	6166	2	0	next	other	0
+228	Picture	img	1541779	0	1	8167	2	0	next	other	0
+228	Sound	sound1	1541780	1	1			0		other	0
+228	Sound	sound2	1546779	5000	1			5000		other	0
+229	Picture	imgPres1	1549946	0	1	7333	2	0	next	hit	459
+229	Response	0	1556962	7016	1
+230	Picture	fix	1557279	0	1	6166	2	0	next	other	0
+231	Picture	img	1563445	0	1	8167	2	0	next	other	0
+231	Sound	sound1	1563446	1	1			0		other	0
+231	Sound	sound2	1568445	5000	1			5000		other	0
+232	Picture	imgPres1	1571612	0	1	5666	2	0	next	hit	465
+232	Response	0	1576721	5109	1
+233	Picture	fix	1577278	0	1	6166	3	0	next	other	0
+234	Picture	img	1583444	0	2	8167	3	0	next	other	0
+234	Sound	sound1	1583445	1	2			0		other	0
+234	Sound	sound2	1588444	5000	1			5000		other	0
+235	Picture	imgPres1	1591611	0	1	6666	2	0	next	hit	471
+235	Response	0	1598001	6390	1
+236	Picture	fix	1598277	0	1	6167	2	0	next	other	0
+237	Picture	img	1604444	0	1	8166	2	0	next	other	0
+237	Sound	sound1	1604444	0	2			0		other	0
+237	Sound	sound2	1609444	5000	1			5000		other	0
+238	Picture	imgPres1	1612610	0	1	9500	2	0	next	hit	477
+238	Response	0	1622000	9390	1
+239	Picture	fix	1622110	0	1	6166	2	0	next	other	0
+240	Picture	img	1628276	0	1	8167	2	0	next	other	0
+240	Sound	sound1	1628277	1	1			0		other	0
+240	Sound	sound2	1633276	5000	1			5000		other	0
+241	Picture	imgPres1	1636443	0	1	7499	2	0	next	hit	483
+241	Response	0	1643760	7317	1
+242	Picture	fix	1643942	0	1	6167	2	0	next	other	0
+243	Picture	img	1650109	0	1	8166	2	0	next	other	0
+243	Sound	sound1	1650109	0	2			0		other	0
+243	Sound	sound2	1655109	5000	1			5000		other	0
+244	Picture	imgPres1	1658275	0	1	6167	2	0	next	hit	489
+244	Response	0	1664320	6045	1
+245	Picture	fix	1664442	0	1	6166	2	0	next	other	0
+246	Picture	img	1670608	0	1	8167	2	0	next	other	0
+246	Sound	sound1	1670608	0	2			0		other	0
+246	Sound	sound2	1675608	5000	1			5000		other	0
+247	Picture	imgPres1	1678775	0	1	11666	2	0	next	hit	495
+247	Response	0	1690159	11384	1
+248	Picture	fix	1690441	0	1	6166	2	0	next	other	0
+249	Picture	img	1696607	0	1	8167	2	0	next	other	0
+249	Sound	sound1	1696608	1	1			0		other	0
+249	Sound	sound2	1701607	5000	1			5000		other	0
+250	Picture	imgPres1	1704774	0	1	6833	2	0	next	hit	501
+250	Response	0	1710638	5864	2
+251	Picture	fix	1711607	0	1	6166	2	0	next	other	0
+252	Picture	img	1717773	0	1	8167	2	0	next	other	0
+252	Sound	sound1	1717773	0	2			0		other	0
+252	Sound	sound2	1722773	5000	1			5000		other	0
+253	Picture	imgPres1	1725940	0	1	7833	2	0	next	hit	507
+253	Response	0	1733598	7658	1
+254	Picture	fix	1733773	0	1	6166	2	0	next	other	0
+255	Picture	img	1739939	0	1	8166	3	0	next	other	0
+255	Sound	sound1	1739939	0	2			0		other	0
+255	Sound	sound2	1744939	5000	1			5000		other	0
+256	Picture	imgPres1	1748105	0	2	13833	3	0	next	hit	513
+256	Response	0	1761757	13652	1
+257	Picture	fix	1761938	0	1	6167	2	0	next	other	0
+258	Picture	img	1768105	0	1	8166	2	0	next	other	0
+258	Sound	sound1	1768105	0	2			0		other	0
+258	Sound	sound2	1773105	5000	1			5000		other	0
+259	Picture	imgPres1	1776271	0	1	5667	2	0	next	hit	519
+259	Response	0	1781277	5006	1
+260	Picture	fix	1781938	0	1	6166	2	0	next	other	0
+261	Picture	img	1788104	0	1	8166	2	0	next	other	0
+261	Sound	sound1	1788104	0	2			0		other	0
+261	Sound	sound2	1793104	5000	1			5000		other	0
+262	Picture	imgPres1	1796270	0	1	4834	2	0	next	hit	525
+262	Response	0	1800956	4686	1
+263	Picture	fix	1801104	0	1	6166	2	0	next	other	0
+264	Picture	img	1807270	0	1	8166	2	0	next	other	0
+264	Sound	sound1	1807270	0	2			0		other	0
+264	Sound	sound2	1812270	5000	1			5000		other	0
+265	Picture	imgPres1	1815436	0	1	8000	2	0	next	hit	531
+265	Response	0	1823196	7760	1
+266	Picture	fix	1823436	0	1	6167	2	0	next	other	0
+267	Picture	img	1829603	0	1	8166	2	0	next	other	0
+267	Sound	sound1	1829603	0	2			0		other	0
+267	Sound	sound2	1834603	5000	1			5000		other	0
+268	Picture	imgPres1	1837769	0	1	4833	2	0	next	hit	537
+268	Response	0	1842396	4627	1
+269	Picture	fix	1842602	0	1	6167	2	0	next	other	0
+270	Picture	img	1848769	0	1	8166	2	0	next	other	0
+270	Sound	sound1	1848769	0	2			0		other	0
+270	Sound	sound2	1853769	5000	1			5000		other	0
+271	Picture	imgPres1	1856935	0	1	7666	2	0	next	hit	543
+271	Response	0	1864395	7460	1
+272	Picture	fix	1864601	0	1	6167	2	0	next	other	0
+273	Picture	img	1870768	0	1	8166	2	0	next	other	0
+273	Sound	sound1	1870768	0	2			0		other	0
+273	Sound	sound2	1875768	5000	1			5000		other	0
+274	Picture	imgPres1	1878934	0	1	4833	2	0	next	hit	549
+274	Response	0	1883514	4580	1
+275	Picture	fix	1883767	0	1	6167	2	0	next	other	0
+276	Picture	img	1889934	0	1	8166	2	0	next	other	0
+276	Sound	sound1	1889934	0	2			0		other	0
+276	Sound	sound2	1894934	5000	1			5000		other	0
+277	Picture	imgPres1	1898100	0	1	6167	2	0	next	hit	555
+277	Response	0	1904074	5974	1
+278	Picture	fix	1904267	0	1	6166	2	0	next	other	0
+279	Picture	img	1910433	0	1	8167	2	0	next	other	0
+279	Sound	sound1	1910433	0	2			0		other	0
+279	Sound	sound2	1915433	5000	1			5000		other	0
+280	Picture	imgPres1	1918600	0	1	8166	2	0	next	hit	561
+280	Response	0	1926313	7713	2
+281	Picture	fix	1926766	0	1	6166	2	0	next	other	0
+282	Picture	img	1932932	0	1	8167	2	0	next	other	0
+282	Sound	sound1	1932933	1	2			0		other	0
+282	Sound	sound2	1937932	5000	1			5000		other	0
+283	Picture	imgPres1	1941099	0	1	4666	2	0	next	hit	567
+283	Response	0	1945673	4574	1
+284	Picture	fix	1945765	0	1	6167	2	0	next	other	0
+285	Picture	img	1951932	0	1	8166	2	0	next	other	0
+285	Sound	sound1	1951932	0	2			0		other	0
+285	Sound	sound2	1956932	5000	1			5000		other	0
+286	Picture	imgPres1	1960098	0	1	6000	2	0	next	hit	573
+286	Response	0	1965912	5814	2
+287	Picture	fix	1966098	0	1	6166	2	0	next	other	0
+288	Picture	img	1972264	0	1	8167	2	0	next	other	0
+288	Sound	sound1	1972265	1	2			0		other	0
+288	Sound	sound2	1977264	5000	1			5000		other	0
+289	Picture	imgPres1	1980431	0	1	8166	2	0	next	hit	579
+289	Response	0	1988392	7961	1
+290	Picture	fix	1988597	0	1	6167	2	0	next	other	0
+291	Picture	img	1994764	0	1	8166	2	0	next	other	0
+291	Sound	sound1	1994764	0	2			0		other	0
+291	Sound	sound2	1999764	5000	1			5000		other	0
+292	Picture	imgPres1	2002930	0	1	5333	2	0	next	hit	585
+292	Response	0	2007911	4981	1
+293	Picture	fix	2008263	0	1	6167	2	0	next	other	0
+294	Picture	img	2014430	0	1	8166	2	0	next	other	0
+294	Sound	sound1	2014430	0	2			0		other	0
+294	Sound	sound2	2019430	5000	1			5000		other	0
+295	Picture	imgPres1	2022596	0	1	7833	2	0	next	hit	591
+295	Response	0	2030151	7555	1
+296	Picture	fix	2030429	0	1	6166	2	0	next	other	0
+297	Picture	img	2036595	0	1	8167	2	0	next	other	0
+297	Sound	sound1	2036596	1	2			0		other	0
+297	Sound	sound2	2041595	5000	1			5000		other	0
+298	Picture	imgPres1	2044762	0	1	5000	2	0	next	hit	597
+298	Response	0	2049590	4828	2
+299	Picture	fix	2049762	0	1	6166	2	0	next	other	0
+300	Picture	img	2055928	0	1	8166	3	0	next	other	0
+300	Sound	sound1	2055928	0	2			0		other	0
+300	Sound	sound2	2060928	5000	1			5000		other	0
+301	Picture	imgPres1	2064094	0	2	5500	3	0	next	hit	603
+301	Response	0	2069430	5336	1
+302	Picture	fix	2069594	0	1	6167	2	0	next	other	0
+303	Picture	img	2075761	0	1	8166	2	0	next	other	0
+303	Sound	sound1	2075761	0	2			0		other	0
+303	Sound	sound2	2080761	5000	1			5000		other	0
+304	Picture	imgPres1	2083927	0	1	5167	2	0	next	hit	609
+304	Response	0	2088949	5022	1
+305	Picture	fix	2089094	0	1	6166	2	0	next	other	0
+306	Picture	img	2095260	0	1	8166	2	0	next	other	0
+306	Sound	sound1	2095260	0	2			0		other	0
+306	Sound	sound2	2100260	5000	1			5000		other	0
+307	Picture	imgPres1	2103426	0	1	4834	2	0	next	hit	615
+307	Response	0	2108069	4643	1
+308	Picture	fix	2108260	0	1	6166	2	0	next	other	0
+309	Picture	img	2114426	0	1	8166	2	0	next	other	0
+309	Sound	sound1	2114426	0	2			0		other	0
+309	Sound	sound2	2119426	5000	1			5000		other	0
+310	Picture	imgPres1	2122592	0	1	6334	2	0	next	hit	621
+310	Response	0	2128709	6117	1
+311	Picture	fix	2128926	0	1	6166	2	0	next	other	0
+312	Picture	img	2135092	0	1	8166	2	0	next	other	0
+312	Sound	sound1	2135092	0	2			0		other	0
+312	Sound	sound2	2140092	5000	1			5000		other	0
+313	Picture	imgPres1	2143258	0	1	4667	2	0	next	hit	627
+313	Response	0	2147828	4570	2
+314	Picture	fix	2147925	0	1	6166	2	0	next	other	0
+315	Picture	img	2154091	0	1	8167	2	0	next	other	0
+315	Sound	sound1	2154092	1	1			0		other	0
+315	Sound	sound2	2159091	5000	1			5000		other	0
+316	Picture	imgPres1	2162258	0	1	5166	2	0	next	hit	633
+316	Response	0	2167188	4930	1
+317	Picture	fix	2167424	0	1	6167	2	0	next	other	0
+318	Picture	img	2173591	0	1	8166	2	0	next	other	0
+318	Sound	sound1	2173591	0	2			0		other	0
+318	Sound	sound2	2178591	5000	1			5000		other	0
+319	Picture	imgPres1	2181757	0	1	5000	2	0	next	hit	639
+319	Response	0	2186627	4870	2
+320	Picture	fix	2186757	0	1	6166	2	0	next	other	0
+321	Picture	img	2192923	0	1	8167	2	0	next	other	0
+321	Sound	sound1	2192924	1	1			0		other	0
+321	Sound	sound2	2197923	5000	1			5000		other	0
+322	Picture	imgPres1	2201090	0	1	8333	2	0	next	hit	645
+322	Response	0	2209267	8177	1
+323	Picture	fix	2209423	0	1	6166	2	0	next	other	0
+324	Picture	img	2215589	0	1	8167	2	0	next	other	0
+324	Sound	sound1	2215589	0	2			0		other	0
+324	Sound	sound2	2220589	5000	1			5000		other	0
+325	Picture	imgPres1	2223756	0	1	5166	2	0	next	hit	651
+325	Response	0	2228707	4951	1
+326	Picture	fix	2228922	0	1	6167	2	0	next	other	0
+327	Picture	img	2235089	0	1	8166	2	0	next	other	0
+327	Sound	sound1	2235089	0	2			0		other	0
+327	Sound	sound2	2240089	5000	1			5000		other	0
+328	Picture	imgPres1	2243255	0	1	13666	2	0	next	hit	657
+328	Response	0	2256466	13211	1
+329	Picture	fix	2256921	0	1	6167	2	0	next	other	0
+330	Picture	img	2263088	0	1	8166	2	0	next	other	0
+330	Sound	sound1	2263088	0	2			0		other	0
+330	Sound	sound2	2268088	5000	1			5000		other	0
+331	Picture	imgPres1	2271254	0	1	4333	2	0	next	hit	663
+331	Response	0	2275345	4091	1
+332	Picture	fix	2275587	0	1	6167	2	0	next	other	0
+333	Picture	img	2281754	0	1	8166	2	0	next	other	0
+333	Sound	sound1	2281754	0	2			0		other	0
+333	Sound	sound2	2286754	5000	1			5000		other	0
+334	Picture	imgPres1	2289920	0	1	13333	2	0	next	hit	669
+334	Response	0	2303105	13185	1
+335	Picture	fix	2303253	0	1	6166	2	0	next	other	0
+336	Picture	img	2309419	0	1	8167	2	0	next	other	0
+336	Sound	sound1	2309420	1	1			0		other	0
+336	Sound	sound2	2314419	5000	1			5000		other	0
+337	Picture	imgPres1	2317586	0	1	4333	2	0	next	hit	675
+337	Response	0	2321744	4158	1
+338	Picture	fix	2321919	0	1	6166	2	0	next	other	0
+339	Picture	img	2328085	0	1	8167	2	0	next	other	0
+339	Sound	sound1	2328086	1	2			0		other	0
+339	Sound	sound2	2333085	5000	1			5000		other	0
+340	Picture	imgPres1	2336252	0	1	4333	2	0	next	hit	681
+340	Response	0	2340304	4052	1
+341	Picture	fix	2340585	0	1	6166	2	0	next	other	0
+342	Picture	img	2346751	0	1	8167	2	0	next	other	0
+342	Sound	sound1	2346752	1	1			0		other	0
+342	Sound	sound2	2351751	5000	1			5000		other	0
+343	Picture	imgPres1	2354918	0	1	4833	2	0	next	hit	687
+343	Response	0	2359583	4665	2
+344	Picture	fix	2359751	0	1	6166	2	0	next	other	0
+345	Picture	img	2365917	0	1	8167	2	0	next	other	0
+345	Sound	sound1	2365918	1	1			0		other	0
+345	Sound	sound2	2370917	5000	1			5000		other	0
+346	Picture	imgPres1	2374084	0	1	10499	2	0	next	hit	693
+346	Response	0	2384383	10299	1
+347	Picture	fix	2384583	0	1	6167	2	0	next	other	0
+348	Picture	img	2390750	0	1	8166	2	0	next	other	0
+348	Sound	sound1	2390750	0	2			0		other	0
+348	Sound	sound2	2395750	5000	1			5000		other	0
+349	Picture	imgPres1	2398916	0	1	8167	2	0	next	hit	699
+349	Response	0	2406942	8026	1
+350	Picture	fix	2407083	0	1	6166	2	0	next	other	0
+351	Picture	img	2413249	0	1	8166	2	0	next	other	0
+351	Sound	sound1	2413249	0	2			0		other	0
+351	Sound	sound2	2418249	5000	1			5000		other	0
+352	Picture	imgPres1	2421415	0	1	4334	2	0	next	hit	705
+352	Response	0	2425582	4167	1
+353	Picture	fix	2425749	0	1	6166	2	0	next	other	0
+354	Picture	img	2431915	0	1	8166	2	0	next	other	0
+354	Sound	sound1	2431915	0	2			0		other	0
+354	Sound	sound2	2436915	5000	1			5000		other	0
+355	Picture	imgPres1	2440081	0	1	4500	2	0	next	hit	711
+355	Response	0	2444461	4380	1
+356	Picture	fix	2444581	0	1	6167	2	0	next	other	0
+357	Picture	img	2450748	0	1	8166	2	0	next	other	0
+357	Sound	sound1	2450748	0	2			0		other	0
+357	Sound	sound2	2455748	5000	1			5000		other	0
+358	Picture	imgPres1	2458914	0	1	16666	2	0	next	hit	717
+358	Response	0	2475420	16506	2
+359	Picture	fix	2475580	0	1	6167	2	0	next	other	0
+360	Picture	img	2481747	0	1	8166	2	0	next	other	0
+360	Sound	sound1	2481747	0	2			0		other	0
+360	Sound	sound2	2486747	5000	1			5000		other	0
+361	Picture	imgPres1	2489913	0	1	4333	2	0	next	hit	723
+361	Response	0	2493740	3827	1
+362	Picture	fix	2494246	0	1	6167	2	0	next	other	0
+363	Picture	img	2500413	0	1	8166	2	0	next	other	0
+363	Sound	sound1	2500413	0	2			0		other	0
+363	Sound	sound2	2505413	5000	1			5000		other	0
+364	Picture	imgPres1	2508579	0	1	6500	2	0	next	hit	729
+364	Response	0	2514860	6281	1
+365	Picture	fix	2515079	0	1	6166	2	0	next	other	0
+366	Picture	img	2521245	0	1	8167	2	0	next	other	0
+366	Sound	sound1	2521246	1	1			0		other	0
+366	Sound	sound2	2526245	5000	1			5000		other	0
+367	Picture	imgPres1	2529412	0	1	4999	3	0	next	hit	735
+367	Response	0	2534219	4807	2
+368	Picture	fix	2534411	0	2	6167	3	0	next	other	0
+369	Picture	img	2540578	0	1	8166	2	0	next	other	0
+369	Sound	sound1	2540578	0	2			0		other	0
+369	Sound	sound2	2545578	5000	1			5000		other	0
+370	Picture	imgPres1	2548744	0	1	5000	2	0	next	hit	741
+370	Response	0	2553499	4755	1
+371	Picture	fix	2553744	0	1	6167	2	0	next	other	0
+372	Picture	img	2559911	0	1	8166	2	0	next	other	0
+372	Sound	sound1	2559911	0	2			0		other	0
+372	Sound	sound2	2564911	5000	1			5000		other	0
+373	Picture	imgPres1	2568077	0	1	3500	2	0	next	hit	747
+373	Response	0	2571338	3261	2
+374	Picture	fix	2571577	0	1	6166	2	0	next	other	0
+375	Picture	img	2577743	0	1	8167	2	0	next	other	0
+375	Sound	sound1	2577744	1	1			0		other	0
+375	Sound	sound2	2582743	5000	1			5000		other	0
+376	Picture	imgPres1	2585910	0	1	6666	2	0	next	hit	753
+376	Response	0	2592458	6548	1
+377	Picture	fix	2592576	0	1	6167	2	0	next	other	0
+378	Picture	img	2598743	0	1	8166	2	0	next	other	0
+378	Sound	sound1	2598743	0	2			0		other	0
+378	Sound	sound2	2603743	5000	1			5000		other	0
+379	Picture	imgPres1	2606909	0	1	8000	2	0	next	hit	759
+379	Response	0	2614537	7628	1
+380	Picture	fix	2614909	0	1	6166	2	0	next	other	0
+381	Picture	img	2621075	0	1	8167	2	0	next	other	0
+381	Sound	sound1	2621075	0	2			0		other	0
+381	Sound	sound2	2626075	5000	1			5000		other	0
+382	Picture	imgPres1	2629242	0	1	17166	2	0	next	hit	765
+382	Response	0	2646217	16975	1
+383	Picture	fix	2646408	0	1	6166	2	0	next	other	0
+384	Picture	img	2652574	0	1	8166	2	0	next	other	0
+384	Sound	sound1	2652574	0	2			0		other	0
+384	Sound	sound2	2657574	5000	1			5000		other	0
+385	Picture	imgPres1	2660740	0	1	8833	2	0	next	hit	771
+385	Response	0	2669416	8676	1
+386	Picture	fix	2669573	0	1	6167	2	0	next	other	0
+387	Picture	img	2675740	0	1	8166	2	0	next	other	0
+387	Sound	sound1	2675740	0	2			0		other	0
+387	Sound	sound2	2680740	5000	1			5000		other	0
+388	Picture	imgPres1	2683906	0	1	4000	2	0	next	hit	777
+388	Response	0	2687816	3910	1
+389	Picture	fix	2687906	0	1	6167	2	0	next	other	0
+390	Picture	img	2694073	0	1	8166	2	0	next	other	0
+390	Sound	sound1	2694073	0	2			0		other	0
+390	Sound	sound2	2699073	5000	1			5000		other	0
+391	Picture	imgPres1	2702239	0	1	4000	2	0	next	hit	783
+391	Response	0	2705975	3736	1
+392	Picture	fix	2706239	0	1	6166	2	0	next	other	0
+393	Picture	img	2712405	0	1	8167	2	0	next	other	0
+393	Sound	sound1	2712406	1	2			0		other	0
+393	Sound	sound2	2717405	5000	1			5000		other	0
+394	Picture	imgPres1	2720572	0	1	8833	2	0	next	hit	789
+394	Response	0	2729255	8683	1
+395	Picture	fix	2729405	0	1	6166	2	0	next	other	0
+396	Picture	img	2735571	0	1	8167	2	0	next	other	0
+396	Sound	sound1	2735571	0	2			0		other	0
+396	Sound	sound2	2740571	5000	1			5000		other	0
+397	Picture	imgPres1	2743738	0	1	5666	2	0	next	hit	795
+397	Response	0	2749254	5516	2
+398	Picture	fix	2749404	0	1	6166	3	0	next	other	0
+399	Picture	img	2755570	0	2	8167	3	0	next	other	0
+399	Sound	sound1	2755571	1	2			0		other	0
+399	Sound	sound2	2760570	5000	1			5000		other	0
+400	Picture	imgPres1	2763737	0	1	13499	2	0	next	hit	801
+400	Response	0	2777094	13357	1
+401	Picture	fix	2777236	0	1	6167	2	0	next	other	0
+402	Picture	img	2783403	0	1	8166	2	0	next	other	0
+402	Sound	sound1	2783403	0	2			0		other	0
+402	Sound	sound2	2788403	5000	1			5000		other	0
+403	Picture	imgPres1	2791569	0	1	6667	2	0	next	hit	807
+403	Response	0	2797893	6324	1
+404	Picture	fix	2798236	0	1	6166	2	0	next	other	0
+405	Picture	img	2804402	0	1	8166	3	0	next	other	0
+405	Sound	sound1	2804402	0	2			0		other	0
+405	Sound	sound2	2809402	5000	1			5000		other	0
+406	Picture	imgPres1	2812568	0	2	6834	3	0	next	hit	813
+406	Response	0	2819173	6605	1
+407	Picture	fix	2819402	0	1	6166	2	0	next	other	0
+408	Picture	img	2825568	0	1	8166	2	0	next	other	0
+408	Sound	sound1	2825568	0	2			0		other	0
+408	Sound	sound2	2830568	5000	1			5000		other	0
+409	Picture	imgPres1	2833734	0	1	11167	2	0	next	hit	819
+409	Response	0	2844772	11038	1
+410	Picture	fix	2844901	0	1	6166	2	0	next	other	0
+411	Picture	img	2851067	0	1	8166	3	0	next	other	0
+411	Sound	sound1	2851067	0	2			0		other	0
+411	Sound	sound2	2856067	5000	1			5000		other	0
+412	Picture	imgPres1	2859233	0	2	12667	3	0	next	hit	825
+412	Response	0	2871812	12579	1
+413	Picture	fix	2871900	0	1	6166	2	0	next	other	0
+414	Picture	img	2878066	0	1	8167	2	0	next	other	0
+414	Sound	sound1	2878066	0	2			0		other	0
+414	Sound	sound2	2883066	5000	1			5000		other	0
+415	Picture	imgPres1	2886233	0	1	3666	2	0	next	hit	831
+415	Response	0	2889731	3498	1
+416	Picture	fix	2889899	0	1	6167	2	0	next	other	0
+417	Picture	img	2896066	0	1	8166	2	0	next	other	0
+417	Sound	sound1	2896066	0	2			0		other	0
+417	Sound	sound2	2901066	5000	1			5000		other	0
+418	Picture	imgPres1	2904232	0	1	7000	2	0	next	hit	837
+418	Response	0	2911011	6779	1
+419	Picture	fix	2911232	0	1	6166	2	0	next	other	0
+420	Picture	img	2917398	0	1	8167	2	0	next	other	0
+420	Sound	sound1	2917399	1	1			0		other	0
+420	Sound	sound2	2922398	5000	1			5000		other	0
+421	Picture	imgPres1	2925565	0	1	5333	2	0	next	hit	843
+421	Response	0	2930450	4885	1
+422	Picture	fix	2930898	0	1	6166	2	0	next	other	0
+423	Picture	img	2937064	0	1	8167	2	0	next	other	0
+423	Sound	sound1	2937065	1	1			0		other	0
+423	Sound	sound2	2942064	5000	1			5000		other	0
+424	Picture	imgPres1	2945231	0	1	8999	2	0	next	hit	849
+424	Response	0	2954049	8818	1
+425	Picture	fix	2954230	0	1	6167	2	0	next	other	0
+426	Picture	img	2960397	0	1	8166	2	0	next	other	0
+426	Sound	sound1	2960397	0	2			0		other	0
+426	Sound	sound2	2965397	5000	1			5000		other	0
+427	Picture	imgPres1	2968563	0	1	7333	2	0	next	hit	855
+427	Response	0	2975729	7166	1
+428	Picture	fix	2975896	0	1	6167	2	0	next	other	0
+429	Picture	img	2982063	0	1	8166	2	0	next	other	0
+429	Sound	sound1	2982063	0	2			0		other	0
+429	Sound	sound2	2987063	5000	1			5000		other	0
+430	Picture	imgPres1	2990229	0	1	4166	3	0	next	hit	861
+430	Response	0	2994369	4140	1
+431	Picture	fix	2994395	0	2	6167	3	0	next	other	0
+432	Picture	img	3000562	0	1	8166	2	0	next	other	0
+432	Sound	sound1	3000562	0	2			0		other	0
+432	Sound	sound2	3005562	5000	1			5000		other	0
+433	Picture	imgPres1	3008728	0	1	3334	2	0	next	hit	867
+433	Response	0	3011968	3240	1
+434	Picture	fix	3012062	0	1	6166	2	0	next	other	0
+435	Picture	img	3018228	0	1	8166	2	0	next	other	0
+435	Sound	sound1	3018228	0	2			0		other	0
+435	Sound	sound2	3023228	5000	1			5000		other	0
+436	Picture	imgPres1	3026394	0	1	7833	2	0	next	hit	873
+436	Response	0	3033968	7574	1
+437	Picture	fix	3034227	0	1	6167	2	0	next	other	0
+438	Picture	img	3040394	0	1	8166	2	0	next	other	0
+438	Sound	sound1	3040394	0	2			0		other	0
+438	Sound	sound2	3045394	5000	1			5000		other	0
+439	Picture	imgPres1	3048560	0	1	12000	2	0	next	hit	879
+439	Response	0	3060367	11807	1
+440	Picture	fix	3060560	0	1	6166	2	0	next	other	0
+441	Picture	img	3066726	0	1	8167	2	0	next	other	0
+441	Sound	sound1	3066727	1	1			0		other	0
+441	Sound	sound2	3071726	5000	1			5000		other	0
+442	Picture	imgPres1	3074893	0	1	5666	2	0	next	hit	885
+442	Response	0	3080287	5394	1
+443	Picture	fix	3080559	0	1	6167	2	0	next	other	0
+444	Picture	img	3086726	0	1	8166	2	0	next	other	0
+444	Sound	sound1	3086726	0	2			0		other	0
+444	Sound	sound2	3091726	5000	1			5000		other	0
+445	Picture	imgPres1	3094892	0	1	7833	2	0	next	hit	891
+445	Response	0	3102286	7394	1
+446	Picture	fix	3102725	0	1	6166	3	0	next	other	0
+447	Picture	img	3108891	0	2	8167	3	0	next	other	0
+447	Sound	sound1	3108892	1	2			0		other	0
+447	Sound	sound2	3113891	5000	1			5000		other	0
+448	Picture	imgPres1	3117058	0	1	9666	2	0	next	hit	897
+448	Response	0	3126606	9548	1
+449	Picture	fix	3126724	0	1	6167	2	0	next	other	0
+450	Picture	img	3132891	0	1	8166	2	0	next	other	0
+450	Sound	sound1	3132891	0	2			0		other	0
+450	Sound	sound2	3137891	5000	1			5000		other	0
+451	Picture	imgPres1	3141057	0	1	5333	2	0	next	hit	903
+451	Response	0	3146205	5148	1
+452	Picture	fix	3146390	0	1	6167	2	0	next	other	0
+453	Picture	img	3152557	0	1	8166	2	0	next	other	0
+453	Sound	sound1	3152557	0	2			0		other	0
+453	Sound	sound2	3157557	5000	1			5000		other	0
+454	Picture	imgPres1	3160723	0	1	5167	2	0	next	hit	909
+454	Response	0	3165725	5002	1
+455	Picture	fix	3165890	0	1	6166	2	0	next	other	0
+456	Picture	img	3172056	0	1	8166	2	0	next	other	0
+456	Sound	sound1	3172056	0	2			0		other	0
+456	Sound	sound2	3177056	5000	1			5000		other	0
+457	Picture	imgPres1	3180222	0	1	6500	2	0	next	hit	915
+457	Response	0	3186604	6382	1
+458	Picture	block	3186722	0	1	29166	2	0	next	other	0
+458	Response	0	3215643	28921	2
+459	Picture	fix	3215888	0	1	6166	2	0	next	other	0
+460	Picture	img	3222054	0	1	8167	2	0	next	other	0
+460	Sound	sound1	3222055	1	1			0		other	0
+460	Sound	sound2	3227054	5000	1			5000		other	0
+461	Picture	imgPres1	3230221	0	1	6833	2	0	next	hit	923
+461	Response	0	3237003	6782	1
+462	Picture	fix	3237054	0	1	6166	2	0	next	other	0
+463	Picture	img	3243220	0	1	8167	2	0	next	other	0
+463	Sound	sound1	3243220	0	2			0		other	0
+463	Sound	sound2	3248220	5000	1			5000		other	0
+464	Picture	imgPres1	3251387	0	1	6499	2	0	next	hit	929
+464	Response	0	3257722	6335	2
+465	Picture	fix	3257886	0	1	6167	2	0	next	other	0
+466	Picture	img	3264053	0	1	8166	2	0	next	other	0
+466	Sound	sound1	3264053	0	2			0		other	0
+466	Sound	sound2	3269053	5000	1			5000		other	0
+467	Picture	imgPres1	3272219	0	1	4667	2	0	next	hit	935
+467	Response	0	3276682	4463	1
+468	Picture	fix	3276886	0	1	6166	2	0	next	other	0
+469	Picture	img	3283052	0	1	8167	2	0	next	other	0
+469	Sound	sound1	3283052	0	2			0		other	0
+469	Sound	sound2	3288052	5000	1			5000		other	0
+470	Picture	imgPres1	3291219	0	1	6999	2	0	next	hit	941
+470	Response	0	3297962	6743	1
+471	Picture	fix	3298218	0	1	6167	2	0	next	other	0
+472	Picture	img	3304385	0	1	8166	2	0	next	other	0
+472	Sound	sound1	3304385	0	2			0		other	0
+472	Sound	sound2	3309385	5000	1			5000		other	0
+473	Picture	imgPres1	3312551	0	1	4500	2	0	next	hit	947
+473	Response	0	3316681	4130	1
+474	Picture	fix	3317051	0	1	6166	2	0	next	other	0
+475	Picture	img	3323217	0	1	8167	2	0	next	other	0
+475	Sound	sound1	3323218	1	2			0		other	0
+475	Sound	sound2	3328217	5000	1			5000		other	0
+476	Picture	imgPres1	3331384	0	1	6333	2	0	next	hit	953
+476	Response	0	3337641	6257	1
+477	Picture	fix	3337717	0	1	6166	2	0	next	other	0
+478	Picture	img	3343883	0	1	8167	2	0	next	other	0
+478	Sound	sound1	3343884	1	1			0		other	0
+478	Sound	sound2	3348883	5000	1			5000		other	0
+479	Picture	imgPres1	3352050	0	1	9333	2	0	next	hit	959
+479	Response	0	3361160	9110	1
+480	Picture	fix	3361383	0	1	6166	2	0	next	other	0
+481	Picture	img	3367549	0	1	8167	2	0	next	other	0
+481	Sound	sound1	3367550	1	1			0		other	0
+481	Sound	sound2	3372549	5000	1			5000		other	0
+482	Picture	imgPres1	3375716	0	1	9499	2	0	next	hit	965
+482	Response	0	3384999	9283	2
+483	Picture	fix	3385215	0	1	6167	2	0	next	other	0
+484	Picture	img	3391382	0	1	8166	2	0	next	other	0
+484	Sound	sound1	3391382	0	2			0		other	0
+484	Sound	sound2	3396382	5000	1			5000		other	0
+485	Picture	imgPres1	3399548	0	1	4667	2	0	next	hit	971
+485	Response	0	3403799	4251	1
+486	Picture	fix	3404215	0	1	6166	2	0	next	other	0
+487	Picture	img	3410381	0	1	8166	2	0	next	other	0
+487	Sound	sound1	3410381	0	2			0		other	0
+487	Sound	sound2	3415381	5000	1			5000		other	0
+488	Picture	imgPres1	3418547	0	1	4500	2	0	next	hit	977
+488	Response	0	3422758	4211	2
+489	Picture	fix	3423047	0	1	6167	2	0	next	other	0
+490	Picture	img	3429214	0	1	8166	2	0	next	other	0
+490	Sound	sound1	3429214	0	2			0		other	0
+490	Sound	sound2	3434214	5000	1			5000		other	0
+491	Picture	imgPres1	3437380	0	1	10000	2	0	next	hit	983
+491	Response	0	3447238	9858	1
+492	Picture	fix	3447380	0	1	6166	2	0	next	other	0
+493	Picture	img	3453546	0	1	8167	2	0	next	other	0
+493	Sound	sound1	3453547	1	1			0		other	0
+493	Sound	sound2	3458546	5000	1			5000		other	0
+494	Picture	imgPres1	3461713	0	1	8333	2	0	next	hit	989
+494	Response	0	3469877	8164	2
+495	Picture	fix	3470046	0	1	6166	2	0	next	other	0
+496	Picture	img	3476212	0	1	8166	3	0	next	other	0
+496	Sound	sound1	3476212	0	2			0		other	0
+496	Sound	sound2	3481212	5000	1			5000		other	0
+497	Picture	imgPres1	3484378	0	2	7667	3	0	next	hit	995
+497	Response	0	3491317	6939	1
+498	Picture	fix	3492045	0	1	6166	2	0	next	other	0
+499	Picture	img	3498211	0	1	8167	2	0	next	other	0
+499	Sound	sound1	3498212	1	2			0		other	0
+499	Sound	sound2	3503211	5000	1			5000		other	0
+500	Picture	imgPres1	3506378	0	1	6499	3	0	next	hit	1001
+500	Response	0	3512757	6379	1
+501	Picture	fix	3512877	0	2	6167	3	0	next	other	0
+502	Picture	img	3519044	0	1	8166	2	0	next	other	0
+502	Sound	sound1	3519044	0	2			0		other	0
+502	Sound	sound2	3524044	5000	1			5000		other	0
+503	Picture	imgPres1	3527210	0	1	4833	3	0	next	hit	1007
+503	Response	0	3531796	4586	1
+504	Picture	fix	3532043	0	2	6167	3	0	next	other	0
+505	Picture	img	3538210	0	1	8166	2	0	next	other	0
+505	Sound	sound1	3538210	0	2			0		other	0
+505	Sound	sound2	3543210	5000	1			5000		other	0
+506	Picture	imgPres1	3546376	0	1	8500	2	0	next	hit	1013
+506	Response	0	3554676	8300	1
+507	Picture	fix	3554876	0	1	6166	3	0	next	other	0
+508	Picture	img	3561042	0	2	8167	3	0	next	other	0
+508	Sound	sound1	3561043	1	2			0		other	0
+508	Sound	sound2	3566042	5000	1			5000		other	0
+509	Picture	imgPres1	3569209	0	1	4500	2	0	next	hit	1019
+509	Response	0	3573555	4346	1
+510	Picture	fix	3573709	0	1	6166	2	0	next	other	0
+511	Picture	img	3579875	0	1	8167	2	0	next	other	0
+511	Sound	sound1	3579875	0	2			0		other	0
+511	Sound	sound2	3584875	5000	1			5000		other	0
+512	Picture	imgPres1	3588042	0	1	4499	2	0	next	hit	1025
+512	Response	0	3592435	4393	1
+513	Picture	fix	3592541	0	1	6167	2	0	next	other	0
+514	Picture	img	3598708	0	1	8166	2	0	next	other	0
+514	Sound	sound1	3598708	0	2			0		other	0
+514	Sound	sound2	3603708	5000	1			5000		other	0
+515	Picture	imgPres1	3606874	0	1	7500	2	0	next	hit	1031
+515	Response	0	3614274	7400	1
+516	Picture	fix	3614374	0	1	6166	2	0	next	other	0
+517	Picture	img	3620540	0	1	8167	2	0	next	other	0
+517	Sound	sound1	3620541	1	2			0		other	0
+517	Sound	sound2	3625540	5000	1			5000		other	0
+518	Picture	imgPres1	3628707	0	1	4833	2	0	next	hit	1037
+518	Response	0	3633314	4607	1
+519	Picture	fix	3633540	0	1	6166	2	0	next	other	0
+520	Picture	img	3639706	0	1	8167	2	0	next	other	0
+520	Sound	sound1	3639707	1	2			0		other	0
+520	Sound	sound2	3644706	5000	1			5000		other	0
+521	Picture	imgPres1	3647873	0	1	15333	2	0	next	hit	1043
+521	Response	0	3662993	15120	1
+522	Picture	fix	3663206	0	1	6166	2	0	next	other	0
+523	Picture	img	3669372	0	1	8166	2	0	next	other	0
+523	Sound	sound1	3669372	0	2			0		other	0
+523	Sound	sound2	3674372	5000	1			5000		other	0
+524	Picture	imgPres1	3677538	0	1	5000	2	0	next	hit	1049
+524	Response	0	3682273	4735	1
+525	Picture	fix	3682538	0	1	6167	2	0	next	other	0
+526	Picture	img	3688705	0	1	8166	2	0	next	other	0
+526	Sound	sound1	3688705	0	2			0		other	0
+526	Sound	sound2	3693705	5000	1			5000		other	0
+527	Picture	imgPres1	3696871	0	1	4500	2	0	next	hit	1055
+527	Response	0	3701152	4281	1
+528	Picture	fix	3701371	0	1	6166	2	0	next	other	0
+529	Picture	img	3707537	0	1	8167	2	0	next	other	0
+529	Sound	sound1	3707538	1	2			0		other	0
+529	Sound	sound2	3712537	5000	1			5000		other	0
+530	Picture	imgPres1	3715704	0	1	4500	2	0	next	hit	1061
+530	Response	0	3720032	4328	1
+531	Picture	fix	3720204	0	1	6166	2	0	next	other	0
+532	Picture	img	3726370	0	1	8166	3	0	next	other	0
+532	Sound	sound1	3726370	0	2			0		other	0
+532	Sound	sound2	3731370	5000	1			5000		other	0
+533	Picture	imgPres1	3734536	0	2	3834	3	0	next	hit	1067
+533	Response	0	3738191	3655	1
+534	Picture	fix	3738370	0	1	6166	2	0	next	other	0
+535	Picture	img	3744536	0	1	8166	3	0	next	other	0
+535	Sound	sound1	3744536	0	2			0		other	0
+535	Sound	sound2	3749536	5000	1			5000		other	0
+536	Picture	imgPres1	3752702	0	2	6000	3	0	next	hit	1073
+536	Response	0	3758511	5809	1
+537	Picture	fix	3758702	0	1	6167	2	0	next	other	0
+538	Picture	img	3764869	0	1	8166	2	0	next	other	0
+538	Sound	sound1	3764869	0	2			0		other	0
+538	Sound	sound2	3769869	5000	1			5000		other	0
+539	Picture	imgPres1	3773035	0	1	5000	2	0	next	hit	1079
+539	Response	0	3777870	4835	1
+540	Picture	fix	3778035	0	1	6166	2	0	next	other	0
+541	Picture	img	3784201	0	1	8167	2	0	next	other	0
+541	Sound	sound1	3784202	1	2			0		other	0
+541	Sound	sound2	3789201	5000	1			5000		other	0
+542	Picture	imgPres1	3792368	0	1	8333	2	0	next	hit	1085
+542	Response	0	3800590	8222	1
+543	Picture	fix	3800701	0	1	6166	2	0	next	other	0
+544	Picture	img	3806867	0	1	8167	2	0	next	other	0
+544	Sound	sound1	3806868	1	2			0		other	0
+544	Sound	sound2	3811867	5000	1			5000		other	0
+545	Picture	imgPres1	3815034	0	1	8166	2	0	next	hit	1091
+545	Response	0	3822989	7955	1
+546	Picture	fix	3823200	0	1	6167	2	0	next	other	0
+547	Picture	img	3829367	0	1	8166	2	0	next	other	0
+547	Sound	sound1	3829367	0	2			0		other	0
+547	Sound	sound2	3834367	5000	1			5000		other	0
+548	Picture	imgPres1	3837533	0	1	4500	2	0	next	hit	1097
+548	Response	0	3841869	4336	1
+549	Picture	fix	3842033	0	1	6166	2	0	next	other	0
+550	Picture	img	3848199	0	1	8167	2	0	next	other	0
+550	Sound	sound1	3848200	1	1			0		other	0
+550	Sound	sound2	3853199	5000	1			5000		other	0
+551	Picture	imgPres1	3856366	0	1	5833	2	0	next	hit	1103
+551	Response	0	3861948	5582	2
+552	Picture	fix	3862199	0	1	6166	2	0	next	other	0
+553	Picture	img	3868365	0	1	8167	2	0	next	other	0
+553	Sound	sound1	3868365	0	2			0		other	0
+553	Sound	sound2	3873365	5000	1			5000		other	0
+554	Picture	imgPres1	3876532	0	1	4333	2	0	next	hit	1109
+554	Response	0	3880588	4056	1
+555	Picture	fix	3880865	0	1	6166	2	0	next	other	0
+556	Picture	img	3887031	0	1	8167	2	0	next	other	0
+556	Sound	sound1	3887031	0	2			0		other	0
+556	Sound	sound2	3892031	5000	1			5000		other	0
+557	Picture	imgPres1	3895198	0	1	8166	2	0	next	hit	1115
+557	Response	0	3903147	7949	2
+558	Picture	fix	3903364	0	1	6166	2	0	next	other	0
+559	Picture	img	3909530	0	1	8167	2	0	next	other	0
+559	Sound	sound1	3909531	1	2			0		other	0
+559	Sound	sound2	3914530	5000	1			5000		other	0
+560	Picture	imgPres1	3917697	0	1	4833	2	0	next	hit	1121
+560	Response	0	3922347	4650	1
+561	Picture	fix	3922530	0	1	6166	2	0	next	other	0
+562	Picture	img	3928696	0	1	8167	2	0	next	other	0
+562	Sound	sound1	3928697	1	2			0		other	0
+562	Sound	sound2	3933696	5000	1			5000		other	0
+563	Picture	imgPres1	3936863	0	1	8999	3	0	next	hit	1127
+563	Response	0	3945706	8843	1
+564	Picture	fix	3945862	0	2	6167	3	0	next	other	0
+565	Picture	img	3952029	0	1	8166	2	0	next	other	0
+565	Sound	sound1	3952029	0	2			0		other	0
+565	Sound	sound2	3957029	5000	1			5000		other	0
+566	Picture	imgPres1	3960195	0	1	11000	2	0	next	hit	1133
+566	Response	0	3970586	10391	1
+567	Picture	fix	3971195	0	1	6166	2	0	next	other	0
+568	Picture	img	3977361	0	1	8167	2	0	next	other	0
+568	Sound	sound1	3977362	1	2			0		other	0
+568	Sound	sound2	3982361	5000	1			5000		other	0
+569	Picture	imgPres1	3985528	0	1	23332	2	0	next	hit	1139
+569	Response	0	4008665	23137	1
+570	Picture	fix	4008860	0	1	6167	2	0	next	other	0
+571	Picture	img	4015027	0	1	8166	2	0	next	other	0
+571	Sound	sound1	4015027	0	2			0		other	0
+571	Sound	sound2	4020027	5000	1			5000		other	0
+572	Picture	imgPres1	4023193	0	1	6000	2	0	next	hit	1145
+572	Response	0	4029064	5871	1
+573	Picture	fix	4029193	0	1	6166	2	0	next	other	0
+574	Picture	img	4035359	0	1	8167	2	0	next	other	0
+574	Sound	sound1	4035360	1	2			0		other	0
+574	Sound	sound2	4040359	5000	1			5000		other	0
+575	Picture	imgPres1	4043526	0	1	5166	2	0	next	hit	1151
+575	Response	0	4048424	4898	1
+576	Picture	fix	4048692	0	1	6167	2	0	next	other	0
+577	Picture	img	4054859	0	1	8166	2	0	next	other	0
+577	Sound	sound1	4054859	0	2			0		other	0
+577	Sound	sound2	4059859	5000	1			5000		other	0
+578	Picture	imgPres1	4063025	0	1	4833	2	0	next	hit	1157
+578	Response	0	4067704	4679	1
+579	Picture	fix	4067858	0	1	6167	2	0	next	other	0
+580	Picture	img	4074025	0	1	8166	2	0	next	other	0
+580	Sound	sound1	4074025	0	2			0		other	0
+580	Sound	sound2	4079025	5000	1			5000		other	0
+581	Picture	imgPres1	4082191	0	1	9166	2	0	next	hit	1163
+581	Response	0	4091063	8872	1
+582	Picture	fix	4091357	0	1	6167	2	0	next	other	0
+583	Picture	img	4097524	0	1	8166	2	0	next	other	0
+583	Sound	sound1	4097524	0	2			0		other	0
+583	Sound	sound2	4102524	5000	1			5000		other	0
+584	Picture	imgPres1	4105690	0	1	5000	2	0	next	hit	1169
+584	Response	0	4110503	4813	1
+585	Picture	fix	4110690	0	1	6167	2	0	next	other	0
+586	Picture	img	4116857	0	1	8166	2	0	next	other	0
+586	Sound	sound1	4116857	0	2			0		other	0
+586	Sound	sound2	4121857	5000	1			5000		other	0
+587	Picture	imgPres1	4125023	0	1	10166	2	0	next	hit	1175
+587	Response	0	4135062	10039	1
+588	Picture	fix	4135189	0	1	6167	2	0	next	other	0
+589	Picture	img	4141356	0	1	8166	2	0	next	other	0
+589	Sound	sound1	4141356	0	2			0		other	0
+589	Sound	sound2	4146356	5000	1			5000		other	0
+590	Picture	imgPres1	4149522	0	1	5833	2	0	next	hit	1181
+590	Response	0	4155142	5620	1
+591	Picture	fix	4155355	0	1	6167	2	0	next	other	0
+592	Picture	img	4161522	0	1	8166	2	0	next	other	0
+592	Sound	sound1	4161522	0	2			0		other	0
+592	Sound	sound2	4166522	5000	1			5000		other	0
+593	Picture	imgPres1	4169688	0	1	6166	3	0	next	hit	1187
+593	Response	0	4175621	5933	1
+594	Picture	fix	4175854	0	2	6167	3	0	next	other	0
+595	Picture	img	4182021	0	1	8166	2	0	next	other	0
+595	Sound	sound1	4182021	0	2			0		other	0
+595	Sound	sound2	4187021	5000	1			5000		other	0
+596	Picture	imgPres1	4190187	0	1	6333	2	0	next	hit	1193
+596	Response	0	4196341	6154	1
+597	Picture	fix	4196520	0	1	6167	2	0	next	other	0
+598	Picture	img	4202687	0	1	8166	2	0	next	other	0
+598	Sound	sound1	4202687	0	2			0		other	0
+598	Sound	sound2	4207687	5000	1			5000		other	0
+599	Picture	imgPres1	4210853	0	1	14000	2	0	next	hit	1199
+599	Response	0	4224740	13887	1
+600	Picture	fix	4224853	0	1	6166	2	0	next	other	0
+601	Picture	img	4231019	0	1	8167	2	0	next	other	0
+601	Sound	sound1	4231020	1	2			0		other	0
+601	Sound	sound2	4236019	5000	1			5000		other	0
+602	Picture	imgPres1	4239186	0	1	22999	2	0	next	hit	1205
+602	Response	0	4261939	22753	1
+603	Picture	fix	4262185	0	1	6166	2	0	next	other	0
+604	Picture	img	4268351	0	1	8167	2	0	next	other	0
+604	Sound	sound1	4268352	1	1			0		other	0
+604	Sound	sound2	4273351	5000	1			5000		other	0
+605	Picture	imgPres1	4276518	0	1	7666	2	0	next	hit	1211
+605	Response	0	4284019	7501	1
+606	Picture	fix	4284184	0	1	6166	3	0	next	other	0
+607	Picture	img	4290350	0	2	8167	3	0	next	other	0
+607	Sound	sound1	4290351	1	2			0		other	0
+607	Sound	sound2	4295350	5000	1			5000		other	0
+608	Picture	imgPres1	4298517	0	1	9000	2	0	next	hit	1217
+608	Response	0	4307298	8781	1
+609	Picture	fix	4307517	0	1	6166	2	0	next	other	0
+610	Picture	img	4313683	0	1	8166	2	0	next	other	0
+610	Sound	sound1	4313683	0	2			0		other	0
+610	Sound	sound2	4318683	5000	1			5000		other	0
+611	Picture	imgPres1	4321849	0	1	21000	2	0	next	hit	1223
+611	Response	0	4342657	20808	1
+612	Picture	fix	4342849	0	1	6166	2	0	next	other	0
+613	Picture	img	4349015	0	1	8166	3	0	next	other	0
+613	Sound	sound1	4349015	0	2			0		other	0
+613	Sound	sound2	4354015	5000	1			5000		other	0
+614	Picture	imgPres1	4357181	0	2	6167	3	0	next	hit	1229
+614	Response	0	4363057	5876	1
+615	Picture	fix	4363348	0	1	6166	2	0	next	other	0
+616	Picture	img	4369514	0	1	8167	2	0	next	other	0
+616	Sound	sound1	4369515	1	2			0		other	0
+616	Sound	sound2	4374514	5000	1			5000		other	0
+617	Picture	imgPres1	4377681	0	1	4333	2	0	next	hit	1235
+617	Response	0	4381856	4175	2
+618	Picture	fix	4382014	0	1	6166	2	0	next	other	0
+619	Picture	img	4388180	0	1	8167	2	0	next	other	0
+619	Sound	sound1	4388181	1	2			0		other	0
+619	Sound	sound2	4393180	5000	1			5000		other	0
+620	Picture	imgPres1	4396347	0	1	6333	2	0	next	hit	1241
+620	Response	0	4402496	6149	1
+621	Picture	fix	4402680	0	1	6166	2	0	next	other	0
+622	Picture	img	4408846	0	1	8167	2	0	next	other	0
+622	Sound	sound1	4408847	1	2			0		other	0
+622	Sound	sound2	4413846	5000	1			5000		other	0
+623	Picture	imgPres1	4417013	0	1	7666	2	0	next	hit	1247
+623	Response	0	4424495	7482	2
+624	Picture	fix	4424679	0	1	6167	2	0	next	other	0
+625	Picture	img	4430846	0	1	8166	2	0	next	other	0
+625	Sound	sound1	4430846	0	2			0		other	0
+625	Sound	sound2	4435846	5000	1			5000		other	0
+626	Picture	imgPres1	4439012	0	1	6666	3	0	next	hit	1253
+626	Response	0	4445215	6203	1
+627	Picture	fix	4445678	0	2	6167	3	0	next	other	0
+628	Picture	img	4451845	0	1	8166	2	0	next	other	0
+628	Sound	sound1	4451845	0	2			0		other	0
+628	Sound	sound2	4456845	5000	1			5000		other	0
+629	Picture	imgPres1	4460011	0	1	5000	2	0	next	hit	1259
+629	Response	0	4464815	4804	2
+630	Picture	fix	4465011	0	1	6167	2	0	next	other	0
+631	Picture	img	4471178	0	1	8166	2	0	next	other	0
+631	Sound	sound1	4471178	0	2			0		other	0
+631	Sound	sound2	4476178	5000	1			5000		other	0
+632	Picture	imgPres1	4479344	0	1	4166	3	0	next	hit	1265
+632	Response	0	4483374	4030	1
+633	Picture	fix	4483510	0	2	6167	3	0	next	other	0
+634	Picture	img	4489677	0	1	8166	2	0	next	other	0
+634	Sound	sound1	4489677	0	2			0		other	0
+634	Sound	sound2	4494677	5000	1			5000		other	0
+635	Picture	imgPres1	4497843	0	1	4333	3	0	next	hit	1271
+635	Response	0	4502013	4170	2
+636	Picture	fix	4502176	0	2	6167	3	0	next	other	0
+637	Picture	img	4508343	0	1	8166	2	0	next	other	0
+637	Sound	sound1	4508343	0	2			0		other	0
+637	Sound	sound2	4513343	5000	1			5000		other	0
+638	Picture	imgPres1	4516509	0	1	4667	2	0	next	hit	1277
+638	Response	0	4520893	4384	1
+639	Picture	fix	4521176	0	1	6166	2	0	next	other	0
+640	Picture	img	4527342	0	1	8167	2	0	next	other	0
+640	Sound	sound1	4527343	1	1			0		other	0
+640	Sound	sound2	4532342	5000	1			5000		other	0
+641	Picture	imgPres1	4535509	0	1	3999	3	0	next	hit	1283
+641	Response	0	4539373	3864	1
+642	Picture	fix	4539508	0	2	6167	3	0	next	other	0
+643	Picture	img	4545675	0	1	8166	2	0	next	other	0
+643	Sound	sound1	4545675	0	2			0		other	0
+643	Sound	sound2	4550675	5000	1			5000		other	0
+644	Picture	imgPres1	4553841	0	1	6500	2	0	next	hit	1289
+644	Response	0	4560172	6331	1
+645	Picture	fix	4560341	0	1	6167	2	0	next	other	0
+646	Picture	img	4566508	0	1	8166	2	0	next	other	0
+646	Sound	sound1	4566508	0	2			0		other	0
+646	Sound	sound2	4571508	5000	1			5000		other	0
+647	Picture	imgPres1	4574674	0	1	13833	2	0	next	hit	1295
+647	Response	0	4588252	13578	1
+648	Picture	fix	4588507	0	1	6166	2	0	next	other	0
+649	Picture	img	4594673	0	1	8167	2	0	next	other	0
+649	Sound	sound1	4594674	1	1			0		other	0
+649	Sound	sound2	4599673	5000	1			5000		other	0
+650	Picture	imgPres1	4602840	0	1	14332	3	0	next	hit	1301
+650	Response	0	4616891	14051	1
+651	Picture	fix	4617172	0	2	6167	3	0	next	other	0
+652	Picture	img	4623339	0	1	8166	2	0	next	other	0
+652	Sound	sound1	4623339	0	2			0		other	0
+652	Sound	sound2	4628339	5000	1			5000		other	0
+653	Picture	imgPres1	4631505	0	1	5500	2	0	next	hit	1307
+653	Response	0	4636810	5305	1
+654	Picture	fix	4637005	0	1	6167	2	0	next	other	0
+655	Picture	img	4643172	0	1	8166	2	0	next	other	0
+655	Sound	sound1	4643172	0	2			0		other	0
+655	Sound	sound2	4648172	5000	1			5000		other	0
+656	Picture	imgPres1	4651338	0	1	5000	2	0	next	hit	1313
+656	Response	0	4656250	4912	1
+657	Picture	fix	4656338	0	1	6166	2	0	next	other	0
+658	Picture	img	4662504	0	1	8167	2	0	next	other	0
+658	Sound	sound1	4662505	1	1			0		other	0
+658	Sound	sound2	4667504	5000	1			5000		other	0
+659	Picture	imgPres1	4670671	0	1	3999	3	0	next	hit	1319
+659	Response	0	4674409	3738	1
+660	Picture	fix	4674670	0	2	6167	3	0	next	other	0
+661	Picture	img	4680837	0	1	8166	2	0	next	other	0
+661	Sound	sound1	4680837	0	2			0		other	0
+661	Sound	sound2	4685837	5000	1			5000		other	0
+662	Picture	imgPres1	4689003	0	1	3834	2	0	next	hit	1325
+662	Response	0	4692649	3646	1
+663	Picture	fix	4692837	0	1	6166	2	0	next	other	0
+664	Picture	img	4699003	0	1	8166	2	0	next	other	0
+664	Sound	sound1	4699003	0	2			0		other	0
+664	Sound	sound2	4704003	5000	1			5000		other	0
+665	Picture	imgPres1	4707169	0	1	10000	2	0	next	hit	1331
+665	Response	0	4716968	9799	2
+666	Picture	fix	4717169	0	1	6166	3	0	next	other	0
+667	Picture	img	4723335	0	2	8167	3	0	next	other	0
+667	Sound	sound1	4723336	1	2			0		other	0
+667	Sound	sound2	4728335	5000	1			5000		other	0
+668	Picture	imgPres1	4731502	0	1	6833	2	0	next	hit	1337
+668	Response	0	4738088	6586	1
+669	Picture	fix	4738335	0	1	6166	2	0	next	other	0
+670	Picture	img	4744501	0	1	8167	2	0	next	other	0
+670	Sound	sound1	4744502	1	2			0		other	0
+670	Sound	sound2	4749501	5000	1			5000		other	0
+671	Picture	imgPres1	4752668	0	1	5333	2	0	next	hit	1343
+671	Response	0	4757768	5100	1
+672	Picture	fix	4758001	0	1	6166	2	0	next	other	0
+673	Picture	img	4764167	0	1	8167	2	0	next	other	0
+673	Sound	sound1	4764168	1	2			0		other	0
+673	Sound	sound2	4769167	5000	1			5000		other	0
+674	Picture	imgPres1	4772334	0	1	4500	2	0	next	hit	1349
+674	Response	0	4776647	4313	1
+675	Picture	fix	4776834	0	1	6166	2	0	next	other	0
+676	Picture	img	4783000	0	1	8166	2	0	next	other	0
+676	Sound	sound1	4783000	0	2			0		other	0
+676	Sound	sound2	4788000	5000	1			5000		other	0
+677	Picture	imgPres1	4791166	0	1	12667	2	0	next	hit	1355
+677	Response	0	4803526	12360	2
+678	Picture	fix	4803833	0	1	6166	2	0	next	other	0
+679	Picture	img	4809999	0	1	8166	3	0	next	other	0
+679	Sound	sound1	4809999	0	2			0		other	0
+679	Sound	sound2	4814999	5000	1			5000		other	0
+680	Picture	imgPres1	4818165	0	2	7000	3	0	next	hit	1361
+680	Response	0	4824886	6721	1
+681	Picture	fix	4825165	0	1	6167	2	0	next	other	0
+682	Picture	img	4831332	0	1	8166	2	0	next	other	0
+682	Sound	sound1	4831332	0	2			0		other	0
+682	Sound	sound2	4836332	5000	1			5000		other	0
+683	Picture	imgPres1	4839498	0	1	17999	3	0	next	hit	1367
+683	Response	0	4857285	17787	1
+684	Picture	fix	4857497	0	2	6167	3	0	next	other	0
+685	Picture	img	4863664	0	1	8166	2	0	next	other	0
+685	Sound	sound1	4863664	0	2			0		other	0
+685	Sound	sound2	4868664	5000	1			5000		other	0
+686	Picture	imgPres1	4871830	0	1	8167	2	0	next	hit	1373
+686	Response	0	4879845	8015	1
+687	Picture	fix	4879997	0	1	6166	2	0	next	other	0
+688	Picture	img	4886163	0	1	8167	2	0	next	other	0
+688	Sound	sound1	4886163	0	2			0		other	0
+688	Sound	sound2	4891163	5000	1			5000		other	0
+689	Picture	imgPres1	4894330	0	1	4333	2	0	next	hit	1379
+689	Response	0	4898404	4074	1
+690	Picture	fix	4898663	0	1	6166	2	0	next	other	0
+691	Picture	img	4904829	0	1	8167	2	0	next	other	0
+691	Sound	sound1	4904830	1	1			0		other	0
+691	Sound	sound2	4909829	5000	1			5000		other	0
+692	Picture	imgPres1	4912996	0	1	5999	2	0	next	hit	1385
+692	Response	0	4918804	5808	1
+693	Picture	fix	4918995	0	1	6167	2	0	next	other	0
+694	Picture	img	4925162	0	1	8166	2	0	next	other	0
+694	Sound	sound1	4925162	0	2			0		other	0
+694	Sound	sound2	4930162	5000	1			5000		other	0
+695	Picture	imgPres1	4933328	0	1	6000	2	0	next	hit	1391
+695	Response	0	4939123	5795	1
+696	Picture	fix	4939328	0	1	6166	2	0	next	other	0
+697	Picture	img	4945494	0	1	8167	2	0	next	other	0
+697	Sound	sound1	4945495	1	2			0		other	0
+697	Sound	sound2	4950494	5000	1			5000		other	0
+698	Picture	imgPres1	4953661	0	1	6000	2	0	next	hit	1397
+698	Response	0	4959523	5862	1
+699	Picture	fix	4959661	0	1	6166	2	0	next	other	0
+700	Picture	img	4965827	0	1	8166	2	0	next	other	0
+700	Sound	sound1	4965827	0	2			0		other	0
+700	Sound	sound2	4970827	5000	1			5000		other	0
+701	Picture	imgPres1	4973993	0	1	9333	2	0	next	hit	1403
+701	Response	0	4982802	8809	1
+702	Picture	fix	4983326	0	1	6167	2	0	next	other	0
+703	Picture	img	4989493	0	1	8166	2	0	next	other	0
+703	Sound	sound1	4989493	0	2			0		other	0
+703	Sound	sound2	4994493	5000	1			5000		other	0
+704	Picture	imgPres1	4997659	0	1	4333	3	0	next	hit	1409
+704	Response	0	5001762	4103	1
+705	Picture	fix	5001992	0	2	6167	3	0	next	other	0
+706	Picture	img	5008159	0	1	8166	2	0	next	other	0
+706	Sound	sound1	5008159	0	2			0		other	0
+706	Sound	sound2	5013159	5000	1			5000		other	0
+707	Picture	imgPres1	5016325	0	1	5000	2	0	next	hit	1415
+707	Response	0	5021201	4876	2
+708	Picture	fix	5021325	0	1	6167	2	0	next	other	0
+709	Picture	img	5027492	0	1	8166	2	0	next	other	0
+709	Sound	sound1	5027492	0	2			0		other	0
+709	Sound	sound2	5032492	5000	1			5000		other	0
+710	Picture	imgPres1	5035658	0	1	4333	2	0	next	hit	1421
+710	Response	0	5039841	4183	1
+711	Picture	fix	5039991	0	1	6167	2	0	next	other	0
+712	Picture	img	5046158	0	1	8166	2	0	next	other	0
+712	Sound	sound1	5046158	0	2			0		other	0
+712	Sound	sound2	5051158	5000	1			5000		other	0
+713	Picture	imgPres1	5054324	0	1	5833	2	0	next	hit	1427
+713	Response	0	5059840	5516	2
+714	Picture	fix	5060157	0	1	6167	2	0	next	other	0
+715	Picture	img	5066324	0	1	8166	2	0	next	other	0
+715	Sound	sound1	5066324	0	2			0		other	0
+715	Sound	sound2	5071324	5000	1			5000		other	0
+716	Picture	imgPres1	5074490	0	1	4333	2	0	next	hit	1433
+716	Response	0	5078640	4150	1
+717	Picture	fix	5078823	0	1	6167	2	0	next	other	0
+718	Picture	img	5084990	0	1	8166	2	0	next	other	0
+718	Sound	sound1	5084990	0	2			0		other	0
+718	Sound	sound2	5089990	5000	1			5000		other	0
+719	Picture	imgPres1	5093156	0	1	4000	2	0	next	hit	1439
+719	Response	0	5096960	3804	1
+720	Picture	fix	5097156	0	1	6166	2	0	next	other	0
+721	Picture	img	5103322	0	1	8167	2	0	next	other	0
+721	Sound	sound1	5103323	1	1			0		other	0
+721	Sound	sound2	5108322	5000	1			5000		other	0
+722	Picture	imgPres1	5111489	0	1	5333	2	0	next	hit	1445
+722	Response	0	5116639	5150	1
+723	Picture	fix	5116822	0	1	6166	2	0	next	other	0
+724	Picture	img	5122988	0	1	8167	2	0	next	other	0
+724	Sound	sound1	5122989	1	1			0		other	0
+724	Sound	sound2	5127988	5000	1			5000		other	0
+725	Picture	imgPres1	5131155	0	1	3833	2	0	next	hit	1451
+725	Response	0	5134879	3724	1
+726	Picture	fix	5134988	0	1	6166	2	0	next	other	0
+727	Picture	img	5141154	0	1	8167	2	0	next	other	0
+727	Sound	sound1	5141155	1	2			0		other	0
+727	Sound	sound2	5146154	5000	1			5000		other	0
+728	Picture	imgPres1	5149321	0	1	7833	2	0	next	hit	1457
+728	Response	0	5157038	7717	2
+729	Picture	fix	5157154	0	1	6166	2	0	next	other	0
+730	Picture	img	5163320	0	1	8167	2	0	next	other	0
+730	Sound	sound1	5163320	0	2			0		other	0
+730	Sound	sound2	5168320	5000	1			5000		other	0
+731	Picture	imgPres1	5171487	0	1	27499	2	0	next	hit	1463
+731	Response	0	5198717	27230	2
+732	Picture	fix	5198986	0	1	6166	2	0	next	other	0
+733	Picture	img	5205152	0	1	8166	3	0	next	other	0
+733	Sound	sound1	5205152	0	2			0		other	0
+733	Sound	sound2	5210152	5000	1			5000		other	0
+734	Picture	imgPres1	5213318	0	2	6500	3	0	next	hit	1469
+734	Response	0	5219597	6279	1
+735	Picture	fix	5219818	0	1	6167	2	0	next	other	0
+736	Picture	img	5225985	0	1	8166	2	0	next	other	0
+736	Sound	sound1	5225985	0	2			0		other	0
+736	Sound	sound2	5230985	5000	1			5000		other	0
+737	Picture	imgPres1	5234151	0	1	19999	2	0	next	hit	1475
+737	Response	0	5253996	19845	1
+738	Picture	fix	5254150	0	1	6167	2	0	next	other	0
+739	Picture	img	5260317	0	1	8166	2	0	next	other	0
+739	Sound	sound1	5260317	0	2			0		other	0
+739	Sound	sound2	5265317	5000	1			5000		other	0
+740	Picture	imgPres1	5268483	0	1	4833	2	0	next	hit	1481
+740	Response	0	5273276	4793	1
+741	Picture	fix	5273316	0	1	6167	2	0	next	other	0
+742	Picture	img	5279483	0	1	8166	2	0	next	other	0
+742	Sound	sound1	5279483	0	2			0		other	0
+742	Sound	sound2	5284483	5000	1			5000		other	0
+743	Picture	imgPres1	5287649	0	1	5333	2	0	next	hit	1487
+743	Response	0	5292715	5066	1
+744	Picture	fix	5292982	0	1	6167	2	0	next	other	0
+745	Picture	img	5299149	0	1	8166	2	0	next	other	0
+745	Sound	sound1	5299149	0	2			0		other	0
+745	Sound	sound2	5304149	5000	1			5000		other	0
+746	Picture	imgPres1	5307315	0	1	4833	2	0	next	hit	1493
+746	Response	0	5311835	4520	1
+747	Picture	fix	5312148	0	1	6167	2	0	next	other	0
+748	Picture	img	5318315	0	1	8166	2	0	next	other	0
+748	Sound	sound1	5318315	0	2			0		other	0
+748	Sound	sound2	5323315	5000	1			5000		other	0
+749	Picture	imgPres1	5326481	0	1	3667	2	0	next	hit	1499
+749	Response	0	5329994	3513	1
+750	Picture	fix	5330148	0	1	6166	2	0	next	other	0
+751	Picture	img	5336314	0	1	8167	2	0	next	other	0
+751	Sound	sound1	5336314	0	2			0		other	0
+751	Sound	sound2	5341314	5000	1			5000		other	0
+752	Picture	imgPres1	5344481	0	1	3666	2	0	next	hit	1505
+752	Response	0	5347994	3513	1
+753	Picture	fix	5348147	0	1	6167	2	0	next	other	0
+754	Picture	img	5354314	0	1	8166	2	0	next	other	0
+754	Sound	sound1	5354314	0	2			0		other	0
+754	Sound	sound2	5359314	5000	1			5000		other	0
+755	Picture	imgPres1	5362480	0	1	3166	3	0	next	hit	1511
+755	Response	0	5365433	2953	1
+756	Picture	fix	5365646	0	2	6167	3	0	next	other	0
+757	Picture	img	5371813	0	1	8166	2	0	next	other	0
+757	Sound	sound1	5371813	0	2			0		other	0
+757	Sound	sound2	5376813	5000	1			5000		other	0
+758	Picture	imgPres1	5379979	0	1	7000	2	0	next	hit	1517
+758	Response	0	5386713	6734	1
+759	Picture	fix	5386979	0	1	6167	2	0	next	other	0
+760	Picture	img	5393146	0	1	8166	2	0	next	other	0
+760	Sound	sound1	5393146	0	2			0		other	0
+760	Sound	sound2	5398146	5000	1			5000		other	0
+761	Picture	imgPres1	5401312	0	1	3333	2	0	next	hit	1523
+761	Response	0	5404472	3160	2
+762	Picture	fix	5404645	0	1	6167	2	0	next	other	0
+763	Picture	img	5410812	0	1	8166	2	0	next	other	0
+763	Sound	sound1	5410812	0	2			0		other	0
+763	Sound	sound2	5415812	5000	1			5000		other	0
+764	Picture	imgPres1	5418978	0	1	3000	2	0	next	hit	1529
+764	Response	0	5421832	2854	1
+765	Picture	fix	5421978	0	1	6166	2	0	next	other	0
+766	Picture	img	5428144	0	1	8167	2	0	next	other	0
+766	Sound	sound1	5428145	1	2			0		other	0
+766	Sound	sound2	5433144	5000	1			5000		other	0
+767	Picture	imgPres1	5436311	0	1	3333	2	0	next	hit	1535
+767	Response	0	5439432	3121	1
+768	Picture	fix	5439644	0	1	6166	2	0	next	other	0
+769	Picture	img	5445810	0	1	8167	2	0	next	other	0
+769	Sound	sound1	5445811	1	2			0		other	0
+769	Sound	sound2	5450810	5000	2			5000		other	0
+770	Picture	imgPres1	5453977	0	1	5000	2	0	next	hit	1541
+770	Response	0	5458711	4734	1
+771	Picture	fix	5458977	0	1	6166	2	0	next	other	0
+772	Picture	img	5465143	0	1	8166	2	0	next	other	0
+772	Sound	sound1	5465143	0	2			0		other	0
+772	Sound	sound2	5470143	5000	1			5000		other	0
+773	Picture	imgPres1	5473309	0	1	8167	2	0	next	hit	1547
+773	Response	0	5481431	8122	1
+774	Picture	fix	5481476	0	1	6166	2	0	next	other	0
+775	Picture	img	5487642	0	1	8167	2	0	next	other	0
+775	Sound	sound1	5487643	1	1			0		other	0
+775	Sound	sound2	5492642	5000	1			5000		other	0
+776	Picture	imgPres1	5495809	0	1	32165	2	0	next	hit	1553
+776	Response	0	5527750	31941	1
+777	Picture	fix	5527974	0	1	6167	2	0	next	other	0
+778	Picture	img	5534141	0	1	8166	2	0	next	other	0
+778	Sound	sound1	5534141	0	2			0		other	0
+778	Sound	sound2	5539141	5000	1			5000		other	0
+779	Picture	imgPres1	5542307	0	1	5000	2	0	next	hit	1559
+779	Response	0	5547189	4882	2
+780	Picture	fix	5547307	0	1	6166	2	0	next	other	0
+781	Picture	img	5553473	0	1	8167	2	0	next	other	0
+781	Sound	sound1	5553474	1	1			0		other	0
+781	Sound	sound2	5558473	5000	1			5000		other	0
+782	Picture	imgPres1	5561640	0	1	4000	2	0	next	hit	1565
+782	Response	0	5565349	3709	1
+783	Picture	fix	5565640	0	1	6166	2	0	next	other	0
+784	Picture	img	5571806	0	1	8166	2	0	next	other	0
+784	Sound	sound1	5571806	0	2			0		other	0
+784	Sound	sound2	5576806	5000	1			5000		other	0
+785	Picture	imgPres1	5579972	0	1	2834	2	0	next	hit	1571
+785	Response	0	5582628	2656	1
+786	Picture	fix	5582806	0	1	6166	2	0	next	other	0
+787	Picture	img	5588972	0	1	8166	3	0	next	other	0
+787	Sound	sound1	5588972	0	2			0		other	0
+787	Sound	sound2	5593972	5000	1			5000		other	0
+788	Picture	imgPres1	5597138	0	2	3167	3	0	next	hit	1577
+788	Response	0	5600148	3010	1
+789	Picture	fix	5600305	0	1	6166	3	0	next	other	0
+790	Picture	img	5606471	0	2	8167	3	0	next	other	0
+790	Sound	sound1	5606472	1	2			0		other	0
+790	Sound	sound2	5611471	5000	1			5000		other	0
+791	Picture	imgPres1	5614638	0	1	2500	2	0	next	hit	1583
+791	Response	0	5616948	2310	1
+792	Picture	fix	5617138	0	1	6166	2	0	next	other	0
+793	Picture	img	5623304	0	1	8167	2	0	next	other	0
+793	Sound	sound1	5623305	1	1			0		other	0
+793	Sound	sound2	5628304	5000	1			5000		other	0
+794	Picture	imgPres1	5631471	0	1	4666	2	0	next	hit	1589
+794	Response	0	5635907	4436	1
+795	Picture	fix	5636137	0	1	6167	2	0	next	other	0
+796	Picture	img	5642304	0	1	8166	2	0	next	other	0
+796	Sound	sound1	5642304	0	2			0		other	0
+796	Sound	sound2	5647304	5000	1			5000		other	0
+797	Picture	imgPres1	5650470	0	1	4166	3	0	next	hit	1595
+797	Response	0	5654387	3917	1
+798	Picture	fix	5654636	0	2	6167	3	0	next	other	0
+799	Picture	img	5660803	0	1	8166	2	0	next	other	0
+799	Sound	sound1	5660803	0	2			0		other	0
+799	Sound	sound2	5665803	5000	1			5000		other	0
+800	Picture	imgPres1	5668969	0	1	3000	2	0	next	hit	1601
+800	Response	0	5671826	2857	1
+801	Picture	fix	5671969	0	1	6167	2	0	next	other	0
+802	Picture	img	5678136	0	1	8166	2	0	next	other	0
+802	Sound	sound1	5678136	0	2			0		other	0
+802	Sound	sound2	5683136	5000	1			5000		other	0
+803	Picture	imgPres1	5686302	0	1	3167	2	0	next	hit	1607
+803	Response	0	5689346	3044	1
+804	Picture	fix	5689469	0	1	6166	2	0	next	other	0
+805	Picture	img	5695635	0	1	8166	2	0	next	other	0
+805	Sound	sound1	5695635	0	2			0		other	0
+805	Sound	sound2	5700635	5000	1			5000		other	0
+806	Picture	imgPres1	5703801	0	1	7000	2	0	next	hit	1613
+806	Response	0	5710625	6824	2
+807	Picture	fix	5710801	0	1	6167	2	0	next	other	0
+808	Picture	img	5716968	0	1	8166	2	0	next	other	0
+808	Sound	sound1	5716968	0	2			0		other	0
+808	Sound	sound2	5721968	5000	1			5000		other	0
+809	Picture	imgPres1	5725134	0	1	5500	2	0	next	hit	1619
+809	Response	0	5730385	5251	1
+810	Picture	fix	5730634	0	1	6166	2	0	next	other	0
+811	Picture	img	5736800	0	1	8167	2	0	next	other	0
+811	Sound	sound1	5736801	1	1			0		other	0
+811	Sound	sound2	5741800	5000	1			5000		other	0
+812	Picture	imgPres1	5744967	0	1	5666	2	0	next	hit	1625
+812	Response	0	5750465	5498	1
+813	Picture	fix	5750633	0	1	6167	2	0	next	other	0
+814	Picture	img	5756800	0	1	8166	2	0	next	other	0
+814	Sound	sound1	5756800	0	2			0		other	0
+814	Sound	sound2	5761800	5000	1			5000		other	0
+815	Picture	imgPres1	5764966	0	1	9166	2	0	next	hit	1631
+815	Response	0	5773984	9018	1
+816	Picture	fix	5774132	0	1	6167	2	0	next	other	0
+817	Picture	img	5780299	0	1	8166	2	0	next	other	0
+817	Sound	sound1	5780299	0	2			0		other	0
+817	Sound	sound2	5785299	5000	1			5000		other	0
+818	Picture	imgPres1	5788465	0	1	7333	2	0	next	hit	1637
+818	Response	0	5795663	7198	1
+819	Picture	fix	5795798	0	1	6167	2	0	next	other	0
+820	Picture	img	5801965	0	1	8166	2	0	next	other	0
+820	Sound	sound1	5801965	0	2			0		other	0
+820	Sound	sound2	5806965	5000	1			5000		other	0
+821	Picture	imgPres1	5810131	0	1	6833	2	0	next	hit	1643
+821	Response	0	5816783	6652	1
+822	Picture	fix	5816964	0	1	6167	2	0	next	other	0
+823	Picture	img	5823131	0	1	8166	2	0	next	other	0
+823	Sound	sound1	5823131	0	2			0		other	0
+823	Sound	sound2	5828131	5000	1			5000		other	0
+824	Picture	imgPres1	5831297	0	1	12666	2	0	next	hit	1649
+824	Response	0	5843822	12525	2
+825	Picture	fix	5843963	0	1	6167	2	0	next	other	0
+826	Picture	img	5850130	0	1	8166	2	0	next	other	0
+826	Sound	sound1	5850130	0	2			0		other	0
+826	Sound	sound2	5855130	5000	1			5000		other	0
+827	Picture	imgPres1	5858296	0	1	5333	2	0	next	hit	1655
+827	Response	0	5863502	5206	1
+828	Picture	fix	5863629	0	1	6167	2	0	next	other	0
+829	Picture	img	5869796	0	1	8166	2	0	next	other	0
+829	Sound	sound1	5869796	0	2			0		other	0
+829	Sound	sound2	5874796	5000	1			5000		other	0
+830	Picture	imgPres1	5877962	0	1	4667	2	0	next	hit	1661
+830	Response	0	5882381	4419	2
+831	Picture	fix	5882629	0	1	6166	2	0	next	other	0
+832	Picture	img	5888795	0	1	8166	2	0	next	other	0
+832	Sound	sound1	5888795	0	2			0		other	0
+832	Sound	sound2	5893795	5000	1			5000		other	0
+833	Picture	imgPres1	5896961	0	1	2834	2	0	next	hit	1667
+833	Response	0	5899581	2620	1
+834	Picture	fix	5899795	0	1	6166	2	0	next	other	0
+835	Picture	img	5905961	0	1	8166	3	0	next	other	0
+835	Sound	sound1	5905961	0	2			0		other	0
+835	Sound	sound2	5910961	5000	1			5000		other	0
+836	Picture	imgPres1	5914127	0	2	5000	3	0	next	hit	1673
+836	Response	0	5918940	4813	2
+837	Picture	fix	5919127	0	1	6167	2	0	next	other	0
+838	Picture	img	5925294	0	1	8166	2	0	next	other	0
+838	Sound	sound1	5925294	0	2			0		other	0
+838	Sound	sound2	5930294	5000	1			5000		other	0
+839	Picture	imgPres1	5933460	0	1	8666	3	0	next	hit	1679
+839	Response	0	5942060	8600	1
+840	Picture	fix	5942126	0	2	6167	3	0	next	other	0
+841	Picture	img	5948293	0	1	8166	2	0	next	other	0
+841	Sound	sound1	5948293	0	2			0		other	0
+841	Sound	sound2	5953293	5000	1			5000		other	0
+842	Picture	imgPres1	5956459	0	1	6000	2	0	next	hit	1685
+842	Response	0	5962299	5840	2
+843	Picture	fix	5962459	0	1	6167	2	0	next	other	0
+844	Picture	img	5968626	0	1	8166	2	0	next	other	0
+844	Sound	sound1	5968626	0	2			0		other	0
+844	Sound	sound2	5973626	5000	1			5000		other	0
+845	Picture	imgPres1	5976792	0	1	3833	2	0	next	hit	1691
+845	Response	0	5980459	3667	1
+846	Picture	fix	5980625	0	1	6167	2	0	next	other	0
+847	Picture	img	5986792	0	1	8166	2	0	next	other	0
+847	Sound	sound1	5986792	0	2			0		other	0
+847	Sound	sound2	5991792	5000	1			5000		other	0
+848	Picture	imgPres1	5994958	0	1	6500	2	0	next	hit	1697
+848	Response	0	6001179	6221	1
+849	Picture	fix	6001458	0	1	6166	2	0	next	other	0
+850	Picture	img	6007624	0	1	8167	2	0	next	other	0
+850	Sound	sound1	6007625	1	1			0		other	0
+850	Sound	sound2	6012624	5000	1			5000		other	0
+851	Picture	imgPres1	6015791	0	1	6166	2	0	next	hit	1703
+851	Response	0	6021738	5947	1
+852	Picture	fix	6021957	0	1	6166	3	0	next	other	0
+853	Picture	img	6028123	0	2	8167	3	0	next	other	0
+853	Sound	sound1	6028124	1	2			0		other	0
+853	Sound	sound2	6033123	5000	2			5000		other	0
+854	Picture	imgPres1	6036290	0	1	5166	2	0	next	hit	1709
+854	Response	0	6041178	4888	1
+855	Picture	fix	6041456	0	1	6167	2	0	next	other	0
+856	Picture	img	6047623	0	1	8166	2	0	next	other	0
+856	Sound	sound1	6047623	0	2			0		other	0
+856	Sound	sound2	6052623	5000	1			5000		other	0
+857	Picture	imgPres1	6055789	0	1	4500	2	0	next	hit	1715
+857	Response	0	6060217	4428	1
+858	Picture	fix	6060289	0	1	6167	2	0	next	other	0
+859	Picture	img	6066456	0	1	8166	2	0	next	other	0
+859	Sound	sound1	6066456	0	2			0		other	0
+859	Sound	sound2	6071456	5000	1			5000		other	0
+860	Picture	imgPres1	6074622	0	1	3500	2	0	next	hit	1721
+860	Response	0	6077977	3355	1
+861	Picture	fix	6078122	0	1	6166	2	0	next	other	0
+862	Picture	img	6084288	0	1	8167	2	0	next	other	0
+862	Sound	sound1	6084289	1	1			0		other	0
+862	Sound	sound2	6089288	5000	1			5000		other	0
+863	Picture	imgPres1	6092455	0	1	4499	2	0	next	hit	1727
+863	Response	0	6096776	4321	1
+864	Picture	fix	6096954	0	1	6167	2	0	next	other	0
+865	Picture	img	6103121	0	1	8166	2	0	next	other	0
+865	Sound	sound1	6103121	0	2			0		other	0
+865	Sound	sound2	6108121	5000	1			5000		other	0
+866	Picture	imgPres1	6111287	0	1	5167	2	0	next	hit	1733
+866	Response	0	6116216	4929	1
+867	Picture	fix	6116454	0	1	6166	2	0	next	other	0
+868	Picture	img	6122620	0	1	8167	2	0	next	other	0
+868	Sound	sound1	6122621	1	1			0		other	0
+868	Sound	sound2	6127620	5000	1			5000		other	0
+869	Picture	imgPres1	6130787	0	1	8999	2	0	next	hit	1739
+869	Response	0	6139655	8868	2
+870	Picture	fix	6139786	0	1	6167	2	0	next	other	0
+871	Picture	img	6145953	0	1	8166	2	0	next	other	0
+871	Sound	sound1	6145953	0	2			0		other	0
+871	Sound	sound2	6150953	5000	1			5000		other	0
+872	Picture	imgPres1	6154119	0	1	7333	2	0	next	hit	1745
+872	Response	0	6161335	7216	1
+873	Picture	fix	6161452	0	1	6167	2	0	next	other	0
+874	Picture	img	6167619	0	1	8166	2	0	next	other	0
+874	Sound	sound1	6167619	0	2			0		other	0
+874	Sound	sound2	6172619	5000	1			5000		other	0
+875	Picture	imgPres1	6175785	0	1	7833	2	0	next	hit	1751
+875	Response	0	6183414	7629	1
+876	Picture	fix	6183618	0	1	6167	2	0	next	other	0
+877	Picture	img	6189785	0	1	8166	2	0	next	other	0
+877	Sound	sound1	6189785	0	2			0		other	0
+877	Sound	sound2	6194785	5000	1			5000		other	0
+878	Picture	imgPres1	6197951	0	1	7666	2	0	next	hit	1757
+878	Response	0	6205414	7463	1
+879	Picture	fix	6205617	0	1	6167	2	0	next	other	0
+880	Picture	img	6211784	0	1	8166	2	0	next	other	0
+880	Sound	sound1	6211784	0	2			0		other	0
+880	Sound	sound2	6216784	5000	1			5000		other	0
+881	Picture	imgPres1	6219950	0	1	4000	2	0	next	hit	1763
+881	Response	0	6223813	3863	1
+882	Picture	fix	6223950	0	1	6166	3	0	next	other	0
+883	Picture	img	6230116	0	2	8167	3	0	next	other	0
+883	Sound	sound1	6230117	1	2			0		other	0
+883	Sound	sound2	6235116	5000	1			5000		other	0
+884	Picture	imgPres1	6238283	0	1	3833	2	0	next	hit	1769
+884	Response	0	6241893	3610	1
+885	Picture	fix	6242116	0	1	6167	2	0	next	other	0
+886	Picture	img	6248283	0	1	8166	2	0	next	other	0
+886	Sound	sound1	6248283	0	2			0		other	0
+886	Sound	sound2	6253283	5000	1			5000		other	0
+887	Picture	imgPres1	6256449	0	1	8666	2	0	next	hit	1775
+887	Response	0	6264932	8483	2
+888	Picture	fix	6265115	0	1	6167	2	0	next	other	0
+889	Picture	img	6271282	0	1	8166	2	0	next	other	0
+889	Sound	sound1	6271282	0	2			0		other	0
+889	Sound	sound2	6276282	5000	1			5000		other	0
+890	Picture	imgPres1	6279448	0	1	4167	2	0	next	hit	1781
+890	Response	0	6283332	3884	1
+891	Picture	fix	6283615	0	1	6166	2	0	next	other	0
+892	Picture	img	6289781	0	1	8166	3	0	next	other	0
+892	Sound	sound1	6289781	0	2			0		other	0
+892	Sound	sound2	6294781	5000	1			5000		other	0
+893	Picture	imgPres1	6297947	0	2	3334	3	0	next	hit	1787
+893	Response	0	6301172	3225	1
+894	Picture	fix	6301281	0	1	6166	2	0	next	other	0
+895	Picture	img	6307447	0	1	8167	2	0	next	other	0
+895	Sound	sound1	6307447	0	2			0		other	0
+895	Sound	sound2	6312447	5000	1			5000		other	0
+896	Picture	imgPres1	6315614	0	1	3999	2	0	next	hit	1793
+896	Response	0	6319571	3957	1
+897	Picture	fix	6319613	0	1	6167	2	0	next	other	0
+898	Picture	img	6325780	0	1	8166	2	0	next	other	0
+898	Sound	sound1	6325780	0	2			0		other	0
+898	Sound	sound2	6330780	5000	1			5000		other	0
+899	Picture	imgPres1	6333946	0	1	12333	2	0	next	hit	1799
+899	Response	0	6345971	12025	1
+900	Picture	fix	6346279	0	1	6167	2	0	next	other	0
+901	Picture	img	6352446	0	1	8166	2	0	next	other	0
+901	Sound	sound1	6352446	0	2			0		other	0
+901	Sound	sound2	6357446	5000	1			5000		other	0
+902	Picture	imgPres1	6360612	0	1	8666	2	0	next	hit	1805
+902	Response	0	6369090	8478	1
+903	Picture	fix	6369278	0	1	6167	2	0	next	other	0
+904	Picture	img	6375445	0	1	8166	2	0	next	other	0
+904	Sound	sound1	6375445	0	2			0		other	0
+904	Sound	sound2	6380445	5000	1			5000		other	0
+905	Picture	imgPres1	6383611	0	1	3333	2	0	next	hit	1811
+905	Response	0	6386770	3159	1
+906	Picture	fix	6386944	0	1	6167	2	0	next	other	0
+907	Picture	img	6393111	0	1	8166	2	0	next	other	0
+907	Sound	sound1	6393111	0	2			0		other	0
+907	Sound	sound2	6398111	5000	1			5000		other	0
+908	Picture	imgPres1	6401277	0	1	11333	2	0	next	hit	1817
+908	Response	0	6412449	11172	1
+909	Picture	fix	6412610	0	1	6167	2	0	next	other	0
+910	Picture	img	6418777	0	1	8166	2	0	next	other	0
+910	Sound	sound1	6418777	0	2			0		other	0
+910	Sound	sound2	6423777	5000	1			5000		other	0
+911	Picture	imgPres1	6426943	0	1	7166	2	0	next	hit	1823
+911	Response	0	6433968	7025	1
+912	Picture	fix	6434109	0	1	6167	2	0	next	other	0
+913	Picture	img	6440276	0	1	8166	2	0	next	other	0
+913	Sound	sound1	6440276	0	2			0		other	0
+913	Sound	sound2	6445276	5000	1			5000		other	0
+914	Picture	imgPres1	6448442	0	1	6500	2	0	next	hit	1829
+914	Response	0	6454688	6246	1
+915	Picture	fix	6454942	0	1	6166	3	0	next	other	0
+916	Picture	img	6461108	0	2	8167	3	0	next	other	0
+916	Sound	sound1	6461109	1	2			0		other	0
+916	Sound	sound2	6466108	5000	1			5000		other	0
+917	Picture	imgPres1	6469275	0	1	5333	2	0	next	hit	1835
+917	Response	0	6474447	5172	2
+918	Picture	fix	6474608	0	1	6166	3	0	next	other	0
+919	Picture	img	6480774	0	2	8167	3	0	next	other	0
+919	Sound	sound1	6480775	1	2			0		other	0
+919	Sound	sound2	6485774	5000	1			5000		other	0
+920	Picture	imgPres1	6488941	0	1	23300	2	0	next	hit	1841
+920	Response	0	6507007	18066	1
