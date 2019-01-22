@@ -46,8 +46,9 @@ for i in range(len(all_tones)):
             row['wav_file2'] = all_tones[i]
             row['freq1'] = all_freqs[i]
             row['freq2'] = all_freqs[i]
-            row['distance'] = 0
             row['abs_dist'] = 0
+            row['dist_semi'] = 0
+            row['direction'] = 0
             csv_out.append(row)
         for ii in range(-4,5):
             if (ii == 4) & (all_tones[i] != semitones[len(semitones) - 1]):
@@ -57,21 +58,29 @@ for i in range(len(all_tones)):
             row['wav_file2'] = all_tones[i+ii]
             row['freq1'] = all_freqs[i]
             row['freq2'] = all_freqs[i+ii]
-            row['distance'] = abs(ii*25)
-            row['abs_dist'] = ii*25
+            row['abs_dist'] = abs(ii*25)
+            row['dist_semi'] = ii*25
+            if row['freq1'] > row['freq2']:
+                row['direction'] = 1
+            else:
+                row['direction'] = 2
             csv_out.append(row)
             row = dict()
             row['wav_file1'] = all_tones[i+ii]
             row['wav_file2'] = all_tones[i]
             row['freq1'] = all_freqs[i+ii]
             row['freq2'] = all_freqs[i]
-            row['distance'] = abs(ii*25)
-            row['abs_dist'] = ii*25*(-1)
+            row['abs_dist'] = abs(ii*25)
+            row['dist_semi'] = ii*25
+            if row['freq1'] > row['freq2']:
+                row['direction'] = 1
+            else:
+                row['direction'] = 2
             csv_out.append(row)
     else:
         continue
 
-fieldnames = ['wav_file1', 'wav_file2','freq1','freq2','distance','abs_dist']
+fieldnames = ['wav_file1', 'wav_file2','freq1','freq2','abs_dist','dist_semi','direction']
 with open('pitch_discrim.csv', 'w') as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
