@@ -16,47 +16,50 @@ from jr import scorer_spearman
 from sklearn.metrics import make_scorer, get_scorer
 
 
-# train on pure, test on partial
+# load all data
+subj = 'A0305'
+meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subj)
+
+allepochs = meg_dir + '%s_shepard-epo.fif'%(subj)
+epochs = mne.read_epochs(allepochs)
+
+# params: epochs to use, regressor, how to decode, subsetting
+column = 'condition'
+train_on = ['pure']
+test_on = ['partial']
+regressor = 'freq' #column name
+score = 'Spearman R'
 
 # get the data
-purepar_fname = '/Users/meglab/Desktop/shep_fifs/A0305/A0305_purepar-epo.fif'
-purepar_epochs = mne.read_epochs(purepar_fname)
-X_purepar = purepar_epochs._data[:, 0:157, :] # just meg channels
-y_purepar = purepar_epochs.metadata['freq'].values
+train_epochs = epochs[epochs.metadata[column].isin(train_on)]
+train_info = train_epochs.metadata
 
-partial_fname = '/Users/meglab/Desktop/shep_fifs/A0305/A0305_par-epo.fif'
-partial_epochs = mne.read_epochs(partial_fname)
-X_partial = partial_epochs._data[:, 0:157, :] # just meg channels
-y_partial = partial_epochs.metadata['freq'].values
+X_train = train_epochs._data[:, 0:157, :] # just meg channels
+y_train = train_info[regressor].values
 
-pure_fname = '/Users/meglab/Desktop/shep_fifs/A0305/A0305_pure-epo.fif'
-pure_epochs = mne.read_epochs(pure_fname)
-X_pure = pure_epochs._data[:, 0:157, :] # just meg channels
-y_pure = pure_epochs.metadata['freq'].values
+test_epochs = epochs[epochs.metadata[column].isin(test_on)]
+test_info = test_epochs.metadata
 
-shep_fname = '/Users/meglab/Desktop/shep_fifs/A0305/A0305_shep-epo.fif'
-shep_epochs = mne.read_epochs(shep_fname)
-X_shep = shep_epochs._data[:, 0:157, :] # just meg channels
-y_shep = shep_epochs.metadata['freq'].values
+X_test = test_epochs._data[:, 0:157,]
+y_test = test_info[regressor].values
+
 
 # train on one subset
-n_times = X_partial.shape[-1]
+n_times = X_train.shape[-1]
 scores = list()
 for tt in range(n_times):
     clf = make_pipeline(StandardScaler(), Ridge())
-    clf.fit(X_purepar[..., tt], y_purepar)
-    y_pred_shep = clf.predict(X_shep[..., tt])
-    scores.append(scorer_spearman(y_shep, y_pred_shep))
+    clf.fit(X_train[..., tt], y_train)
+    y_pred = clf.predict(X_test[..., tt])
+    scores.append(scorer_spearman(y_test, y_pred))
     print(tt)
 
-
 fig, ax = plt.subplots()
-ax.plot(partial_epochs.times, np.array(scores), label='score')
+ax.plot(epochs.times, np.array(scores), label='score')
 ax.axhline(.0, color='k', linestyle='--', label='chance')
 ax.set_xlabel('Times')
 ax.set_ylabel('%s'%(score))
 ax.legend()
-# ax.set_ylim(bottom=-0.035, top=0.16)
 ax.axvline(.0, color='k', linestyle='-')
 ax.set_title('Decoding MEG sensors over time')
 plt.show()
