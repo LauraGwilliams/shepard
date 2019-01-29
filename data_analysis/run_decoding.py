@@ -40,8 +40,7 @@ subset_trials = False
 current_epochs = epochs[epochs.metadata[column].isin(subset)]
 trial_info = current_epochs.metadata
 
-X = current_epochs._data[:, 0:157, :] # just meg channels
-# epochs collapsed across pure and partials
+X = current_epochs._data[:, 0:208, :] # just meg channels
 
 # pull out regressor of interest
 y = trial_info[regressor].values
@@ -124,7 +123,7 @@ def add_tone_properties(epochs, trial_info):
                      'Eb587': 7,
                      'Eb624': 8}
 
-    add note position to the df
+    # add note position to the df
     trial_info['note_position'] = np.array([note_pos_dict[k] for k in trial_info['freq_key']])
     trial_info['time_ms'] = epochs.events[:, 0]
     trial_info['ISI'] = trial_info['time_ms'] - np.roll(trial_info['time_ms'], 1)
