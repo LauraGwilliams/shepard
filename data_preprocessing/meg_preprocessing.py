@@ -19,8 +19,8 @@ from mne.preprocessing import ICA
 #from logfile_parse import df as trial_info
 
 # params
-subject = 'R1460'
-meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
+subject = 'A0305'
+meg_dir = '/Users/meglab/Desktop/shep_fifs/'+subject+'/'
 filt_l = 1  # same as aquisition
 filt_h = 60
 tmin = -0.2
@@ -30,7 +30,7 @@ tmax = 0.6
 os.environ["SUBJECTS_DIR"] = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri'
 
 # file names
-raw_fname = meg_dir + subject+ '_Shepard-raw.fif'
+raw_fname = meg_dir + subject+ '_shepard-raw.fif'
 ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
 ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
 ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs after ica
@@ -79,6 +79,14 @@ else:
     ica.apply(raw)
     raw.save(ica_raw_fname, overwrite=True)
 
+
+# load the raw file as a con not a fif
+raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep1_NR.con'
+raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
+raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+raw = mne.concatenate_raws([raw1, raw2])
+
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
 
@@ -88,7 +96,7 @@ raw = raw.filter(filt_l, filt_h)
 events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
 # note: you may want to add some decimation here
-epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=(-0.1, 0))
+epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
 # step 6- reject epochs based on threshold
 # opens the gui, "mark" is to mark in red the channel closest to the eyes
 if op.isfile(ica_rej_fname):

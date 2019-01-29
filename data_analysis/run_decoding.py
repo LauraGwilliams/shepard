@@ -1,4 +1,4 @@
-# leg5@nyu.edu
+# leg5@nyu.edu & ea84@nyu.edu
 # run decoding analysis on shepard data
 
 # packages
@@ -8,7 +8,6 @@ import numpy as np
 import pandas as pd
 import mne
 from mne import read_epochs, read_evokeds
-#from jr import scorer_spearman
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression, Ridge
@@ -20,64 +19,37 @@ import mne.decoding
 from jr import scorer_spearman
 from sklearn.metrics import make_scorer, get_scorer
 
-subj = 'R1460'
-meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/' +subj+ '/'
+subj = 'A0305'
+meg_dir = '/Users/meglab/Desktop/shep_fifs/' +subj+ '/'
 
-# epochs collapsed across pure and partials
+# load all data
 allepochs = meg_dir + subj + '_shepard-epo.fif'
-allepochs_info = meg_dir + subj + '_shepard_trialinfo.csv'
+epochs = mne.read_epochs(allepochs)
 
-# keys collapsed across pure and partials
-keyA = meg_dir + subj + '_A_purepar-epo.fif'
-keyC = meg_dir + subj + '_C_purepar-epo.fif'
-keyEb = meg_dir + subj + '_Eb_purepar-epo.fif'
-keyA_info = meg_dir + subj + '_A_purepar_trialinfo.csv'
-keyC_info = meg_dir + subj + '_C_purepar_trialinfo.csv'
-keyEb_info = meg_dir + subj + '_Eb_purepar_trialinfo.csv'
+# params: epochs to use, regressor, how to decode, subsetting
+column = 'condition'
+subset = ['pure','partial']
 
-# shepard epochs
-shep = meg_dir + subj + '_shep-epo.fif'
-shep_info = meg_dir + subj + '_shep_trialinfo.csv'
-
-# pure epochs
-pure = meg_dir + subj + '_pure-epo.fif'
-pure_info = meg_dir + subj + '_pure_trialinfo.csv'
-
-# partials epochs
-partials = meg_dir + subj + '_par-epo.fif'
-partials_info = meg_dir + subj + '_par_trialinfo.csv'
-
-# random blocks
-random = meg_dir + subj + '_random-epo.fif'
-random_info = meg_dir + subj + '_random_trialinfo.csv'
-
-# scale (up or down) blocks
-scale = meg_dir + subj + '_scale-epo.fif'
-scale_info = meg_dir + subj + '_scale_trialinfo.csv'
-
-# scale broken down by key
-keyAscale = meg_dir + subj + '_A_scale-epo.fif'
-keyCscale = meg_dir + subj + '_C_scale-epo.fif'
-keyEbscale = meg_dir + subj + '_Eb_scale-epo.fif'
-keyAscale_info = meg_dir + subj + '_A_scale_trialinfo.csv'
-keyCscale_info = meg_dir + subj + '_C_scale_trialinfo.csv'
-keyEbscale_info = meg_dir + subj + '_Eb_scale_trialinfo.csv'
-
-#-------------------------------------------------------------------------------
-
-# params: choose subject, regressor, epochs/info, how to decode
-subject = 'R1460'
-regressor = 'condition' #condition or frequency
-current_epochs = shep
-current_info = shep_info
+regressor = 'freq' #column name
 decode_using = 'spatial'
 subset_trials = False
 # spatial (trials x sensors x time), temporal (trials x time x sensors),
 # combined (trials x sensors*time)
 
-# load data
-epochs = mne.read_epochs(current_epochs)
-X = epochs._data[:, 0:157, :] # just meg channels
+# subset current_epochs based on parameters
+current_epochs = epochs[epochs.metadata[column].isin(subset)]
+trial_info = current_epochs.metadata
+
+X = current_epochs._data[:, 0:157, :] # just meg channels
+# epochs collapsed across pure and partials
+
+# pull out regressor of interest
+y = trial_info[regressor].values
+
+# sanity
+assert(len(X) == len(y))
+
+#-------------------------------------------------------------------------------
 
 # change X if applicable
 if decode_using == 'temporal':
@@ -87,9 +59,6 @@ if decode_using == 'combined':
     # collapse over spatial and temporal dimensions
     [n_trials, n_sns, n_times] = X.shape
     X = np.reshape(X, [n_trials, n_sns*n_times])
-
-# load trial info
-trial_info = pd.read_csv(current_info)
 
 # # add another column specifying whether the freq of current trial
 # # is higher or lower than the preceeding trial.
@@ -105,12 +74,6 @@ trial_info = pd.read_csv(current_info)
 
 # add a column to mark how many notes into the scale the trial is
 
-# pull out regressor of interest
-y = trial_info[regressor].values
-
-# sanity
-assert(len(X) == len(y))
-
 # to asses decoding performance on a reduced number of trials
 if subset_trials == True:
     y = y[0:2160]
@@ -120,8 +83,8 @@ def my_scaler(x):
     '''
     Scale btw 0-1.
     '''
-    x = np.array(map(float, x))
-    return (x - np.min(x)) / (np.max(x) - np.min(x))
+    x = np.array(x).astype(float)
+    return (x - (np.min(x)) / (np.max(x) - np.min(x)))
 
 def binary_scaler(x):
     '''
@@ -130,56 +93,54 @@ def binary_scaler(x):
     x = np.array(x)
     x[x=='pure']=1.
     x[x=='partial']=0.
-    x[x=='shepard']=2.
-    x = np.array(map(float, x))
+    x = np.array(x).astype(float)
     return x
 
-# def add_tone_properties(epochs, trial_info):
-#
-#     # note position dictionary
-#     note_pos_dict = {'A220': 1,
-#                      'A247': 2,
-#                      'A277': 3,
-#                      'A294': 4,
-#                      'A330': 5,
-#                      'A370': 6,
-#                      'A415': 7,
-#                      'A440': 8,
-#                      'C262': 1,
-#                      'C294': 2,
-#                      'C330': 3,
-#                      'C349': 4,
-#                      'C392': 5,
-#                      'C440': 6,
-#                      'C494': 7,
-#                      'C524': 8,
-#                      'Eb312': 1,
-#                      'Eb349': 2,
-#                      'Eb392': 3,
-#                      'Eb415': 4,
-#                      'Eb466': 5,
-#                      'Eb524': 6,
-#                      'Eb587': 7,
-#                      'Eb624': 8}
+def add_tone_properties(epochs, trial_info):
 
-    # add note position to the df
-    # trial_info['note_position'] = np.array([note_pos_dict[k] for k in trial_info['freq_key']])
-    # trial_info['time_ms'] = epochs.events[:, 0]
-    # trial_info['ISI'] = trial_info['time_ms'] - np.roll(trial_info['time_ms'], 1)
-    #
-    # # add tone position
-    # position = 0
-    # trial_positions = list()
-    # for isi in trial_info['ISI'].values:
-    #     if isi < 750:
-    #         trial_positions.append(position)
-    #         position += 1
-    #     else:
-    #         trial_positions.append(0)
-    #         position = 1
-    # trial_info['trial_position'] = np.array(trial_positions)
-    # return trial_info
+    # note position dictionary
+    note_pos_dict = {'A220': 1,
+                     'A247': 2,
+                     'A277': 3,
+                     'A294': 4,
+                     'A330': 5,
+                     'A370': 6,
+                     'A415': 7,
+                     'A440': 8,
+                     'C262': 1,
+                     'C294': 2,
+                     'C330': 3,
+                     'C349': 4,
+                     'C392': 5,
+                     'C440': 6,
+                     'C494': 7,
+                     'C524': 8,
+                     'Eb312': 1,
+                     'Eb349': 2,
+                     'Eb392': 3,
+                     'Eb415': 4,
+                     'Eb466': 5,
+                     'Eb524': 6,
+                     'Eb587': 7,
+                     'Eb624': 8}
 
+    add note position to the df
+    trial_info['note_position'] = np.array([note_pos_dict[k] for k in trial_info['freq_key']])
+    trial_info['time_ms'] = epochs.events[:, 0]
+    trial_info['ISI'] = trial_info['time_ms'] - np.roll(trial_info['time_ms'], 1)
+
+    # add tone position
+    position = 0
+    trial_positions = list()
+    for isi in trial_info['ISI'].values:
+        if isi < 750:
+            trial_positions.append(position)
+            position += 1
+        else:
+            trial_positions.append(0)
+            position = 1
+    trial_info['trial_position'] = np.array(trial_positions)
+    return trial_info
 
 #----------------------------------------------------------------------------
 
@@ -230,6 +191,7 @@ else:
 scores = np.mean(scores, axis=0)
 
 # -------
+
 # train classifier on all trials to get a prediction for each trial.
 # then, evaluate accuracy on a subset of trials.
 # gen = SlidingEstimator(n_jobs=n_jobs,
@@ -323,8 +285,8 @@ elif decode_using == 'temporal':
         scores_evoked._data[0:157, 0] = scores_evoked._data[0:157, 0] - scores_evoked._data[0:157, 0].mean()
         scores_evoked.plot_topomap(times=scores_evoked.times[0])
 else:
-    print scores
+    print (scores)
 
-# to plot matrix
+# plot matrix
 plt.matshow(plt.matshow(scores, cmap=plt.cm.RdBu_r, origin='lower'))
 plt.show()
