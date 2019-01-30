@@ -1,6 +1,4 @@
 import numpy as np
-import os
-import os.path as op
 from mne.io import read_raw_fif
 from mne import (find_events, Epochs)
 import pandas as pd
@@ -14,8 +12,8 @@ tmin = -0.2
 tmax = 0.6
 
 # file names
-raw_fname = meg_dir + subject+ '_shepard-raw.fif'
-epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
+raw_fname = meg_dir + '%s_shepard-raw.fif'%(subject)
+epochs_fname = meg_dir + '%s_shepard-epo.fif'%(subject_)
 
 # read, filter
 raw = read_raw_fif(raw_fname, preload=True)
@@ -26,6 +24,6 @@ events = find_events(raw)  # the output of this is a 3 x n_trial np array
 epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
 
 # set metadata, save epochs
-trial_info = pd.read_csv(meg_dir + '%s_shepard_trialinfo.csv')
+trial_info = pd.read_csv(meg_dir + '%s_shepard_trialinfo.csv'%(subject))
 epochs.metadata = trial_info
 epochs.save(epochs_fname)
