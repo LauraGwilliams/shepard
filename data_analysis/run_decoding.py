@@ -173,5 +173,6 @@ else:
     print (scores)
 
 # plot matrix
-plt.matshow(plt.matshow(scores, cmap=plt.cm.RdBu_r, origin='lower'))
+
+plt.matshow(scores, cmap=plt.cm.RdBu_r, origin='lower')
 plt.show()
