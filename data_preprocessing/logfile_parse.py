@@ -8,8 +8,8 @@ import mne
 import glob
 
 # paths
-subj = 'A0280'
-base_path = '/Users/meglab/Desktop/shep_fifs/' + subj
+subject = 'A0280'
+base_path = '/Users/meglab/Desktop/shep_fifs/' + subject
 
 # use time stamps to create condition order
 blocks = ['shepard', 'pure', 'partials']
@@ -39,4 +39,4 @@ for time_stamp in time_stamps:
 
 df = pd.concat(dfs)
 
-df.to_csv('%s/'%(base_path) + subj + '_shepard_trialinfo.csv')
+df.to_csv('%s/'%(base_path) + subject + '_shepard_trialinfo.csv')
