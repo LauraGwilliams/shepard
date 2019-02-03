@@ -7,7 +7,7 @@
 
 import numpy as np
 import os
-#import eelbrain
+import eelbrain
 import os.path as op
 from mne.io import read_raw_fif
 from mne.preprocessing.ica import read_ica
@@ -16,28 +16,27 @@ from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  read_forward_solution, convert_forward_solution)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
-#from logfile_parse import df as trial_info
 
 # params
-subject = 'R1460'
-meg_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/'+subject+'/'
+subject = 'A0305'
+meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subject)
 filt_l = 1  # same as aquisition
 filt_h = 60
 tmin = -0.2
 tmax = 0.6
 
 # for plotting
-os.environ["SUBJECTS_DIR"] = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri'
+os.environ["SUBJECTS_DIR"] = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri'
 
 # file names
-raw_fname = meg_dir + subject+ '_Shepard-raw.fif'
+raw_fname = meg_dir + subject+ '_shepard-raw.fif'
 ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
 ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
 ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs after ica
 epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
 evoked_fname = meg_dir + subject+ '_shepard-evoked-ave.fif'
 cov_fname = meg_dir + subject+ '_shepard-cov.fif'
-mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/'+subject+'/bem/'
+mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/%s/bem/'%(subject)
 fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
@@ -50,7 +49,6 @@ if op.isfile(ica_raw_fname):
 
 # else, make it
 else:
-
     # step 1- concatenate data for each block
     raw = read_raw_fif(raw_fname, preload=True)
 
@@ -61,7 +59,6 @@ else:
     # interpolate bads and reset so that we have same number of channels for all blocks/subjects
     raw.interpolate_bads(reset_bads=True)
     raw.save(raw_fname, overwrite=True)  # overwrite w/ bad channel info/interpolated bads
-
 
     # step 3- apply ICA to the conjoint data
     picks = pick_types(raw.info, meg=True, exclude='bads')
@@ -79,16 +76,23 @@ else:
     ica.apply(raw)
     raw.save(ica_raw_fname, overwrite=True)
 
+
+# load the raw file as a con not a fif
+raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep1_NR.con'
+raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
+raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+raw = mne.concatenate_raws([raw1, raw2])
+
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
-
-#-------------------------------------------------------------------------------
 
 # step 5- make epochs
 events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
 # note: you may want to add some decimation here
-epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=(-0.1, 0))
+epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
+
 # step 6- reject epochs based on threshold
 # opens the gui, "mark" is to mark in red the channel closest to the eyes
 if op.isfile(ica_rej_fname):
@@ -170,10 +174,11 @@ inverse_operator_signed = make_inverse_operator(epochs.info, fwd_fixed, noise_co
 snr = 3.0  # Standard assumption for average data but using it for single trial
 lambda2 = 1.0 / snr ** 2
 
-# apply inverse
-#stc_epochs = apply_inverse_epochs(epochs, inverse_operator, lambda2,
-                                  #method='dSPM')
-# np.save(file=stc_fname, arr=stc_epochs)
+# apply inverse to epochs
+stc_epochs = apply_inverse_epochs(epochs, inverse_operator, lambda2,
+                                  method='dSPM')
+# save as numpy array
+np.save(file=stc_fname, arr=stc_epochs)
 
 # apply inverse to evoked
 stc_evoked = apply_inverse(evoked, inverse_operator, lambda2,

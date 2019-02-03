@@ -1,38 +1,42 @@
 # leg5@nyu.edu & ea84@nyu.edu
 # parse logfiles for shepard experiment
-# concatenate fifs
 
 import pandas as pd
 import numpy as np
 import csv
 import mne
-
-# params
-#conditions = ['pure_0', 'partials_0', 'pure_1', 'partials_1', 'pure_2', 'partials_2']
-conditions = ['shepard', 'partials', 'pure']
-subj = 'R1460'
+import glob
 
 # paths
-data_path = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/meg/' + subj
+subject = 'A0280'
+base_path = '/Users/meglab/Desktop/shep_fifs/' + subject
 
-fifs = []
+# use time stamps to create condition order
+blocks = ['shepard', 'pure', 'partials']
 
-# funcs
+# grab time stamps, order list
+time_stamps = list()
+for block in blocks:
+	time_stamp = ([int(i.split('%s_' % block)[1].split('.txt')[0])
+					for i in glob.glob('%s/*%s*[0-9].txt' % (base_path, block))])
+	time_stamps.append(time_stamp)
+time_stamps = np.array(time_stamps).flatten().tolist()
+time_stamps.sort()
+
+# func
 def txt_to_pandas(fname):
 	with open(fname) as inputfile:
 	    results = [l[0].split('\t') for l in list(csv.reader(inputfile))]
 	return pd.DataFrame(results[1:], columns=results[0])
 
 dfs = list()
-for condition in conditions:
-	fname = '%s/'%(data_path)+subj+'_%s.txt' %(condition)
+for time_stamp in time_stamps:
+	fname = glob.glob('%s/*%s.txt' % (base_path, time_stamp))
+	assert(len(fname) == 1)
+	fname = fname[0]  # glob gives a list of files
 	dfs.append(txt_to_pandas(fname))
-	# fif = mne.io.read_raw_fif('%s/'%(data_path) + subj + '_%s-raw.fif'%(condition))
-	# fifs.append(fif)
-	# print fifs
+	print(fname)
 
-# all_fifs = mne.concatenate_raws(fifs)
 df = pd.concat(dfs)
 
-df.to_csv('%s/'%(data_path) + subj + '_shepard_trialinfo.csv')
-# all_fifs.save('%s/'%(data_path) + subj + '_shepard-raw.fif', overwrite=True)
+df.to_csv('%s/'%(base_path) + subject + '_shepard_trialinfo.csv')

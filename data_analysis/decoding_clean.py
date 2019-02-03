@@ -1,7 +1,3 @@
-# leg5@nyu.edu & ea84@nyu.edu
-# run decoding analysis on shepard data
-
-# packages
 import os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -16,40 +12,46 @@ from sklearn.model_selection import (KFold, cross_val_score, cross_val_predict,
 from mne.decoding import (GeneralizingEstimator, SlidingEstimator, get_coef,
                         LinearModel, cross_val_multiscore)
 import mne.decoding
-from jr import scorer_spearman
+from jr import scorer_spearman # will have to download git repos & import some stuff
 from sklearn.metrics import make_scorer, get_scorer
 
-subj = 'A0305'
-meg_dir = '/Users/meglab/Desktop/shep_fifs/' +subj+ '/'
+subject = 'A0280'
+meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subject)
+
+# params
+
+# epochs subset to train on
+column = 'condition'
+subset = ['pure']
+
+# regressor to decode, spatial vs. temporal vs. combined
+regressor = 'condition' #column name
+decode_using = 'spatial' # spatial (trials x sensors x time)
+                        # temporal (trials x time x sensors),
+                        # combined (trials x sensors*time)
+
+#-------------------------------------------------------------------------
 
 # load all data
-allepochs = meg_dir + subj + '_shepard-epo.fif'
+allepochs = meg_dir + '%s_shepard-epo.fif'%(subject)
 epochs = mne.read_epochs(allepochs)
-
-# params: epochs to use, regressor, how to decode, subsetting
-column = 'condition'
-subset = ['pure','partial']
-
-regressor = 'freq' #column name
-decode_using = 'spatial'
-subset_trials = False
-# spatial (trials x sensors x time), temporal (trials x time x sensors),
-# combined (trials x sensors*time)
 
 # subset current_epochs based on parameters
 current_epochs = epochs[epochs.metadata[column].isin(subset)]
 trial_info = current_epochs.metadata
 
-X = current_epochs._data[:, 0:208, :] # just meg channels
+if subject[0] == 'A':
+    ch = 208
+else:
+    ch = 157
+
+# pull out sensor data from meg channels only
+X = current_epochs._data[:, 0:ch, :]
 
 # pull out regressor of interest
 y = trial_info[regressor].values
 
-# sanity
-assert(len(X) == len(y))
-
-#-------------------------------------------------------------------------------
-
+#------------------------------------------------------------------------
 # change X if applicable
 if decode_using == 'temporal':
     # switch channels and times to decode using time course
@@ -59,23 +61,8 @@ if decode_using == 'combined':
     [n_trials, n_sns, n_times] = X.shape
     X = np.reshape(X, [n_trials, n_sns*n_times])
 
-# # add another column specifying whether the freq of current trial
-# # is higher or lower than the preceeding trial.
-# current_trials = trial_info['freq'].values
-# preceding_trial = np.roll(current_trials, 1)
-# low_preceeding = (current_trials > preceding_trial)*1
-# trial_info['low_preceeding'] = low_preceeding
-# # first entry not valid because there is no preceding trial by definition
-# trial_info['low_preceeding'][0] = np.nan
-# trial_info['updown_switch'] = np.array([''.join([str(ii), str(jj)]) for ii, jj in trial_info[['low_preceeding', 'updown']].values])
-# trial_info['purepar_updown'] = np.array([''.join([str(ii), str(jj)]) for ii, jj in trial_info[['condition', 'updown']].values])
-# trial_info['freq_key'] = np.array([''.join([str(ii), str(jj)]) for ii, jj in trial_info[['key', 'freq']].values])
-
-
-# to asses decoding performance on a reduced number of trials
-if subset_trials == True:
-    y = y[0:2160]
-    X = X[0:2160, ...]
+#------------------------------------------------------------------------
+# scaling funcs
 
 def my_scaler(x):
     '''
@@ -94,7 +81,7 @@ def binary_scaler(x):
     x = np.array(x).astype(float)
     return x
 
-#----------------------------------------------------------------------------
+#------------------------------------------------------------------------
 
 # NOTE: it is important to make sure that the y array is in float
 # format not integer, otherwise it turns it into a binary problem.
@@ -103,14 +90,14 @@ def binary_scaler(x):
 
 # set up decoder, use logistic for categorical and Ridge for continuous
 if regressor == 'freq':
-    y = my_scaler(y)
+    y = my_scaler(y) # scale frequencies to between 0 and 1
     clf = make_pipeline(StandardScaler(), Ridge())
     scorer = make_scorer(get_scorer(scorer_spearman))
     score = 'Spearman R'
     cv = KFold(5)
 if regressor == 'condition':
-    y = binary_scaler(y)
-    clf = make_pipeline(StandardScaler(), LogisticRegression())
+    y = binary_scaler(y) # set values to 0.0 and 1.0
+    clf = make_pipeline(StandardScaler(), LogisticRegression(solver='lbfgs'))
     scorer = 'roc_auc'
     score = 'AUC'
     cv = StratifiedKFold(5)
@@ -132,14 +119,12 @@ elif decode_using == 'temporal':
                                 cv=cv)
 else:
     # scoring defaults to neg mean squared so set to scorer
-    # shuffle must be true when binary values, otherwise fold will only have
-        # one value
+    # shuffle must be true when binary values, otherwise fold will only have one value
     scores = cross_val_score(clf, X, y,
                             scoring=scorer, #defaults to neg mean squared
                             cv=KFold(5, shuffle=True))
 
-
-# Mean scores across cross-validation splits
+# mean scores across cross-validation splits
 scores = np.mean(scores, axis=0)
 
 # ---------------------------------------------------------------------------
@@ -160,19 +145,24 @@ if decode_using == 'spatial':
     ax.axvline(.0, color='k', linestyle='-')
     ax.set_title('Decoding MEG sensors over time')
     plt.show()
+
 elif decode_using == 'temporal':
-    scores_evoked = mne.read_evokeds(meg_dir+subj+'_shepard-evoked-ave.fif')[0]
-    scores_evoked._data[0:157, 0] = scores
+    # load in evoked object to plot on
+    scores_evoked = mne.read_evokeds(meg_dir + '%s_shepard-evoked-ave.fif'%(subject))[0]
+    scores_evoked._data[0:ch, 0] = scores
     if regressor == 'freq':
         scores_evoked.plot_topomap(times=scores_evoked.times[0])
     if regressor == 'condition':
         # center around 0 for plotting
-        scores_evoked._data[0:157, 0] = scores_evoked._data[0:157, 0] - scores_evoked._data[0:157, 0].mean()
+        scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
         scores_evoked.plot_topomap(times=scores_evoked.times[0])
+
+    coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
+    evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
+    joint_kwargs = dict(ts_args=dict(time_unit='s'),
+                        topomap_args=dict(time_unit='s'))
+    evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
+                      **joint_kwargs)
 else:
+    # if combined, it just returns an overall score (nothing to plot!)
     print (scores)
-
-# plot matrix
-
-plt.matshow(scores, cmap=plt.cm.RdBu_r, origin='lower')
-plt.show()
