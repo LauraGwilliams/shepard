@@ -6,8 +6,8 @@ from mne import (find_events, Epochs)
 import pandas as pd
 
 # params
-subject = 'A0280'
-meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subject)
+subject = 'P011'
+meg_dir = '/Users/ea84/Dropbox/shepard_preproc/%s/'%(subject)
 filt_l = 1  # same as aquisition
 filt_h = 60
 tmin = -0.2
@@ -17,7 +17,7 @@ tmax = 0.6
 raw_fname = meg_dir + '%s_shepard-raw.fif'%(subject)
 epochs_fname = meg_dir + '%s_shepard-epo.fif'%(subject)
 
-server_dir = '/Volumes/MEG/NYUAD-Lab-Server/DataAnalysis/Shepard/meg/'
+server_dir = '/Users/ea84/Dropbox/shepard_preproc/'
 
 # read, filter
 if op.isfile(raw_fname):

@@ -15,14 +15,14 @@ import mne.decoding
 from jr import scorer_spearman # will have to download git repos & import some stuff
 from sklearn.metrics import make_scorer, get_scorer
 
-subject = 'A0280'
-meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subject)
+subject = 'P011'
+meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
 
 # params
 
 # epochs subset to train on
 column = 'condition'
-subset = ['pure']
+subset = ['partial','pure']
 
 # regressor to decode, spatial vs. temporal vs. combined
 regressor = 'condition' #column name
@@ -97,7 +97,7 @@ if regressor == 'freq':
     cv = KFold(5)
 if regressor == 'condition':
     y = binary_scaler(y) # set values to 0.0 and 1.0
-    clf = make_pipeline(StandardScaler(), LogisticRegression(solver='lbfgs'))
+    clf = make_pipeline(StandardScaler(), LogisticRegression(solver='liblinear'))
     scorer = 'roc_auc'
     score = 'AUC'
     cv = StratifiedKFold(5)

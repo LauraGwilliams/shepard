@@ -17,16 +17,16 @@ from sklearn.metrics import make_scorer, get_scorer
 
 
 # load all data
-subj = 'A0280'
-meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subj)
+subj = 'P010'
+meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subj)
 
 allepochs = meg_dir + '%s_shepard-epo.fif'%(subj)
 epochs = mne.read_epochs(allepochs)
 
 # params: epochs to use, regressor, how to decode, subsetting
 column = ['condition']
-train_on = [['partial','']]
-test_on = ['shepard']
+train_on = [['partial']]
+test_on = ['pure']
 regressor = 'freq' #column name
 score = 'Spearman R'
 
@@ -45,6 +45,11 @@ train_info = train_epochs.metadata
 
 X_train = train_epochs._data[:, 0:ch, :] # just meg channels
 y_train = train_info[regressor].values.astype(float)
+
+test_epochs = epochs[epochs.metadata[column[0]].isin(test_on)]
+test_info = test_epochs.metadata
+X_test = test_epochs._data[:, 0:ch,]
+y_test = test_info[regressor].values.astype(float)
 
 def add_tone_properties(epochs, trial_info):
 
@@ -96,14 +101,10 @@ def add_tone_properties(epochs, trial_info):
 # test_epochs = test_epochs[test_info.index]
 
 # # ambigous tone in circular condition
-test_epochs = epochs[epochs.metadata[column[0]].isin(test_on)]
-test_info = test_epochs.metadata
-test_info = add_tone_properties(test_epochs, test_info).reset_index()
-test_info = test_info.query("circscale == 'circular' and note_position in [1]")
-test_epochs = test_epochs[test_info.index]
 
-X_test = test_epochs._data[:, 0:ch,]
-y_test = test_info[regressor].values.astype(float)
+# test_info = add_tone_properties(test_epochs, test_info).reset_index()
+# test_info = test_info.query("circscale == 'circular' and note_position in [1]")
+# test_epochs = test_epochs[test_info.index]
 
 # train on one subset
 n_times = X_train.shape[-1]
@@ -114,40 +115,38 @@ for tt in range(n_times):
     clf.fit(X_train[..., tt], y_train)
     y_pred = clf.predict(X_test[..., tt])
     y_preds.append(y_pred)
+    scores.append(scorer_spearman(y_test, y_pred))
     print(tt)
 
 # split preds into perceived high and low tones
-y_preds = np.array(y_preds)
+# y_preds = np.array(y_preds)
 
 # look at ambiguous tone at top and bottom of scale
-for key in test_info['key'].unique():
-    for note_pos in [1, 8]:
-        tone_idx = test_info['note_position'] == note_pos
-        key_idx = test_info['key'] == key
-        idx = np.logical_and(tone_idx, key_idx)
-        plt.plot(test_epochs.times, y_preds[:, idx].mean(1), label='%s %s' % (key, note_pos))
-    plt.legend()
-    plt.show()
+# for key in test_info['key'].unique():
+#     for note_pos in [1, 8]:
+#         tone_idx = test_info['note_position'] == note_pos
+#         key_idx = test_info['key'] == key
+#         idx = np.logical_and(tone_idx, key_idx)
+#         plt.plot(test_epochs.times, y_preds[:, idx].mean(1), label='%s %s' % (key, note_pos))
+#     plt.legend()
+#     plt.show()
+#
+# # look at ambiguous tone in up vs down circular position
+# for key in test_info['key'].unique():
+#     for dir in ['up','down']:
+#         tone_idx = test_info['updown'] == dir
+#         key_idx = test_info['key'] == key
+#         idx = np.logical_and(tone_idx, key_idx)
+#         plt.plot(test_epochs.times, y_preds[:, idx].mean(1), label='%s %s' % (key, dir))
+#     plt.legend()
+#     plt.show()
 
-# look at ambiguous tone in up vs down circular position
-for key in test_info['key'].unique():
-    for dir in ['up','down']:
-        tone_idx = test_info['updown'] == dir
-        key_idx = test_info['key'] == key
-        idx = np.logical_and(tone_idx, key_idx)
-        plt.plot(test_epochs.times, y_preds[:, idx].mean(1), label='%s %s' % (key, dir))
-    plt.legend()
-    plt.show()
-
-    # scores.append(scorer_spearman(y_test, y_pred))
-    # print(tt)
-
-# fig, ax = plt.subplots()
-# # ax.plot(epochs.times, np.array(y_preds), label='score')
-# ax.axhline(.0, color='k', linestyle='--', label='chance')
-# ax.set_xlabel('Times')
-# ax.set_ylabel('%s'%(score))
-# ax.legend()
-# ax.axvline(.0, color='k', linestyle='-')
-# ax.set_title('Decoding MEG sensors over time')
-# plt.show()
+fig, ax = plt.subplots()
+ax.plot(epochs.times, scores, label='score')
+ax.axhline(.0, color='k', linestyle='--', label='chance')
+ax.set_xlabel('Times')
+ax.set_ylabel('%s'%(score))
+ax.legend()
+ax.axvline(.0, color='k', linestyle='-')
+ax.set_title('Decoding MEG sensors over time')
+plt.show()
