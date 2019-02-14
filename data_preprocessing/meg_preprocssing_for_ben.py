@@ -16,17 +16,18 @@ from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  read_forward_solution, convert_forward_solution)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
+from logfile_parse import df as trial_info
 
 # params
-subject = 'A0305'
-meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subject)
+subject = ''
+meg_dir = '/Users/ea84/Desktop/Projects/Shepard/analysis/meg/%s/'%(subject) # change to local meg folder
 filt_l = 0
 filt_h = 60
 tmin = -0.2
 tmax = 0.6
 
 # for plotting
-os.environ["SUBJECTS_DIR"] = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri'
+os.environ["SUBJECTS_DIR"] = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri' # change to local mri folder
 
 # file names
 raw_fname = meg_dir + subject+ '_shepard-raw.fif'
@@ -36,7 +37,7 @@ ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs 
 epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
 evoked_fname = meg_dir + subject+ '_shepard-evoked-ave.fif'
 cov_fname = meg_dir + subject+ '_shepard-cov.fif'
-mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/%s/bem/'%(subject)
+mri_dir = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri/%s/bem/'%(subject) # subject's bem folder
 fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
 inv_fname = mri_dir+ subject+ '_shepard-inv.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
@@ -79,11 +80,11 @@ else:
 
 
 # load the raw file as a con not a fif
-raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep1_NR.con'
-raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
-raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
-raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
-raw = mne.concatenate_raws([raw1, raw2])
+# raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep1_NR.con'
+# raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+# raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
+# raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+# raw = mne.concatenate_raws([raw1, raw2])
 
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
@@ -94,7 +95,7 @@ events = find_events(raw)  # the output of this is a 3 x n_trial np array
 # note: you may want to add some decimation here
 epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
 
-# step 6- reject epochs based on threshold
+# step 6- reject epochs based on threshold (2e-12)
 # opens the gui, "mark" is to mark in red the channel closest to the eyes
 if op.isfile(ica_rej_fname):
     rejfile = eelbrain.load.unpickle(ica_rej_fname)
@@ -110,8 +111,6 @@ rejs = rejfile['accept'].x
 # mask epochs and info
 epochs = epochs[rejs]
 trial_info = trial_info[rejs]
-
-trimmed_trial_info = trial_info
 
 # if evoked is made, load
 # else make evoked to check for auditory response
@@ -160,16 +159,9 @@ if not op.isfile(fwd_fname):
 else:
     fwd = read_forward_solution(fwd_fname)
 
-#create forward solution with free-orientation and in surface orientation
-fwd_fixed = convert_forward_solution(fwd, force_fixed=False,
-                                                surf_ori=True)
-
 # step 9- make inverse solution for epochs
 inverse_operator = make_inverse_operator(epochs.info, fwd, noise_cov,
                                          loose=0.2, depth=0.8)
-
-inverse_operator_signed = make_inverse_operator(epochs.info, fwd_fixed, noise_cov,
-                                                depth=0.8, fixed=True)
 
 # step 10- make source estimates
 snr = 3.0  # Standard assumption for average data but using it for single trial
@@ -183,8 +175,8 @@ stc_epochs = apply_inverse_epochs(epochs, inverse_operator, lambda2,
 # (https://martinos.org/mne/stable/auto_examples/inverse/plot_morph_surface_stc.html)
 stc_epochs.morph()
 
-# save as numpy array
-np.save(file=stc_fname, arr=stc_epochs)
+# # save as numpy array
+# np.save(file=stc_fname, arr=stc_epochs)
 
 # save the inverse operator
 inverse_operator.save(inv_fname)
@@ -193,9 +185,9 @@ inverse_operator.save(inv_fname)
 stc_evoked = apply_inverse(evoked, inverse_operator, lambda2,
                                 method='dSPM')
 
-# visualise and move along time course, confirm auditory response
-stc_evoked.plot(hemi = 'split', time_viewer=True)
-#close the time_viewer window before the brain views to avoid crashing in terminal
+# if you want to visualise and move along time course, confirm auditory response
+# stc_evoked.plot(hemi = 'split', time_viewer=True)
+# close the time_viewer window before the brain views to avoid crashing in terminal
 
 # if weirdness happens with plotting
 # import wx

@@ -8,8 +8,8 @@ import mne
 import glob
 
 # paths
-subject = 'P010'
-base_path = '/Users/ea84/Dropbox/shepard_preproc/%s'%(subject)
+subject = ''
+base_path = '/Users/ea84/Dropbox/shepard_preproc/%s'%(subject) # change to local meg dir
 
 # use time stamps to create condition order
 blocks = ['shepard', 'pure', 'partials']
