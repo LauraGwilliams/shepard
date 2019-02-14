@@ -8,8 +8,8 @@ import mne
 import glob
 
 # paths
-subject = 'A0280'
-base_path = '/Users/meglab/Desktop/shep_fifs/' + subject
+subject = 'P010'
+base_path = '/Users/ea84/Dropbox/shepard_preproc/%s'%(subject)
 
 # use time stamps to create condition order
 blocks = ['shepard', 'pure', 'partials']
@@ -17,7 +17,7 @@ blocks = ['shepard', 'pure', 'partials']
 # grab time stamps, order list
 time_stamps = list()
 for block in blocks:
-	time_stamp = ([int(i.split('%s_' % block)[1].split('.txt')[0])
+	time_stamp = ([int(i.split('_%s_' %(block))[1].split('.txt')[0])
 					for i in glob.glob('%s/*%s*[0-9].txt' % (base_path, block))])
 	time_stamps.append(time_stamp)
 time_stamps = np.array(time_stamps).flatten().tolist()
@@ -39,4 +39,4 @@ for time_stamp in time_stamps:
 
 df = pd.concat(dfs)
 
-df.to_csv('%s/'%(base_path) + subject + '_shepard_trialinfo.csv')
+df.to_csv('%s/'%(base_path) + '%s_shepard_trialinfo.csv'%(subject))
