@@ -71,15 +71,15 @@ for cii, cond in enumerate(conditions):
 		print(f, idx)
 		plt.plot(ffts[cii, idx, :], label=f,
 				 c=cols[cii][fii])
-		plt.hlines(ffts[cii, idx, :].mean()*50, 0, 800)
+		# plt.hlines(ffts[cii, idx, :].mean()*50, 0, 800)
 		norm_fft[cii, idx, :] = (ffts[cii, idx, :] > ffts[cii, idx, :].mean()*50)
 	plt.legend()
 	plt.show()
 
 # scale fft
-for c in range(3):
-	for t in range(12):
-		norm_fft[c, t, :] = norm_fft[c, t, :] * w
+# for c in range(3):
+# 	for t in range(12):
+# 		norm_fft[c, t, :] = norm_fft[c, t, :] * w
 
 for cii, cond in enumerate(conditions):
 	for fii, f in enumerate(np.sort(freqs[cii])):
@@ -92,7 +92,7 @@ for cii, cond in enumerate(conditions):
 	plt.show()
 
 # reshape the data
-data = norm_fft
+data = ffts
 fft_reshaped = np.reshape(data, [data.shape[0]*data.shape[1], data.shape[2]])
 
 # fit MDS
