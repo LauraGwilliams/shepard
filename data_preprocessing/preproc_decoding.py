@@ -6,37 +6,44 @@ from mne import (find_events, Epochs)
 import pandas as pd
 
 # params
-subject = 'P011'
-meg_dir = '/Users/ea84/Dropbox/shepard_preproc/%s/'%(subject)
-filt_l = 1  # same as aquisition
-filt_h = 60
-tmin = -0.2
-tmax = 0.6
+subjects = ['A0355']
 
-# file names
-raw_fname = meg_dir + '%s_shepard-raw.fif'%(subject)
-epochs_fname = meg_dir + '%s_shepard-epo.fif'%(subject)
+for subject in subjects:
+    meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
+    filt_l = 1  # same as aquisition
+    filt_h = 60
+    tmin = -0.2
+    tmax = 0.6
 
-server_dir = '/Users/ea84/Dropbox/shepard_preproc/'
+    # file names
+    raw_fname = meg_dir + '%s_shepard-raw.fif'%(subject)
+    epochs_fname = meg_dir + '%s_shepard-epo.fif'%(subject)
 
-# read, filter
-if op.isfile(raw_fname):
-    raw = read_raw_fif(raw_fname, preload=True)
-else:
-    con_fname = server_dir + '%s/%s_shep1_NR.con'%(subject,subject)
-    raw1 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
-    con_fname = server_dir + '%s/%s_shep2_NR.con'%(subject,subject)
-    raw2 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
-    raw = mne.concatenate_raws([raw1, raw2])
-    raw.save(raw_fname)
+    server_dir = '/Users/ea84/Dropbox/shepard_preproc/'
 
-raw = raw.filter(filt_l, filt_h)
+    # read, filter
+    if op.isfile(raw_fname):
+        raw = read_raw_fif(raw_fname, preload=True)
+    else:
+        con_fname = server_dir + '%s/%s_shep1_NR.con'%(subject,subject)
+        raw1 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
+        # con_fname = server_dir + '%s/%s_shep2_part_shep_NR.con'%(subject,subject)
+        # raw2 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
+        # con_fname = server_dir + '%s/%s_shep2_pure_NR.con'%(subject,subject)
+        # raw3 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
+        # raw = mne.concatenate_raws([raw1, raw2, raw3])
+        con_fname = server_dir + '%s/%s_shep2_NR.con'%(subject,subject)
+        raw2 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
+        raw = mne.concatenate_raws([raw1, raw2])
+        raw.save(raw_fname)
 
-# check events, create epochs
-events = find_events(raw)  # the output of this is a 3 x n_trial np array
-epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
+    raw = raw.filter(filt_l, filt_h)
 
-# set metadata, save epochs
-trial_info = pd.read_csv(meg_dir + '%s_shepard_trialinfo.csv'%(subject))
-epochs.metadata = trial_info
-epochs.save(epochs_fname)
+    # check events, create epochs
+    events = find_events(raw)  # the output of this is a 3 x n_trial np array
+    epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
+
+    # set metadata, save epochs
+    trial_info = pd.read_csv(meg_dir + '%s_shepard_trialinfo.csv'%(subject))
+    epochs.metadata = trial_info
+    epochs.save(epochs_fname)

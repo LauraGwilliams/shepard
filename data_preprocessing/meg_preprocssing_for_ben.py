@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*
-
-# leg5@nyu.edu
-# univariate analysis of shepard data
-# goal: convert raw files into epochs, and then apply source localisation
-
 import numpy as np
 import os
 import eelbrain
@@ -16,11 +9,11 @@ from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  read_forward_solution, convert_forward_solution)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
-from logfile_parse import df as trial_info
+# from logfile_parse import df as trial_info
 
 # params
-subject = ''
-meg_dir = '/Users/ea84/Desktop/Projects/Shepard/analysis/meg/%s/'%(subject) # change to local meg folder
+subject = 'A0344'
+meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject) # change to local meg folder
 filt_l = 0
 filt_h = 60
 tmin = -0.2
@@ -55,7 +48,7 @@ else:
     raw = read_raw_fif(raw_fname, preload=True)
 
     # step 2- remove bad channels
-    print raw.info['bads']  # check if any bad channels have been specified already
+    print (raw.info['bads'])  # check if any bad channels have been specified already
     raw.plot()  # visualise bad channels
     raw.info['bads'] = ['list_of_bad_channels']
     # interpolate bads and reset so that we have same number of channels for all blocks/subjects

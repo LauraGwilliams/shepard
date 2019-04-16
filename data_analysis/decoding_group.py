@@ -14,6 +14,8 @@ from mne.decoding import (GeneralizingEstimator, SlidingEstimator, get_coef,
 import mne.decoding
 from jr import scorer_spearman # will have to download git repos & import some stuff
 from sklearn.metrics import make_scorer, get_scorer
+import matplotlib.cm as cm
+
 
 #------------------------------------------------------------------------
 # scaling funcs
@@ -30,21 +32,23 @@ def binary_scaler(x):
     Pure = 1, partial = 0.
     '''
     x = np.array(x)
-    x[x=='pure']=1.
+    x[x=='shepard']=1.
     x[x=='partial']=0.
     x = np.array(x).astype(float)
     return x
 
 #-------------------------------------------------------------------------
 
+subjects = ['A0216','A0280','A0305','A0306','A0314','A0270','P010',
+            'P011','A0343','A0344','A0345','A0353','A0323','A0307','A0354']
 
-subjects = ['A0216','A0280','A0306','A0270','P010','P011']
+music_soph = [54.5,75,42.5,0,92,0,74,37,48,86,65.5,44.5,48.5,66,102.5]
 
 # params
 
 # epochs subset to train on
-column = 'circscale'
-subset = ['random']
+column = ['condition']
+subset = [['pure']]
 
 # regressor to decode, spatial vs. temporal vs. combined
 regressor = 'freq' #column name
@@ -52,20 +56,28 @@ decode_using = 'spatial' # spatial (trials x sensors x time)
                         # temporal (trials x time x sensors),
                         # combined (trials x sensors*time)
 
+meg_dir = '/Users/ea84/Dropbox/shepard_decoding/'
 
 #-------------------------------------------------------------------------
 grp_scores = []
 
+scores_arr = np.array([])
+
 for subject in subjects:
     print (subject)
-    meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
 
     # load all data
-    allepochs = meg_dir + '%s_shepard-epo.fif'%(subject)
+    allepochs = meg_dir + '%s/%s_shepard-epo.fif'%(subject,subject)
     epochs = mne.read_epochs(allepochs)
 
     # subset current_epochs based on parameters
-    current_epochs = epochs[epochs.metadata[column].isin(subset)]
+    if len(column) > 1:
+        current_epochs = epochs[epochs.metadata[column[0]].isin(subset[0]) &
+                            epochs.metadata[column[1]].isin(subset[1])]
+
+    else:
+        current_epochs = epochs[epochs.metadata[column[0]].isin(subset[0])]
+
     trial_info = current_epochs.metadata
 
     if subject[0] == 'A':
@@ -114,7 +126,7 @@ for subject in subjects:
 
     # set up estimator, get scores
     if decode_using == 'spatial':
-        gen = GeneralizingEstimator(n_jobs=n_jobs,
+        gen = SlidingEstimator(n_jobs=n_jobs,
                                 scoring=scorer,
                                 base_estimator=clf)
         scores = cross_val_multiscore(gen, X, y,
@@ -136,17 +148,21 @@ for subject in subjects:
     scores = np.mean(scores, axis=0)
     grp_scores.append(scores)
 
+scores_arr = np.array(grp_scores)
+np.save(meg_dir+'_GRP_SCORES/group_scores_%s_%s.npy'%(regressor,''.join(subset[0])), scores_arr)
+
 grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
 grp_avg = np.mean( np.array(grp_scores), axis=0 )
 
 # ---------------------------------------------------------------------------
 # PLOTTING
-
+#
 if decode_using == 'spatial':
-    # Plot the diagonal (it's exactly the same as the time-by-time decoding above)
     fig, ax = plt.subplots()
-    ax.plot(epochs.times, np.diag(grp_avg), label='score')
-    ax.fill_between(epochs.times, np.diag(grp_avg-grp_sem), np.diag(grp_avg+grp_sem),
+    ax.plot(epochs.times, grp_avg, label='score')
+    # ax.fill_between(epochs.times, np.diag(grp_avg-grp_sem), np.diag(grp_avg+grp_sem),
+    #                     alpha=0.2, linewidth=0, color='r')
+    ax.fill_between(epochs.times, grp_avg-grp_sem, grp_avg+grp_sem,
                         alpha=0.2, linewidth=0, color='r')
     if score == 'AUC':
         ax.axhline(.5, color='k', linestyle='--', label='chance')
@@ -158,25 +174,50 @@ if decode_using == 'spatial':
     # ax.set_ylim(bottom=-0.035, top=0.16)
     ax.axvline(.0, color='k', linestyle='-')
     ax.set_title('Decoding MEG sensors over time')
+    plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_%s.png'%(regressor,''.join(subset[0])))
+    # plt.show()
+#
+# elif decode_using == 'temporal':
+#     # load in evoked object to plot on
+#     scores_evoked = mne.read_evokeds(meg_dir + '%s/%s_shepard-evoked-ave.fif'%(subject,subject))[0]
+#     scores_evoked._data[0:ch, 0] = scores
+#     if regressor == 'freq':
+#         scores_evoked.plot_topomap(times=scores_evoked.times[0])
+#     if regressor == 'condition':
+#         # center around 0 for plotting
+#         scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
+#         scores_evoked.plot_topomap(times=scores_evoked.times[0])
+#
+#     coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
+#     evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
+#     joint_kwargs = dict(ts_args=dict(time_unit='s'),
+#                         topomap_args=dict(time_unit='s'))
+#     evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
+#                       **joint_kwargs)
+# else:
+#     # if combined, it just returns an overall score (nothing to plot!)
+#     print (scores)
+norm = matplotlib.colors.Normalize(vmin=0,vmax=103)
+# colors = cm.rainbow(np.linspace(0, 1, len(subjects)))
+if decode_using == 'spatial':
+    fig, ax = plt.subplots()
+    for subject,scores,music in zip(subjects,grp_scores,music_soph):
+        # Plot the diagonal (it's exactly the same as the time-by-time decoding above)
+        color = cm.rainbow(norm(music),bytes=True)
+        new_color = tuple(ti/255.0 for ti in color)
+        ax.plot(epochs.times, scores, color=new_color, label=subject)
+        # ax.fill_between(epochs.times, np.diag(grp_avg-grp_sem), np.diag(grp_avg+grp_sem),
+        #                     alpha=0.2, linewidth=0, color='r')
+    if score == 'AUC':
+        ax.axhline(.5, color='k', linestyle='--', label='chance')
+    else:
+        ax.axhline(.0, color='k', linestyle='--', label='chance')
+    ax.set_xlabel('Times')
+    ax.set_ylabel('%s'%(score))
+    ax.legend()
+    # plt.colorbar()
+    # ax.set_ylim(bottom=-0.035, top=0.16)
+    ax.axvline(.0, color='k', linestyle='-')
+    ax.set_title('Decoding MEG sensors over time')
+        # plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_%s.png'%(regressor,''.join(subset[0])))
     plt.show()
-
-elif decode_using == 'temporal':
-    # load in evoked object to plot on
-    scores_evoked = mne.read_evokeds(meg_dir + '%s_shepard-evoked-ave.fif'%(subject))[0]
-    scores_evoked._data[0:ch, 0] = scores
-    if regressor == 'freq':
-        scores_evoked.plot_topomap(times=scores_evoked.times[0])
-    if regressor == 'condition':
-        # center around 0 for plotting
-        scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
-        scores_evoked.plot_topomap(times=scores_evoked.times[0])
-
-    coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
-    evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
-    joint_kwargs = dict(ts_args=dict(time_unit='s'),
-                        topomap_args=dict(time_unit='s'))
-    evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
-                      **joint_kwargs)
-else:
-    # if combined, it just returns an overall score (nothing to plot!)
-    print (scores)

@@ -17,23 +17,24 @@ from sklearn.metrics import make_scorer, get_scorer
 
 
 # load all data
-subjects = ['A0216','A0280','A0306','A0270','P010','P011']
+subjects = ['A0216','A0280','A0305','A0306','A0314','A0270','P010',
+            'P011','A0343','A0344','A0345','A0353','A0323','A0307','A0354']
 
 # params: epochs to use, regressor, how to decode, subsetting
-column = ['circscale']
-train_on = [['random']]
-test_on = ['scale']
+column = ['condition']
+train_on = [['pure']]
+test_on = ['shepard']
 regressor = 'freq' #column name
 score = 'Spearman R'
 
 grp_scores = []
-for subj in subjects:
-    meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subj)
+for subject in subjects:
+    meg_dir = '/Users/ea84/Dropbox/shepard_decoding/'
 
-    allepochs = meg_dir + '%s_shepard-epo.fif'%(subj)
+    allepochs = meg_dir + '%s/%s_shepard-epo.fif'%(subject,subject)
     epochs = mne.read_epochs(allepochs)
 
-    if subj[0] == 'A':
+    if subject[0] == 'A':
         ch = 208
     else:
         ch = 157
@@ -68,6 +69,9 @@ for subj in subjects:
 
         grp_scores.append(scores)
 
+scores_arr = np.array(grp_scores)
+np.save(meg_dir+'_GRP_SCORES/group_%s_train%s_test%s.png'%(regressor,''.join(train_on[0]),test_on[0]), scores_arr)
+
 grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
 grp_avg = np.mean( np.array(grp_scores), axis=0 )
 
@@ -81,4 +85,5 @@ ax.set_ylabel('%s'%(score))
 ax.legend()
 ax.axvline(.0, color='k', linestyle='-')
 ax.set_title('Decoding MEG sensors over time')
-plt.show()
+plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_train%s_test%s.png'%(regressor,''.join(train_on[0]),test_on[0]))
+# plt.show()

@@ -25,8 +25,8 @@ epochs = mne.read_epochs(allepochs)
 
 # params: epochs to use, regressor, how to decode, subsetting
 column = ['condition']
-train_on = [['partial']]
-test_on = ['pure']
+train_on = [['pure']]
+test_on = ['shepard']
 regressor = 'freq' #column name
 score = 'Spearman R'
 
