@@ -4,9 +4,10 @@ import numpy as np
 from mne.io import read_raw_fif
 from mne import (find_events, Epochs)
 import pandas as pd
+import glob
 
 # params
-subjects = ['A0355']
+subjects = ['A0364']
 
 for subject in subjects:
     meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
@@ -27,14 +28,15 @@ for subject in subjects:
     else:
         con_fname = server_dir + '%s/%s_shep1_NR.con'%(subject,subject)
         raw1 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
-        # con_fname = server_dir + '%s/%s_shep2_part_shep_NR.con'%(subject,subject)
-        # raw2 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
-        # con_fname = server_dir + '%s/%s_shep2_pure_NR.con'%(subject,subject)
-        # raw3 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
-        # raw = mne.concatenate_raws([raw1, raw2, raw3])
         con_fname = server_dir + '%s/%s_shep2_NR.con'%(subject,subject)
         raw2 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
-        raw = mne.concatenate_raws([raw1, raw2])
+        if len(glob.glob(server_dir + '%s/*.con'%(subject))) > 2:
+            con_fname = server_dir + '%s/%s_shep3_NR.con'%(subject,subject)
+            raw3 = mne.io.read_raw_kit(con_fname, preload=True, slope='+')
+            raw = mne.concatenate_raws([raw1, raw2, raw3])
+        else:
+            raw = mne.concatenate_raws([raw1, raw2])
+
         raw.save(raw_fname)
 
     raw = raw.filter(filt_l, filt_h)

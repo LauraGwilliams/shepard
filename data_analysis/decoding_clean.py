@@ -15,12 +15,12 @@ import mne.decoding
 from jr import scorer_spearman # will have to download git repos & import some stuff
 from sklearn.metrics import make_scorer, get_scorer
 
-# subjects = ['A0216','A0280','A0305','A0306','A0270','P010','P011','A0345','A0353','A0323','A0307']
-subjects = ['A0305']
+# subjects = ['A0216','A0280','A0305','A0306','A0270','P010','P011','A0345','A0353','A0323','A0307','A0355','A0357','A0367']
+subjects = ['A0306']
 
 # epochs subset to train on
-column = ['condition','circscale']
-subset = [['pure','partial'],['scale']]
+column = ['condition']
+subset = [['partial','pure']]
 
 # regressor to decode, spatial vs. temporal vs. combined
 regressor = 'freq' #column name
@@ -135,12 +135,12 @@ for cond in subset[0]:
         scores = np.mean(scores, axis=0)
 
         # train classifier on all trials to get a prediction for each trial.
-        # then, evaluate accuracy on a subset of trials.
-        gen = SlidingEstimator(n_jobs=n_jobs,
-                            scoring=scorer,
-                            base_estimator=clf)
-        y_pred = cross_val_predict(gen, X, y,
-                                    cv=cv, method='predict')
+        # # then, evaluate accuracy on a subset of trials.
+        # gen = SlidingEstimator(n_jobs=n_jobs,
+        #                     scoring=scorer,
+        #                     base_estimator=clf)
+        # y_pred = cross_val_predict(gen, X, y,
+        #                             cv=cv, method='predict')
 
         # for example, evaluate performance of decoding frequency separately
         # for the pure and partial tones

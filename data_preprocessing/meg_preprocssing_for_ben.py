@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import os
 import eelbrain
 import os.path as op
@@ -6,10 +7,9 @@ from mne.io import read_raw_fif
 from mne.preprocessing.ica import read_ica
 from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  write_cov, read_cov, setup_source_space, make_forward_solution,
-                 read_forward_solution, convert_forward_solution)
+                 read_forward_solution, convert_forward_solution, compute_source_morph)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
-# from logfile_parse import df as trial_info
 
 # params
 subject = 'A0344'
@@ -23,6 +23,7 @@ tmax = 0.6
 os.environ["SUBJECTS_DIR"] = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri' # change to local mri folder
 
 # file names
+trial_info_fname = meg_dir + subject + '_shepard_trialinfo.csv'
 raw_fname = meg_dir + subject+ '_shepard-raw.fif'
 ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
 ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
@@ -36,7 +37,29 @@ inv_fname = mri_dir+ subject+ '_shepard-inv.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
 trans_fname = mri_dir+ subject+ '-trans.fif'
-#stc_fname = meg_dir + subject+ '_shepard.stc.npy'
+stc_fname = meg_dir + subject+ '_shepard.stc.npy'
+evoked_stc_fname = meg_dir + subject + '_evoked.stc'
+
+def morph_stcs(stcs, subject):
+
+    # reshape epochs into time points
+    dummy_stc = stcs[0].copy()
+    stc_data = np.array([s._data for s in stcs])
+    stc_data = np.transpose(stc_data, (1, 0, 2))
+    original_shape = stc_data.shape
+    reshaped_stc = stc_data.reshape([original_shape[0], original_shape[1]*original_shape[2]])
+    dummy_stc._data = reshaped_stc
+
+    # morph in one go
+    morphed_stc = compute_source_morph(dummy_stc, subject_from=subject,
+                                           subject_to='fsaverage', spacing=4,
+                                           subjects_dir=mri_dir).apply(dummy_stc)
+    X = morphed_stc._data.reshape(original_shape)
+    return np.array(X)
+
+
+#--------------------------------------------
+# START PREPROC
 
 # if the ica-clean raw exists, load it
 if op.isfile(ica_raw_fname):
@@ -72,13 +95,6 @@ else:
     raw.save(ica_raw_fname, overwrite=True)
 
 
-# load the raw file as a con not a fif
-# raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep1_NR.con'
-# raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
-# raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
-# raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
-# raw = mne.concatenate_raws([raw1, raw2])
-
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
 
@@ -87,6 +103,7 @@ events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
 # note: you may want to add some decimation here
 epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
+trial_info = pd.read_csv(trial_info_fname)
 
 # step 6- reject epochs based on threshold (2e-12)
 # opens the gui, "mark" is to mark in red the channel closest to the eyes
@@ -132,11 +149,6 @@ if not op.isfile(cov_fname):
 else:
     noise_cov = read_cov(cov_fname)
 
-# if using native MRI, need to make_bem_model
-# if not op.isfile(bem_fname):
-#    surfaces = make_bem_model(subject, ico=4, conductivity=(0.3, 0.006, 0.3), mri_dir, verbose=None)
-#    bem = make_bem_solution(surfaces)
-#    write_bem_solution(bem_fname, bem)
 
 # step 8- make forward solution
 if not op.isfile(fwd_fname):
@@ -165,18 +177,22 @@ stc_epochs = apply_inverse_epochs(epochs, inverse_operator, lambda2,
                                   method='dSPM')
 
 # morph the stc to the fsaverage
-# (https://martinos.org/mne/stable/auto_examples/inverse/plot_morph_surface_stc.html)
-stc_epochs.morph()
+X = morph_stcs(stc_epochs, subject)
 
-# # save as numpy array
-# np.save(file=stc_fname, arr=stc_epochs)
+# check X is same length as trials
+assert(X.shape[0] == len(trial_info))
+
+# save
+np.save(file=stc_fname, X)
 
 # save the inverse operator
 inverse_operator.save(inv_fname)
 
-# apply inverse to evoked
+# apply inverse to evoked, this is not morphed
 stc_evoked = apply_inverse(evoked, inverse_operator, lambda2,
                                 method='dSPM')
+
+stc_evoked.save(evoked_stc_fname)
 
 # if you want to visualise and move along time course, confirm auditory response
 # stc_evoked.plot(hemi = 'split', time_viewer=True)
