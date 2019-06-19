@@ -8,7 +8,7 @@ import mne
 import glob
 
 # paths
-subject = 'A0326'
+subject = 'P015'
 base_path = '/Users/ea84/Dropbox/shepard_preproc/%s'%(subject) # change to local meg dir
 return_path = '/Users/ea84/Dropbox/shepard_decoding/%s'%(subject)
 

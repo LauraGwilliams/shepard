@@ -15,12 +15,49 @@ import mne.decoding
 from jr import scorer_spearman # will have to download git repos & import some stuff
 from sklearn.metrics import make_scorer, get_scorer
 
-# subjects = ['A0216','A0280','A0305','A0306','A0270','P010','P011','A0345','A0353','A0323','A0307','A0355','A0357','A0367']
-subjects = ['A0306']
+# funcs
+def grab_hemi_sensors(epochs,exclude_center=False):
+
+    # grab info and channels from epochs
+    info = epochs.info
+    chs = info['chs'] # this is a dictionary of channels and their info
+
+    if exclude_center:
+        thresh = 0.03
+    else:
+        thresh = 0
+
+    rh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] > thresh]]
+    lh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] < -thresh]]
+
+    rh_picks = mne.pick_types(epochs.info,selection=rh_ch_names)
+    lh_picks = mne.pick_types(epochs.info,selection=lh_ch_names)
+
+    return rh_picks, lh_picks
+
+    # divide RH and LH
+    # if exclude_center:
+    #     # exclude center sensors to avoid correlation between lh and rh
+    #     rh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] > 0.03]]
+    #     lh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] < -0.03]]
+    # else:
+    #     # split down the middle
+    #     rh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] > 0]]
+    #     lh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] < 0]]
+
+#-------------------------
+
+# # params
+# subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
+#             'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
+#             'A0357','A0358','A0364','A0367','P010','P011']
+# subjects = ['A0369','A0370','A0326','A0344','A0357','A0358','A0364','A0367']
+subjects = ['A0364','A0358']
 
 # epochs subset to train on
 column = ['condition']
-subset = [['partial','pure']]
+subset = [['partial']]
+sensor_list = ['all','rh','lh']
 
 # regressor to decode, spatial vs. temporal vs. combined
 regressor = 'freq' #column name
@@ -29,7 +66,8 @@ decode_using = 'spatial' # spatial (trials x sensors x time)
                         # combined (trials x sensors*time)
 
 #-------------------------------------------------------------------------
-for cond in subset[0]:
+# for cond in subset[0]:
+for sensors in sensor_list:
     for subject in subjects:
         # params
         meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
@@ -52,8 +90,14 @@ for cond in subset[0]:
         else:
             ch = 157
 
-        # pull out sensor data from meg channels only
-        X = current_epochs._data[:, 0:ch, :]
+        rh_picks, lh_picks = grab_hemi_sensors(current_epochs,exclude_center=True)
+        if sensors == 'rh':
+            X = current_epochs._data[:, rh_picks, :]
+        elif sensors == 'lh':
+            X = current_epochs._data[:, lh_picks, :]
+        else:
+            # pull out sensor data from meg channels only
+            X = current_epochs._data[:, 0:ch, :]
 
         # pull out regressor of interest
         y = trial_info[regressor].values
@@ -113,7 +157,7 @@ for cond in subset[0]:
 
         # set up estimator, get scores
         if decode_using == 'spatial':
-            gen = GeneralizingEstimator(n_jobs=n_jobs,
+            gen = SlidingEstimator(n_jobs=n_jobs,
                                     scoring=scorer,
                                     base_estimator=clf)
             scores = cross_val_multiscore(gen, X, y,
@@ -133,6 +177,47 @@ for cond in subset[0]:
 
         # mean scores across cross-validation splits
         scores = np.mean(scores, axis=0)
+
+        # ---------------------------------------------------------------------------
+        # PLOTTING
+
+        if decode_using == 'spatial':
+            # Plot the diagonal (it's exactly the same as the time-by-time decoding above)
+            fig, ax = plt.subplots()
+            ax.plot(epochs.times, scores, label='score')
+            if score == 'AUC':
+                ax.axhline(.5, color='k', linestyle='--', label='chance')
+            else:
+                ax.axhline(.0, color='k', linestyle='--', label='chance')
+            ax.set_xlabel('Times')
+            ax.set_ylabel('%s'%(score))
+            ax.legend()
+            # ax.set_ylim(bottom=-0.035, top=0.16)
+            ax.axvline(.0, color='k', linestyle='-')
+            ax.set_title('Decoding MEG sensors over time')
+            plt.savefig(meg_dir + '%s_%s_%s_%s.png'%(subject,regressor,''.join(subset[0]),sensors))
+            # plt.show()
+
+        elif decode_using == 'temporal':
+            # load in evoked object to plot on
+            scores_evoked = mne.read_evokeds(meg_dir + '%s_shepard-evoked-ave.fif'%(subject))[0]
+            scores_evoked._data[0:ch, 0] = scores
+            if regressor == 'freq':
+                scores_evoked.plot_topomap(times=scores_evoked.times[0])
+            if regressor == 'condition':
+                # center around 0 for plotting
+                scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
+                scores_evoked.plot_topomap(times=scores_evoked.times[0])
+
+            coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
+            evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
+            joint_kwargs = dict(ts_args=dict(time_unit='s'),
+                                topomap_args=dict(time_unit='s'))
+            evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
+                              **joint_kwargs)
+        else:
+            # if combined, it just returns an overall score (nothing to plot!)
+            print (scores)
 
         # train classifier on all trials to get a prediction for each trial.
         # # then, evaluate accuracy on a subset of trials.
@@ -197,44 +282,3 @@ for cond in subset[0]:
         # lineObjects = plt.plot(epochs.times, np.array(scores).T)
         # plt.legend(iter(lineObjects), search_terms)
         # plt.show()
-
-        # ---------------------------------------------------------------------------
-        # PLOTTING
-
-        if decode_using == 'spatial':
-            # Plot the diagonal (it's exactly the same as the time-by-time decoding above)
-            fig, ax = plt.subplots()
-            ax.plot(epochs.times, np.diag(scores), label='score')
-            if score == 'AUC':
-                ax.axhline(.5, color='k', linestyle='--', label='chance')
-            else:
-                ax.axhline(.0, color='k', linestyle='--', label='chance')
-            ax.set_xlabel('Times')
-            ax.set_ylabel('%s'%(score))
-            ax.legend()
-            # ax.set_ylim(bottom=-0.035, top=0.16)
-            ax.axvline(.0, color='k', linestyle='-')
-            ax.set_title('Decoding MEG sensors over time')
-            plt.savefig(meg_dir + '%s_%s_%s.png'%(subject,regressor,''.join(subset[0])))
-            # plt.show()
-
-        elif decode_using == 'temporal':
-            # load in evoked object to plot on
-            scores_evoked = mne.read_evokeds(meg_dir + '%s_shepard-evoked-ave.fif'%(subject))[0]
-            scores_evoked._data[0:ch, 0] = scores
-            if regressor == 'freq':
-                scores_evoked.plot_topomap(times=scores_evoked.times[0])
-            if regressor == 'condition':
-                # center around 0 for plotting
-                scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
-                scores_evoked.plot_topomap(times=scores_evoked.times[0])
-
-            coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
-            evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
-            joint_kwargs = dict(ts_args=dict(time_unit='s'),
-                                topomap_args=dict(time_unit='s'))
-            evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
-                              **joint_kwargs)
-        else:
-            # if combined, it just returns an overall score (nothing to plot!)
-            print (scores)

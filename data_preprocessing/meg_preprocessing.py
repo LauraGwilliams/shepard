@@ -16,10 +16,21 @@ from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  read_forward_solution, convert_forward_solution)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
+from sklearn.decomposition import FastICA
+
+
+subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
+            'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
+            'A0357','A0358','A0362','A0364','A0365','A0367','A0368',
+            'A0369','A0370','P010','P011','P014','P015','P022']
+
+for subject in subjects:
+    if not os.path.exists('/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject)):
+        os.makedirs('/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject))
 
 # params
-subject = 'A0305'
-meg_dir = '/Users/meglab/Desktop/shep_fifs/%s/'%(subject)
+subject = 'A0314'
+meg_dir = '/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject)
 filt_l = 1  # same as aquisition
 filt_h = 60
 tmin = -0.2
@@ -53,7 +64,7 @@ else:
     raw = read_raw_fif(raw_fname, preload=True)
 
     # step 2- remove bad channels
-    print raw.info['bads']  # check if any bad channels have been specified already
+    print (raw.info['bads'])  # check if any bad channels have been specified already
     raw.plot()  # visualise bad channels
     raw.info['bads'] = ['list_of_bad_channels']
     # interpolate bads and reset so that we have same number of channels for all blocks/subjects
@@ -62,7 +73,7 @@ else:
 
     # step 3- apply ICA to the conjoint data
     picks = pick_types(raw.info, meg=True, exclude='bads')
-    ica = ICA(n_components=0.95, method='fastica')
+    ica = FastICA(n_components=0.95)
 
     # get ica components
     ica.exclude = []
@@ -91,7 +102,7 @@ raw = raw.filter(filt_l, filt_h)
 events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
 # note: you may want to add some decimation here
-epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
+epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 20, baseline=None)
 
 # step 6- reject epochs based on threshold
 # opens the gui, "mark" is to mark in red the channel closest to the eyes

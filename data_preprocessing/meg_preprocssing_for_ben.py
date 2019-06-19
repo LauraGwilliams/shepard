@@ -12,8 +12,8 @@ from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_
 from mne.preprocessing import ICA
 
 # params
-subject = 'A0344'
-meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject) # change to local meg folder
+subject = 'P011'
+meg_dir = '/Users/ea84/Dropbox/shepard_preproc/%s/'%(subject) # change to local meg folder
 filt_l = 0
 filt_h = 60
 tmin = -0.2

@@ -17,19 +17,26 @@ from sklearn.metrics import make_scorer, get_scorer
 
 
 # load all data
-subjects = ['A0216','A0280','A0305','A0306','A0314','A0270','P010',
-            'P011','A0343','A0344','A0345','A0353','A0323','A0307','A0354']
+subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
+            'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
+            'A0357','A0358','A0362','A0364','A0365','A0367','A0368',
+            'A0369','A0370','P010','P011','P014','P015','P022']
+meg_dir = '/Users/ea84/Dropbox/shepard_decoding/'
+
+for subject in subjects:
+    if not os.path.exists(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/'%(len(subjects),subject)):
+        os.makedirs(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/'%(len(subjects),subject))
 
 # params: epochs to use, regressor, how to decode, subsetting
 column = ['condition']
-train_on = [['pure']]
+train_on = [['pure','partial']]
 test_on = ['shepard']
 regressor = 'freq' #column name
 score = 'Spearman R'
 
 grp_scores = []
+grp_ypreds = []
 for subject in subjects:
-    meg_dir = '/Users/ea84/Dropbox/shepard_decoding/'
 
     allepochs = meg_dir + '%s/%s_shepard-epo.fif'%(subject,subject)
     epochs = mne.read_epochs(allepochs)
@@ -66,24 +73,49 @@ for subject in subjects:
         y_preds.append(y_pred)
         scores.append(scorer_spearman(y_test, y_pred))
         print(tt)
-
-        grp_scores.append(scores)
+    # grp_ypreds.append(y_preds)
+    ypreds_arr = np.array(y_preds)
+    np.save(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.npy'%(len(subjects),subject,subject,regressor,''.join(train_on[0])), ypreds_arr)
+    ypreds_arr = np.transpose(ypreds_arr, [1,0])
+    ypreds_arr = np.mean(ypreds_arr[:,50:70],axis=1)
+    kwargs = {"ypreds_%s"%(''.join(train_on[0])) : ypreds_arr}
+    test_info_preds = test_info.assign(**kwargs)
+    test_info_preds.to_csv(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.csv'%(len(subjects),subject,subject,regressor,''.join(train_on[0])))
+    # grp_scores.append(scores)
 
 scores_arr = np.array(grp_scores)
-np.save(meg_dir+'_GRP_SCORES/group_%s_train%s_test%s.png'%(regressor,''.join(train_on[0]),test_on[0]), scores_arr)
+np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_train%s_test%s.npy'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]), scores_arr)
 
 grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
 grp_avg = np.mean( np.array(grp_scores), axis=0 )
 
-fig, ax = plt.subplots()
-ax.plot(epochs.times, grp_avg, label='score')
-ax.fill_between(epochs.times, grp_avg-grp_sem, grp_avg+grp_sem,
-                    alpha=0.2, linewidth=0, color='r')
-ax.axhline(.0, color='k', linestyle='--', label='chance')
-ax.set_xlabel('Times')
-ax.set_ylabel('%s'%(score))
-ax.legend()
-ax.axvline(.0, color='k', linestyle='-')
-ax.set_title('Decoding MEG sensors over time')
-plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_train%s_test%s.png'%(regressor,''.join(train_on[0]),test_on[0]))
-# plt.show()
+
+#____________________________YPREDS______________________________
+#
+# ypreds_arr = np.array(grp_ypreds)
+# np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_train%s_ypreds.npy'%(len(subjects),regressor,''.join(train_on[0])), ypreds_arr)
+# grp_ypreds = np.mean(ypreds_arr, axis=0) # mean across subjects
+# grp_ypreds = np.transpose(grp_ypreds, [1,0]) # transpose so first dimension is individual trials
+# freq_preds_window = np.mean(grp_ypreds[:,50:70],axis=1) # grab 50-150ms and avg over window
+# shep_preds = test_info.assign(ypreds=grp_ypreds_window) # add prediction column to metadata of test epochs
+#
+# indiv_ypreds = []
+# for subject in subjects:
+
+# now can compare predictions based on conditions/frequencies!!!!!!!!!
+#
+# # next step: plot predictions over time for epochs going down vs up?
+#
+#
+# fig, ax = plt.subplots()
+# ax.plot(epochs.times, grp_avg, label='score')
+# # ax.fill_between(epochs.times, grp_avg-grp_sem, grp_avg+grp_sem,
+# #                     alpha=0.2, linewidth=0, color='r')
+# ax.axhline(.0, color='k', linestyle='--', label='chance')
+# ax.set_xlabel('Times')
+# ax.set_ylabel('%s'%(score))
+# ax.legend()
+# ax.axvline(.0, color='k', linestyle='-')
+# ax.set_title('Decoding MEG sensors over time')
+# plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group_%s_train%s_test%s.png'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]))
+# # plt.show()

@@ -7,7 +7,7 @@ import pandas as pd
 import glob
 
 # params
-subjects = ['A0364']
+subjects = ['P015']
 
 for subject in subjects:
     meg_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)

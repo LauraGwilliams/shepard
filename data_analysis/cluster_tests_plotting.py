@@ -70,30 +70,33 @@ def plot_clusters(t_obs, clusters, cluster_pv, label, p_thresh=0.05,
     return plt
 
 # params
-n = 6
+n = 28
 scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=%i/'%(n)
-regressor = 'freq'
-subset = 'shepardscale'
+regressor = 'condition'
+subset = 'purepartial'
+sensor_list = ['all','rh','lh']
 
-# get scores
-scores_fname = scores_dir + 'group_%s_%s.npy'%(regressor,subset)
-scores = np.load(scores_fname)
+for sensors in sensor_list:
+	# get scores
+	scores_fname = scores_dir + 'group/group_%s_%s_%s.npy'%(regressor,subset,sensors)
+	scores = np.load(scores_fname)
 
-if regressor == 'condition':
-	chance = 0.5
-else:
-	chance = 0
+	if regressor == 'condition':
+		chance = 0.5
+	else:
+		chance = 0
 
-scores = scores - chance
+	scores = scores - chance
 
-# cluster test
-res = cluster_test(scores, n_perm=10000, threshold=1.5, n_jobs=1,
-    				dimension='time')
-t_obs, clusters, cluster_pv, H0 = res
+	# cluster test
+	res = cluster_test(scores, n_perm=10000, threshold=1.5, n_jobs=1,
+	    				dimension='time')
+	t_obs, clusters, cluster_pv, H0 = res
 
-plot_clusters(t_obs, clusters, cluster_pv, label=regressor)
-plt.title('Decoding %s over time'%(regressor))
-plt.xlabel('Times')
-plt.ylabel('T-value')
-plt.savefig(scores_dir + 'stats/group_stats_%s_%s.png'%(regressor,subset))
-plt.show()
+	plot_clusters(t_obs, clusters, cluster_pv, label=regressor)
+	plt.title('Decoding %s over time'%(regressor))
+	plt.xlabel('Times')
+	plt.ylabel('T-value')
+	plt.savefig(scores_dir + 'stats/group_stats_%s_%s_%s.png'%(regressor,subset,sensors))
+	plt.close()
+	# plt.show()
