@@ -16,7 +16,7 @@ MSI = list(info['MSI'])
 sync = list(info['sync'])
 
 regressor = 'freq'
-subsets = ['pure','partial','purepartial']
+subsets = ['purepartial']
 sensor_list = ['all']
 
 rows_list = []
@@ -30,13 +30,36 @@ for i in range(len(subjects)):
             scores = np.load('%s/group_%s_%s_%s.npy'%(scores_dir,regressor,subset,sensors))
             sub_scores = scores[i] # grab timepoints 0 - 300 [50:80]
             # row['%s_%s_%s'%(regressor,subset,sensors)] = np.mean(sub_scores,axis=0)
-            row['%s_%s_%s'%(regressor,subset,sensors)] = sub_scores
+            # row['%s_%s_%s'%(regressor,subset,sensors)] = sub_scores
+            for tt in range(161):
+                row['data_tt%s'%(tt)] = scores[i][tt]
+            row['max_score'] = np.mean(scores[i][50:70])
             # row['tval_purevpar'] = 0.0
             # row['pval_purevpar'] = 0.0
             # row['purevpar'] = ''
     rows_list.append(row)
 
 df = pd.DataFrame(rows_list, index = subjects)
+
+ttest_ind(df[df['sync']==1]['max_score'],df[df['sync']==0]['max_score'])
+
+high_scores = []
+low_scores = []
+
+for tt in range(161):
+    high_scores.append(np.mean(df[df['sync']==1]['data_tt%s'%(tt)]))
+    low_scores.append(np.mean(df[df['sync']==0]['data_tt%s'%(tt)]))
+
+scores = [high_scores,low_scores]
+
+# plot scores high vs low synchronizers
+for score, lab in zip(scores,labels):
+     plt.plot(times,score,label=lab)
+plt.legend()
+plt.show()
+
+#_________________________
+# individual differences in pure vs partial
 
 tval_list = []
 for i in range(len(df)):

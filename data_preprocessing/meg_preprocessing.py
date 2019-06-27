@@ -17,6 +17,7 @@ from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
 from sklearn.decomposition import FastICA
+import pandas as pd
 
 
 subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
@@ -29,8 +30,9 @@ for subject in subjects:
         os.makedirs('/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject))
 
 # params
-subject = 'A0314'
+subject = 'A0355'
 meg_dir = '/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject)
+raw_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
 filt_l = 1  # same as aquisition
 filt_h = 60
 tmin = -0.2
@@ -40,7 +42,8 @@ tmax = 0.6
 os.environ["SUBJECTS_DIR"] = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri'
 
 # file names
-raw_fname = meg_dir + subject+ '_shepard-raw.fif'
+info = raw_dir + subject + '_shepard_trialinfo.csv'
+raw_fname = raw_dir + subject+ '_shepard-raw.fif'
 ica_fname = meg_dir + subject+ '_shepard_ica1-ica.fif'
 ica_raw_fname = meg_dir + subject+ '_ica_shepard-raw.fif' # applied ica to raw
 ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs after ica
@@ -53,6 +56,14 @@ bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
 src_fname = mri_dir+ subject+ '-ico-4-src.fif'
 trans_fname = mri_dir+ subject+ '-trans.fif'
 #stc_fname = meg_dir + subject+ '_shepard.stc.npy'
+
+# concatenate fifs
+raw_fname = meg_dir + subject + 'shepard-raw.fif'
+raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
+raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
+raw = mne.concatenate_raws([raw1, raw2])
+
 
 # if the ica-clean raw exists, load it
 if op.isfile(ica_raw_fname):
@@ -73,7 +84,7 @@ else:
 
     # step 3- apply ICA to the conjoint data
     picks = pick_types(raw.info, meg=True, exclude='bads')
-    ica = FastICA(n_components=0.95)
+    ica = ICA(n_components=0.95,method='fastica')
 
     # get ica components
     ica.exclude = []
@@ -88,12 +99,8 @@ else:
     raw.save(ica_raw_fname, overwrite=True)
 
 
-# load the raw file as a con not a fif
-raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep1_NR.con'
-raw1 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
-raw_fname = '/Volumes/MEG/NYUAD-Lab-Server/MEGPC/A0301-A0350/A0305/A0305_ShepardUpdated/A0305_shep2_NR.con'
-raw2 = mne.io.read_raw_kit(raw_fname, preload=True, slope='+')
-raw = mne.concatenate_raws([raw1, raw2])
+
+trial_info = pd.read_csv(info)
 
 # step 4- filter
 raw = raw.filter(filt_l, filt_h)
@@ -120,8 +127,6 @@ rejs = rejfile['accept'].x
 # mask epochs and info
 epochs = epochs[rejs]
 trial_info = trial_info[rejs]
-
-trimmed_trial_info = trial_info
 
 # if evoked is made, load
 # else make evoked to check for auditory response

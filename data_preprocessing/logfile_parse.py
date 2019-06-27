@@ -8,8 +8,8 @@ import mne
 import glob
 
 # paths
-subject = 'P015'
-base_path = '/Users/ea84/Dropbox/shepard_preproc/%s'%(subject) # change to local meg dir
+subject = 'A0216'
+base_path = '/Users/ea84/Dropbox/shepard_decoding/%s'%(subject) # change to local meg dir
 return_path = '/Users/ea84/Dropbox/shepard_decoding/%s'%(subject)
 
 # use time stamps to create condition order

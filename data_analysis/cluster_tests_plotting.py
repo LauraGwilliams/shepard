@@ -70,12 +70,13 @@ def plot_clusters(t_obs, clusters, cluster_pv, label, p_thresh=0.05,
     return plt
 
 # params
-n = 28
+n = len(subjects)
 scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=%i/'%(n)
 regressor = 'condition'
 subset = 'purepartial'
 sensor_list = ['all','rh','lh']
 
+# load scores and cluster test them, plot
 for sensors in sensor_list:
 	# get scores
 	scores_fname = scores_dir + 'group/group_%s_%s_%s.npy'%(regressor,subset,sensors)

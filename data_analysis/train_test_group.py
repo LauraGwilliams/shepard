@@ -15,7 +15,51 @@ import mne.decoding
 from jr import scorer_spearman
 from sklearn.metrics import make_scorer, get_scorer
 
+#funcs
+def add_tone_properties(epochs, trial_info):
 
+    # musical note position dictionary
+    note_pos_dict = {'A220': 1,'A247': 2,'A277': 3,'A294': 4,'A330': 5,'A370': 6,
+                     'A415': 7,'A440': 8,'C262': 1,'C294': 2,'C330': 3,'C349': 4,
+                     'C392': 5,'C440': 6,'C494': 7,'C523': 8,'Eb312': 1,'Eb349': 2,
+                     'Eb392': 3,'Eb415': 4,'Eb466': 5,'Eb523': 6,'Eb587': 7,'Eb624': 8}
+
+    # add note position to the df
+    trial_info['freq_key'] = ['%s%s' % (k, f) for k, f in trial_info[['key', 'freq']].values]
+    trial_info['note_position'] = np.array([note_pos_dict[k] for k in trial_info['freq_key']])
+    trial_info['time_ms'] = epochs.events[:, 0]
+    trial_info['ISI'] = trial_info['time_ms'] - np.roll(trial_info['time_ms'], 1)
+
+    # add tone position
+    position = 1
+    trial_positions = list()
+    for isi in trial_info['ISI'].values:
+        # if the time from the previous trial is less than 750, then it is
+        # not the first note in the sequence
+        if isi < 750:
+            trial_positions.append(position)
+            position += 1
+        else:
+            # if the ISI is bigger than 750, it is the first note in the
+            # sequence
+            trial_positions.append(1)
+            position = 2
+    trial_info['trial_position'] = np.array(trial_positions)
+
+    # fix the note position for the ambiguous tones in "scale"
+    # specifies the perceived tone
+    trial_info['note_position'] = (trial_info['note_position'] +
+                                   np.logical_and(np.logical_and(trial_info['updown'] == 'down', trial_info['circscale'] == 'scale'),
+                                                  trial_info['note_position'] == trial_info['trial_position'])*7)
+
+    trial_info['note_position'] = (trial_info['note_position'] +
+                                   np.logical_and(np.logical_and(trial_info['updown'] == 'up', trial_info['circscale'] == 'scale'),
+                                                  trial_info['note_position'] != trial_info['trial_position'])*7)
+
+    return trial_info
+
+
+#__________________________________________________________
 # load all data
 subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
             'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
@@ -75,19 +119,20 @@ for subject in subjects:
         print(tt)
     # grp_ypreds.append(y_preds)
     ypreds_arr = np.array(y_preds)
-    np.save(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.npy'%(len(subjects),subject,subject,regressor,''.join(train_on[0])), ypreds_arr)
+    # np.save(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.npy'%(len(subjects),subject,subject,regressor,''.join(train_on[0])), ypreds_arr)
     ypreds_arr = np.transpose(ypreds_arr, [1,0])
     ypreds_arr = np.mean(ypreds_arr[:,50:70],axis=1)
     kwargs = {"ypreds_%s"%(''.join(train_on[0])) : ypreds_arr}
     test_info_preds = test_info.assign(**kwargs)
+    test_info_preds = add_tone_properties(test_epochs,test_info_preds)
     test_info_preds.to_csv(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.csv'%(len(subjects),subject,subject,regressor,''.join(train_on[0])))
-    # grp_scores.append(scores)
+    grp_scores.append(scores)
 
 scores_arr = np.array(grp_scores)
 np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_train%s_test%s.npy'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]), scores_arr)
 
-grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
-grp_avg = np.mean( np.array(grp_scores), axis=0 )
+# grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
+# grp_avg = np.mean( np.array(grp_scores), axis=0 )
 
 
 #____________________________YPREDS______________________________
