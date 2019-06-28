@@ -110,7 +110,6 @@ regressor = 'freq'
 subset = ['partial']
 hemis = ['rh','lh']
 
-
 lh_scores = np.load(scores_dir+'group_%s_%s_lh.npy'%(regressor,''.join(subset)))
 lh_scores_mean = np.mean(lh_scores,axis=0)
 
@@ -314,4 +313,62 @@ ax.legend()
 ax.axvline(.0, color='k', linestyle='-')
 ax.set_title('Decoding MEG sensors over time')
     # plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_%s.png'%(regressor,''.join(subset[0])))
+plt.show()
+
+#____________________________________________________________
+# other measures of musical sophistication
+
+# func to find best fit line
+def best_fit(X, Y):
+
+    xbar = sum(X)/len(X)
+    ybar = sum(Y)/len(Y)
+    n = len(X) # or len(Y)
+
+    numer = sum([xi*yi for xi,yi in zip(X, Y)]) - n * xbar * ybar
+    denum = sum([xi**2 for xi in X]) - n * xbar**2
+
+    b = numer / denum
+    a = ybar - b * xbar
+
+    print('best fit line:\ny = {:.2f} + {:.2f}x'.format(a, b))
+
+    return a, b
+
+info_dir = '/Users/ea84/Dropbox/shepard_decoding/_DOCS'
+info = pd.read_csv('%s/MSI_breakdown.csv'%(info_dir))
+
+X = info['PLV']
+Y = info['Singing_Abilities']
+
+corr = X.corr(Y)
+
+# solution
+a, b = best_fit(X, Y)
+
+X_high = []
+X_low = []
+Y_high = []
+Y_low = []
+# plot points and fit line
+for point in range(len(X)):
+	if X[point] > 0.5:
+		# plt.scatter(X[point],Y[point], color ='g')
+		X_high.append(X[point])
+		Y_high.append(Y[point])
+	else:
+		X_low.append(X[point])
+		Y_low.append(Y[point])
+		# plt.scatter(X[point],Y[point], color ='b')
+plt.scatter(X_high,Y_high,color='g',label='high synchronizers')
+plt.scatter(X_low,Y_low,color='b',label='low synchronizers')
+# plt.scatter(X, Y)
+plt.xlabel('PLV')
+plt.ylabel('Musical Sophistication')
+plt.title('PLV vs. Musical Sophistication')
+plt.ylim(Y.min()-10,Y.max()+10)
+plt.axvline(x=0.5, color='Gray', linestyle='--',label='0.5 PLV')
+yfit = [a + b * xi for xi in X]
+plt.plot(X, yfit, color='Black', label='best fit, r = %s'%(corr))
+plt.legend(prop={'size': 8})
 plt.show()
