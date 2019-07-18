@@ -139,7 +139,7 @@ subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
 
 # epochs subset to train on
 column = ['condition','circscale']
-subset = [['shepard'],['circular']]
+subset = [['shepard'],['scale']]
 sensor_list = ['all']
 
 # regressor to decode, spatial vs. temporal vs. combined

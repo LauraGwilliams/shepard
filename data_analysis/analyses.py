@@ -71,6 +71,23 @@ def plot_clusters(t_obs, clusters, cluster_pv, label, p_thresh=0.05,
 
     return plt
 
+# func to find best fit line
+def best_fit(X, Y):
+
+    xbar = sum(X)/len(X)
+    ybar = sum(Y)/len(Y)
+    n = len(X) # or len(Y)
+
+    numer = sum([xi*yi for xi,yi in zip(X, Y)]) - n * xbar * ybar
+    denum = sum([xi**2 for xi in X]) - n * xbar**2
+
+    b = numer / denum
+    a = ybar - b * xbar
+
+    print('best fit line:\ny = {:.2f} + {:.2f}x'.format(a, b))
+
+    return a, b
+
 #____________________________________________________________
 # make dirs if needed
 import shutil
@@ -102,13 +119,16 @@ for subject in subjects:
 
 
 #____________________________________________________________
-# hemisphere decoding scores
+# HEMISPHERE DECODING
 
 scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/group/'
+plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/hemis/'
 
-regressor = 'freq'
-subset = ['partial']
+
+regressor = 'condition'
+subset = ['pure','partial']
 hemis = ['rh','lh']
+colors = ['Blue','Green']
 
 lh_scores = np.load(scores_dir+'group_%s_%s_lh.npy'%(regressor,''.join(subset)))
 lh_scores_mean = np.mean(lh_scores,axis=0)
@@ -116,7 +136,19 @@ lh_scores_mean = np.mean(lh_scores,axis=0)
 rh_scores = np.load(scores_dir+'group_%s_%s_rh.npy'%(regressor,''.join(subset)))
 rh_scores_mean = np.mean(rh_scores,axis=0)
 
+scores = [rh_scores_mean,lh_scores_mean]
+
 ttest_ind(rh_scores_mean,lh_scores_mean)
+
+times = np.linspace(-200,600,161)
+for score, lab, color in zip(scores,hemis,colors):
+	plt.plot(times,score,label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+plt.legend()
+plt.title('Decoding %s tones right vs left hemisphere'%(''.join(subset)))
+plt.savefig(plots_dir+'%s_%s_hemis.png'%(regressor,''.join(subset)))
+plt.show()
+plt.close()
 
 #____________________________________
 # interaction hemi, condition
@@ -174,21 +206,6 @@ for coef, lab in zip(coef_bin.T, var_labels):
 plt.legend()
 plt.show()
 
-# sync % condition
-coef_bin = np.zeros([161, 4])
-for tt in range(161):
-    md = smf.mixedlm('data_tt%s ~ sync* condition' % (tt), df,
-	groups=df['subject_number'], re_formula="~sync")
-    mdf = md.fit()
-	# add intercept, and first 3 factor coefs to the bin
-    coef_bin[tt, :] = mdf.params[0:4]
-
-var_labels = ['intercept', 'sync', 'condition', 'interaction']
-times = np.linspace(-200, 600, 161)
-for coef, lab in zip(coef_bin.T, var_labels):
-	 plt.plot(times, coef, label=lab)
-plt.legend()
-plt.show()
 #____________________________________________________________
 # train on x, evaluate on shepard scores
 
@@ -215,13 +232,13 @@ subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
             'A0357','A0358','A0362','A0364','A0365','A0367','A0368',
             'A0369','A0370','P010','P011','P014','P015','P022']
 
-subject = 'P015'
+subject = 'A0354'
 column = ['condition']
-train_on = [['partial']]
+train_on = [['purepartial']]
 test_on = ['shepard']
 regressor = 'freq' #column name
 
-condition = 'circular'
+condition = 'all'
 
 y_preds = np.load(scores_dir+'%s/%s_%s_train%s_ypreds.npy'%(subject,subject,regressor,''.join(train_on[0])))
 csv = pd.read_csv(scores_dir+'%s/%s_%s_train%s_ypreds.csv'%(subject,subject,regressor,''.join(train_on[0])))
@@ -245,8 +262,13 @@ for tt in range(n_times):
 
 mean_score = np.mean(scores)
 
+# t-test on amb tone as 1 vs 8
+# 2x2 anova amb tone 1 vs 8
+
 #____________________________________________________________
 # ambiguous tone exploration
+# run above section before
+
 
 # get ypreds for upFirst, upLast, downFirst, downLast ambiguous shepard tones
 up_first = csv[(csv['freq']==220) & (csv['key']=='A') & (csv['circscale']=='scale')
@@ -316,36 +338,26 @@ ax.set_title('Decoding MEG sensors over time')
 plt.show()
 
 #____________________________________________________________
-# other measures of musical sophistication
-
-# func to find best fit line
-def best_fit(X, Y):
-
-    xbar = sum(X)/len(X)
-    ybar = sum(Y)/len(Y)
-    n = len(X) # or len(Y)
-
-    numer = sum([xi*yi for xi,yi in zip(X, Y)]) - n * xbar * ybar
-    denum = sum([xi**2 for xi in X]) - n * xbar**2
-
-    b = numer / denum
-    a = ybar - b * xbar
-
-    print('best fit line:\ny = {:.2f} + {:.2f}x'.format(a, b))
-
-    return a, b
+# other measures of musical sophistication with PLV
 
 info_dir = '/Users/ea84/Dropbox/shepard_decoding/_DOCS'
 info = pd.read_csv('%s/MSI_breakdown.csv'%(info_dir))
 
+plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/high_vs_low_sync/'
+
+plt.close()
+
+# set X and Y for plotting
 X = info['PLV']
-Y = info['Singing_Abilities']
+Y = info['Active_Engagement']
 
 corr = X.corr(Y)
 
 # solution
 a, b = best_fit(X, Y)
+yfit = [a + b * xi for xi in X]
 
+# grab high vs low synchronizers
 X_high = []
 X_low = []
 Y_high = []
@@ -363,12 +375,12 @@ for point in range(len(X)):
 plt.scatter(X_high,Y_high,color='g',label='high synchronizers')
 plt.scatter(X_low,Y_low,color='b',label='low synchronizers')
 # plt.scatter(X, Y)
-plt.xlabel('PLV')
-plt.ylabel('Musical Sophistication')
-plt.title('PLV vs. Musical Sophistication')
+plt.xlabel(X.name)
+plt.ylabel(Y.name)
+plt.title('%s vs. %s'%(X.name,Y.name))
 plt.ylim(Y.min()-10,Y.max()+10)
 plt.axvline(x=0.5, color='Gray', linestyle='--',label='0.5 PLV')
-yfit = [a + b * xi for xi in X]
 plt.plot(X, yfit, color='Black', label='best fit, r = %s'%(corr))
 plt.legend(prop={'size': 8})
+plt.savefig(plots_dir+'%s_%s_corr.png'%(X.name,Y.name))
 plt.show()

@@ -13,7 +13,7 @@ from mne.io import read_raw_fif
 from mne.preprocessing.ica import read_ica
 from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
                  write_cov, read_cov, setup_source_space, make_forward_solution,
-                 read_forward_solution, convert_forward_solution)
+                 read_forward_solution, convert_forward_solution, read_epochs)
 from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
 from mne.preprocessing import ICA
 from sklearn.decomposition import FastICA
@@ -30,7 +30,7 @@ for subject in subjects:
         os.makedirs('/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject))
 
 # params
-subject = 'A0355'
+subject = 'A0354'
 meg_dir = '/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject)
 raw_dir = '/Users/ea84/Dropbox/shepard_decoding/%s/'%(subject)
 filt_l = 1  # same as aquisition
@@ -39,7 +39,7 @@ tmin = -0.2
 tmax = 0.6
 
 # for plotting
-os.environ["SUBJECTS_DIR"] = '/Users/ea84/Desktop/Projects/Shepard/analysis/mri'
+os.environ["SUBJECTS_DIR"] = '/Users/ea84/Dropbox/shepard_mri/%s'%(subject)
 
 # file names
 info = raw_dir + subject + '_shepard_trialinfo.csv'
@@ -50,12 +50,12 @@ ica_rej_fname = meg_dir + subject+ '_shepard_rejfile.pickled' # rejected epochs 
 epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
 evoked_fname = meg_dir + subject+ '_shepard-evoked-ave.fif'
 cov_fname = meg_dir + subject+ '_shepard-cov.fif'
-mri_dir = '/Users/ellieabrams/Desktop/Projects/Shepard/analysis/mri/%s/bem/'%(subject)
-fwd_fname = mri_dir+ subject+ '_shepard-fwd.fif'
+mri_dir = '/Users/ea84/Dropbox/shepard_mri/%s/bem/'%(subject)
+fwd_fname = meg_dir+ subject+ '_shepard-fwd.fif'
+src_fname = meg_dir+ subject+ '-ico-4-src.fif'
+trans_fname = meg_dir+ subject+ '-trans.fif'
 bem_fname = mri_dir+ subject+ '-inner_skull-bem-sol.fif'
-src_fname = mri_dir+ subject+ '-ico-4-src.fif'
-trans_fname = mri_dir+ subject+ '-trans.fif'
-#stc_fname = meg_dir + subject+ '_shepard.stc.npy'
+stc_fname = meg_dir + subject+ '_shepard.stc.npy'
 
 # concatenate fifs
 raw_fname = meg_dir + subject + 'shepard-raw.fif'
@@ -109,7 +109,7 @@ raw = raw.filter(filt_l, filt_h)
 events = find_events(raw)  # the output of this is a 3 x n_trial np array
 
 # note: you may want to add some decimation here
-epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 20, baseline=None)
+epochs = Epochs(raw, events, tmin=tmin, tmax=tmax, decim = 5, baseline=None)
 
 # step 6- reject epochs based on threshold
 # opens the gui, "mark" is to mark in red the channel closest to the eyes
@@ -118,7 +118,7 @@ if op.isfile(ica_rej_fname):
 else:
     eelbrain.gui.select_epochs(epochs, vlim=2e-12, mark=['MEG 087','MEG 130'])
     # This reminds you how to name the file and also stops the loop until you press enter
-    raw_input('NOTE: Save as subj_rejfile.pickled. \nPress enter when you are done rejecting epochs in the GUI...')
+    raw_input('NOTE: Save as subj_shepard_rejfile.pickled. \nPress enter when you are done rejecting epochs in the GUI...')
     rejfile = eelbrain.load.unpickle(ica_rej_fname)
 
 # create a mask to reject the bad epochs
@@ -156,10 +156,10 @@ else:
     noise_cov = read_cov(cov_fname)
 
 # if using native MRI, need to make_bem_model
-# if not op.isfile(bem_fname):
-#    surfaces = make_bem_model(subject, ico=4, conductivity=(0.3, 0.006, 0.3), mri_dir, verbose=None)
-#    bem = make_bem_solution(surfaces)
-#    write_bem_solution(bem_fname, bem)
+if not op.isfile(bem_fname):
+   surfaces = mne.make_bem_model(subject, ico=4, conductivity=(0.3, 0.006, 0.3), mri_dir, verbose=None)
+   bem = mne.make_bem_solution(surfaces)
+   mne.write_bem_solution(bem_fname, bem)
 
 # step 8- make forward solution
 if not op.isfile(fwd_fname):
@@ -168,14 +168,16 @@ if not op.isfile(fwd_fname):
                                  subjects_dir=mri_dir)
         fwd = make_forward_solution(epochs.info, trans_fname, src, bem_fname,
                                  meg=True, ignore_ref=True)
+        write_forward_solution(fwd)
     else:
         src = src_fname
         fwd = make_forward_solution(epochs.info, trans_fname, src, bem_fname,
                                 fname=fwd_fname, meg=True, ignore_ref=True)
+        write_forward_solution(fwd)
 else:
     fwd = read_forward_solution(fwd_fname)
 
-#create forward solution with free-orientation and in surface orientation
+# create forward solution with free-orientation and in surface orientation
 fwd_fixed = convert_forward_solution(fwd, force_fixed=False,
                                                 surf_ori=True)
 
@@ -205,8 +207,47 @@ stc_evoked.plot(hemi = 'split', time_viewer=True)
 #close the time_viewer window before the brain views to avoid crashing in terminal
 
 # if weirdness happens with plotting
-# import wx
-# app = wx.App()
-# frame = wx.Frame(None, -1, 'simple.py')
-# frame.Show()
-# app.MainLoop()
+import wx
+app = wx.App()
+frame = wx.Frame(None, -1, 'simple.py')
+frame.Show()
+app.MainLoop()
+
+#__________________________________________________________
+# QUICK LOAD stcs
+import os
+from mne import (pick_types, find_events, Epochs, Evoked, compute_covariance,
+                 write_cov, read_cov, setup_source_space, make_forward_solution,
+                 read_forward_solution, convert_forward_solution, read_epochs,
+                 read_evokeds)
+from mne.minimum_norm import make_inverse_operator, apply_inverse_epochs, apply_inverse
+
+# params
+subject = 'A0354'
+meg_dir = '/Users/ea84/Dropbox/shepard_sourceloc/%s/'%(subject)
+epochs_fname = meg_dir + subject+ '_shepard-epo.fif'
+cov_fname = meg_dir + subject+ '_shepard-cov.fif'
+fwd_fname = meg_dir+ subject+ '_shepard-fwd.fif'
+os.environ["SUBJECTS_DIR"] = '/Users/ea84/Dropbox/shepard_mri/%s'%(subject)
+
+# load
+epochs = read_epochs(epochs_fname)
+evoked = read_evokeds(evoked_fname)
+noise_cov = read_cov(cov_fname)
+fwd = read_forward_solution(fwd_fname)
+
+# inverse and apply
+inverse_operator = make_inverse_operator(epochs.info, fwd, noise_cov,
+                                         loose=0.2, depth=0.8)
+
+snr = 3.0  # Standard assumption for average data but using it for single trial
+lambda2 = 1.0 / snr ** 2
+
+stc_epochs = apply_inverse_epochs(epochs, inverse_operator, lambda2,
+                                  method='dSPM')
+
+stc_evoked = apply_inverse(evoked, inverse_operator, lambda2,
+                                method='dSPM')
+
+# visualise and move along time course, confirm auditory response
+stc_evoked.plot(hemi = 'split', time_viewer=True)
