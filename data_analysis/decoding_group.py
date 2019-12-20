@@ -139,11 +139,11 @@ subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
 
 # epochs subset to train on
 column = ['condition','circscale']
-subset = [['shepard'],['scale']]
+subset = [['pure'],['scale']]
 sensor_list = ['all']
 
 # regressor to decode, spatial vs. temporal vs. combined
-regressor = 'note_position' #column name
+regressor = 'freq' #column name
 decode_using = 'spatial' # spatial (trials x sensors x time)
                         # temporal (trials x time x sensors),
                         # combined (trials x sensors*time)
@@ -252,7 +252,12 @@ for sensors in sensor_list:
 
 
     scores_arr = np.array(grp_scores)
-    np.save(meg_dir+'_GRP_SCORES/n=%i/group_%s_%s_%s.npy'%(len(subjects),regressor,
+    if len(subset) > 1:
+        np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_%s_%s_%s.npy'%(len(subjects),regressor,
+                                                            ''.join(subset[0]),''.join(subset[1]),
+                                                            sensors),scores_arr)
+    else:
+        np.save(meg_dir+'_GRP_SCORES/n=%i/group_%s_%s_%s.npy'%(len(subjects),regressor,
                                                         ''.join(subset[0]),sensors),
                                                         scores_arr)
 
@@ -279,7 +284,7 @@ if decode_using == 'spatial':
     # ax.set_ylim(bottom=-0.035, top=0.16)
     ax.axvline(.0, color='k', linestyle='-')
     ax.set_title('Decoding MEG sensors over time')
-    plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group/group_%s_%s_%s.png'%(len(subjects),regressor,''.join(subset[0]),sensors))
+    plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group/group_%s_%s_%s_%s.png'%(len(subjects),regressor,''.join(subset[0]),''.join(subset[1]),sensors))
     plt.show()
 #
 # elif decode_using == 'temporal':
@@ -304,34 +309,34 @@ if decode_using == 'spatial':
 #     print (scores)
 # norm = matplotlib.colors.Normalize(vmin=0,vmax=103)
 # # colors = cm.rainbow(np.linspace(0, 1, len(subjects)))
-
-info_dir = '/Users/ea84/Dropbox/shepard_decoding/_DOCS'
-info = pd.read_csv('%s/subj_msi_sync.csv'%(info_dir))
-
-scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/group/'
-
-times = np.linspace(-200,600,161)
-
-grp_scores = np.load(scores_dir+'group_%s_%s_%s.npy'%(regressor,subset,hemi))
-if decode_using == 'spatial':
-    fig, ax = plt.subplots()
-    for subject,scores,music in zip(subjects,grp_scores,music_soph):
-        # Plot the diagonal (it's exactly the same as the time-by-time decoding above)
-        color = cm.rainbow(norm(music),bytes=True)
-        new_color = tuple(ti/255.0 for ti in color)
-        ax.plot(epochs.times, scores, color=new_color, label=subject)
-        # ax.fill_between(epochs.times, np.diag(grp_avg-grp_sem), np.diag(grp_avg+grp_sem),
-        #                     alpha=0.2, linewidth=0, color='r')
-    if score == 'AUC':
-        ax.axhline(.5, color='k', linestyle='--', label='chance')
-    else:
-        ax.axhline(.0, color='k', linestyle='--', label='chance')
-    ax.set_xlabel('Times')
-    ax.set_ylabel('%s'%(score))
-    ax.legend()
-    # plt.colorbar()
-    # ax.set_ylim(bottom=-0.035, top=0.16)
-    ax.axvline(.0, color='k', linestyle='-')
-    ax.set_title('Decoding MEG sensors over time')
-        # plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_%s.png'%(regressor,''.join(subset[0])))
-    plt.show()
+#
+# info_dir = '/Users/ea84/Dropbox/shepard_decoding/_DOCS'
+# info = pd.read_csv('%s/subj_msi_sync.csv'%(info_dir))
+#
+# scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/group/'
+#
+# times = np.linspace(-200,600,161)
+#
+# grp_scores = np.load(scores_dir+'group_%s_%s_%s.npy'%(regressor,subset,hemi))
+# if decode_using == 'spatial':
+#     fig, ax = plt.subplots()
+#     for subject,scores,music in zip(subjects,grp_scores,music_soph):
+#         # Plot the diagonal (it's exactly the same as the time-by-time decoding above)
+#         color = cm.rainbow(norm(music),bytes=True)
+#         new_color = tuple(ti/255.0 for ti in color)
+#         ax.plot(epochs.times, scores, color=new_color, label=subject)
+#         # ax.fill_between(epochs.times, np.diag(grp_avg-grp_sem), np.diag(grp_avg+grp_sem),
+#         #                     alpha=0.2, linewidth=0, color='r')
+#     if score == 'AUC':
+#         ax.axhline(.5, color='k', linestyle='--', label='chance')
+#     else:
+#         ax.axhline(.0, color='k', linestyle='--', label='chance')
+#     ax.set_xlabel('Times')
+#     ax.set_ylabel('%s'%(score))
+#     ax.legend()
+#     # plt.colorbar()
+#     # ax.set_ylim(bottom=-0.035, top=0.16)
+#     ax.axvline(.0, color='k', linestyle='-')
+#     ax.set_title('Decoding MEG sensors over time')
+#         # plt.savefig(meg_dir + '_GRP_PLOTS/group_%s_%s.png'%(regressor,''.join(subset[0])))
+#     plt.show()

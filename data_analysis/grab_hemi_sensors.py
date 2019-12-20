@@ -17,4 +17,4 @@ def grab_hemi_sensors(epochs,exclude_center=False):
     rh_picks = mne.pick_types(epochs.info,selection=rh_ch_names)
     lh_picks = mne.pick_types(epochs.info,selection=lh_ch_names)
 
-    return rh_picks, lh_picks
+    return rh_picks, lh_picks,rh_ch_names,lh_ch_names

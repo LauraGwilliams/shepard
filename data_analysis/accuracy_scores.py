@@ -4,8 +4,19 @@ import os.path as op
 import mne
 from scipy.stats import ttest_ind, spearmanr
 
+# TABLE OF CONTENTS:
+# - HISTOGRAM
+# - MSI CORRELATIONS
+# - plot average decoding accuracy 0-300ms with behavioral measures,
+# scatter plot measures w correlations
+# - DECODING ACC IN HIGH V LOW SYNCHRONIZERS
+# - DECODING ACC IN HIGH V LOW MSI Categories
+# - DECODING ACC IN HIGH V LOW PITCH DISCRIM
+# - get highs and lows, TVALS FOR ACC BETWEEN HIGH N LOW
+# -
 
-# funcs
+# FUNCS
+
 def cluster_test(scores, n_perm=10000, threshold=1.5, n_jobs=1,
 				 dimension='time'):
     '''perform 1-sample t-test over time or space to find clusters'''
@@ -103,7 +114,7 @@ pitch_discrim = np.load('/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/p
 columns = info.columns.tolist()
 
 regressor = 'freq'
-subsets = ['pure']
+subsets = ['partial','pure','purepartial']
 sensor_list = ['all']
 
 # create dataframe with musicianship scores, scores at each timepoint
@@ -117,7 +128,7 @@ for i in range(len(subjects)):
 		for sensors in sensor_list:
 			scores = np.load('%s/group_%s_%s_%s.npy'%(scores_dir,regressor,subset,sensors))
 			for tt in range(161):
-				row['data_tt%s'%(tt)] = scores[i][tt]
+				row['data_%s_tt%s'%(subset,tt)] = scores[i][tt]
 			row['max_score'] = np.mean(scores[i][40:100])
 	subject = subjects[i]
 	row['same_diff'] = pitch_discrim.item().get(subject)[0]
@@ -126,7 +137,8 @@ for i in range(len(subjects)):
 
 df = pd.DataFrame(rows_list)
 #____________________________________________________________
-# histogram
+# HISTOGRAM
+
 import matplotlib.mlab as mlab
 from scipy.stats import norm
 
@@ -134,15 +146,15 @@ from scipy.stats import norm
 PLV = np.array(info['PLV'])
 
 # create histogram
-n, bins, patches = plt.hist(PLV,bins=10)
-y = mlab.normpdf( bins, mu, sigma)
-l = plt.plot(bins, y, 'r--', linewidth=2)
+# n, bins, patches =
+# y = mlab.normpdf( bins, mu, sigma)
+# l = plt.plot(bins, y, 'r--', linewidth=2)
+plt.hist(PLV,bins=10)
 plt.title('PLV, n=28')
 plt.show()
 
 #____________________________________________________________
-# correlations between MSI categories
-
+# MSI CORRELATIONS
 
 categories = df[['Active_Engagement','Perceptual_Abilities','Musical_Training',
         'Emotions','Singing_Abilities','General_Sophistication','same_diff',
@@ -176,6 +188,8 @@ plt.legend(prop={'size': 8})
 plt.show()
 
 #____________________________________________________________
+# DECODING ACC IN HIGH V LOW SYNCHRONIZERS
+
 plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/high_vs_low_sync/'
 
 # t-test average scores across entire time window
@@ -185,24 +199,97 @@ ttest_ind(df[df['High_Low']==1]['max_score'],df[df['High_Low']==0]['max_score'])
 high_scores = []
 low_scores = []
 
+subset = 'pure'
+
 for tt in range(161):
-    high_scores.append(np.mean(df[df['High_Low']==1]['data_tt%s'%(tt)]))
-    low_scores.append(np.mean(df[df['High_Low']==0]['data_tt%s'%(tt)]))
+    high_scores.append(np.mean(df[df['High_Low']==1]['data_%s_tt%s'%(subset,tt)]))
+    low_scores.append(np.mean(df[df['High_Low']==0]['data_%s_tt%s'%(subset,tt)]))
 
 scores = [high_scores,low_scores]
+labels = ['high','low']
+colors = ['Red','gold']
 
 # plot ACCURACY SCORES high vs low synchronizers
+for score, lab, color in zip(scores,labels,colors):
+     plt.plot(times,score,label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+plt.title('decoding accuracy %s high vs low synchronizers'%(subset))
+plt.legend()
+# plt.savefig(plots_dir+'highvlow_%s'%(''.join(subsets)))
+plt.show()
+# plt.close()
+
+#__________________________________________________________
+# DECODING ACC IN HIGH V LOW MSI Categories
+
+plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/high_vs_low_sync/'
+
+MSI = 'Male_Female'
+median = df[MSI].median()
+
+# t-test scores at each timepoint for high general sophistication vs low
+high_scores = []
+low_scores = []
+
+subset = 'purepartial'
+
+for tt in range(161):
+    high_scores.append(np.mean(df[df[MSI]>median]['data_%s_tt%s'%(subset,tt)]))
+    low_scores.append(np.mean(df[df[MSI]<=median]['data_%s_tt%s'%(subset,tt)]))
+
+scores = [high_scores,low_scores]
+labels = ['high','low']
+colors = ['Green','Red']
+
+# plot ACCURACY SCORES high vs low gen soph
+for score, lab, color in zip(scores,labels,colors):
+     plt.plot(times,score,label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+if subset == 'purepartial':
+	plt.title('Decoding accuracy for pure and partial tones \n in high vs low %s'%(MSI))
+else:
+	plt.title('Decoding accuracy for %s tones \n in high vs low %s'%(subset,MSI))
+plt.xlabel('Times')
+plt.legend()
+plt.savefig(plots_dir+'highvlowMSI_%s_%s'%(subset,MSI))
+plt.show()
+# plt.close()
+
+#__________________________________________________________
+# DECODING ACC IN HIGH V LOW PITCH DISCRIM
+
+plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/high_vs_low_sync/'
+
+# t-test scores at each timepoint for high pitchdiscrim vs low
+high_scores = []
+low_scores = []
+
+subset = 'partial'
+
+for tt in range(161):
+    high_scores.append(np.mean(df[df['same_diff']>0.553]['data_%s_tt%s'%(subset,tt)]))
+    low_scores.append(np.mean(df[df['same_diff']<=0.553]['data_%s_tt%s'%(subset,tt)]))
+
+scores = [high_scores,low_scores]
+labels = ['high','low']
+
+# plot ACCURACY SCORES high  pitchdiscrim vs low
 for score, lab in zip(scores,labels):
      plt.plot(times,score,label=lab)
 plt.axhline(y=0,color='Black',linestyle='--')
-plt.title('decoding accuracy %s high vs low synchronizers'%(subsets[0]))
+plt.title('decoding accuracy %s high vs low pitch discrim'%(subset))
 plt.legend()
-plt.savefig(plots_dir+'highvlow_%s'%(''.join(subsets)))
+plt.savefig(plots_dir+'highvlowMSI_%s'%(subset))
 plt.show()
 plt.close()
 
+
 #____________________________________________________________
-# get highs and lows
+# get highs and lows, TVALS FOR ACC BETWEEN HIGH N LOW
+plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/high_vs_low_sync/'
+
+subset = 'pure'
+
 highs = pd.DataFrame(df[df['High_Low'] == 1])
 high_subs = list(df.query('High_Low == 1').index)
 
@@ -212,7 +299,7 @@ low_subs = list(df.query('High_Low == 0').index)
 tval_list = []
 tvals = []
 for tt in range(161):
-    tval_list.append(ttest_ind(lows['data_tt%s'%(tt)],highs['data_tt%s'%(tt)]))
+    tval_list.append(ttest_ind(lows['data_%s_tt%s'%(subset,tt)],highs['data_%s_tt%s'%(subset,tt)]))
     tvals.append(tval_list[tt][0])
 
 # plot TVALUES
@@ -226,7 +313,7 @@ plt.show()
 pval_list = []
 pvals = []
 for tt in range(161):
-    pval_list.append(ttest_ind(lows['data_tt%s'%(tt)],highs['data_tt%s'%(tt)]))
+    pval_list.append(ttest_ind(lows['data_%s_tt%s'%(subset,tt)],highs['data_%s_tt%s'%(subset,tt)]))
     pvals.append(pval_list[tt][1])
 
 tvals = np.array(tvals)

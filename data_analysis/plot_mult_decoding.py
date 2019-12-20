@@ -4,12 +4,12 @@ import numpy as np
 import mne
 
 # paths
-base_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=15'
-condition_fname = '%s/group_condition_purepartial.npy' % (base_dir)
-freq_fname = '%s/group_freq_purepartial.npy' % (base_dir)
+base_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/group'
+condition_fname = '%s/group_condition_purepartial_all.npy' % (base_dir)
+freq_fname = '%s/group_freq_purepartial_all.npy' % (base_dir)
 
-pure_fname = '%s/group_freq_pure.npy' % (base_dir)
-partial_fname = '%s/group_freq_partial.npy' % (base_dir)
+pure_fname = '%s/group_freq_pure_all.npy' % (base_dir)
+partial_fname = '%s/group_freq_partial_all.npy' % (base_dir)
 
 
 # load data
@@ -40,7 +40,8 @@ partial_sem = np.std(partial_scores, axis=0) / np.sqrt(n_subj)
 # plot it
 fig, ax = plt.subplots()
 
-plot = "condfreq"
+plot = 'condfreq'
+tonetype = 'pure'
 
 if plot == "condfreq":
     # condition, first
@@ -55,8 +56,9 @@ if plot == "condfreq":
     ax.set_xlim([-0.2, 0.5])
     ax.tick_params(axis='y', labelcolor='Gray')
     ax.legend(loc='upper left')
+    plt.title('Decoding tone-type and frequency across time')
 
-    # now add the freq
+    # # now add the freq
     ax2 = ax.twinx()
 
     ax2.plot(times, freq_mean, label='frequency', color='Purple')
@@ -65,15 +67,20 @@ if plot == "condfreq":
     ax2.set_ylabel('R')
     ax2.tick_params(axis='y', labelcolor='Purple')
     ax2.set_xlim([-0.2, 0.5])
+    ax2.set_ylim([-0.05,0.08])
     ax2.legend()
+    plt.title('Decoding tone-type and frequency across time')
+    fig.savefig(base_dir + '/group_%s.svg'%(plot),format='svg')
+
 else:
-    # pure, first
-    ax.plot(times, pure_mean, label='pure', color='Red')
-    ax.fill_between(times, pure_mean-pure_sem, pure_mean+pure_sem, alpha=0.2,
-                    color='Blue')
-    ax.plot(times, partial_mean, label='partials', color='Blue')
-    ax.fill_between(times, partial_mean-partial_sem, partial_mean+partial_sem, alpha=0.2,
-                     color='Blue')
+    if tonetype == 'pure':
+        ax.plot(times, pure_mean, label='pure', color='Red')
+        ax.fill_between(times, pure_mean-pure_sem, pure_mean+pure_sem, alpha=0.2,
+                        color='Red')
+    if tonetype == 'partial':
+        ax.plot(times, partial_mean, label='partial', color='Blue')
+        ax.fill_between(times, partial_mean-partial_sem, partial_mean+partial_sem, alpha=0.2,
+                         color='Blue')
     # ax.plot(times, freq_mean, label='all', color='Black')
     # ax.fill_between(times, freq_mean-freq_sem, freq_mean+freq_sem, alpha=0.2,
     #                  color='Black')
@@ -83,14 +90,14 @@ else:
     ax.set_xlabel('Times')
     ax.set_ylabel('R')
     ax.set_xlim([-0.2, 0.5])
-    ax.tick_params(axis='y', labelcolor='Blue')
+    ax.tick_params(axis='y', labelcolor='Black')
     ax.legend()
+    plt.title('Decoding frequency from %s tones'%(tonetype))
+    # fig.savefig(base_dir + '/group_%s.svg'%(tonetype),format='svg')
 plt.show()
 
 #
 # ax.axhline(.0, color='k', linestyle='--', label='chance')
 #
 #
-# ax.set_title('Decoding MEG sensors over time')
-# plt.savefig(meg_dir + '%s_%s_%s.png'%(subject,regressor,''.join(subset[0])))
 # # plt.show()

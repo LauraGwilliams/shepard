@@ -4,6 +4,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
 
 # paths
 base_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/indiv/ypreds'
@@ -12,6 +13,12 @@ subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
             'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
             'A0357','A0358','A0362','A0364','A0365','A0367','A0368',
             'A0369','A0370','P010','P011','P014','P015','P022']
+
+subjects = ['A0354']
+times = np.linspace(-0.2,0.6,161)
+
+#__________________________________________________________
+# plot 4 ambiguous tone positions and random 1
 
 for trained_on in ['partial']:
 
@@ -27,14 +34,14 @@ for trained_on in ['partial']:
         print(subject)
 
         # load ypreds
-        info_fname = '%s/%s/%s_freq_train%s_ypreds.csv' % (base_dir, subject, subject,
+        info_fname = '%s/%s/%s_freq_train%s_ypreds_rh.csv' % (base_dir, subject, subject,
                                                       trained_on)
         trial_info = pd.read_csv(info_fname)
         # add another variable deinfine the first and last note postion
         trial_info['highest_lowest'] = np.logical_or(trial_info['note_position'] == 1,
                                                       trial_info['note_position'] == 8)*1
 
-        ypred_fname = '%s/%s/%s_freq_train%s_ypreds.npy' % (base_dir, subject, subject,
+        ypred_fname = '%s/%s/%s_freq_train%s_ypreds_rh.npy' % (base_dir, subject, subject,
                                                       trained_on)
         ypred = np.load(ypred_fname)
 
@@ -120,17 +127,12 @@ for trained_on in ['partial']:
 plt.legend()
 plt.show()
 
-# for ii, var in enumerate(explanatory_vars):
-#     plt.plot(all_betas.mean(0)[:, ii], label=var)
-# plt.legend()
-# plt.show()
 
-
-
+#__________________________________________________________
 # plot all notes y_preds
 
-for trained_on in ['purepartial']:
-    condition = 'scale'
+for trained_on in ['pure']:
+    condition = 'circular'
     dir = 'up'
 
     if condition == 'circular':
@@ -187,10 +189,13 @@ plt.legend()
 plt.show()
 
 #__________________________________________________________
+# plot two ambiguous tones
 
-for trained_on in ['partial']:
+sensors = 'rh'
 
-    subset = 'random'
+for trained_on in ['pure']:
+
+    subset = 'scale'
 
     low_ypreds = list()
     high_ypreds = list()
@@ -201,15 +206,15 @@ for trained_on in ['partial']:
         print(subject)
 
         # load ypreds
-        info_fname = '%s/%s/%s_freq_train%s_ypreds.csv' % (base_dir, subject, subject,
-                                                      trained_on)
+        info_fname = '%s/%s/%s_freq_train%s_ypreds_%s.csv' % (base_dir, subject, subject,
+                                                      trained_on,sensors)
         trial_info = pd.read_csv(info_fname)
         # add another variable deinfine the first and last note postion
         trial_info['highest_lowest'] = np.logical_or(trial_info['note_position'] == 1,
                                                       trial_info['note_position'] == 8)*1
 
-        ypred_fname = '%s/%s/%s_freq_train%s_ypreds.npy' % (base_dir, subject, subject,
-                                                      trained_on)
+        ypred_fname = '%s/%s/%s_freq_train%s_ypreds_%s.npy' % (base_dir, subject, subject,
+                                                      trained_on,sensors)
         ypred = np.load(ypred_fname)
 
         # sanity
@@ -226,8 +231,8 @@ for trained_on in ['partial']:
         trial_info = trial_info[idx]
         ypred = ypred[:, idx]
 
-        conds_1_8 = ['up','down']
-        pos = [1,1]
+        conds_1_8 = ['up','up']
+        pos = [1,8]
 
         # extract just the low and the high ypreds
         idx_1 = np.logical_and(trial_info['note_position'].values == pos[0],
@@ -244,8 +249,8 @@ for trained_on in ['partial']:
 
     plt.plot(times,low_ypreds.mean(0), 'r', label='%s, %s' % (conds_1_8[0],pos[0]))
     plt.plot(times,high_ypreds.mean(0), 'b', label='%s, %s' % (conds_1_8[1],pos[1]))
-    plt.title('y_preds for ambiguous tone in %s condition trained on %s'%(subset,
-                                                                        trained_on))
+    plt.title('y_preds for ambiguous tone in %s condition trained on %s \nin %s sensors'%(subset,
+                                                                        trained_on,sensors))
 
 plt.legend()
 plt.show()

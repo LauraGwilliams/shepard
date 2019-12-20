@@ -8,9 +8,9 @@ import mne
 import glob
 
 # paths
-subject = 'A0216'
-base_path = '/Users/ea84/Dropbox/shepard_decoding/%s'%(subject) # change to local meg dir
-return_path = '/Users/ea84/Dropbox/shepard_decoding/%s'%(subject)
+subject = 'A0364'
+base_path = '/Users/ea84/Dropbox/shepard_sourceloc/%s'%(subject) # change to local meg dir
+return_path = '/Users/ea84/Dropbox/shepard_sourceloc/%s'%(subject)
 
 # use time stamps to create condition order
 blocks = ['shepard', 'pure', 'partials']
@@ -40,4 +40,4 @@ for time_stamp in time_stamps:
 
 df = pd.concat(dfs)
 
-df.to_csv('%s/'%(return_path) + '%s_shepard_trialinfo.csv'%(subject))
+df.to_csv('%s/'%(return_path) + '%s_shepard_trialinfo_new.csv'%(subject))

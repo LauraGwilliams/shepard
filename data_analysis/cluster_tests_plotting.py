@@ -70,9 +70,9 @@ def plot_clusters(t_obs, clusters, cluster_pv, label, p_thresh=0.05,
     return plt
 
 # params
-n = len(subjects)
+n = 28
 scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=%i/'%(n)
-regressor = 'condition'
+regressor = 'freq'
 subset = 'purepartial'
 sensor_list = ['all','rh','lh']
 

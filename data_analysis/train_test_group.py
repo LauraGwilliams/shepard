@@ -58,7 +58,24 @@ def add_tone_properties(epochs, trial_info):
 
     return trial_info
 
+def grab_hemi_sensors(epochs,exclude_center=False):
 
+    # grab info and channels from epochs
+    info = epochs.info
+    chs = info['chs'] # this is a dictionary of channels and their info
+
+    if exclude_center:
+        thresh = 0.03
+    else:
+        thresh = 0
+
+    rh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] > thresh]]
+    lh_ch_names = [ch['ch_name'] for ch in [i for i in chs if i['loc'][0] < -thresh]]
+
+    rh_picks = mne.pick_types(epochs.info,selection=rh_ch_names)
+    lh_picks = mne.pick_types(epochs.info,selection=lh_ch_names)
+
+    return rh_picks, lh_picks
 #__________________________________________________________
 # load all data
 subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
@@ -73,10 +90,11 @@ for subject in subjects:
 
 # params: epochs to use, regressor, how to decode, subsetting
 column = ['condition']
-train_on = [['pure','partial']]
-test_on = ['shepard']
+train_on = [['partial']]
+test_on = ['pure']
 regressor = 'freq' #column name
 score = 'Spearman R'
+sensors = 'all'
 
 grp_scores = []
 grp_ypreds = []
@@ -98,12 +116,29 @@ for subject in subjects:
         train_epochs = epochs[epochs.metadata[column[0]].isin(train_on[0])]
     train_info = train_epochs.metadata
 
-    X_train = train_epochs._data[:, 0:ch, :] # just meg channels
+    rh_picks, lh_picks = grab_hemi_sensors(train_epochs,exclude_center=True)
+    if sensors == 'rh':
+        X_train = train_epochs._data[:, rh_picks, :]
+    elif sensors == 'lh':
+        X_train = train_epochs._data[:, lh_picks, :]
+    else:
+        # pull out sensor data from meg channels only
+        X_train = train_epochs._data[:, 0:ch, :]
+
     y_train = train_info[regressor].values.astype(float)
 
     test_epochs = epochs[epochs.metadata[column[0]].isin(test_on)]
     test_info = test_epochs.metadata
-    X_test = test_epochs._data[:, 0:ch,]
+
+    rh_picks, lh_picks = grab_hemi_sensors(train_epochs,exclude_center=True)
+    if sensors == 'rh':
+        X_test = test_epochs._data[:, rh_picks, :]
+    elif sensors == 'lh':
+        X_test = test_epochs._data[:, lh_picks, :]
+    else:
+        # pull out sensor data from meg channels only
+        X_test = test_epochs._data[:, 0:ch, :]
+
     y_test = test_info[regressor].values.astype(float)
 
     # train on one subset
@@ -119,20 +154,20 @@ for subject in subjects:
         print(tt)
     # grp_ypreds.append(y_preds)
     ypreds_arr = np.array(y_preds)
-    # np.save(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.npy'%(len(subjects),subject,subject,regressor,''.join(train_on[0])), ypreds_arr)
+    np.save(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds_%s.npy'%(len(subjects),subject,subject,regressor,''.join(train_on[0]),sensors), ypreds_arr)
     ypreds_arr = np.transpose(ypreds_arr, [1,0])
     ypreds_arr = np.mean(ypreds_arr[:,50:70],axis=1)
     kwargs = {"ypreds_%s"%(''.join(train_on[0])) : ypreds_arr}
     test_info_preds = test_info.assign(**kwargs)
-    test_info_preds = add_tone_properties(test_epochs,test_info_preds)
-    test_info_preds.to_csv(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds.csv'%(len(subjects),subject,subject,regressor,''.join(train_on[0])))
+    # test_info_preds = add_tone_properties(test_epochs,test_info_preds)
+    test_info_preds.to_csv(meg_dir+'_GRP_SCORES/n=%i/indiv/ypreds/%s/%s_%s_train%s_ypreds_%s.csv'%(len(subjects),subject,subject,regressor,''.join(train_on[0]),sensors))
     grp_scores.append(scores)
 
 scores_arr = np.array(grp_scores)
-np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_train%s_test%s.npy'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]), scores_arr)
+np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_train%s_test%s_%s.npy'%(len(subjects),regressor,''.join(train_on[0]),test_on[0],sensors), scores_arr)
 
-# grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
-# grp_avg = np.mean( np.array(grp_scores), axis=0 )
+grp_sem = np.std( np.array(grp_scores), axis=0 ) / np.sqrt(len(grp_scores))
+grp_avg = np.mean( np.array(grp_scores), axis=0 )
 
 
 #____________________________YPREDS______________________________
@@ -152,15 +187,15 @@ np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_train%s_test%s.npy'%(len(subjec
 # # next step: plot predictions over time for epochs going down vs up?
 #
 #
-# fig, ax = plt.subplots()
-# ax.plot(epochs.times, grp_avg, label='score')
-# # ax.fill_between(epochs.times, grp_avg-grp_sem, grp_avg+grp_sem,
-# #                     alpha=0.2, linewidth=0, color='r')
-# ax.axhline(.0, color='k', linestyle='--', label='chance')
-# ax.set_xlabel('Times')
-# ax.set_ylabel('%s'%(score))
-# ax.legend()
-# ax.axvline(.0, color='k', linestyle='-')
-# ax.set_title('Decoding MEG sensors over time')
-# plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group_%s_train%s_test%s.png'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]))
-# # plt.show()
+fig, ax = plt.subplots()
+ax.plot(epochs.times, grp_avg, label='score')
+ax.fill_between(epochs.times, grp_avg-grp_sem, grp_avg+grp_sem,
+                    alpha=0.2, linewidth=0, color='r')
+ax.axhline(.0, color='k', linestyle='--', label='chance')
+ax.set_xlabel('Times')
+ax.set_ylabel('%s'%(score))
+ax.legend()
+ax.axvline(.0, color='k', linestyle='-')
+ax.set_title('Decoding MEG sensors over time')
+plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group_%s_train%s_test%s.png'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]))
+# plt.show()

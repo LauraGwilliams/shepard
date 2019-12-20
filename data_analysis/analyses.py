@@ -6,6 +6,13 @@ from scipy.stats import ttest_ind, spearmanr
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
+# TABLE OF CONTENTS:
+# - make dirs
+# - plot overall hemisphere decoding differences
+# - plot hemis by high vs low syncs
+# - plot hemis (separate or together) by high vs low MSI
+# - interaction between hemis and condition
+
 #____________________________________________________________
 # funcs
 
@@ -89,7 +96,8 @@ def best_fit(X, Y):
     return a, b
 
 #____________________________________________________________
-# make dirs if needed
+# MAKE DIRS IF NEEDED
+
 import shutil
 import os
 
@@ -125,28 +133,159 @@ scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=28/group/'
 plots_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_PLOTS/n=28/hemis/'
 
 
-regressor = 'condition'
-subset = ['pure','partial']
+regressor = 'freq'
+subset = ['partial']
 hemis = ['rh','lh']
+syncs = ['high','low']
+
 colors = ['Blue','Green']
 
 lh_scores = np.load(scores_dir+'group_%s_%s_lh.npy'%(regressor,''.join(subset)))
 lh_scores_mean = np.mean(lh_scores,axis=0)
+lh_sem = np.std( np.array(lh_scores), axis=0 ) / np.sqrt(len(lh_scores))
 
 rh_scores = np.load(scores_dir+'group_%s_%s_rh.npy'%(regressor,''.join(subset)))
 rh_scores_mean = np.mean(rh_scores,axis=0)
+rh_sem = np.std( np.array(rh_scores), axis=0 ) / np.sqrt(len(rh_scores))
 
 scores = [rh_scores_mean,lh_scores_mean]
-
-ttest_ind(rh_scores_mean,lh_scores_mean)
+errors = [rh_scores_mean-rh_sem,lh_scores_mean-lh_sem]
+errors2 = [rh_scores_mean+rh_sem,lh_scores_mean+lh_sem]
 
 times = np.linspace(-200,600,161)
-for score, lab, color in zip(scores,hemis,colors):
+for score, error, error2, lab, color in zip(scores,errors,errors2,hemis,colors):
 	plt.plot(times,score,label=lab,color=color)
+	plt.fill_between(times,error,error2,alpha=0.2, linewidth=0, color=color)
 plt.axhline(y=0,color='Black',linestyle='--')
 plt.legend()
-plt.title('Decoding %s tones right vs left hemisphere'%(''.join(subset)))
+if subset == ['pure','partial']:
+	plt.title('Decoding pure and partial tones in RH vs LH')
+else:
+	plt.title('Decoding %s tones in RH vs LH '%(''.join(subset)))
 plt.savefig(plots_dir+'%s_%s_hemis.png'%(regressor,''.join(subset)))
+plt.show()
+plt.close()
+
+
+#__________________________________________________________
+# hemisphere differences by low/high synchronizers
+
+regressor = 'freq'
+subset = ['pure']
+colors = ['Blue','Green','Purple','Red']
+labels = ['rh_high','rh_low','lh_high','lh_low']
+
+lh_scores = np.load(scores_dir+'/group_%s_%s_lh.npy'%(regressor,''.join(subset)))
+rh_scores = np.load(scores_dir+'/group_%s_%s_rh.npy'%(regressor,''.join(subset)))
+
+highs = df['High_Low'] == 1
+lows = df['High_Low'] == 0
+highs = np.array(highs)
+lows = np.array(lows)
+
+lh_scores_high = lh_scores[highs]
+lh_scores_low = lh_scores[lows]
+rh_scores_high = rh_scores[highs]
+rh_scores_low = rh_scores[lows]
+
+scores = [rh_scores_high,rh_scores_low,lh_scores_high,lh_scores_low]
+
+times = np.linspace(-200,600,161)
+for score, lab, color in zip(scores,labels,colors):
+	plt.plot(times,score.mean(0),label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+# plt.ylim(0,0.05)
+plt.legend()
+if subset == ['pure','partial']:
+	plt.title('Decoding pure and partial tones in RH vs LH in high vs low synchronizers')
+else:
+	plt.title('Decoding %s tones in RH vs LH in high vs low synchronizers'%(''.join(subset)))
+plt.savefig(plots_dir+'%s_%s_lowhigh_hemis.png'%(regressor,''.join(subset)))
+plt.show()
+plt.close()
+
+#__________________________________________________________
+# hemisphere differences by low/high MSI
+
+regressor = 'freq'
+subset = ['pure']
+colors = ['Blue','deepskyblue','Green','lime']
+labels = ['rh_high','rh_low','lh_high','lh_low']
+
+rh_colors = ['Red','lightsalmon']
+lh_colors = ['Green','lime']
+rh_labels = ['rh_high','rh_low']
+lh_labels = ['lh_high','lh_low']
+
+
+lh_scores = np.load(scores_dir+'/group_%s_%s_lh.npy'%(regressor,''.join(subset)))
+rh_scores = np.load(scores_dir+'/group_%s_%s_rh.npy'%(regressor,''.join(subset)))
+
+MSI = 'PLV'
+median = df[MSI].median()
+
+highs = df[MSI]>0.68
+lows = df[MSI]<0.64
+highs = np.array(highs)
+lows = np.array(lows)
+
+lh_scores_high = lh_scores[highs]
+lh_scores_low = lh_scores[lows]
+rh_scores_high = rh_scores[highs]
+rh_scores_low = rh_scores[lows]
+
+scores = [rh_scores[highs],rh_scores[lows],lh_scores[highs],lh_scores[lows]]
+rh_scores = [rh_scores[highs],rh_scores[lows]]
+lh_scores = [lh_scores[highs],lh_scores[lows]]
+
+# plot RH for high vs low MSI
+times = np.linspace(-200,600,161)
+for score, lab, color in zip(rh_scores,rh_labels,rh_colors):
+	plt.plot(times,score.mean(0),label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+if regressor == 'condition':
+	plt.ylim(0.5,0.6)
+plt.ylim(-0.02,0.10)
+plt.legend()
+if subset == ['pure','partial']:
+	plt.title('Decoding pure and partial tones in RH \nin high vs low %s'%(MSI))
+else:
+	plt.title('Decoding %s tones in RH \nin high vs low %s'%(''.join(subset),MSI))
+plt.savefig(plots_dir+'%s_%s_lowhigh_%s_RH.png'%(regressor,''.join(subset),MSI))
+plt.show()
+plt.close()
+
+# plot LH for high vs low MSI
+times = np.linspace(-200,600,161)
+for score, lab, color in zip(lh_scores,lh_labels,lh_colors):
+	plt.plot(times,score.mean(0),label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+if regressor == 'condition':
+	plt.ylim(0.5,0.6)
+plt.ylim(-0.02,0.10)
+plt.legend()
+if subset == ['pure','partial']:
+	plt.title('Decoding pure and partial tones in LH \nin high vs low %s'%(MSI))
+else:
+	plt.title('Decoding %s tones in LH \nin high vs low %s'%(''.join(subset),MSI))
+plt.savefig(plots_dir+'%s_%s_lowhigh_%s_LH.png'%(regressor,''.join(subset),MSI))
+plt.show()
+plt.close()
+
+# plot LH vs RH in low vs high MSI
+times = np.linspace(-200,600,161)
+for score, lab, color in zip(scores,labels,colors):
+	plt.plot(times,score.mean(0),label=lab,color=color)
+plt.axhline(y=0,color='Black',linestyle='--')
+if regressor == 'condition':
+	plt.ylim(0.5,0.6)
+# plt.ylim(0,0.05)
+plt.legend()
+if subset == ['pure','partial']:
+	plt.title('Decoding pure and partial tones in RH vs LH in high vs low MSI')
+else:
+	plt.title('Decoding %s tones in RH vs LH in high vs low %s'%(''.join(subset),MSI))
+plt.savefig(plots_dir+'%s_%s_lowhigh_%s_hemis.png'%(regressor,''.join(subset),MSI))
 plt.show()
 plt.close()
 
@@ -168,8 +307,6 @@ subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
             'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
             'A0357','A0358','A0362','A0364','A0365','A0367','A0368',
             'A0369','A0370','P010','P011','P014','P015','P022']
-
-
 
 rows_list = []
 
@@ -205,21 +342,6 @@ for coef, lab in zip(coef_bin.T, var_labels):
 	 plt.plot(times, coef, label=lab)
 plt.legend()
 plt.show()
-
-#____________________________________________________________
-# train on x, evaluate on shepard scores
-
-regressor = 'freq'
-train_on = ['pure','partial']
-test_on = ['shepard']
-
-pure_scores = np.load(scores_dir+'group_%s_train%s_test%s.npy'%(regressor,train_on[0],test_on[0]))
-pure_scores_mean = np.mean(pure_scores,axis=0)
-
-partial_scores = np.load(scores_dir+'group_%s_train%s_test%s.npy'%(regressor,train_on[1],test_on[0]))
-partial_scores_mean = np.mean(partial_scores,axis=0)
-
-ttest_ind(pure_scores_mean,partial_scores_mean)
 
 #____________________________________________________________
 # y-preds compare accuracy
@@ -261,32 +383,6 @@ for tt in range(n_times):
     print(tt)
 
 mean_score = np.mean(scores)
-
-# t-test on amb tone as 1 vs 8
-# 2x2 anova amb tone 1 vs 8
-
-#____________________________________________________________
-# ambiguous tone exploration
-# run above section before
-
-
-# get ypreds for upFirst, upLast, downFirst, downLast ambiguous shepard tones
-up_first = csv[(csv['freq']==220) & (csv['key']=='A') & (csv['circscale']=='scale')
-				& (csv['updown'] == 'up') & (csv['note_position']==1)]
-mask = csv.index[(csv['freq']==220) & (csv['key']=='A') & (csv['circscale']=='scale')
-				& (csv['updown'] == 'up') & (csv['note_position']==1)].tolist()
-y_preds = np.transpose(y_preds, [1,0])
-y_preds = y_preds[mask]
-y_preds = np.transpose(y_preds, [1,0])
-
-y_test = np.array(up_first['freq'])
-
-up_last = csv[(csv['freq']==220) & (csv['key']=='A') & (csv['circscale']=='scale')
-				& (csv['updown'] == 'up') & (csv['note_position']==8)]
-down_first = csv[(csv['freq']==220) & (csv['key']=='A') & (csv['circscale']=='scale')
-				& (csv['updown'] == 'down') & (csv['note_position']==1)]
-down_last = csv[(csv['freq']==220) & (csv['key']=='A') & (csv['circscale']=='scale')
-				& (csv['updown'] == 'down') & (csv['note_position']==8)]
 
 #_______________________________
 # plot based on MSI (color scale ranges from lowest to highest MSI)
