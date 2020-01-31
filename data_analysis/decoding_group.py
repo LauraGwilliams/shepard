@@ -132,14 +132,14 @@ subjects = ['A0216','A0270','A0280','A0305','A0306','A0307','A0314',
             'A0323','A0326','A0344','A0345','A0353','A0354','A0355',
             'A0357','A0358','A0362','A0364','A0365','A0367','A0368',
             'A0369','A0370','P010','P011','P014','P015','P022']
-
+#'A0357',
 # music_soph = [54.5,75,42.5,0,92,0,74,37,48,86,65.5,44.5,48.5,66,102.5]
 
 # params
 
 # epochs subset to train on
-column = ['condition','circscale']
-subset = [['pure'],['scale']]
+column = ['condition']
+subset = [['partial']]
 sensor_list = ['all']
 
 # regressor to decode, spatial vs. temporal vs. combined
@@ -247,6 +247,8 @@ for sensors in sensor_list:
         scores = np.mean(scores, axis=0)
         grp_scores.append(scores)
         # scores_arr = np.array(grp_scores)
+        # if not os.path.isdir(meg_dir+'_GRP_SCORES/n=%i/indiv/%s_%s_%s/'%(len(subjects),regressor,''.join(subset[0]),sensors)):
+        #     os.makedirs(meg_dir+'_GRP_SCORES/n=%i/indiv/%s_%s_%s/'%(len(subjects),regressor,''.join(subset[0]),sensors))
         # np.save(meg_dir+'_GRP_SCORES/n=%i/indiv/%s_%s_%s/%s_%s_%s_%s.npy'%(len(subjects),regressor,''.join(subset[0]),sensors,
         #                                                         subject,regressor,''.join(subset[0]),sensors), scores_arr)
 
@@ -257,7 +259,7 @@ for sensors in sensor_list:
                                                             ''.join(subset[0]),''.join(subset[1]),
                                                             sensors),scores_arr)
     else:
-        np.save(meg_dir+'_GRP_SCORES/n=%i/group_%s_%s_%s.npy'%(len(subjects),regressor,
+        np.save(meg_dir+'_GRP_SCORES/n=%i/group/group_%s_%s_%s.npy'%(len(subjects),regressor,
                                                         ''.join(subset[0]),sensors),
                                                         scores_arr)
 
@@ -284,26 +286,26 @@ if decode_using == 'spatial':
     # ax.set_ylim(bottom=-0.035, top=0.16)
     ax.axvline(.0, color='k', linestyle='-')
     ax.set_title('Decoding MEG sensors over time')
-    plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group/group_%s_%s_%s_%s.png'%(len(subjects),regressor,''.join(subset[0]),''.join(subset[1]),sensors))
+    plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group/group_%s_%s_%s.png'%(len(subjects),regressor,''.join(subset[0]),sensors))
     plt.show()
-#
-# elif decode_using == 'temporal':
-#     # load in evoked object to plot on
-#     scores_evoked = mne.read_evokeds(meg_dir + '%s/%s_shepard-evoked-ave.fif'%(subject,subject))[0]
-#     scores_evoked._data[0:ch, 0] = scores
-#     if regressor == 'freq':
-#         scores_evoked.plot_topomap(times=scores_evoked.times[0])
-#     if regressor == 'condition':
-#         # center around 0 for plotting
-#         scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
-#         scores_evoked.plot_topomap(times=scores_evoked.times[0])
-#
-#     coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
-#     evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
-#     joint_kwargs = dict(ts_args=dict(time_unit='s'),
-#                         topomap_args=dict(time_unit='s'))
-#     evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
-#                       **joint_kwargs)
+
+elif decode_using == 'temporal':
+    # load in evoked object to plot on
+    scores_evoked = mne.read_evokeds(meg_dir + '%s/%s_shepard-evoked-ave.fif'%(subject,subject))[0]
+    scores_evoked._data[0:ch, 0] = scores
+    if regressor == 'freq':
+        scores_evoked.plot_topomap(times=scores_evoked.times[0])
+    if regressor == 'condition':
+        # center around 0 for plotting
+        scores_evoked._data[0:ch, 0] = scores_evoked._data[0:ch, 0] - scores_evoked._data[0:ch, 0].mean()
+        scores_evoked.plot_topomap(times=scores_evoked.times[0])
+
+    coef = get_coef(time_decod, 'patterns_', inverse_transform=True)
+    evoked = mne.EvokedArray(coef, epochs.info, tmin=epochs.times[0])
+    joint_kwargs = dict(ts_args=dict(time_unit='s'),
+                        topomap_args=dict(time_unit='s'))
+    evoked.plot_joint(times=np.arange(0., .500, .100), title='patterns',
+                      **joint_kwargs)
 # else:
 #     # if combined, it just returns an overall score (nothing to plot!)
 #     print (scores)

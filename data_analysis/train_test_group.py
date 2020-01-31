@@ -90,11 +90,11 @@ for subject in subjects:
 
 # params: epochs to use, regressor, how to decode, subsetting
 column = ['condition']
-train_on = [['partial']]
-test_on = ['pure']
+train_on = [['pure']]
+test_on = ['partial']
 regressor = 'freq' #column name
 score = 'Spearman R'
-sensors = 'all'
+sensors = 'lh'
 
 grp_scores = []
 grp_ypreds = []
@@ -197,5 +197,5 @@ ax.set_ylabel('%s'%(score))
 ax.legend()
 ax.axvline(.0, color='k', linestyle='-')
 ax.set_title('Decoding MEG sensors over time')
-plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group_%s_train%s_test%s.png'%(len(subjects),regressor,''.join(train_on[0]),test_on[0]))
+plt.savefig(meg_dir + '_GRP_PLOTS/n=%i/group_%s_train%s_test%s_%s.png'%(len(subjects),regressor,''.join(train_on[0]),test_on[0],sensors))
 # plt.show()

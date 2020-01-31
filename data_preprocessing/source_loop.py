@@ -19,7 +19,7 @@ from surfer.io import read_stc
 
 subjects = ['A0216','A0270','A0280','A0305','A0306','A0307',
             'A0314','A0323','A0326','A0344','A0345','A0353',
-            'A0354','A0355','A0358','A0362','A0364','A0365',
+            'A0354','A0355','A0357''A0358','A0362','A0364','A0365',
             'A0367','A0368','A0369','A0370','P010','P011',
             'P014','P015','P022']
 
@@ -143,7 +143,7 @@ assert(len(epochs.events) == len(trial_info))
 
 # save new epochs metadata, epochs
 epochs.metadata = trial_info
-epochs.metadata.to_csv(meg_dir+'/stcs/%s_shepard_rej_trialinfo.csv'%(subject))
+epochs.metadata.to_csv(rej_info)
 epochs.save(epochs_fname)
 
 # save evoked

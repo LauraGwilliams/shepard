@@ -3,7 +3,6 @@ import pandas as pd
 import os.path as op
 from scipy.stats import sem as scipy_sem
 import matplotlib.pyplot as plt
-# from config import subjects_rep
 from mne.stats import permutation_cluster_1samp_test as perm_1samp
 import glob
 
@@ -74,12 +73,16 @@ n = 28
 scores_dir = '/Users/ea84/Dropbox/shepard_decoding/_GRP_SCORES/n=%i/'%(n)
 regressor = 'freq'
 subset = 'purepartial'
-sensor_list = ['all','rh','lh']
+sensor_list = ['lh','rh']
 
+train = 'pure'
+test = 'partial'
+#,'rh','lh'
 # load scores and cluster test them, plot
 for sensors in sensor_list:
 	# get scores
-	scores_fname = scores_dir + 'group/group_%s_%s_%s.npy'%(regressor,subset,sensors)
+	scores_fname = scores_dir + 'group/group_%s_train%s_test%s_%s.npy'%(regressor,train,test,sensors)
+	# scores_fname = scores_dir + 'group/group_%s_%s_%s.npy'%(regressor,subset,sensors)
 	scores = np.load(scores_fname)
 
 	if regressor == 'condition':
@@ -94,10 +97,14 @@ for sensors in sensor_list:
 	    				dimension='time')
 	t_obs, clusters, cluster_pv, H0 = res
 
+	# np.save(scores_dir + 'stats/clusters/group_stats_%s_%s_%s.npy' % (regressor,subset,sensors), (t_obs, clusters, cluster_pv, H0))
+	np.save(scores_dir + 'stats/clusters/group_stats_%s_train%s_test%s_%s.npy'%(regressor,train,test,sensors), (t_obs, clusters, cluster_pv, H0))
+
 	plot_clusters(t_obs, clusters, cluster_pv, label=regressor)
 	plt.title('Decoding %s over time'%(regressor))
 	plt.xlabel('Times')
 	plt.ylabel('T-value')
-	# plt.savefig(scores_dir + 'stats/group_stats_%s_%s_%s.png'%(regressor,subset,sensors))
-	# plt.close()
-	plt.show()
+	# plt.savefig(scores_dir + 'stats/plots/group_stats_%s_%s_%s.png'%(regressor,subset,sensors))
+	plt.savefig(scores_dir + 'stats/plots/group_stats_%s_train%s_test%s_%s.png'%(regressor,train,test,sensors))
+	plt.close()
+	# plt.show()
